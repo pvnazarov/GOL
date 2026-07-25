@@ -1,37 +1,67 @@
+/* Two themes = the SAME library room under two lightings (see design.md +
+   design-light.md). Light (:root default) is soft daylight on aged paper;
+   dark ([data-theme="dark"]) is the same room by candlelight. The theme
+   toggle switches the palette AND which photo backs the browsing chrome
+   (--bg-image / --bg-overlay, consumed by .bg-layer below). The reader keeps
+   its own opaque paper surfaces and shows no photo in either theme. */
 :root {
-  --bg: #f7f4ee;
-  --surface: #ffffff;
-  --surface-2: #efe9dd;
-  --border: #ddd3bf;
-  --text: #241f18;
-  --muted: #766b58;
-  --accent: #8a5a2b;
-  --accent-text: #ffffff;
-  --focus: #2f6fa8;
-  --error-bg: #fbe4e2;
+  /* --- Light: parchment, honey wood, antique gold, green-marble accent --- */
+  --bg: #e8d9b8;
+  --surface: rgba(241, 230, 206, 0.92);   /* parchment panel over the photo */
+  --surface-2: rgba(246, 238, 220, 0.97); /* hover / secondary surface */
+  --border: rgba(73, 51, 38, 0.24);        /* translucent dark brown, not grey */
+  --border-strong: #b8955b;                /* soft brass separator */
+  --text: #33261c;
+  --muted: #6f5946;
+  --accent: #8a5f2b;                        /* antique gold-brown for links/icons */
+  --accent-hover: #b68a45;
+  --accent-text: #f6eedc;
+  --green: #61715b;                         /* fireplace green marble */
+  --green-dark: #465545;
+  --brass: #b8955b;
+  --burgundy: #7b493d;
+  --focus: #465545;                         /* green-marble focus ring */
+  --focus-glow: rgba(70, 85, 69, 0.26);
+  --error-bg: #f3ddd6;
   --error-text: #7a2018;
-  --reader-bg: #fbf8f1;
-  --reader-text: #201c15;
-  --reader-rule: #e4dcc9;
-  --mono-bg: #efe9dc;
+  --reader-bg: #f1e6ce;                     /* reading page = light parchment */
+  --reader-text: #30251d;
+  --reader-rule: rgba(73, 51, 38, 0.22);
+  --mono-bg: #ddcba3;
+  --shadow: rgba(58, 42, 32, 0.16);         /* warm, never blue-black */
+  --chrome-shadow: 0 1px 2px rgba(246, 238, 220, 0.95); /* halo for bare text over the light photo */
+  --bg-image: url("img/library-light.jpg");
+  --bg-overlay: linear-gradient(rgba(232, 217, 184, 0.10), rgba(232, 217, 184, 0.34));
   --topbar-h: 53px;
 }
 :root[data-theme="dark"] {
-  --bg: #17140f;
-  --surface: #211d16;
-  --surface-2: #2a2419;
-  --border: #3c3527;
-  --text: #e9e2d3;
-  --muted: #a99d84;
-  --accent: #d8a15c;
+  /* --- Dark: the same room by candlelight --- */
+  --bg: #17110d;
+  --surface: rgba(33, 25, 18, 0.90);       /* dark-wood panel over the photo */
+  --surface-2: rgba(50, 38, 26, 0.93);
+  --border: rgba(197, 161, 102, 0.22);      /* warm gold-brown edge */
+  --border-strong: #59402b;
+  --text: #eae0cc;
+  --muted: #b0a084;
+  --accent: #d8ab63;
+  --accent-hover: #edc580;
   --accent-text: #1b1509;
-  --focus: #6fb0e8;
+  --green: #8a977a;
+  --green-dark: #6d7c5e;
+  --brass: #c39a5e;
+  --burgundy: #97584a;
+  --focus: #edc580;                         /* warm gold focus ring */
+  --focus-glow: rgba(237, 197, 128, 0.28);
   --error-bg: #3a1f1c;
   --error-text: #f3b3ac;
   --reader-bg: #1b170f;
   --reader-text: #e6dfce;
   --reader-rule: #34301f;
   --mono-bg: #241f16;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --chrome-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+  --bg-image: url("img/library-dark.jpg");
+  --bg-overlay: linear-gradient(rgba(12, 8, 5, 0.55), rgba(12, 8, 5, 0.82));
 }
 
 * { box-sizing: border-box; }
@@ -53,6 +83,24 @@ button {
   outline-offset: 2px;
 }
 
+/* ---------- atmospheric background (browsing views only) ---------- */
+/* Fixed layer carrying the theme-matched library photo behind the whole
+   browsing UI. position:fixed (NOT background-attachment:fixed) keeps it put
+   on scroll without the iOS mobile repaint bug that plagues fixed
+   backgrounds. It is removed entirely in the reader (book view) so reading
+   is quiet -- main.js tags <body data-view="..."> on every route. */
+.bg-layer {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: var(--bg-overlay), var(--bg-image);
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+body[data-view="book"] .bg-layer { display: none; }
+
 /* ---------- topbar ---------- */
 /* Fixed (not sticky) so the header stays put on scroll on every browser --
    sticky positioning is unreliable in some mobile browsers when the address
@@ -73,6 +121,11 @@ button {
   padding: 10px 16px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
+  /* translucent panel sits over the fixed photo -- a light blur keeps the
+     brand/tabs legible against the busy room behind without heavy glass. */
+  backdrop-filter: blur(9px) saturate(1.05);
+  -webkit-backdrop-filter: blur(9px) saturate(1.05);
+  box-shadow: 0 2px 14px var(--shadow);
 }
 .brand { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-title { font-weight: 700; font-size: 1.05em; }
@@ -131,6 +184,7 @@ button {
   color: var(--muted);
   min-height: 1.4em;
   margin-bottom: 10px;
+  text-shadow: var(--chrome-shadow); /* sits directly on the photo, no panel */
 }
 .breadcrumb a { text-decoration: none; }
 .breadcrumb a:hover { text-decoration: underline; }
@@ -140,12 +194,13 @@ button {
 /* ---------- library cards ---------- */
 .lib-grid {
   display: grid;
-  /* auto-fit (not auto-fill): with only a handful of library cards, auto-fill
-     was creating extra empty column tracks that still claimed their share of
-     row width, so the real cards never grew past ~319px regardless of how
-     much room was actually available. auto-fit collapses those empty tracks,
-     letting the real cards stretch to fill the row. */
-  grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
+  /* Landing page only: stack the library cards in a single narrow column
+     pinned to the left, deliberately leaving the right of the viewport open
+     so the Gutenberg portrait (the horizontal centre of the background photo)
+     stays visible beside them. minmax(0, …) lets the column shrink to fit on
+     narrow / mobile screens instead of overflowing. */
+  grid-template-columns: minmax(0, 360px);
+  justify-content: start;
   gap: 10px;
 }
 .lib-card {
@@ -155,8 +210,18 @@ button {
   border-radius: 8px;
   padding: 14px 16px;
   cursor: pointer;
+  /* parchment/wood card floating over the photo -- weak warm shadow, no
+     floating-glass look (design-light.md §10/§14). */
+  box-shadow: 0 4px 14px var(--shadow);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  transition: border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
 }
-.lib-card:hover { border-color: var(--accent); background: var(--surface-2); }
+.lib-card:hover {
+  border-color: var(--accent);
+  background: var(--surface-2);
+  box-shadow: 0 8px 22px var(--shadow);
+}
 .lib-card .lib-title { font-weight: 600; margin-bottom: 4px; }
 .lib-card .lib-meta { font-size: 0.82em; color: var(--muted); }
 
@@ -166,6 +231,9 @@ button {
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 8px 28px var(--shadow);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 .item-row {
   display: flex;
@@ -209,6 +277,7 @@ button {
   letter-spacing: 0.04em;
   color: var(--muted);
   margin: 14px 0 6px;
+  text-shadow: var(--chrome-shadow);
 }
 
 /* ---------- search ---------- */
@@ -217,15 +286,28 @@ button {
   width: 100%;
   font-size: 1.05em;
   padding: 11px 14px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-strong);
   border-radius: 8px;
   background: var(--surface);
   color: var(--text);
+  box-shadow: 0 4px 14px var(--shadow), inset 0 1px 2px var(--shadow);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+/* search field focus picks up the green-marble accent (design-light.md §8);
+   :focus (not :focus-visible) so mouse clicks get the border too. The 3px
+   glow ring is itself a sufficient visible focus indicator. */
+#search-input:focus {
+  outline: none;
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px var(--focus-glow), 0 4px 14px var(--shadow);
 }
 .search-help {
   font-size: 0.78em;
   color: var(--muted);
   margin-top: 5px;
+  text-shadow: var(--chrome-shadow);
 }
 .search-help code {
   background: var(--surface-2);
@@ -238,6 +320,13 @@ button {
   text-align: center;
   color: var(--muted);
   padding: 40px 20px;
+  /* panelised so the message stays readable over the photo */
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px var(--shadow);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 .error-box {
   background: var(--error-bg);
@@ -343,6 +432,7 @@ button {
   font-size: 0.78em;
   color: var(--muted);
   padding: 10px 16px 30px;
+  text-shadow: var(--chrome-shadow);
 }
 .footer a { color: var(--muted); text-decoration: underline; }
 .footer a:hover { color: var(--accent); }

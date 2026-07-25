@@ -334,6 +334,9 @@ function escapeHtml(text) {
 
 // ---------- routing ----------
 function dispatch(route) {
+  // Tag the body with the active view so CSS can show the atmospheric library
+  // photo while browsing and remove it entirely in the reader (book view).
+  document.body.dataset.view = route.view;
   if (route.view === "libraries") { setActiveTab("libraries"); renderLibrariesView(route.path); }
   else if (route.view === "files") { setActiveTab("files"); renderFilesView(route.path); }
   else if (route.view === "search") { setActiveTab("search"); renderSearchView(route.query); }
