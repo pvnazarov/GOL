@@ -90,10 +90,33 @@ committed to git.)
 
 ## Deployment
 
-`libs/` **is** the web root — copy or `rsync` its contents (including the
-real `eng1996/`, `rus1996/`, `rus2004/`, `meta.zip`, and the generated
-`data/`) to wherever it's served. Nothing needs building at deploy time
-beyond the offline catalogue step above.
+`libs/` **is** the web root — no copy/rsync step needed, the live site is
+served directly from this directory.
+
+Currently deployed at `http://192.168.1.12/gol/` via the machine's
+existing nginx (which also serves an unrelated app, alcmaeon, at `/` —
+see `/etc/nginx/sites-available/alcmaeon`), through:
+
+```
+location = /gol { return 301 /gol/; }
+location /gol/ {
+	alias /home/pin/ai/GOL/libs/;
+	index index.html;
+}
+```
+
+Since nginx reads straight from this path, editing files here (or pulling
+a new commit) takes effect immediately — no restart, no rebuild, no
+sync. The only host-level requirement was letting `www-data` traverse
+into `/home/pin` (`chmod o+x /home/pin`, execute-only — it still can't
+list or read the rest of the home directory).
+
+If this ever moves to a different machine/server instead: the app has no
+server-side dependency beyond static file serving, so pointing any web
+server's document root/alias at `libs/` (containing the real
+`eng1996/`, `rus1996/`, `rus2004/`, `meta.zip`, and generated `data/`)
+is enough — nothing needs building at deploy time beyond the offline
+catalogue step above.
 
 ## What's tracked in git vs. not
 
