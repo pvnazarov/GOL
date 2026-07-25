@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="light dark" />
+<title>Good Old Library</title>
+<meta name="description" content="Good Old Library — старые добрые библиотеки. Тысячи книг, быстрый поиск, удобное чтение." />
+<link rel="stylesheet" href="assets/app.css" />
+<script>
+  // Set the theme before first paint to avoid a flash of the wrong theme.
+  (function () {
+    try {
+      var saved = localStorage.getItem("gol-theme") || "system";
+      var resolved = saved === "system"
+        ? (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+        : saved;
+      document.documentElement.dataset.theme = resolved;
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-title">Good Old Library</span>
+      <span class="brand-sub">Старые добрые библиотеки</span>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Primary">
+      <button type="button" class="tab" data-view="libraries" role="tab" aria-selected="true">Library</button>
+      <button type="button" class="tab" data-view="search" role="tab" aria-selected="false">Search</button>
+      <button type="button" class="tab" data-view="files" role="tab" aria-selected="false">Files</button>
+    </nav>
+    <div class="topbar-actions">
+      <div class="font-controls" id="header-font-controls">
+        <button type="button" id="font-family-toggle" class="icon-btn" title="Reader font" aria-label="Reader font"></button>
+        <button type="button" id="font-dec" aria-label="Decrease reading font size">A−</button>
+        <span id="font-val" class="font-val"></span>
+        <button type="button" id="font-inc" aria-label="Increase reading font size">A+</button>
+      </div>
+      <button type="button" id="theme-toggle" class="icon-btn" title="Toggle theme" aria-label="Toggle theme"></button>
+    </div>
+  </header>
+
+  <main id="app">
+    <div id="breadcrumb" class="breadcrumb" aria-label="Breadcrumb"></div>
+    <div id="view-root"></div>
+  </main>
+
+  <div id="status" class="status" role="status" aria-live="polite"></div>
+
+  <!-- JSZip is lazy-loaded by reader.js the first time a book is opened,
+       instead of being fetched on every page visit. -->
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

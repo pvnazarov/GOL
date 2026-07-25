@@ -1,0 +1,21 @@
+# Python tooling
+.venv/
+__pycache__/
+*.pyc
+
+# Local dev tooling (vendored Node, used only for testing/build scripts)
+.tools/
+
+# Consistency-check reports (regenerable)
+reports/*.csv
+
+# Raw personal library data: any zip, and any top-level folder under libs/
+# (this covers eng1996/rus1996/rus2004 today and any future library folder
+# automatically, without needing to edit this file) except the app code and
+# the generated catalogue JSON, which ARE tracked.
+libs/*.zip
+libs/*/
+!libs/assets/
+!libs/assets/**
+!libs/data/
+!libs/data/**

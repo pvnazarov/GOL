@@ -1,0 +1,361 @@
+:root {
+  --bg: #f7f4ee;
+  --surface: #ffffff;
+  --surface-2: #efe9dd;
+  --border: #ddd3bf;
+  --text: #241f18;
+  --muted: #766b58;
+  --accent: #8a5a2b;
+  --accent-text: #ffffff;
+  --focus: #2f6fa8;
+  --error-bg: #fbe4e2;
+  --error-text: #7a2018;
+  --reader-bg: #fbf8f1;
+  --reader-text: #201c15;
+  --reader-rule: #e4dcc9;
+  --mono-bg: #efe9dc;
+  --topbar-h: 53px;
+}
+:root[data-theme="dark"] {
+  --bg: #17140f;
+  --surface: #211d16;
+  --surface-2: #2a2419;
+  --border: #3c3527;
+  --text: #e9e2d3;
+  --muted: #a99d84;
+  --accent: #d8a15c;
+  --accent-text: #1b1509;
+  --focus: #6fb0e8;
+  --error-bg: #3a1f1c;
+  --error-text: #f3b3ac;
+  --reader-bg: #1b170f;
+  --reader-text: #e6dfce;
+  --reader-rule: #34301f;
+  --mono-bg: #241f16;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+a { color: var(--accent); }
+button {
+  font: inherit;
+  color: inherit;
+}
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* ---------- topbar ---------- */
+/* Fixed (not sticky) so the header stays put on scroll on every browser --
+   sticky positioning is unreliable in some mobile browsers when the address
+   bar collapses on scroll. #app's padding-top (below) compensates for the
+   space it takes out of the flow; --topbar-h is kept in sync with its
+   actual rendered height by main.js since it can wrap to two lines on
+   narrow screens. */
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 20px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.brand { display: flex; flex-direction: column; line-height: 1.15; }
+.brand-title { font-weight: 700; font-size: 1.05em; }
+.brand-sub { font-size: 0.72em; color: var(--muted); }
+.tabs { display: flex; gap: 4px; flex: 1; }
+.tab {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+.tab:hover { background: var(--surface-2); }
+.tab[aria-selected="true"] {
+  background: var(--accent);
+  color: var(--accent-text);
+  font-weight: 600;
+}
+.topbar-actions { display: flex; align-items: center; gap: 10px; }
+.icon-btn {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.icon-btn:hover { background: var(--border); }
+
+@media (max-width: 640px) {
+  .brand-sub { display: none; }
+  .tab { padding: 7px 8px; font-size: 0.92em; }
+  .topbar { gap: 8px 12px; padding: 8px 12px; }
+  .font-controls button { width: 26px; height: 26px; }
+  .font-controls #font-family-toggle { width: auto; height: 26px; min-width: 26px; padding: 0 6px; }
+  .font-controls .font-val { width: 2.6em; }
+}
+
+/* ---------- main / breadcrumb ---------- */
+#app {
+  /* Wide enough that list/grid views (libraries, categories, search results)
+     use the screen on large monitors instead of leaving big idle margins;
+     the reader article keeps its own narrower character-based width below,
+     since prose stays readable regardless of how wide #app itself is. */
+  max-width: min(1600px, 96vw);
+  margin: 0 auto;
+  padding: calc(var(--topbar-h) + 14px) 16px 60px;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85em;
+  color: var(--muted);
+  min-height: 1.4em;
+  margin-bottom: 10px;
+}
+.breadcrumb a { text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb .sep { opacity: 0.6; }
+.breadcrumb .current { color: var(--text); font-weight: 600; }
+
+/* ---------- library cards ---------- */
+.lib-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.lib-card {
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+.lib-card:hover { border-color: var(--accent); background: var(--surface-2); }
+.lib-card .lib-title { font-weight: 600; margin-bottom: 4px; }
+.lib-card .lib-meta { font-size: 0.82em; color: var(--muted); }
+
+/* ---------- generic item list (categories / books / files / search results) ---------- */
+.item-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.item-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+.item-row:last-child { border-bottom: none; }
+.item-row:hover { background: var(--surface-2); }
+.item-icon { flex: none; opacity: 0.8; }
+.item-main { flex: 1; min-width: 0; }
+.item-title { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.item-sub {
+  font-size: 0.82em;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 1px;
+}
+.item-extra { flex: none; font-size: 0.78em; color: var(--muted); }
+
+.load-more-wrap { text-align: center; padding: 12px; }
+.load-more-btn {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 18px;
+  cursor: pointer;
+}
+.load-more-btn:hover { border-color: var(--accent); }
+
+.section-label {
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 14px 0 6px;
+}
+
+/* ---------- search ---------- */
+.search-box { margin-bottom: 12px; }
+#search-input {
+  width: 100%;
+  font-size: 1.05em;
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+}
+.search-help {
+  font-size: 0.78em;
+  color: var(--muted);
+  margin-top: 5px;
+}
+.search-help code {
+  background: var(--surface-2);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+/* ---------- empty / error / loading ---------- */
+.empty-state, .loading-state {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 20px;
+}
+.error-box {
+  background: var(--error-bg);
+  color: var(--error-text);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 10px 0;
+}
+
+/* ---------- reader ---------- */
+.reader-toolbar {
+  position: sticky;
+  top: var(--topbar-h);
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg);
+  padding: 6px 0 10px;
+  flex-wrap: wrap;
+}
+.reader-back {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  flex: none;
+}
+.reader-back:hover { border-color: var(--accent); }
+.reader-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.font-controls { display: flex; align-items: center; gap: 6px; flex: none; }
+.font-controls button {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.font-controls button:hover { border-color: var(--accent); }
+.font-controls .font-val { font-size: 0.8em; color: var(--muted); width: 3.2em; text-align: center; }
+.font-controls #font-family-toggle { width: auto; height: 30px; min-width: 30px; padding: 0 8px; font-size: 0.8em; }
+
+.reader-meta {
+  font-size: 0.85em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--reader-rule);
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+}
+.reader-meta b { color: var(--text); }
+.reader-meta code {
+  background: var(--mono-bg);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+.reader-article {
+  background: var(--reader-bg);
+  color: var(--reader-text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 28px clamp(16px, 5vw, 48px);
+  /* Width in viewport/pixel units, NOT `ch` -- `ch` is font-size-relative,
+     so it shrinks along with the font when the reader decreases text size,
+     while the padding above (clamp(), not font-relative) doesn't shrink to
+     match, wrapping lines that used to fit. Using mostly-vw instead means
+     the available window/canvas space is what the width tracks, not the
+     font size: shrinking the font no longer starves the content area, and
+     growing it isn't capped down to a narrow fixed column either -- at
+     large font sizes especially, the pane should use the width that's
+     actually there instead of leaving idle margins beside a small box. */
+  max-width: min(1400px, 94vw);
+  margin: 0 auto;
+  font-family: var(--reader-font-family, ui-monospace, SFMono-Regular, "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace);
+  font-size: var(--reader-font-size, 18px);
+  line-height: 1.65;
+}
+.reader-article p { margin: 0 0 1em; white-space: pre-wrap; }
+.reader-article pre {
+  font-family: "Courier New", ui-monospace, monospace;
+  background: var(--mono-bg);
+  border-radius: 6px;
+  padding: 10px 12px;
+  overflow-x: auto;
+  font-size: 0.8em;
+  line-height: 1.3;
+  margin: 0 0 1em;
+}
+
+/* ---------- status toast ---------- */
+.status {
+  position: fixed;
+  left: 50%;
+  bottom: 16px;
+  transform: translate(-50%, 12px);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.82em;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  max-width: 90vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.status.visible { opacity: 1; transform: translate(-50%, 0); }
+
+@media (max-width: 640px) {
+  .reader-article { padding: 20px 16px; border-radius: 0; border-left: none; border-right: none; }
+  #app { padding: calc(var(--topbar-h) + 12px) 10px 60px; }
+}

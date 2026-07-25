@@ -1,0 +1,20 @@
+[
+  {
+    "id": "eng1996",
+    "label": "1996 · English",
+    "categoryCount": 26,
+    "bookCount": 551
+  },
+  {
+    "id": "rus1996",
+    "label": "1996 · Русский",
+    "categoryCount": 27,
+    "bookCount": 2792
+  },
+  {
+    "id": "rus2004",
+    "label": "2004 · Русский",
+    "categoryCount": 39,
+    "bookCount": 11502
+  }
+]

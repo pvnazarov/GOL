@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>📚 Библиотека в кармане</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --bg: #050505;
+      --panel: #181825;
+      --panel-2: #101018;
+      --border: #313244;
+      --text: #cdd6f4;
+      --muted: #8b93ae;
+      --accent: #89b4fa;
+      --accent-2: #78a9ff;
+      --surface: #0b0b0f;
+      --surface-2: #202020;
+      --surface-3: #2a2a2a;
+      --reader-bg: #000000;
+      --reader-text: #d8d8d8;
+      --header-bg: #2c3e50;
+      --card-bg: #ffffff;
+      --card-text: #1d2430;
+      --shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    body.theme-light {
+      --bg: #efe4d1;
+      --panel: #f7f0e2;
+      --panel-2: #f0e6d5;
+      --border: #d2c3ab;
+      --text: #1f1a14;
+      --muted: #6e6150;
+      --accent: #3c6db2;
+      --accent-2: #2f5f9d;
+      --surface: #fbf6ec;
+      --surface-2: #f8f1e4;
+      --surface-3: #efe5d4;
+      --reader-bg: #fbf4e7;
+      --reader-text: #111111;
+      --header-bg: #d8c5a8;
+      --card-bg: #fffaf0;
+      --card-text: #231d16;
+      --shadow: 0 2px 8px rgba(60,40,20,0.08);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; width: 100%; }
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow: hidden;
+    }
+    .app { display: flex; height: 100vh; width: 100vw; }
+
+    #sidebar {
+      width: 360px;
+      min-width: 240px;
+      max-width: 55vw;
+      background: var(--panel);
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid var(--border);
+      resize: horizontal;
+      overflow: auto;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    #sidebar.hidden {
+      transform: translateX(-100%);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #search-box {
+      padding: 10px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel-2);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    body.files-mode #search-box {
+      padding: 8px;
+      gap: 6px;
+    }
+    #search-input {
+      width: 100%;
+      padding: 8px 10px;
+      background: var(--surface-3);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 13px;
+      outline: none;
+    }
+    body.files-mode #search-input {
+      padding: 6px 9px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+    #search-input::placeholder { color: var(--muted); }
+    .search-help { font-size: 11px; color: var(--muted); }
+    body.files-mode .search-help { display: none; }
+    .search-mode-row {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    body.files-mode .search-mode-row {
+      gap: 4px;
+    }
+    .btn.active {
+      background: var(--accent);
+      color: #0b0b0f;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+    body.theme-light .btn.active {
+      color: #ffffff;
+    }
+
+    #file-list {
+      list-style: none;
+      overflow-y: auto;
+      flex: 1;
+      padding: 4px 0;
+    }
+    body.files-mode #file-list {
+      padding: 2px 0;
+    }
+    #file-list li {
+      padding: 8px 10px;
+      cursor: pointer;
+      border-left: 3px solid transparent;
+      color: var(--text);
+      transition: background 0.15s;
+    }
+    body.files-mode #file-list li {
+      padding: 4px 10px;
+      font-size: 11px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #file-list li:hover { background: var(--surface-3); }
+    #file-list li.active {
+      background: var(--surface-3);
+      border-left-color: var(--accent);
+    }
+    .sidebar-title {
+      font-size: 12px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: var(--text);
+    }
+    .sidebar-meta {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #file-count {
+      padding: 6px 10px;
+      font-size: 11px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    body.files-mode #file-count {
+      padding: 4px 10px;
+      font-size: 10px;
+    }
+
+    #main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: var(--bg);
+      width: 100%;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 16px;
+      height: 100%;
+      width: 100%;
+      min-height: 0;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 18px 16px;
+      text-align: center;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+    body.theme-light header { color: #241d14; }
+    header h1 { font-size: 1.8em; margin-bottom: 6px; }
+    header p { font-size: 0.92em; opacity: 0.92; }
+
+    .breadcrumb {
+      background: var(--surface);
+      color: var(--text);
+      padding: 8px 10px;
+      margin-bottom: 8px;
+      border-radius: 6px;
+      box-shadow: var(--shadow);
+      font-size: 0.86em;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .breadcrumb a { color: var(--accent); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+    .breadcrumb span.sep { color: var(--muted); }
+
+    .btn {
+      padding: 5px 9px;
+      font-size: 11px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      cursor: pointer;
+    }
+    .btn:hover { background: var(--surface-3); }
+
+    #toolbar {
+      padding: 6px 8px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+      border-radius: 6px;
+      width: 100%;
+      font-size: 12px;
+    }
+    #current-file {
+      font-size: 11px;
+      color: var(--muted);
+      flex: 1 1 280px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #toolbar label { font-size: 11px; color: var(--text); }
+    #font-size-slider { width: 90px; accent-color: var(--accent); }
+    #font-size-val { font-size: 11px; color: var(--accent); width: 36px; text-align: right; }
+
+    #content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+    #content-inner {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      width: 100%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+      width: 100%;
+    }
+    .card {
+      background: var(--card-bg);
+      color: var(--card-text);
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+    }
+    .card:hover { transform: translateY(-2px); }
+    .card.collection {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    body.theme-light .card.collection {
+      background: linear-gradient(135deg, #d7c0a0 0%, #bea17d 100%);
+      color: #231d16;
+    }
+    .card h3 { font-size: 1.08em; margin-bottom: 6px; }
+    .card .count { opacity: 0.9; font-size: 0.82em; }
+
+    .list {
+      background: var(--card-bg);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      margin-top: 4px;
+      width: 100%;
+    }
+    .list-item {
+      padding: 10px 16px;
+      background: var(--surface-2);
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.15s ease;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .list-item:last-child { border-bottom: none; }
+    .list-item:hover { background: var(--surface-3); }
+    .list-item .title { font-size: 1.05em; font-weight: 600; color: var(--accent-2); }
+    .list-item .info { display: flex; flex-direction: column; align-items: flex-start; flex: 1; min-width: 0; }
+    .list-item .stats, .list-item .meta {
+      color: var(--muted);
+      font-size: 0.8em;
+      margin-top: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+
+    .reader {
+      background: var(--reader-bg);
+      color: var(--reader-text);
+      padding: 22px;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      line-height: 1.45;
+      font-family: "Courier New", monospace;
+      white-space: pre-wrap;
+      overflow-y: auto;
+      width: 100%;
+    }
+    body.font-bold .reader,
+    body.font-bold #reader-content,
+    body.font-bold .sidebar-title,
+    body.font-bold .sidebar-meta,
+    body.font-bold .list-item .title,
+    body.font-bold .list-item .meta,
+    body.font-bold .list-item .stats {
+      font-weight: 600;
+    }
+    #reader-content { font-size: 14px; font-weight: 400; }
+    .reading-meta {
+      margin-bottom: 12px;
+      font-size: 0.9em;
+      color: var(--text);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+    .reading-meta span.label { color: var(--accent); font-weight: 600; }
+
+    .loading, .empty-state {
+      text-align: center;
+      padding: 30px;
+      font-size: 1em;
+      color: var(--muted);
+    }
+    .error {
+      background: #fee;
+      color: #a72222;
+      padding: 16px;
+      border-radius: 5px;
+      margin: 16px 0;
+    }
+
+    #status {
+      padding: 4px 6px;
+      font-size: 11px;
+      color: #f38ba8;
+      min-height: 18px;
+      margin-top: 4px;
+      width: 100%;
+    }
+    body.theme-light #status { color: #8b2f2f; }
+
+    .spinner {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    @media (max-width: 768px) {
+      #sidebar {
+        position: absolute;
+        z-index: 10;
+        height: 100vh;
+        left: 0;
+        top: 0;
+      }
+      #sidebar.hidden { transform: translateX(-100%); }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <div id="sidebar" class="hidden">
+      <div id="search-box">
+        <div class="search-mode-row">
+          <button class="btn active" id="search-mode-search" onclick="setSearchMode('search')">Search</button>
+          <button class="btn" id="search-mode-files" onclick="setSearchMode('files')">Files</button>
+        </div>
+        <input type="text" id="search-input" placeholder="Search title, author… (or author:asimov title:robot)" oninput="filterList()" />
+        <div class="search-help" id="search-help">Search mode: title + author, with optional field filters: author:, title:, category:, collection:, file:</div>
+      </div>
+      <ul id="file-list"></ul>
+      <div id="file-count">Loading…</div>
+    </div>
+
+    <div id="main">
+      <div class="container">
+        <header id="main-header">
+          <h1>📚 Библиотека в кармане</h1>
+          <p>Collections, categories, fast local search, and cached reading</p>
+        </header>
+
+        <div class="breadcrumb">
+          <button id="toggle-sidebar-btn" class="btn" onclick="toggleSidebar()">☰ Search</button>
+          <span id="breadcrumb-path"></span>
+        </div>
+
+        <div id="toolbar">
+          <span id="current-file">No file selected</span>
+          <label for="font-size-slider">Font</label>
+          <input type="range" id="font-size-slider" min="10" max="28" value="14" oninput="setFontSize(this.value)" />
+          <span id="font-size-val">14px</span>
+          <button class="btn" id="font-weight-toggle-btn" onclick="toggleFontWeight()">Bold</button>
+          <button class="btn" id="theme-toggle-btn" onclick="toggleTheme()">Light mode</button>
+        </div>
+
+        <div id="content">
+          <div id="content-inner"></div>
+        </div>
+        <div id="status"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const META_ARCHIVE = "meta.zip";       // recommended: contains catalog.tsv + categories.tsv
+    const CATEGORY_TSV = "categories.tsv"; // fallback
+    const CATALOG_TSV = "catalog.tsv";     // fallback
+    const CACHE_NAME = "old-books-cache-v3";
+    const META_CACHE_KEY = "library-meta-v3";
+    const THEME_KEY = "library-theme";
+    const FONT_KEY = "library-font-size";
+    const FONT_WEIGHT_KEY = "library-font-weight";
+    const SEARCH_MODE_KEY = "library-search-mode";
+    const EXPECTED_MIN_BOOKS = 7000;
+
+    let allEntries = [];
+    let filtered = [];
+    let fileTree = {};
+    let currentPath = [];
+    let categoryNames = {};
+    let catalog = {};
+    let searchMode = "search";
+
+    function toggleSidebar() {
+      document.getElementById("sidebar").classList.toggle("hidden");
+    }
+
+    window.addEventListener("DOMContentLoaded", async () => {
+      applyTheme(localStorage.getItem(THEME_KEY) || "dark");
+      applyFontWeight(localStorage.getItem(FONT_WEIGHT_KEY) || "normal");
+      setSearchMode(localStorage.getItem(SEARCH_MODE_KEY) || "search", false);
+      const savedFont = localStorage.getItem(FONT_KEY) || "14";
+      document.getElementById("font-size-slider").value = savedFont;
+      document.getElementById("font-size-val").textContent = savedFont + "px";
+
+      setStatus("<span class='spinner'></span>Loading metadata…");
+      try {
+        await initializeLibrary();
+        showCollections();
+        setStatus(`${allEntries.length} books indexed locally.`);
+      } catch (err) {
+        showError(`Initialization failed.<br>Error: ${escapeHtml(err.message)}`);
+        setStatus("Initialization error");
+      }
+    });
+
+async function initializeLibrary() {
+  const meta = await loadMetadataBundle();
+  const catalogText = meta.catalogTsv || "";
+  const categoriesText = meta.categoriesTsv || "";
+  if (!catalogText) throw new Error("catalog.tsv could not be loaded from meta.zip or web root");
+
+  categoryNames = parseCategoriesTsv(categoriesText);
+  catalog = parseCatalogTsv(catalogText);
+  allEntries = Object.keys(catalog).sort((a, b) => a.localeCompare(b));
+  console.log("catalog books indexed:", allEntries.length);
+  fileTree = buildTreeFromCatalog(catalog);
+  filtered = [...allEntries];
+  renderList();
+
+  const warningParts = [];
+  if (allEntries.length < EXPECTED_MIN_BOOKS) {
+    warningParts.push(`only ${allEntries.length} books indexed`);
+  }
+  if (!Object.keys(categoryNames).length) {
+    warningParts.push("categories.tsv missing or empty");
+  }
+  if (warningParts.length) {
+    setStatus("Warning: " + warningParts.join("; "));
+  }
+
+  try { localStorage.removeItem(META_CACHE_KEY); } catch {}
+}
+
+async function loadMetadataBundle() {
+      const zipped = await fetchMaybeCached(META_ARCHIVE, false);
+      if (zipped && zipped.ok) {
+        const arrayBuffer = await zipped.arrayBuffer();
+        const zip = await JSZip.loadAsync(arrayBuffer);
+        const catalogTsvFile = findZipFile(zip, "catalog.tsv");
+        const categoriesTsvFile = findZipFile(zip, "categories.tsv");
+        console.log("meta.zip entries:", Object.keys(zip.files).slice(0, 50));
+        console.log("resolved metadata files:", { catalogTsvFile, categoriesTsvFile });
+        return {
+          catalogTsv: catalogTsvFile ? await zip.files[catalogTsvFile].async("string") : null,
+          categoriesTsv: categoriesTsvFile ? await zip.files[categoriesTsvFile].async("string") : null
+        };
+      }
+
+      const [catalogTsvResp, categoriesTsvResp] = await Promise.all([
+        fetchMaybeCached(CATALOG_TSV, false),
+        fetchMaybeCached(CATEGORY_TSV, false)
+      ]);
+
+      return {
+        catalogTsv: catalogTsvResp && catalogTsvResp.ok ? await catalogTsvResp.text() : null,
+        categoriesTsv: categoriesTsvResp && categoriesTsvResp.ok ? await categoriesTsvResp.text() : null
+      };
+    }
+
+    function findZipFile(zip, filename) {
+      return Object.keys(zip.files).find(name => name.toLowerCase().endsWith(filename.toLowerCase()));
+    }
+
+async function fetchMaybeCached(url, cacheResponse = true) {
+  const useCacheApi = typeof caches !== "undefined";
+  let cache = null;
+  let cached = null;
+
+  if (useCacheApi && cacheResponse) {
+    try {
+      cache = await caches.open(CACHE_NAME);
+      cached = await cache.match(url);
+      if (cached) return cached.clone();
+    } catch (_) {}
+  }
+
+  try {
+    const response = await fetch(url, { cache: cacheResponse ? "default" : "no-store" });
+    if (response.ok && cacheResponse && cache) {
+      try { await cache.put(url, response.clone()); } catch (_) {}
+    }
+    return response;
+  } catch (e) {
+    if (cached) return cached.clone();
+    throw e;
+  }
+}
+
+function parseTsv(text) {
+  const rows = [];
+  if (!text || !text.trim()) return rows;
+
+  const normalized = String(text)
+    .replace(/^\uFEFF/, "")
+    .replace(/\r\n/g, "\n")
+    .replace(/\r/g, "\n");
+
+  const lines = normalized.split("\n").filter(line => line.trim() !== "");
+  if (!lines.length) return rows;
+
+  const headers = lines[0].split("\t").map(h => String(h).trim());
+  for (let i = 1; i < lines.length; i++) {
+    const values = lines[i].split("\t");
+    while (values.length < headers.length) values.push("");
+    if (values.length > headers.length) {
+      const head = values.slice(0, headers.length - 1);
+      const tail = values.slice(headers.length - 1).join("\t");
+      values.length = 0;
+      values.push(...head, tail);
+    }
+    const obj = {};
+    headers.forEach((h, idx) => obj[h] = String(values[idx] || "").trim());
+    rows.push(obj);
+  }
+  return rows;
+}
+
+function parseCategoriesTsv(text) {
+  const map = {};
+  for (const row of parseTsv(text)) {
+    const values = Object.values(row);
+    const code = row.GENRE || row.CATEGORY || values[0] || "";
+    const name = row.NAME || row.CATNAME || values[1] || "";
+    if (code) map[code] = name;
+  }
+  return map;
+}
+
+function parseCatalogTsv(text) {
+  const rows = parseTsv(text);
+  const out = {};
+  for (const row of rows) {
+    const rawPath = row.FILEPATH || row.PATH || row.ZIPPATH || row.FILE || "";
+    const zipPath = normalizePath(rawPath);
+    if (!zipPath) continue;
+
+    const parts = zipPath.split("/");
+    const collection = parts[0] || "";
+    const category = row.CATEGORY || row.GENRE || parts[1] || "";
+    const filename = parts[parts.length - 1] || "";
+    const fallbackTitle = filename.replace(/\.zip$/i, "");
+    const author = (row.AUTHOR || "").trim();
+    const title = (row.TITLE || fallbackTitle).trim();
+    const catName = (row.CATNAME || categoryNames[category] || "").trim();
+    const sizeKB = row.SIZE_KB ? Number(row.SIZE_KB) || null : null;
+    const searchText = [zipPath, collection, category, catName, author, title].join(" ").toLowerCase();
+
+    out[zipPath] = {
+      path: zipPath,
+      zipPath,
+      collection,
+      category,
+      catName,
+      author,
+      title,
+      filename,
+      sizeKB,
+      searchText
+    };
+  }
+  return out;
+}
+
+function parseCategoriesCsv(text) {
+      const map = {};
+      for (const row of parseCsv(text)) {
+        const values = Object.values(row);
+        const code = row.GENRE || row.CATEGORY || values[0] || "";
+        const name = row.NAME || row.CATNAME || values[1] || "";
+        if (code) map[code] = name;
+      }
+      return map;
+    }
+
+    function buildTreeFromCatalog(catalogMap) {
+      const tree = {};
+      for (const book of Object.values(catalogMap)) {
+        if (!tree[book.collection]) tree[book.collection] = {};
+        if (!tree[book.collection][book.category]) tree[book.collection][book.category] = [];
+        tree[book.collection][book.category].push(book);
+      }
+      for (const collection of Object.keys(tree)) {
+        for (const category of Object.keys(tree[collection])) {
+          tree[collection][category].sort((a, b) => {
+            const ak = `${a.author} ${a.title}`.trim();
+            const bk = `${b.author} ${b.title}`.trim();
+            return ak.localeCompare(bk);
+          });
+        }
+      }
+      return tree;
+    }
+
+function parseCsv(text) {
+  const rows = [];
+  if (!text || !text.trim()) return rows;
+
+  const normalized = String(text)
+    .replace(/^\uFEFF/, "")
+    .replace(/\r\n/g, "\n")
+    .replace(/\r/g, "\n");
+
+  const matrix = [];
+  let row = [];
+  let cur = "";
+  let inQuotes = false;
+
+  for (let i = 0; i < normalized.length; i++) {
+    const ch = normalized[i];
+    const next = normalized[i + 1];
+
+    if (ch === '"') {
+      if (inQuotes && next === '"') {
+        cur += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === ',' && !inQuotes) {
+      row.push(cur);
+      cur = "";
+    } else if (ch === '\n' && !inQuotes) {
+      row.push(cur);
+      if (row.some(v => String(v).trim() !== "")) matrix.push(row);
+      row = [];
+      cur = "";
+    } else {
+      cur += ch;
+    }
+  }
+
+  row.push(cur);
+  if (row.some(v => String(v).trim() !== "")) matrix.push(row);
+  if (!matrix.length) return rows;
+
+  const headers = matrix[0].map(h => String(h).trim().replace(/^"|"$/g, ""));
+  const width = headers.length;
+
+  for (let i = 1; i < matrix.length; i++) {
+    const values = matrix[i].slice(0, width);
+    while (values.length < width) values.push("");
+    const obj = {};
+    headers.forEach((h, idx) => obj[h] = String(values[idx] || "").trim());
+    rows.push(obj);
+  }
+  return rows;
+}
+
+function readMetaCache() { return null; }
+    function writeMetaCache(_data) {}
+    function loadStateFromCache(_data) {}
+
+    function normalizePath(value) {
+      return String(value || "").trim().replace(/\\/g, "/");
+    }
+
+    function getCategoryDisplay(code) {
+      const full = categoryNames[code];
+      return full ? `${full} (${code})` : code;
+    }
+
+    function getBookMeta(zipPath) {
+      return catalog[zipPath] || null;
+    }
+
+    function renderList() {
+      const ul = document.getElementById("file-list");
+      ul.innerHTML = "";
+      if (!filtered.length) {
+        ul.innerHTML = '<li><div class="sidebar-title">No matches</div><div class="sidebar-meta">Try fewer words</div></li>';
+        document.getElementById("file-count").textContent = `0 of ${allEntries.length} books`;
+        return;
+      }
+
+      filtered.forEach(zipPath => {
+        const meta = getBookMeta(zipPath) || { title: zipPath, author: "", category: "", collection: "" };
+        const li = document.createElement("li");
+        const parts = String(zipPath || "").replace(/\\/g, "/").split("/");
+        const compactLabel = parts.length >= 3
+          ? `${parts[0]} / ${parts[1]} / ${parts[parts.length - 1]}`
+          : parts.join(" / ");
+
+        if (searchMode === "files") {
+          li.textContent = compactLabel;
+        } else {
+          li.innerHTML = `
+            <div class="sidebar-title">${escapeHtml(meta.title || formatBookName(meta.filename || zipPath))}</div>
+            <div class="sidebar-meta">${escapeHtml(meta.author || "Unknown author")} • ${escapeHtml(meta.collection || "")} / ${escapeHtml(meta.category || "")}</div>`;
+        }
+
+        li.title = zipPath;
+        li.onclick = () => {
+          document.querySelectorAll("#file-list li").forEach(l => l.classList.remove("active"));
+          li.classList.add("active");
+          readBookFromSidebar(zipPath);
+          if (window.innerWidth <= 768) document.getElementById("sidebar").classList.add("hidden");
+        };
+        ul.appendChild(li);
+      });
+      document.getElementById("file-count").textContent = `${filtered.length} of ${allEntries.length} books`;
+    }
+
+function filterList() {
+  const raw = document.getElementById("search-input").value.trim().toLowerCase();
+  if (!raw) {
+    filtered = [...allEntries];
+    renderList();
+    return;
+  }
+
+  if (searchMode === "files") {
+    filtered = allEntries.filter(p => String(p || "").toLowerCase().includes(raw));
+    renderList();
+    return;
+  }
+
+  const fieldMap = {
+    author: "author",
+    title: "title",
+    category: "category",
+    cat: "category",
+    collection: "collection",
+    coll: "collection",
+    file: "path",
+    path: "path"
+  };
+
+  const fieldTerms = {};
+  const genericTerms = [];
+  const tokenRegex = /(\w+):(?:"([^"]+)"|(\S+))|(\S+)/g;
+  let match;
+
+  while ((match = tokenRegex.exec(raw)) !== null) {
+    if (match[1]) {
+      const key = fieldMap[match[1]];
+      const value = (match[2] || match[3] || "").trim();
+      if (key && value) {
+        if (!fieldTerms[key]) fieldTerms[key] = [];
+        fieldTerms[key].push(value);
+      } else if (value) {
+        genericTerms.push(value);
+      }
+    } else if (match[4]) {
+      genericTerms.push(match[4]);
+    }
+  }
+
+  filtered = allEntries.filter(p => {
+    const meta = catalog[p] || {};
+    const hay = {
+      author: String(meta.author || "").toLowerCase(),
+      title: String(meta.title || "").toLowerCase(),
+      category: `${meta.category || ""} ${meta.catName || ""}`.toLowerCase(),
+      collection: String(meta.collection || "").toLowerCase(),
+      path: String(meta.path || p || "").toLowerCase(),
+      names: `${meta.author || ""} ${meta.title || ""}`.toLowerCase()
+    };
+
+    for (const [field, terms] of Object.entries(fieldTerms)) {
+      if (!terms.every(term => hay[field].includes(term))) return false;
+    }
+    if (!genericTerms.every(term => hay.names.includes(term))) return false;
+    return true;
+  });
+
+  renderList();
+}
+
+function setSearchMode(mode, rerun = true) {
+  searchMode = mode === "files" ? "files" : "search";
+  try { localStorage.setItem(SEARCH_MODE_KEY, searchMode); } catch {}
+
+  const searchBtn = document.getElementById("search-mode-search");
+  const filesBtn = document.getElementById("search-mode-files");
+  const input = document.getElementById("search-input");
+  const help = document.getElementById("search-help");
+  const sidebarBtn = document.getElementById("toggle-sidebar-btn");
+
+  document.body.classList.toggle("files-mode", searchMode === "files");
+
+  if (searchBtn) searchBtn.classList.toggle("active", searchMode === "search");
+  if (filesBtn) filesBtn.classList.toggle("active", searchMode === "files");
+  if (input) {
+    input.placeholder = searchMode === "files"
+      ? "Filter files…"
+      : "Search title, author… (or author:asimov title:robot)";
+  }
+  if (help) {
+    help.textContent = searchMode === "files"
+      ? "Files mode: filters by ZIP filename / relative path exactly like the old Files search."
+      : "Search mode: title + author, with optional field filters: author:, title:, category:, collection:, file:.";
+  }
+  if (sidebarBtn) {
+    sidebarBtn.textContent = searchMode === "files" ? "☰ Files" : "☰ Search";
+  }
+  if (rerun) filterList();
+}
+
+function updateHeaderVisibility() {
+      document.getElementById("main-header").style.display = currentPath.length === 0 ? "block" : "none";
+    }
+
+    function showCollections() {
+      currentPath = [];
+      updateBreadcrumb();
+      updateHeaderVisibility();
+      const collections = Object.keys(fileTree).sort();
+      const content = document.getElementById("content-inner");
+      if (!collections.length) {
+        content.innerHTML = '<div class="empty-state">No books available.</div>';
+        return;
+      }
+      let html = '<div class="grid">';
+      collections.forEach(collection => {
+        const genreCount = Object.keys(fileTree[collection]).length;
+        const bookCount = Object.values(fileTree[collection]).reduce((sum, books) => sum + books.length, 0);
+        html += `
+          <div class="card collection" onclick="showGenres('${escapeJs(collection)}')">
+            <h3>${escapeHtml(formatCollectionName(collection))}</h3>
+            <div class="count">${genreCount} genres • ${bookCount} books</div>
+          </div>`;
+      });
+      html += '</div>';
+      content.innerHTML = html;
+      document.getElementById("current-file").textContent = "No file selected";
+    }
+
+    function showGenres(collection) {
+      currentPath = [collection];
+      updateBreadcrumb();
+      updateHeaderVisibility();
+      const genres = Object.keys(fileTree[collection] || {}).sort();
+      const content = document.getElementById("content-inner");
+      let html = '<div class="list">';
+      genres.forEach(genre => {
+        const bookCount = fileTree[collection][genre].length;
+        html += `
+          <div class="list-item" onclick="showBooks('${escapeJs(collection)}', '${escapeJs(genre)}')">
+            <div class="info">
+              <div class="title">${escapeHtml(getCategoryDisplay(genre))}</div>
+              <div class="stats">Books: ${bookCount}</div>
+            </div>
+            <div class="meta">${escapeHtml(genre)}</div>
+          </div>`;
+      });
+      html += '</div>';
+      content.innerHTML = html;
+    }
+
+    function showBooks(collection, genre) {
+      currentPath = [collection, genre];
+      updateBreadcrumb();
+      updateHeaderVisibility();
+      const books = (fileTree[collection]?.[genre] || []).slice();
+      const content = document.getElementById("content-inner");
+      let html = '<div class="list">';
+      books.forEach(book => {
+        const author = book.author || "Unknown author";
+        const size = book.sizeKB ? `${book.sizeKB} KB` : "Size: n/a";
+        html += `
+          <div class="list-item" onclick="readBook('${escapeJs(book.path)}')">
+            <div class="info">
+              <div class="title">${escapeHtml(book.title || formatBookName(book.filename.replace(/\.zip$/i, '')))}</div>
+              <div class="stats">${escapeHtml(author)} • ${escapeHtml(size)}</div>
+            </div>
+            <div class="meta">${escapeHtml(book.filename)}</div>
+          </div>`;
+      });
+      html += '</div>';
+      content.innerHTML = html;
+    }
+
+    async function readBook(bookPath) {
+      const meta = getBookMeta(bookPath);
+      currentPath = [meta?.collection || bookPath.split('/')[0], meta?.category || bookPath.split('/')[1], meta?.title || bookPath.split('/').pop()];
+      updateBreadcrumb();
+      updateHeaderVisibility();
+      await loadFromZip(bookPath);
+    }
+
+    async function readBookFromSidebar(zipPath) {
+      currentPath = [];
+      updateBreadcrumb();
+      updateHeaderVisibility();
+      await loadFromZip(zipPath);
+    }
+
+    async function loadFromZip(zipPath) {
+      const content = document.getElementById("content-inner");
+      content.innerHTML = '<div class="loading">Loading book…</div>';
+      document.getElementById("current-file").textContent = zipPath;
+      setStatus('<span class="spinner"></span>Opening ' + escapeHtml(zipPath) + '…');
+      try {
+        const response = await fetchMaybeCached(zipPath, true);
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        const arrayBuffer = await response.arrayBuffer();
+        const zip = await JSZip.loadAsync(arrayBuffer);
+        const names = Object.keys(zip.files).filter(n => !zip.files[n].dir);
+        if (!names.length) throw new Error("ZIP archive is empty");
+        const targetName = names.find(n => n.toLowerCase().endsWith('.txt')) || names[0];
+        const text = await zip.files[targetName].async('string');
+
+        const meta = getBookMeta(zipPath);
+        const reader = document.createElement('div');
+        reader.className = 'reader';
+
+        if (meta) {
+          const metaDiv = document.createElement('div');
+          metaDiv.className = 'reading-meta';
+          metaDiv.innerHTML =
+            `<div><span class="label">Title:</span> ${escapeHtml(meta.title || '(from filename)')}</div>` +
+            `<div><span class="label">Author:</span> ${escapeHtml(meta.author || 'Unknown author')}</div>` +
+            `<div><span class="label">Category:</span> ${escapeHtml(meta.catName || meta.category || 'n/a')}</div>` +
+            `<div><span class="label">Size:</span> ${escapeHtml(meta.sizeKB ? meta.sizeKB + ' KB' : 'n/a')}</div>`;
+          reader.appendChild(metaDiv);
+        }
+
+        const inner = document.createElement('div');
+        inner.id = 'reader-content';
+        inner.textContent = text;
+        reader.appendChild(inner);
+
+        content.innerHTML = '';
+        content.appendChild(reader);
+        setFontSize(document.getElementById('font-size-slider').value);
+        setStatus('Loaded: ' + escapeHtml(zipPath));
+      } catch (err) {
+        showError(`Could not load book ${escapeHtml(zipPath)}<br>Error: ${escapeHtml(err.message)}`);
+        setStatus('Error loading ' + escapeHtml(zipPath));
+      }
+    }
+
+    function updateBreadcrumb() {
+      const el = document.getElementById('breadcrumb-path');
+      let html = `<a href="#" onclick="showCollections(); return false;">Home</a>`;
+      if (currentPath.length === 0) {
+        el.innerHTML = html;
+        return;
+      }
+      if (currentPath.length >= 1) {
+        html += ` <span class="sep">/</span> `;
+        if (currentPath.length === 1) {
+          html += `<strong>${escapeHtml(formatCollectionName(currentPath[0]))}</strong>`;
+        } else {
+          html += `<a href="#" onclick="showGenres('${escapeJs(currentPath[0])}'); return false;">${escapeHtml(formatCollectionName(currentPath[0]))}</a>`;
+        }
+      }
+      if (currentPath.length >= 2) {
+        html += ` <span class="sep">/</span> `;
+        if (currentPath.length === 2) {
+          html += `<strong>${escapeHtml(getCategoryDisplay(currentPath[1]))}</strong>`;
+        } else {
+          html += `<a href="#" onclick="showBooks('${escapeJs(currentPath[0])}', '${escapeJs(currentPath[1])}'); return false;">${escapeHtml(getCategoryDisplay(currentPath[1]))}</a>`;
+        }
+      }
+      if (currentPath.length >= 3) {
+        html += ` <span class="sep">/</span> <strong>${escapeHtml(String(currentPath[2]).replace(/\.zip$/i, ''))}</strong>`;
+      }
+      el.innerHTML = html;
+    }
+
+    function toggleTheme() {
+      const isLight = document.body.classList.contains('theme-light');
+      applyTheme(isLight ? 'dark' : 'light');
+    }
+
+    function toggleFontWeight() {
+      const isBold = document.body.classList.contains('font-bold');
+      applyFontWeight(isBold ? 'normal' : 'bold');
+    }
+
+    function applyFontWeight(mode) {
+      const isBold = mode === 'bold';
+      document.body.classList.toggle('font-bold', isBold);
+      try { localStorage.setItem(FONT_WEIGHT_KEY, isBold ? 'bold' : 'normal'); } catch {}
+      const btn = document.getElementById('font-weight-toggle-btn');
+      if (btn) btn.textContent = isBold ? 'Normal' : 'Bold';
+    }
+
+    function applyTheme(theme) {
+      document.body.classList.toggle('theme-light', theme === 'light');
+      localStorage.setItem(THEME_KEY, theme);
+      document.getElementById('theme-toggle-btn').textContent = theme === 'light' ? 'Dark mode' : 'Light mode';
+    }
+
+    function setFontSize(val) {
+      const readerText = document.getElementById('reader-content');
+      if (readerText) readerText.style.fontSize = val + 'px';
+      document.getElementById('font-size-val').textContent = val + 'px';
+      localStorage.setItem(FONT_KEY, String(val));
+    }
+
+    function setStatus(msg) {
+      document.getElementById('status').innerHTML = msg;
+    }
+
+    function showError(message) {
+      document.getElementById('content-inner').innerHTML = `<div class="error">${message}</div>`;
+    }
+
+    function formatCollectionName(name) {
+      const map = {
+        eng1996: '📚 1996 in English',
+        rus1996: '📚 1996 на русском',
+        rus2004: '📚 2004 на русском'
+      };
+      return map[name] || name;
+    }
+
+    function formatBookName(name) {
+      return String(name || '').replace(/_/g, ' ').split(' ')
+        .map(w => w ? w.charAt(0).toUpperCase() + w.slice(1) : '')
+        .join(' ');
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = String(text || '');
+      return div.innerHTML;
+    }
+
+    function escapeJs(text) {
+      return String(text || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    }
+  </script>
+
+Guttenberg Library: <a href="https://www.gutenberg.org/">www.gutenberg.org</a>
+
+</body>
+</html>
