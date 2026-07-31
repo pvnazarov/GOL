@@ -61,7 +61,7 @@
   --shadow: rgba(0, 0, 0, 0.5);
   --chrome-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
   --bg-image: url("img/library-dark.jpg");
-  --bg-overlay: linear-gradient(rgba(12, 8, 5, 0.55), rgba(12, 8, 5, 0.82));
+  --bg-overlay: linear-gradient(rgba(12, 8, 5, 0.42), rgba(12, 8, 5, 0.64));
 }
 
 * { box-sizing: border-box; }
