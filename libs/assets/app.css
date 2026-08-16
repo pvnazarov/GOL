@@ -130,6 +130,15 @@ body[data-view="book"] .bg-layer { display: none; }
 .brand { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-title { font-weight: 700; font-size: 1.05em; }
 .brand-sub { font-size: 0.72em; color: var(--muted); }
+/* width: fit-content so the hit area ends at the text rather than spanning the
+   whole brand column, where it would sit invisibly under the two lines above. */
+.brand-home {
+  font-size: 0.72em;
+  color: var(--muted);
+  text-decoration: none;
+  width: fit-content;
+}
+.brand-home:hover { color: var(--accent); text-decoration: underline; }
 .tabs { display: flex; gap: 4px; flex: 1; }
 .tab {
   background: none;
