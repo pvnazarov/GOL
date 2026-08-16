@@ -35,6 +35,8 @@ scripts/
   build_catalog.py        regenerates libs/data/*.json (run after adding books/libraries)
   library_labels.json      optional friendly labels for library ids (e.g. rus2004 -> "2004 · Русский")
   check_encoding.py        consistency check: verifies every book .txt is valid UTF-8
+  summarize_books.py       writes a <book>.md catalogue record beside each <book>.zip
+                           using the `claude` CLI. Not wired into the app yet — see below
 
 example/                  the OLD implementation, untouched, kept for comparison
 ```
@@ -64,6 +66,36 @@ friendly name to `scripts/library_labels.json` (falls back to the raw
 folder name otherwise), and rerun the build script. Adding books to an
 existing library/category works the same way — add the zip, rerun the
 build script.
+
+## Book summaries (`scripts/summarize_books.py`)
+
+Writes a short catalogue record — title, author(s), type, and a 100–200 word summary — as
+`<book>.md` next to each `<book>.zip`. It reads the text out of the zip, samples the
+beginning, middle and end (~34k characters, roughly 9k tokens), and asks a model for a
+single JSON object, which it renders to Markdown.
+
+It shells out to the **`claude` CLI**, so it uses the local Claude Code subscription and
+needs no API key — nothing secret lives in this file. The call is deliberately locked down:
+no tools, no session persistence, no MCP servers.
+
+```bash
+# see exactly what would be sent, without calling the model
+.venv/bin/python scripts/summarize_books.py libs/eng1996/ADVENTUR --limit 1 --dry-run
+
+# try three books
+.venv/bin/python scripts/summarize_books.py libs/eng1996/ADVENTUR --limit 3
+
+# a full category, cheap model, in parallel
+.venv/bin/python scripts/summarize_books.py libs/eng1996/ADVENTUR --model haiku --jobs 4
+```
+
+Existing `.md` files are skipped unless `--force`, so it is safe to interrupt and re-run.
+
+**Status: piloted on 1 of 92 categories — 39 summaries under `eng1996/ADVENTUR` — and
+nothing reads the output yet.** The app does
+not know these files exist — surfacing them in the catalogue or the reader is still to do.
+Note that the summaries land inside `libs/<library>/<category>/`, which `.gitignore`
+excludes along with the book data, so they are not tracked.
 
 ## Running locally
 
