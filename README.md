@@ -225,7 +225,7 @@ works for any future library folder automatically, without editing
   legacy ASCII-art banners are still
   preserved correctly.
 
-### Numbers (gzip, this collection: 14,845 books / 3 libraries / 108 categories)
+### Numbers (gzip, this collection: 14,845 books / 3 libraries / 92 categories)
 
 | Asset | Size |
 |---|---|
