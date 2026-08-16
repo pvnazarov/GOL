@@ -7,6 +7,16 @@
 <title>Good Old Library</title>
 <meta name="description" content="Good Old Library — Старая Добрая Библиотека. Тысячи книг, быстрый поиск, удобное чтение." />
 <link rel="stylesheet" href="assets/app.css" />
+<!-- Inline SVG favicon: an open book, cut from the palette in app.css —
+     --accent #8a5f2b for the near page, --brass #b8955b for the far one, and a
+     darker brown for the spine. A data URI rather than a file, so it costs no
+     request and keeps the "nothing is fetched from anywhere else" line that
+     the vendored JSZip also holds. Without it every page load asked for
+     /gol/favicon.ico and got a 404.
+
+     Shapes are filled, not stroked, and the viewBox is cropped to the content:
+     at 16 px a stroked outline of this drawing turns to mush. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='2%206.9%2028%2019.1'%3E%3Cpath%20d='M3%208.4Q9%206.2%2015%2011L15%2025.2%203%2023.6Z'%20fill='%238a5f2b'/%3E%3Cpath%20d='M29%208.4Q23%206.2%2017%2011L17%2025.2%2029%2023.6Z'%20fill='%23b8955b'/%3E%3Cpath%20d='M15%2011h2v14.2h-2z'%20fill='%235a3427'/%3E%3C/svg%3E" />
 <script>
   // Set the theme before first paint to avoid a flash of the wrong theme.
   (function () {
