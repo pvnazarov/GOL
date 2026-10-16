@@ -9,6 +9,9 @@ __pycache__/
 # Consistency-check reports (regenerable)
 reports/*.csv
 
+# Drop folder for incoming books, before they are sorted into libs/
+inbox/
+
 # Raw personal library data: any zip, and any top-level folder under libs/
 # (this covers eng1996/rus1996/rus2004 today and any future library folder
 # automatically, without needing to edit this file) except the app code and

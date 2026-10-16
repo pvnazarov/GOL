@@ -1,7 +1,8 @@
 // Fetches a single book's zip on demand, unzips it client-side (JSZip),
-// and renders it as readable typography. Books are plain UTF-8 .txt files
-// (confirmed for the whole collection -- see scripts/check_encoding.py);
-// there is no per-book HTML/CSS to sandbox.
+// and renders it as readable typography. The old collections are plain UTF-8
+// .txt files (confirmed -- see scripts/check_encoding.py); newer sets may hold
+// a FictionBook .fb2 instead, which fb2.js renders. Either way there is no
+// per-book HTML/CSS to sandbox.
 //
 // Legacy cover-page ASCII art / box-drawing banners only line up in a
 // monospace font, so lines that look like "graphics" (few letters, lots of
@@ -10,7 +11,7 @@
 // Detection runs on the whole file (not just the head) since these banners
 // can appear anywhere, not only at the top.
 
-const textCache = new Map(); // path -> decoded text, kept for this page's lifetime
+const bookCache = new Map(); // path -> {format, text}, kept for this page's lifetime
 
 // JSZip (~28 KB gzipped) is only needed once a book is actually opened, so it
 // is not in the initial <script> payload -- it's injected on first use and
@@ -76,19 +77,32 @@ function groupLines(lines) {
   return blocks;
 }
 
-export async function fetchBookText(path) {
-  if (textCache.has(path)) return textCache.get(path);
+// Returns {format: "txt" | "fb2", text}.
+export async function fetchBook(path) {
+  if (bookCache.has(path)) return bookCache.get(path);
   const [response, JSZip] = await Promise.all([fetch(path), loadJSZip()]);
   if (!response.ok) throw new Error(`HTTP ${response.status} fetching ${path}`);
   const buffer = await response.arrayBuffer();
   const zip = await JSZip.loadAsync(buffer);
   const names = Object.keys(zip.files).filter((n) => !zip.files[n].dir);
   if (!names.length) throw new Error("Archive is empty");
-  const target = names.find((n) => n.toLowerCase().endsWith(".txt")) || names[0];
-  let text = await zip.files[target].async("string");
-  text = text.replace(/^﻿/, "").replace(/\r\n/g, "\n").replace(/\r/g, "\n");
-  textCache.set(path, text);
-  return text;
+  const target = names.find((n) => n.toLowerCase().endsWith(".txt"))
+    || names.find((n) => n.toLowerCase().endsWith(".fb2"))
+    || names[0];
+  let book;
+  if (target.toLowerCase().endsWith(".fb2")) {
+    // FB2 declares its own encoding in the XML header, so decode from bytes.
+    const [{ decodeFb2 }, bytes] = await Promise.all([
+      import("./fb2.js"), zip.files[target].async("uint8array")]);
+    if (!bytes.length) throw new Error("The book file inside the archive is empty");
+    book = { format: "fb2", text: decodeFb2(bytes) };
+  } else {
+    let text = await zip.files[target].async("string");
+    text = text.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+    book = { format: "txt", text };
+  }
+  bookCache.set(path, book);
+  return book;
 }
 
 export function renderBookContent(container, text) {

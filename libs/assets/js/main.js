@@ -5,7 +5,7 @@ import {
 import { runSearch } from "./search.js";
 import { initRouter, navigate, currentHash, hashForLibraries, hashForFiles, hashForSearch, hashForBook } from "./router.js";
 import { el, renderIncrementalList, renderBreadcrumb, bookRow, formatSize } from "./ui.js";
-import { fetchBookText, renderBookContent, getFontSize, setFontSize, getFontFamily, setFontFamily, FONT_FAMILIES } from "./reader.js";
+import { fetchBook, renderBookContent, getFontSize, setFontSize, getFontFamily, setFontFamily, FONT_FAMILIES } from "./reader.js";
 
 const THEME_KEY = "gol-theme";
 const LAST_BOOK_KEY = "gol-last-book";
@@ -298,7 +298,7 @@ async function renderBookView(bookPath, fromHash) {
   showStatus(`Opening ${bookPath}…`, true);
 
   try {
-    const text = await fetchBookText(bookPath);
+    const book = await fetchBook(bookPath);
     loading.remove();
 
     const filename = parts[parts.length - 1];
@@ -315,7 +315,12 @@ async function renderBookView(bookPath, fromHash) {
 
     const article = el("article", "reader-article");
     viewRootEl.appendChild(article);
-    renderBookContent(article, text);
+    if (book.format === "fb2") {
+      const { parseFb2, renderFb2 } = await import("./fb2.js");
+      renderFb2(article, parseFb2(book.text));
+    } else {
+      renderBookContent(article, book.text);
+    }
     document.title = `${title} — Good Old Library`;
     setLastBook(bookPath, title);
     showStatus(`Loaded: ${title}`);

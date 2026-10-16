@@ -44,6 +44,7 @@ import re
 import subprocess
 import sys
 import urllib.request
+import xml.etree.ElementTree as ET
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -71,6 +72,11 @@ CHARS_PER_TOKEN = {"cyrillic": 2.7, "latin": 3.7}
 # How an over-long book is split: beginning (title page, set-up), a middle
 # passage, and the end (catches anthologies whose front matter says nothing).
 SPLIT = (0.58, 0.30, 0.12)
+
+FB2_NS = "{http://www.gribuser.ru/xml/fictionbook/2.0}"
+# FB2 elements whose text is one line of the extracted plain text. Titles'
+# own <p>s are reached as children of <title>, so only leaf-level blocks.
+FB2_BLOCKS = {f"{FB2_NS}{tag}" for tag in ("p", "v", "subtitle", "text-author")}
 
 # Encodings to try, in order, for books that are not valid UTF-8.
 ENCODINGS = ("utf-8", "cp1251", "cp1252", "latin-1")
@@ -124,12 +130,28 @@ RECORD_SCHEMA = {
 }
 
 
+def fb2_text(data: bytes) -> str:
+    """Plain text of a FictionBook's bodies, one paragraph per line."""
+    root = ET.fromstring(data)       # honours the XML declaration's encoding
+    lines = []
+    for body in root.findall(f"{FB2_NS}body"):
+        for el in body.iter():
+            if el.tag in FB2_BLOCKS:
+                lines.append(" ".join("".join(el.itertext()).split()))
+            elif el.tag == f"{FB2_NS}empty-line":
+                lines.append("")
+    return "\n".join(lines)
+
+
 def read_book(zip_path: Path) -> str:
-    """Return the decoded text of the single .txt member inside a book zip."""
+    """Return the text of the book inside a zip: a .txt, or else an .fb2."""
     with zipfile.ZipFile(zip_path) as zf:
         names = [n for n in zf.namelist() if n.lower().endswith(".txt")]
         if not names:
-            raise ValueError("no .txt member inside the zip")
+            fb2 = [n for n in zf.namelist() if n.lower().endswith(".fb2")]
+            if not fb2:
+                raise ValueError("no .txt or .fb2 member inside the zip")
+            return fb2_text(zf.read(fb2[0]))
         # More than one .txt is rare; take the largest and carry on.
         name = max(names, key=lambda n: zf.getinfo(n).file_size)
         data = zf.read(name)

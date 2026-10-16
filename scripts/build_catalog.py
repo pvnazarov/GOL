@@ -7,6 +7,10 @@ independently walks the libs/ filesystem for the raw folder/file structure
 entries). Libraries are discovered automatically -- adding a new top-level
 folder under libs/ with .zip books in it is enough, no code change needed.
 
+Books that catalog.tsv doesn't know but that hold a FictionBook (.fb2) file get
+their author and title from the FB2's own <title-info>, so new FB2 sets need no
+catalogue edits either.
+
 Usage:
     .venv/bin/python scripts/build_catalog.py [libs_dir]
 
@@ -21,9 +25,11 @@ import io
 import json
 import sys
 import zipfile
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 SKIP_DIRS = {"assets", "data"}  # app code / generated output, not library folders
+FB2_NS = "{http://www.gribuser.ru/xml/fictionbook/2.0}"
 
 
 def load_meta(libs_dir: Path):
@@ -100,7 +106,45 @@ def scan_disk(libs_dir: Path):
     return tree
 
 
-def build_catalog_json(catalog_rows, tree):
+def read_fb2_meta(zip_path: Path):
+    """Return {author, title, size_kb} from the .fb2 inside a zip, or None.
+
+    Author names are written "Last First Middle" to match catalog.tsv. Size is
+    the book's body text, not the XML markup or embedded images, so it is
+    comparable with the plain .txt books.
+    """
+    try:
+        with zipfile.ZipFile(zip_path) as zf:
+            names = [n for n in zf.namelist() if n.lower().endswith(".fb2")]
+            if not names:
+                return None
+            data = zf.read(names[0])
+        if not data:
+            return None
+        root = ET.fromstring(data)
+    except (zipfile.BadZipFile, ET.ParseError, OSError):
+        return None
+
+    info = root.find(f"{FB2_NS}description/{FB2_NS}title-info")
+    if info is None:
+        return None
+    authors = []
+    for author in info.findall(f"{FB2_NS}author"):
+        parts = [(author.findtext(f"{FB2_NS}{k}") or "").strip()
+                 for k in ("last-name", "first-name", "middle-name")]
+        name = " ".join(p for p in parts if p) or (author.findtext(f"{FB2_NS}nickname") or "").strip()
+        if name:
+            authors.append(name)
+    text_bytes = sum(len("".join(body.itertext()).encode("utf-8"))
+                     for body in root.findall(f"{FB2_NS}body"))
+    return {
+        "author": ", ".join(authors),
+        "title": " ".join((info.findtext(f"{FB2_NS}book-title") or "").split()),
+        "size_kb": round(text_bytes / 1024),
+    }
+
+
+def build_catalog_json(catalog_rows, tree, libs_dir: Path):
     on_disk = set()
     for library, categories in tree.items():
         for category, files in categories.items():
@@ -133,9 +177,26 @@ def build_catalog_json(catalog_rows, tree):
             "s": size_kb,
         })
 
-    catalogued_paths = seen_paths
-    not_in_catalog = len(on_disk - catalogued_paths)
-    return entries, missing_on_disk, not_in_catalog
+    # Books catalog.tsv doesn't know: FB2 files describe themselves.
+    from_fb2 = 0
+    for path in sorted(on_disk - seen_paths):
+        meta = read_fb2_meta(libs_dir / path)
+        if not meta:
+            continue
+        library, category, filename = path.split("/")
+        entries.append({
+            "p": path,
+            "l": library,
+            "c": category,
+            "a": meta["author"],
+            "t": meta["title"] or filename.split(".", 1)[0],
+            "s": meta["size_kb"],
+        })
+        seen_paths.add(path)
+        from_fb2 += 1
+
+    not_in_catalog = len(on_disk - seen_paths)
+    return entries, missing_on_disk, not_in_catalog, from_fb2
 
 
 def build_libraries_json(tree, labels_override):
@@ -179,11 +240,14 @@ def main():
     n_files = sum(len(files) for cats in tree.values() for files in cats.values())
     print(f"  {n_libraries} libraries, {n_files} book files on disk")
 
-    catalog_entries, missing_on_disk, not_in_catalog = build_catalog_json(catalog_rows, tree)
+    catalog_entries, missing_on_disk, not_in_catalog, from_fb2 = build_catalog_json(
+        catalog_rows, tree, libs_dir)
     libraries = build_libraries_json(tree, labels_override)
 
     if missing_on_disk:
         print(f"  warning: {missing_on_disk} catalog rows point to files not found on disk (skipped)")
+    if from_fb2:
+        print(f"  {from_fb2} books not in catalog.tsv catalogued from their FB2 metadata")
     if not_in_catalog:
         print(f"  warning: {not_in_catalog} files on disk have no catalog entry (shown in Files view only, with filename as title)")
 

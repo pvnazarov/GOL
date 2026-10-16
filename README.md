@@ -1,7 +1,8 @@
 # Good Old Library (GOL)
 
 A personal web library for ~14,800 books collected in the late 1990s/2000s
-(three collections: `eng1996`, `rus1996`, `rus2004`). Static site, no backend,
+(three collections: `eng1996`, `rus1996`, `rus2004`), plus newer sets of FB2
+books such as `izbrannoe` («Избранное»). Static site, no backend,
 no database — a small Python build step turns the raw data into a compact
 JSON catalogue that a vanilla-JS frontend loads once at startup.
 
@@ -19,12 +20,14 @@ Browser
   │    search.js   field-prefixed search (author:/title:/category:/collection:/file:)
   │    ui.js       shared list/breadcrumb rendering, incremental "load more" paging
   │    reader.js   fetches ONE book zip on demand, unzips (lazy-loaded JSZip), renders it
+  │    fb2.js      renders FictionBook (.fb2) books; loaded only when one is opened
   │    main.js     wires it all together: theme, font size, keyboard shortcuts
   └─ assets/vendor/jszip.min.js         (vendored locally, not a CDN)
 
 libs/                    the actual web root (matches the existing hosting
   meta.zip                convention of serving from a folder named "libs")
   eng1996/ rus1996/ rus2004/     raw book zips, one .txt per zip (not in git)
+  izbrannoe/              «Избранное»: one .fb2 per zip (not in git) — see "FB2 books"
   data/                   generated catalogue JSON (in git — see below)
     catalog.json          one record per book: path, library, category, author, title, size
     categories.json       category code -> display name
@@ -35,6 +38,7 @@ scripts/
   build_catalog.py        regenerates libs/data/*.json (run after adding books/libraries)
   library_labels.json      optional friendly labels for library ids (e.g. rus2004 -> "2004 · Русский")
   check_encoding.py        consistency check: verifies every book .txt is valid UTF-8
+  libru_to_fb2.py          rebuilds a lib.ru book page as a structured .fb2.zip
   summarize_books.py       writes a <book>.md catalogue record beside each <book>.zip
                            using the `claude` CLI. Not wired into the app yet — see below
 
@@ -283,6 +287,47 @@ few KB to a few hundred KB).
   way a 2000-row list benefits from paging.
 
 ---
+
+## FB2 books
+
+Newer sets come as FictionBook 2 (`.fb2`) files — XML with chapters, titles,
+emphasis, annotations and embedded images. They are stored as-is, one `.fb2`
+per `<name>.fb2.zip`, and rendered structurally rather than converted to text:
+
+- **Reader:** `reader.js` picks the `.fb2` member when a zip has no `.txt`
+  and lazy-loads `fb2.js`, which parses it with the browser's `DOMParser`
+  (honouring the XML encoding, e.g. windows-1251) and renders sections as
+  headings, a collapsible table of contents, epigraphs, poems, tables, the
+  cover and annotation, footnotes and images. Everything is built with
+  `createElement`/`textContent`, never `innerHTML`, so a hostile file can't
+  inject markup; only `image/*` binaries become `data:` URIs and only
+  http(s) links become links. Internal links scroll by script, because the
+  hash router owns `location.hash`.
+- **Hard-wrapped FB2s:** careless txt→FB2 conversions make every ~75-character
+  *line* a `<p>`. `fb2.js` detects those (most `<p>`s end near one width) and
+  joins lines back into paragraphs; mid-sentence lines join, dialogue dashes
+  and capitalised headings break, sentence ends break unless the next word
+  would not have fitted on the line.
+- **Catalogue:** `build_catalog.py` takes author and title from the FB2's own
+  `<title-info>` for books `meta.zip` doesn't list, so a new set needs no
+  catalogue edits — drop `libs/<set>/<category>/*.fb2.zip` in, add a label to
+  `scripts/library_labels.json`, rebuild.
+- **Summaries:** `summarize_books.py` extracts FB2 body text too.
+
+**Adding books from lib.ru.** lib.ru's own FB2/EPUB exports are unreliable (the
+Шумил set came as empty `.fb2.zip` files and EPUBs with all paragraphs flattened
+into one). The book page itself keeps the original layout — indented
+paragraphs, centred capital headings — so `scripts/libru_to_fb2.py` rebuilds a
+proper FB2 from it (paragraphs, chapter sections, annotation, illustrations):
+
+```bash
+.venv/bin/python scripts/libru_to_fb2.py libs/izbrannoe/FANTAST \
+    http://fan.lib.ru/s/shumil_p/text_0010-008.shtml
+.venv/bin/python scripts/build_catalog.py
+```
+
+`inbox/` (not in git) is the drop folder for incoming files before they are
+sorted into a set.
 
 ## Reader design (a deliberate deviation from the brief)
 
