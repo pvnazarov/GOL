@@ -1,0 +1,22 @@
+{
+  "title": "The Tragedy of Pudd'nhead Wilson",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "Set in the antebellum Mississippi River town of Dawson's Landing, this novel follows David Wilson, a sharp-witted lawyer nicknamed 'Pudd'nhead' after an early misunderstood joke costs him his reputation, leaving him to eke out a living as a surveyor and amateur fingerprint enthusiast while waiting decades for recognition. The central plot concerns Roxana, a slave who is mostly white by blood but legally black, and who switches her own infant son with her master's baby in their cradles to save her child from ever being sold down the river. The swapped child, raised as heir Tom Driscoll, grows into a vain, cowardly, and dissolute young man who gambles, steals, and ultimately commits murder, while the true heir is raised as a slave. Wilson's forgotten fingerprint records become the key to unraveling the switch and solving the murder in a courtroom climax. Interwoven are subplots involving visiting Italian twins, an aristocratic Southern code of honor, and Twain's biting satire on race, slavery, identity, and Southern social pretense.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/puddn.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:50+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

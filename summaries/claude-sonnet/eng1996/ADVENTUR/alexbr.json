@@ -1,0 +1,22 @@
+{
+  "title": "Alexander's Bridge",
+  "authors": [
+    "Willa Cather"
+  ],
+  "kind": "novel",
+  "summary": "This short novel follows Bartley Alexander, a renowned American bridge-builder in his forties, whose brilliant career and comfortable marriage to the elegant, accomplished Winifred mask a growing inner crisis. When Alexander reencounters Hilda Burgoyne, an Irish actress he loved passionately in his youth in London, old feelings reignite, and he finds himself torn between his settled, prosperous life with his wife in Boston and the reckless passion of his past. As he shuttles between Boston, London, and his engineering projects, Alexander is consumed by guilt, restlessness, and a sense of living a divided existence, unable to reconcile duty and desire or to feel fully authentic in either relationship. The narrative, framed partly through the observant, philosophical friend Professor Wilson, examines themes of divided selves, the cost of ambition, the illusions of success, and the destructive tension between stability and vital, dangerous feeling. The story builds toward a climactic engineering disaster that mirrors Alexander's own psychological fracture, as his outward mastery of construction contrasts with the collapse of his inner life. It was Cather's first published novel, tightly constructed and psychologically intense.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/alexbr.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:12:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

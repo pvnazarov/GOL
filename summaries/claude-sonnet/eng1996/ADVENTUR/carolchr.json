@@ -1,0 +1,22 @@
+{
+  "title": "A Christmas Carol",
+  "authors": [
+    "Charles Dickens"
+  ],
+  "kind": "novella",
+  "summary": "This classic tale follows Ebenezer Scrooge, a miserly, cold-hearted London moneylender who despises Christmas and holds contempt for charity, warmth, and human fellowship. On Christmas Eve, seven years after the death of his business partner Jacob Marley, Scrooge is visited by Marley's chained ghost, who warns him that he will be haunted by three more spirits and given a chance to escape Marley's fate of eternal wandering in remorse. Successively, the Ghosts of Christmas Past, Christmas Present, and Christmas Yet to Come lead Scrooge through visions of his own lonely childhood and lost love, the modest but joyous Christmas celebrated by his underpaid clerk Bob Cratchit's family (including the ailing Tiny Tim), and a bleak future in which his death is met with indifference and scorn. Confronted with the consequences of his greed and isolation, Scrooge undergoes a profound moral transformation, waking on Christmas morning determined to change his ways. He reconciles with his nephew Fred, raises Bob Cratchit's wages, and becomes a model of generosity and goodwill. The novella is both a ghost story and a moral fable about redemption, compassion, and the true spirit of Christmas.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/carolchr.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

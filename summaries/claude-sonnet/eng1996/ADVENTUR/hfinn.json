@@ -1,0 +1,22 @@
+{
+  "title": "The Adventures of Huckleberry Finn (Tom Sawyer's Comrade)",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "This novel follows Huckleberry Finn, a young boy in a small Mississippi River town, who fakes his own death to escape his abusive, drunken father and the stifling attempts of the Widow Douglas and Miss Watson to 'civilize' him. Fleeing downriver, he joins Jim, Miss Watson's enslaved man, who is himself escaping to avoid being sold away from his family. Together they raft down the Mississippi, encountering con men posing as royalty, feuding families, a lynch-mob confrontation, and various forms of American frontier violence, hypocrisy, and superstition. Along the way Huck wrestles with his conscience over helping Jim escape, ultimately rejecting the era's racist morality in favor of loyalty and friendship. Tom Sawyer reappears near the end to orchestrate an elaborate, book-inspired scheme to 'free' Jim, who turns out to have already been legally freed. Narrated in Huck's vivid vernacular voice, the novel is celebrated for its satire of Southern society, its moral seriousness beneath comic adventure, and its unflinching portrayal of slavery, prejudice, and individual conscience along the antebellum Mississippi River.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/hfinn.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:25+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "The Chronicles of Clovis",
+  "authors": [
+    "Saki (H. H. Munro)"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of witty, satirical short stories by Saki, many featuring the recurring character Clovis Sangrail, a mischievous, epigrammatic young man who delights in disrupting the smug complacency of Edwardian society. The tales blend social comedy, fantasy, and dark whimsy: a talking cat named Tobermory exposes the household's secrets and hypocrisies; a tiger-hunt goes comically awry in Mrs. Packletide's Tiger; a hyena mistaken for a lost dog leads to macabre farce in Esmé; supernatural and pagan forces intrude on rural English life in stories like The Music on the Hill; and invented saints, wayward relatives, and outlandish schemes populate pieces such as The Story of St. Vespaluus and The Unrest-Cure. Throughout, Saki skewers upper-class manners, matchmaking, food reform, religious hypocrisy, and rural gentility with brisk, aphoristic dialogue and a taste for sudden, often gruesome or ironic twists. The stories are largely independent vignettes united by tone, recurring characters, and Saki's mordant wit rather than a continuous plot.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/clovis.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

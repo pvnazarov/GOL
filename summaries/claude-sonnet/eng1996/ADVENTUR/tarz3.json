@@ -1,0 +1,22 @@
+{
+  "title": "The Beasts of Tarzan",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "This adventure novel finds Tarzan, now Lord Greystoke, drawn back into conflict with his old nemesis Nikolas Rokoff, who has escaped from a French prison. Rokoff and his henchman Paulvitch orchestrate the kidnapping of Tarzan's infant son and lure Tarzan himself aboard the steamer Kincaid, where he is imprisoned. Jane Clayton, attempting to rescue her husband, is also captured, and the villains maroon Tarzan on a deserted jungle island. There he befriends and masters a band of wild creatures, including the ape Akut, a panther, and other beasts, forming a savage pack loyal to him. With the aid of these animals and a fierce native warrior named Mugambi, Tarzan pursues Rokoff across the African wilderness in a desperate bid to save his wife and child, encountering hostile cannibal tribes, treachery, and brutal jungle perils along the way. The story builds to a violent reckoning with Rokoff and Paulvitch, and ultimately reunites the Greystoke family, resolving the long rivalry between Tarzan and his most persistent enemies through a mixture of vengeance, loyalty, and jungle law.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz3.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:16+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

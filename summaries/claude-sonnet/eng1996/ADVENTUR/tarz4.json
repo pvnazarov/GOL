@@ -1,0 +1,22 @@
+{
+  "title": "The Son of Tarzan",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "This sequel to the Tarzan series follows Jack Clayton, the young son of Tarzan and Jane, who grows up in England but proves irresistibly drawn to the wild, savage instincts he has inherited from his father despite the best efforts of tutors and family to civilize him. When the villainous Alexis Paulvitch, horribly disfigured after years of torment in the jungle, brings a remarkable ape named Ajax to London for exhibition, events set in motion draw Jack back to Africa. There he escapes his sheltered life, takes the name Korak (the Killer), and grows to manhood among the apes, befriending the great ape Akut. Along the way he rescues and forms a deep bond with Meriem, a girl who was kidnapped in childhood and sold into savagery among Arab slavers and criminals. Together Korak and Meriem survive perils including slave traders, wild beasts, and unscrupulous white hunters like Hamerkop, Malbihn and Jenssen. The novel traces their trials in the wilderness, culminating in revelations about Meriem's true identity as the long-lost daughter of a French officer, and the eventual reunion of both young people with their families and each other.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz4.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:18+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

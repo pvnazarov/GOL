@@ -1,0 +1,22 @@
+{
+  "title": "Island Nights' Entertainments",
+  "authors": [
+    "Robert Louis Stevenson"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of three South Seas tales united by themes of superstition, trickery, and cultural collision between white traders and Polynesian islanders. \"The Beach of Falesa\" follows John Wiltshire, a trader who arrives at a remote island, marries a native woman named Uma through a sham ceremony arranged by the sinister rival trader Case, and gradually uncovers Case's scheme of using faked devils, idols, and superstition to control the natives and eliminate competitors, leading to a violent confrontation. \"The Bottle Imp\" tells of a magic bottle containing an imp that grants any wish to its owner but damns his soul unless he sells it for less than he paid, creating a chain of desperate bargains and a poignant love story. \"The Isle of Voices\" recounts Keola, son-in-law of a sorcerer named Kalamake, who is drawn into his father-in-law's magical money-making schemes involving a distant island haunted by invisible wizards and cannibals, and must use cunning and his wife's help to escape. Together the stories blend adventure, folklore, and moral irony grounded in vivid Pacific island settings.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/islni10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

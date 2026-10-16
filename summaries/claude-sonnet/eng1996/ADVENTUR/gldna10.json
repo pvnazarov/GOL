@@ -1,0 +1,22 @@
+{
+  "title": "The Golden Age",
+  "authors": [
+    "Kenneth Grahame"
+  ],
+  "kind": "collection",
+  "summary": "A sequence of linked autobiographical sketches narrated by an unnamed adult recalling his childhood, spent with his siblings Edward, Harold, Charlotte, and Selina under the indifferent guardianship of aunts, uncles, and a governess he and the children collectively dub 'the Olympians.' Free of understanding adults, the children populate the countryside, orchards, and their rambling house with imaginative games—pirates, knights, lions, dragons, and burglars—drawn from fairy tales, Malory's Arthurian legends, and their own fertile invention. Episodes include a wind-swept holiday ramble, a snowbound day of storytelling and dashed fairy beliefs, a secret drawer's discoveries, boyish schemes and small rebellions against grown-up authority, and the bittersweet close as Edward is sent off to school, marking the end of the idyllic, unsupervised childhood the book celebrates. Told with wry, nostalgic humor from the vantage of adulthood, the sketches (including 'A Holiday,' 'The Argonauts,' 'The Burglars,' and 'Snowbound') form a wistful meditation on the imaginative freedom and secret kingdom of childhood, later followed by its companion volume Dream Days.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/gldna10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:27+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

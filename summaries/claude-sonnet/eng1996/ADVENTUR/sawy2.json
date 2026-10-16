@@ -1,0 +1,22 @@
+{
+  "title": "Tom Sawyer Abroad",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "This short novel follows Tom Sawyer, Huck Finn, and Jim as they embark on a fantastical journey aboard an experimental balloon invented by a mysterious professor, after Tom grows restless with ordinary village life and hungers for adventure and fame. When the professor is lost overboard during a struggle, the three boys find themselves alone in command of the airship and set off on an unplanned voyage across the Atlantic and over Africa. Along the way they cross the Sahara desert, encounter mirages, sandstorms, and the eerie remains of a caravan that perished in the sand, spot lions and other wildlife, and eventually reach Egypt and the Holy Land, viewing the Sphinx, the Pyramids, and Mount Sinai from the air. Much of the humor comes from the boys' arguments over geography, history, and religion, with Tom's bookish romanticism and confident half-knowledge clashing against Huck's plain skepticism and Jim's superstitious common sense. Narrated in Huck's vernacular voice, the tale is both a comic travelogue and a gentle satire of adventure fiction, education, and boyish notions of glory, ending with the trio's hurried return home to face Aunt Polly.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy2.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:57+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

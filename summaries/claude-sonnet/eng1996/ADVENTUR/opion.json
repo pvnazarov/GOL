@@ -1,0 +1,22 @@
+{
+  "title": "O Pioneers!",
+  "authors": [
+    "Willa Cather"
+  ],
+  "kind": "novel",
+  "summary": "Set on the Nebraska prairie in the late nineteenth century, this novel follows Alexandra Bergson, who inherits her immigrant father's struggling homestead as a young woman and, through vision, patience, and hard work, transforms the wild Divide into prosperous farmland over several decades. The story traces her relationships with her brothers Lou and Oscar, who resent and misunderstand her independence and authority; her devoted younger brother Emil, whose education and future she sacrifices to secure; and Carl Linstrum, her childhood friend who leaves for the city and returns years later. Woven through Alexandra's story of land, labor, and stubborn love for the country is the tragic romance between Emil and Marie Shabata, a vivacious, unhappily married neighbor, whose passion for each other unfolds against the backdrop of orchards, wheat fields, and small-town Catholic and immigrant communities. Blending pastoral description with psychological insight, the novel explores immigrant settlement, the pull between duty and desire, and one woman's enduring bond with the land that shapes and is shaped by her.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/opion.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:45+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

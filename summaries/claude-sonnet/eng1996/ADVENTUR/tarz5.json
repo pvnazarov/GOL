@@ -1,0 +1,22 @@
+{
+  "title": "Tarzan and the Jewels of Opar",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "This adventure novel follows Tarzan, Lord Greystoke, as he leads a party of loyal Waziri warriors back to the ruined city of Opar to retrieve gold from its ancient treasure vaults after financial ruin strikes his estate. Meanwhile Lieutenant Albert Werper, a disgraced Belgian officer who has fallen in with the Arab slaver Achmet Zek, schemes to abduct Tarzan's wife Jane for ransom and later betrays his own confederates to steal Opar's fabulous jewels. Tarzan, struck on the head and afflicted with amnesia, reverts to a primitive beast-like state and becomes entangled with the priestess La of Opar, who alternately seeks his death and his love. Jane Clayton, left undefended at the Greystoke home, is captured by raiders and must escape through the jungle, facing lions, hostile tribesmen, and the treacherous Werper himself. The narrative interweaves multiple pursuits and captures involving Arabs, Abyssinian gold-hunters, apes, and the savage anthropoid Chulk, as the jewels and treasure pass through many hands. Ultimately Tarzan regains his senses, reunites with Jane, and order is restored, with the fates of the villains resolved and the treasure's mysterious journey concluded. It is part of Burroughs's popular Tarzan series.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz5.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

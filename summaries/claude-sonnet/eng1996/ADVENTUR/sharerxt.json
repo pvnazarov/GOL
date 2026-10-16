@@ -1,0 +1,22 @@
+{
+  "title": "The Secret Sharer",
+  "authors": [
+    "Joseph Conrad"
+  ],
+  "kind": "novella",
+  "summary": "A young, newly appointed sea captain, on his first command, takes an anchor watch alone on his ship in the Gulf of Siam at the start of a homeward voyage. In the darkness he discovers a naked man clinging to the ship's side ladder: Leggatt, a fugitive who has swum from a nearby anchored vessel, the Sephora, whose chief mate he formerly was. Leggatt confesses he killed an insubordinate, cowardly sailor during a violent storm while saving the ship, and now faces disgrace and trial. The captain, seeing an uncanny double of himself in the stranger, impulsively hides him in his cabin, sheltering him from the Sephora's rigidly conventional captain who comes aboard seeking him. As the narrator conceals his 'secret sharer' amid the daily routines of command, the strain of the secret tests his nerve and his fitness for authority, while he grows into his role as captain. The story builds to a tense climax as the narrator maneuvers his ship perilously close to an island at night to give Leggatt a chance to swim ashore and vanish, an act of complicity that becomes the young captain's true initiation into self-command and moral independence.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sharerxt.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:04+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

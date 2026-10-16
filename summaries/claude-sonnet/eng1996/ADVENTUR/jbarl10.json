@@ -1,0 +1,22 @@
+{
+  "title": "John Barleycorn",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is Jack London's autobiographical memoir of his lifelong relationship with alcohol, personified throughout as \"John Barleycorn.\" Prompted by casting his vote for a woman's suffrage amendment—reasoning that enfranchised women would vote for prohibition—London recounts his drinking history from age five, when he was accidentally made drunk carrying beer to his father in the fields, through his adolescence among oyster pirates, sailors, and hobos on the California waterfront and beyond. He traces how alcohol was never a natural craving but an acquired taste forced upon him by the social world of men, where saloons served as the sole gathering places for camaraderie, storytelling, and escape from toil. London describes his years as a sailor, tramp, and adventurer, the friends and companions lost to drink, violence, and early death, and his own oscillation between conviviality and the corrosive despair he calls the \"White Logic\"—alcohol's gift of pessimistic clarity that strips away life's illusions. The book is both personal confession and social argument for prohibition, blending vivid adventure narrative with philosophical reflection on addiction, masculinity, and society's complicity in fostering it.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/jbarl10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:33+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

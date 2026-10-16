@@ -69,33 +69,59 @@ build script.
 
 ## Book summaries (`scripts/summarize_books.py`)
 
-Writes a short catalogue record — title, author(s), type, and a 100–200 word summary — as
-`<book>.md` next to each `<book>.zip`. It reads the text out of the zip, samples the
-beginning, middle and end (~34k characters, roughly 9k tokens), and asks a model for a
-single JSON object, which it renders to Markdown.
+Writes a short catalogue record — title, author(s), type, and a 100–200 word summary — for
+each book, as JSON in a tree outside the book folders:
 
-It shells out to the **`claude` CLI**, so it uses the local Claude Code subscription and
-needs no API key — nothing secret lives in this file. The call is deliberately locked down:
-no tools, no session persistence, no MCP servers.
+```
+summaries/<model>/<library>/<category>/<book>.json
+    e.g. summaries/qwen3.5-9b/rus1996/FANTAST/3_tale_2.json
+```
+
+Each record also stores how it was made (`meta`: backend, model, date, and whether the
+model saw the full text or excerpts, with the prompt size), so weak cases — excerpted
+books, a particular model — can be found and redone later. The summary language follows
+the book: Russian for Cyrillic text, English otherwise (`--lang` overrides).
+
+Why a separate tree and not files beside the zips: the book folders are gitignored raw
+data and `libs/` is served live by nginx. Here the summaries are backed up in git, several
+models can coexist, nothing is published until the site build picks a model, and the books
+stay untouched.
+
+Two backends:
+
+- **`claude`** (default) shells out to the **`claude` CLI**, so it uses the local Claude
+  Code subscription and needs no API key. The call is locked down: no tools, no session
+  persistence, no MCP servers. Sends ~34k characters of beginning/middle/end excerpts.
+- **`ollama`** calls an Ollama server, by default `http://localhost:11434` — the GPU box
+  at 192.168.1.188 through an SSH tunnel (`ssh -f ollama-gpu`). Default model
+  `qwen3.5:9b` with a 64k-token window, which takes most books whole (English up to
+  ~220k characters, Russian ~165k); longer ones get large beginning/middle/end excerpts.
+  Ollama silently drops the *start* of a prompt that overflows the window (system prompt
+  and title page included), so a prompt that fills it is treated as a failure.
+
+Before sending, runs of spaces from the old column formatting are collapsed (they cost
+tokens and carry nothing).
 
 ```bash
 # see exactly what would be sent, without calling the model
-.venv/bin/python scripts/summarize_books.py libs/eng1996/ADVENTUR --limit 1 --dry-run
+.venv/bin/python scripts/summarize_books.py libs/rus1996/FANTAST --limit 1 --dry-run
 
-# try three books
-.venv/bin/python scripts/summarize_books.py libs/eng1996/ADVENTUR --limit 3
+# one category on the GPU box (about a minute per long book)
+.venv/bin/python scripts/summarize_books.py libs/rus1996/FANTAST --backend ollama
 
-# a full category, cheap model, in parallel
+# a whole library -- folders are searched recursively
+.venv/bin/python scripts/summarize_books.py libs/rus1996 --backend ollama
+
+# with Claude, cheap model, in parallel
 .venv/bin/python scripts/summarize_books.py libs/eng1996/ADVENTUR --model haiku --jobs 4
 ```
 
-Existing `.md` files are skipped unless `--force`, so it is safe to interrupt and re-run.
+Existing records are skipped unless `--force`, so it is safe to interrupt and re-run.
 
-**Status: piloted on 1 of 92 categories — 39 summaries under `eng1996/ADVENTUR` — and
-nothing reads the output yet.** The app does
-not know these files exist — surfacing them in the catalogue or the reader is still to do.
-Note that the summaries land inside `libs/<library>/<category>/`, which `.gitignore`
-excludes along with the book data, so they are not tracked.
+**Status:** `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries (migrated from
+the earlier `.md` files beside the zips); `qwen3.5-9b` has two test books. **Nothing reads
+the output yet** — surfacing it means having `build_catalog.py` merge one model's records
+into `libs/data/`.
 
 ## Running locally
 

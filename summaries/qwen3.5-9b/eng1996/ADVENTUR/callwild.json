@@ -1,0 +1,21 @@
+{
+  "title": "The Call of the Wild",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "novel",
+  "summary": "Set against the backdrop of the Klondike Gold Rush, this novel follows Buck, a domesticated St. Bernard and Scotch shepherd mix, who is stolen from his life of luxury in California and sold into the harsh world of the Yukon. Initially beaten and broken by a man with a club, Buck undergoes a profound transformation. He reawakens the primitive instincts of his wolf ancestors, learning to survive through cunning, strength, and the law of club and fang. He rises from a beaten dog to become the dominant leader of a sled team, earning the fierce loyalty of his master, John Thornton. However, the story takes a tragic turn when Thornton is killed by a native tribe. Grief-stricken and severed from the last tie to humanity, Buck finally succumbs to the primal call of the wild. He leaves civilization behind, joining a pack of timber wolves and becoming a legendary Ghost Dog who leads his pack through the frozen wilderness, forever changed by the ancient rhythms of the forest.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/callwild.zip",
+    "backend": "ollama",
+    "model": "qwen3.5:9b",
+    "created": "2026-10-16T23:24:40+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 174840,
+      "text_chars": 174840,
+      "prompt_tokens": 44051
+    }
+  }
+}

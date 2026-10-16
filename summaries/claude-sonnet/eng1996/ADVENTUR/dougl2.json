@@ -1,0 +1,22 @@
+{
+  "title": "My Escape from Slavery",
+  "authors": [
+    "Frederick Douglass"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is an autobiographical essay by Frederick Douglass, first published in The Century Illustrated Magazine in 1881, in which he finally reveals the long-withheld details of his 1838 flight from slavery in Maryland to freedom in the North. Douglass explains why he had previously concealed the specifics—to protect both future escapees and the people who aided him—and then narrates his journey: disguising himself as a sailor, borrowing a friend's protection papers, and boarding a train from Baltimore, risking discovery at every stop through Delaware and across the Susquehanna before reaching Philadelphia and then New York. He describes the disorientation and danger of arriving in New York as a fugitive with no money or connections, his rescue by the Vigilance Committee and figures like David Ruggles, his marriage, and his relocation to New Bedford, Massachusetts, where he adopted the name Douglass, found work despite racial prejudice among tradesmen, and began his new life as a free laborer. The excerpt included here also contains an unrelated closing fragment of Reconstruction-era political writing advocating equal citizenship and suffrage rights for Black Americans in the postwar South.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/dougl2.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:10+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

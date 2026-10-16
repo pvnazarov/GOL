@@ -1,0 +1,22 @@
+{
+  "title": "Before Adam",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "novel",
+  "summary": "A modern young man suffers since childhood from vivid, terrifying dreams unlike any waking experience—endless primeval forests, predatory beasts, and a haunting sense of kinship with a lost world. Drawing on evolutionary theory learned in college, he concludes these are not fantasies but inherited race-memories, transmitted through the germplasm from a distant ancestor whose life he relives nightly with unusual completeness. The bulk of the narrative is that ancestor's story: a Mid-Pleistocene boy nicknamed Big-Tooth, one of the primitive, half-human \"Tree People\" or Folk, who are more advanced than apes but far short of true humanity. Big-Tooth recounts his upbringing among the horde, his friendship with the loyal Lop-Ear, his infatuation with the Swift One, and the horde's ongoing terror of the brutal, dominant Red-Eye, an atavistic throwback even among his own kind. Woven through are encounters with rival hominid groups—the fire-wielding, more advanced Fire People and the ape-like Tree People—along with constant struggles against predators, flood, and migration. The novel closes with Big-Tooth's family founding a new home, from which line the narrator's racial memories ultimately descend, blending speculative anthropology with an adventure tale of prehistoric survival.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/badam10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:12:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

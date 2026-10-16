@@ -1,0 +1,22 @@
+{
+  "title": "Just David",
+  "authors": [
+    "Eleanor H. Porter"
+  ],
+  "kind": "novel",
+  "summary": "This novel tells the story of David, a sensitive, music-loving boy raised in near-total isolation on a mountaintop by his father, a once-celebrated violinist who has hidden them both away from the world. When the father, gravely ill, decides they must return to civilization, he dies en route, leaving David alone and unable to explain who he is. David is taken in by Simeon Holly, a stern, grief-hardened farmer, and his wife Ellen, who still mourns a son they lost. Through David's innocent wonder, his devotion to beauty and music, and his unfailing instinct for kindness and truth, he gradually transforms the emotional climate of the household and the wider village community, befriending neighbors such as the reclusive 'Lady of the Roses' and the invalid Jack and his sister Jill. As David wins over skeptics with his artless wisdom and violin playing, mysteries about his father's identity and past unravel, culminating in the revelation of his true heritage and the restoration of family bonds. The book is a sentimental tale of innocence redeeming a hardened world, in the vein of Porter's Pollyanna.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/justdav.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

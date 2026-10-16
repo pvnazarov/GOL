@@ -1,0 +1,22 @@
+{
+  "title": "Lord Jim",
+  "authors": [
+    "Joseph Conrad"
+  ],
+  "kind": "novel",
+  "summary": "This novel follows Jim, a young English seaman raised on dreams of heroism drawn from adventure fiction. As chief mate aboard the Patna, a steamer carrying Muslim pilgrims, he commits an act of cowardice during a crisis at sea, abandoning ship alongside other officers when it seems doomed, only for the vessel to survive. Publicly disgraced at the subsequent inquiry and haunted by the judgment of his peers and his own conscience, Jim drifts from port to port across the East, unable to escape the shame of that single moment. The narrator, Marlow, a ship captain who becomes fascinated by Jim's case, pieces together his story through conversations with witnesses, including the trader and naturalist Stein, who helps arrange for Jim to start anew in the remote, isolated trading settlement of Patusan. There Jim finally earns trust, authority, and love, becoming a revered local leader known as Tuan Jim, and seems to redeem himself. But his past ideals of unwavering honor are tested again when a band of outsiders threatens the community, forcing a final reckoning between his ideal self-image and the consequences of trust. A meditation on honor, guilt, and self-image, the novel builds Jim's portrait through Marlow's layered, retrospective narration.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/lord_jim.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:38+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

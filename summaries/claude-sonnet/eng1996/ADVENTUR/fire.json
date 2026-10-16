@@ -1,0 +1,22 @@
+{
+  "title": "To Build a Fire",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "short stories",
+  "summary": "This short story follows an unnamed newcomer to the Yukon, a 'chechaquo' without imagination, as he travels alone with a husky dog through extreme cold—far colder than fifty below zero—to reach a mining camp where his companions await. Confident and dismissive of an old-timer's warning that no man should travel alone in such conditions, he makes steady progress until he breaks through hidden ice into water, soaking his feet. Forced to build a fire to dry out and save himself, he succeeds once but then makes a fatal error in his fire's placement, and it is extinguished by falling snow. As panic sets in, his frozen hands become unable to strike matches or hold his knife, and he fails in a desperate attempt to kill the dog for its body warmth. The story chronicles his physical and psychological deterioration as frostbite spreads, his futile attempts to run for warmth, and his final acceptance of death, while the dog—guided by instinct rather than reason—survives by understanding what the man could not: the deadly indifference of nature. It is a classic naturalist tale of man versus environment, first published in 1908 and later revised as a novella-length version.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/fire.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:19+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

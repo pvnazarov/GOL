@@ -1,0 +1,22 @@
+{
+  "title": "A Tale of Two Cities",
+  "authors": [
+    "Charles Dickens"
+  ],
+  "kind": "novel",
+  "summary": "Set in London and Paris in the years surrounding the French Revolution, this novel follows Dr. Manette, unjustly imprisoned in the Bastille for eighteen years, and his daughter Lucie, who devotes herself to restoring him after his release. Their lives become entangled with Charles Darnay, a French aristocrat who has renounced his family's title and cruelty and settled in England, and with Sydney Carton, a dissolute but brilliant English lawyer who resembles Darnay and loves Lucie hopelessly. As revolution erupts in France, old crimes committed by Darnay's family return to threaten him, drawing him back to Paris where he is imprisoned and sentenced to the guillotine through the vengeful machinations of the Defarges, wine-shop keepers turned revolutionary leaders. The narrative moves between scenes of domestic tenderness and the mounting terror of revolutionary Paris, culminating in an act of supreme self-sacrifice as one man gives his life so that another may live and love may triumph over hatred. Dickens weaves personal destinies into the larger historical upheaval, exploring themes of resurrection, vengeance, sacrifice, and redemption.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/2city.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:12:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

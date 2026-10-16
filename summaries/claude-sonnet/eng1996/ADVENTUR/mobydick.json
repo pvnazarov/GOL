@@ -1,0 +1,22 @@
+{
+  "title": "Moby-Dick; or, The Whale",
+  "authors": [
+    "Herman Melville"
+  ],
+  "kind": "novel",
+  "summary": "Narrated by the sailor Ishmael, this novel recounts his voyage aboard the whaling ship Pequod out of Nantucket under the command of the monomaniacal Captain Ahab. Ahab is obsessed with hunting down Moby Dick, the great white sperm whale that maimed him on a previous voyage, and gradually reveals to his multinational crew—including the harpooners Queequeg, Tashtego, and Daggoo, and the mates Starbuck, Stubb, and Flask—that the entire expedition is bent toward vengeance rather than ordinary commercial whaling. Interwoven with the unfolding drama are extensive digressive chapters on cetology, the practical mechanics and dangers of whaling (from whale-lines and boats to try-works and blubber processing), maritime lore, and philosophical meditations on nature, fate, race, and God. Encounters with other whaling ships offer omens and warnings that Ahab ignores. The narrative builds toward a climactic three-day chase in which the Pequod finally meets Moby Dick, ending in catastrophe for ship and crew, with Ishmael alone surviving to tell the tale, buoyed by Queequeg's coffin-turned-life-buoy.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mobydick.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "The Return of Tarzan",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "This sequel to Tarzan of the Apes follows the ape-man after he has nobly renounced his claim to Jane Porter and his ancestral title so that his cousin William Clayton might inherit both. Traveling as Jean C. Tarzan, he becomes entangled in Parisian intrigue and deadly enmity with the villainous Russian Nikolas Rokoff and his accomplice Paulvitch after exposing their card-cheating plot against Count de Coude aboard an ocean liner, an act that also draws him into a dangerous flirtation with the Countess Olga. Rokoff's schemes pursue Tarzan across Europe and North Africa, through duels, abductions, and desert ambushes, before Tarzan is shipwrecked off the African coast and reverts to his primal jungle existence, rising to become chief of the Waziri tribe. His path eventually leads him to the lost golden city of Opar and its strange priestess La, and finally reunites him with Jane Porter, whose fiancé's fate clears the way for the two of them to marry at last, restoring both Tarzan's love and, in time, his rightful legacy as Lord Greystoke.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz2.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:13+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "The Stark Munro Letters",
+  "authors": [
+    "Arthur Conan Doyle"
+  ],
+  "kind": "novel",
+  "summary": "Presented as a genuine correspondence edited by one Herbert Swanborough, this epistolary novel consists of twelve letters written by young Dr. J. Stark Munro to his American friend during 1881-1884, recounting the early struggles of a newly qualified physician trying to establish himself in practice. The narrative centers on Munro's turbulent partnership with James Cullingworth, a brilliant, eccentric, and volatile former fellow-student whose inventive genius, wild temper, and unorthodox medical theories repeatedly draw Munro into chaotic ventures, from a shared practice to dubious business schemes and inventions like a naval magnet device. Alongside the comic and adventurous escapades with Cullingworth, the letters trace Munro's inner life: his religious doubts and rejection of orthodox faith, his financial hardships, his romantic disappointments, and his gradual maturing sense of professional and personal purpose. Written in a warm, reflective, autobiographical voice drawing heavily on Doyle's own early medical career, the book blends humor, philosophical musing, and adventure. A framing note reveals the fate of Munro and his family, closing the correspondence with poignant finality.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/strkm10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

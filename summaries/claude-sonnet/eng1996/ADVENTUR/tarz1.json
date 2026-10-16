@@ -1,0 +1,22 @@
+{
+  "title": "Tarzan of the Apes",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "This adventure novel tells the story of John Clayton, Lord Greystoke, and his wife Alice, who are marooned on the West African coast after a mutiny aboard the ship carrying them to a colonial post. Their infant son, born in the wilderness and orphaned after his parents' deaths, is adopted by a tribe of great apes and raised as one of their own, growing into a physically superior man who teaches himself to read from his dead parents' books and becomes lord of the jungle through strength, cunning, and inherited nobility. His life changes when a marooned party of Americans, including the beautiful Jane Porter and her father, arrive on the same shore. Tarzan saves them repeatedly from jungle perils, falls in love with Jane, and eventually learns to speak French and English through a rescued French officer, D'Arnot, who helps him venture into civilization. The novel follows Tarzan's journey from primal savagery to the drawing rooms of America and France, culminating in a poignant dilemma of love, identity, and rightful inheritance as his true aristocratic parentage is confirmed just as Jane has pledged herself to another man.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz1.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:11+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

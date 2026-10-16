@@ -1,0 +1,22 @@
+{
+  "title": "The Merry Men, and Other Tales and Fables",
+  "authors": [
+    "Robert Louis Stevenson"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of short fiction by Robert Louis Stevenson, gathering tales that blend Scottish gothic atmosphere, moral fable, and psychological horror. The title story follows a young man returning to his uncle's remote island farm of Aros, where a wrecked Spanish Armada galleon, rumored to hold treasure, and the treacherous tidal reefs called the Merry Men become entangled with his uncle's guilt and madness. \"Will o' the Mill\" traces a solitary man's quiet, contemplative life and his eventual acceptance of death. \"Markheim\" depicts a murderer's confrontation with a mysterious visitor on Christmas Eve who forces him to examine his conscience. \"Thrawn Janet,\" written in Scots dialect, tells of a minister whose servant woman becomes possessed after a supposed pact with the Devil. \"Olalla\" is a gothic tale of a wounded soldier convalescing in a decaying Spanish household haunted by hereditary taint and doomed passion. \"The Treasure of Franchard\" is a lighter, ironic tale following a philosophical doctor, his wife, and an adopted orphan boy amid a discovered treasure and its complications. Together these pieces showcase Stevenson's range across horror, romance, and moral irony.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mrmen10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:45+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

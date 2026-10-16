@@ -1,0 +1,22 @@
+{
+  "title": "Records of a Family of Engineers",
+  "authors": [
+    "Robert Louis Stevenson"
+  ],
+  "kind": "non-fiction",
+  "summary": "This unfinished memoir by Robert Louis Stevenson traces the history of his own family, the Stevensons, who became renowned Scottish civil engineers, particularly lighthouse builders. The introduction explores the surname's murky origins across Scotland, weighing possible Norse, Highland (Macgregor), or French ancestry, and recounts various Stevensons found in historical records, including Covenanter martyrs and minor public officials. The narrative then settles into 'Domestic Annals,' tracing the direct family line from seventeenth-century tenant farmers and maltsters in Glasgow down to the author's great-grandfather and grandfather, including a poignant account of two young brothers who died in the West Indies pursuing a dishonest agent. The bulk of the book, drawn substantially from the diaries and reports of Robert Stevenson (the author's grandfather), chronicles the extraordinary engineering feat of building the Bell Rock Lighthouse off the coast of Scotland, detailing storms, dangerous tides, the labor of artificers on the wave-swept rock, and the eventual successful lighting of the beacon in 1811. It is both a family history and a vivid account of Scottish maritime engineering.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/rfeng10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:54+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

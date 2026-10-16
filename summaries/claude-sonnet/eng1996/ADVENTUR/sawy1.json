@@ -1,0 +1,22 @@
+{
+  "title": "The Adventures of Tom Sawyer",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "Set in the fictional Mississippi River town of St. Petersburg, Missouri, this novel follows the mischievous, imaginative boy Tom Sawyer through a series of boyhood escapades. Tom lives with his stern but loving Aunt Polly and half-brother Sid, dodges chores (famously tricking friends into whitewashing a fence for him), and courts Becky Thatcher. With his friend Huckleberry Finn, the town's outcast boy, Tom witnesses a murder committed by the sinister Injun Joe in a graveyard, runs away to become a pirate on Jackson's Island, and returns to attend his own funeral. Later adventures include testifying at a murder trial, getting lost with Becky in a labyrinthine cave where they encounter Injun Joe again, and discovering a cache of buried treasure. The book closes with Huck being taken in by the Widow Douglas and reluctantly submitting to civilized life, persuaded by Tom's promise of forming a robber gang. Blending nostalgia, humor, and adventure, the novel offers a vivid, affectionate portrait of American boyhood, superstition, and small-town life along the river in the mid-19th century.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy1.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:03+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

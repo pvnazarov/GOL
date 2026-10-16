@@ -1,0 +1,22 @@
+{
+  "title": "The Call of the Wild",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "novel",
+  "summary": "This short novel follows Buck, a powerful St. Bernard-Shepherd mix living a comfortable life on a California estate, who is stolen and sold into service as a sled dog during the Klondike Gold Rush. Shipped north, Buck must quickly learn the brutal law of club and fang, discarding the soft morality of civilization to survive among rival dogs and harsh masters. Under a series of owners—the capable Perrault and Francois, the incompetent tenderfoot Hal and his family, and finally the kind and steady John Thornton—Buck rises from ordinary sled dog to the toughest and most cunning animal on the trail. Through starvation, exhausting toil, violence, and the loyalty and love he develops for Thornton, Buck's latent wild instincts are progressively awakened. After tragedy strikes his beloved master, Buck answers the call of the wild fully, abandoning the world of men to join a wolf pack, becoming a legendary figure among the native Yeehats as the fierce, spectral leader of the wolves. The novel is a classic naturalistic tale of atavism and survival.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/callwild.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:12:58+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

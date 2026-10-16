@@ -1,0 +1,22 @@
+{
+  "title": "Ivanhoe",
+  "authors": [
+    "Walter Scott"
+  ],
+  "kind": "novel",
+  "summary": "Set in late twelfth-century England during the reign of the absent King Richard I, this historical novel dramatizes the tension between the conquered Anglo-Saxon nobility and their Norman overlords. The disinherited knight Wilfred of Ivanhoe, returning secretly from the Crusades, becomes entangled with his stern Saxon father Cedric of Rotherwood, the noble Lady Rowena whom Cedric intends for the Saxon claimant Athelstane, and the beautiful Jewish woman Rebecca, whose father Isaac of York suffers persecution. Colorful figures including Robin Hood and his outlaw band, the disguised King Richard, the treacherous Prince John, and Norman knights such as Front-de-Boeuf, De Bracy, and the Templar Brian de Bois-Guilbert populate a plot of tournaments, sieges, abductions, and trials. Blending romance, chivalry, and social commentary, the novel explores themes of religious and ethnic prejudice, loyalty, and the gradual reconciliation of Saxon and Norman cultures into a unified English identity. Scott frames the tale with a mock scholarly apparatus, including a fictional dedicatory epistle from the purported editor to an antiquarian friend, lending the story an air of historical authenticity while showcasing his characteristic blend of adventure and meticulous period detail.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/ivanhoe.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:29+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

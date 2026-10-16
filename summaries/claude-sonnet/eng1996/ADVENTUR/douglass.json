@@ -1,0 +1,22 @@
+{
+  "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+  "authors": [
+    "Frederick Douglass"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the autobiography of Frederick Douglass, published in 1845 with a preface by William Lloyd Garrison and a letter from Wendell Phillips. Douglass recounts his birth into slavery in Maryland, his uncertain knowledge of his own birthdate and parentage, and his early childhood witnessing brutal whippings. He describes his time in Baltimore where his mistress began teaching him to read before being forbidden to continue, and how he secretly taught himself literacy through tricks and borrowed books, which awakened his hatred of bondage. The narrative details his transfer between masters, including the notorious \"slave-breaker\" Edward Covey, under whom he endured savage treatment before physically resisting him in a turning-point confrontation. Douglass exposes the hypocrisy of slaveholders' professed Christianity, describes attempts to teach fellow slaves to read, a failed escape plot, and his eventual successful escape to the North in 1838. The book closes with reflections on his new life as a free man and abolitionist lecturer, and includes an appendix and a satirical parody poem denouncing slaveholding religion. It stands as a foundational work of American slave narrative literature and abolitionist testimony.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/douglass.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:16+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Can Such Things Be?",
+  "authors": [
+    "Ambrose Bierce"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of supernatural and horror tales by Ambrose Bierce, gathering stories of ghosts, hauntings, madness, and inexplicable death, many set against the backdrop of the American Civil War, the frontier, and small-town or wilderness America. Pieces such as 'The Death of Halpin Frayser,' 'The Moonlit Road,' 'Moxon's Master,' 'The Damned Thing,' 'A Jug of Syrup,' 'Staley Fleming's Hallucination,' and 'An Inhabitant of Carcosa' explore themes of guilt, doom, and the thin boundary between life and death, often blending psychological terror with the eerie and unexplainable. Bierce's characteristic dry irony and terse, precise prose style underlie tales of men confronted by apparitions, doppelgangers, vengeful spirits, and unnatural phenomena that defy scientific explanation. Several stories involve dreams that bleed into reality, family curses, and violent or mysterious deaths investigated after the fact. The collection is notable for its atmosphere of dread and ambiguity, leaving many mysteries unresolved, and for its influence on later weird and horror fiction, including its invention of the mythical land of Carcosa, later referenced by other writers.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/cansuch.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

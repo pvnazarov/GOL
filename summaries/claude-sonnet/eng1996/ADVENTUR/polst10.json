@@ -1,0 +1,22 @@
+{
+  "title": "The Captain of the Pole-Star and Other Tales",
+  "authors": [
+    "Arthur Conan Doyle"
+  ],
+  "kind": "short stories",
+  "summary": "This is an early collection of short stories by Arthur Conan Doyle, gathering tales originally published in magazines such as Cornhill, Temple Bar, Belgravia, London Society, Cassell's, and The Boy's Own Paper. The title piece, told through the journal of a ship's doctor, follows a whaling vessel trapped in Arctic ice under a haunted, obsessive captain who seems to be pursued by a ghostly apparition tied to a past love. Other stories include \"J. Habakuk Jephson's Statement,\" a mystery inspired by the Mary Celeste; \"The Great Keinplatz Experiment,\" concerning a bizarre mind-swap between a professor and student; \"The Man from Archangel\"; \"That Little Square Box,\" a shipboard tale of suspected anarchist conspiracy and infernal machines; \"John Barrington Cowles,\" a tale of a sinister, possibly supernatural woman; \"The Parson of Jackman's Gulch,\" set in a mining community; and \"The Ring of Thoth,\" an Egyptological horror story of ancient immortality and doomed love discovered in the Louvre. Together the stories showcase Doyle's early interest in the macabre, the supernatural, seafaring adventure, and scientific or pseudo-scientific speculation, blending mystery, horror, and adventure in the Victorian popular-fiction tradition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/polst10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:47+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

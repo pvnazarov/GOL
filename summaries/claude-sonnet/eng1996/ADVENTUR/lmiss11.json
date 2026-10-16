@@ -1,0 +1,22 @@
+{
+  "title": "Life on the Mississippi",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "non-fiction",
+  "summary": "A memoir and travelogue blending history, autobiography, and social observation about the Mississippi River. Twain opens with the river's geography, discovery by De Soto, and exploration by Joliet, Marquette, and La Salle, then recounts his own youthful training as a steamboat pilot before the Civil War, detailing the skills, personalities, and perils of that vanished profession. The second half covers his return, decades later, to travel the river again as a passenger, comparing the changed towns, trade, and river life of the New South to his memories of the antebellum era. Along the way he inserts anecdotes, tall tales, digressions on riverboat lore and superstitions, sketches of colorful characters and rivals, a lengthy embedded ghost/revenge story told by a dying man named Karl Ritter, and even Ojibwe legend retellings. Part personal history, part humorous travel writing, and part cultural chronicle, the book captures the rise and decline of steamboating and the transformation of the Mississippi Valley and its towns across a turbulent half-century of American life.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/lmiss11.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

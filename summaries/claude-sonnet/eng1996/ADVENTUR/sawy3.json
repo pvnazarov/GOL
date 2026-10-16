@@ -1,0 +1,22 @@
+{
+  "title": "Tom Sawyer, Detective",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "This short novel continues the adventures of Tom Sawyer and Huck Finn, narrated by Huck. Restless with spring fever, the boys are thrilled when Tom is invited to visit his Uncle Silas and Aunt Sally's Arkansas farm, where family troubles are brewing involving a suitor named Brace Dunlap, whose marriage proposal to Silas's daughter Benny was refused, and Brace's shiftless brother Jubiter, hired as farmhand. Aboard the steamboat south, the boys discover a fellow passenger hiding under disguise is actually Jake Dunlap, Jubiter's long-lost twin, a fugitive criminal fleeing former partners in a diamond theft, with the stolen diamonds hidden on his person. After arriving at the farm, Uncle Silas grows strangely tormented and violent-tempered, and when Jubiter Dunlap disappears amid rumors of murder, suspicion falls heavily on Silas, threatening him with a charge of murder. Tom, employing his flair for dramatic detective work reminiscent of Sherlock Holmes, investigates ghostly sightings, hidden identities, and buried secrets to untangle the mystery, expose the real criminals, recover the diamonds, and clear his uncle's name, resolving the case with characteristic showmanship and reward.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy3.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:13:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

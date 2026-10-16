@@ -1,0 +1,22 @@
+{
+  "title": "St. Ives: Being the Adventures of a French Prisoner in England",
+  "authors": [
+    "Robert Louis Stevenson"
+  ],
+  "kind": "novel",
+  "summary": "This novel follows Anne de St. Ives, a French vicomte and Napoleonic soldier held prisoner of war in Edinburgh Castle after his capture in 1813. Clever, charming, and resourceful, St. Ives passes his captivity making trinkets to sell to visitors and falls in love with a spirited young Scottish visitor, Flora. When circumstances allow, he escapes the castle and embarks on a picaresque flight across Britain, encountering a colourful cast of innkeepers, lawyers, con-men, aeronauts, and rustics, while pursued by the law and entangled in a family inheritance dispute involving a wealthy great-uncle, a rival cousin, and a fortune at Amersham Place. Blending romance, adventure, and comedy in the tradition of eighteenth-century picaresque fiction, the story combines swordplay, disguise, narrow escapes, and courtship as St. Ives tries to clear his name, win Flora, and secure his inheritance. Stevenson left the novel unfinished at his death in 1894, and the manuscript breaks off abruptly near its climax (later editions were completed by another hand, though this text ends at Stevenson's own stopping point).",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/stive10.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}

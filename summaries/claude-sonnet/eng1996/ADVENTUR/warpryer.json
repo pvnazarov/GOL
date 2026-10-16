@@ -1,0 +1,22 @@
+{
+  "title": "The War Prayer",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "short stories",
+  "summary": "A short satirical parable set in an unnamed country swept up in patriotic fervor as young volunteers prepare to march off to war. During a Sunday church service filled with martial hymns and a fervent pastor's prayer asking God to bless the soldiers and grant them victory, a mysterious aged stranger enters the church claiming to be a messenger from God. He informs the congregation that every prayer for victory contains an unspoken counterpart: a prayer for the suffering, death, and devastation that victory necessarily inflicts upon the enemy. The stranger then voices aloud this unacknowledged half of the prayer, a brutal litany asking God to help slaughter enemy soldiers, destroy their homes, and reduce their families to homeless, grieving wretches. The piece ends ambiguously, with the congregation apparently dismissing the stranger as a madman since 'there was no sense in what he said.' Written near the end of Mark Twain's life, the piece is a biting anti-war satire criticizing blind patriotism and the hypocrisy of religious nationalism, and was considered too controversial to publish during the author's lifetime.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/warpryer.zip",
+    "backend": "claude",
+    "model": "sonnet",
+    "created": "2026-07-30T22:14:24+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": null,
+      "prompt_tokens": null,
+      "migrated_from": "pilot .md beside the zip"
+    }
+  }
+}
