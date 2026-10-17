@@ -22,7 +22,7 @@ Output (written to <libs_dir>/data/):
     catalog.json     one record per book known to catalog.tsv AND present on disk
     categories.json  category code -> display name
     tree.json        library -> category -> [{n: filename, s: size_bytes}], from disk
-    libraries.json   library id -> label + counts, from disk
+    libraries.json   library id -> label + counts, from disk, in library_labels.json order
 """
 import argparse
 import io
@@ -216,8 +216,13 @@ def apply_book_order(entries, order):
 
 
 def build_libraries_json(tree, labels_override):
+    # Libraries appear in the order library_labels.json lists them; any it
+    # doesn't list follow, alphabetically.
+    listed = list(labels_override)
+    ranked = sorted(tree.items(), key=lambda item: (
+        listed.index(item[0]) if item[0] in listed else len(listed), item[0]))
     libraries = []
-    for library_id, categories in sorted(tree.items()):
+    for library_id, categories in ranked:
         book_count = sum(len(files) for files in categories.values())
         libraries.append({
             "id": library_id,

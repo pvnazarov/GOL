@@ -36,7 +36,7 @@ libs/                    the actual web root (matches the existing hosting
 
 scripts/
   build_catalog.py        regenerates libs/data/*.json (run after adding books/libraries)
-  library_labels.json      optional friendly labels for library ids (e.g. rus2004 -> "2004 · Русский")
+  library_labels.json      friendly labels for library ids, and the order libraries are listed in
   check_encoding.py        consistency check: verifies every book .txt is valid UTF-8
   libru_to_fb2.py          rebuilds a lib.ru book page as a structured .fb2.zip
   summarize_books.py       writes a <book>.md catalogue record beside each <book>.zip

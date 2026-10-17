@@ -6,12 +6,6 @@
     "bookCount": 551
   },
   {
-    "id": "izbrannoe",
-    "label": "Избранное",
-    "categoryCount": 1,
-    "bookCount": 13
-  },
-  {
     "id": "rus1996",
     "label": "Библиотека в кармане 1996 (Rus)",
     "categoryCount": 27,
@@ -22,5 +16,11 @@
     "label": "Библиотека в кармане 2004 (Rus)",
     "categoryCount": 39,
     "bookCount": 11502
+  },
+  {
+    "id": "izbrannoe",
+    "label": "Избранное",
+    "categoryCount": 1,
+    "bookCount": 13
   }
 ]
