@@ -313,6 +313,10 @@ per `<name>.fb2.zip`, and rendered structurally rather than converted to text:
   catalogue edits — drop `libs/<set>/<category>/*.fb2.zip` in, add a label to
   `scripts/library_labels.json`, rebuild.
 - **Summaries:** `summarize_books.py` extracts FB2 body text too.
+- **Reading order:** books in a category are listed by author and title, unless
+  `scripts/book_order.json` gives that category a hand-picked order
+  (`{"izbrannoe/FANTAST": ["hpmor_ru.fb2.zip", ...]}`) — e.g. a series in
+  reading order. Listed books come first; rebuild the catalogue after editing.
 
 **Adding books from lib.ru.** lib.ru's own FB2/EPUB exports are unreliable (the
 Шумил set came as empty `.fb2.zip` files and EPUBs with all paragraphs flattened

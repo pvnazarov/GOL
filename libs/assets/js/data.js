@@ -3,7 +3,7 @@
 // This is the only network activity at startup -- no book content is ever
 // fetched until the reader opens a specific book.
 
-let catalog = [];       // flat array of book records: {p,l,c,a,t,s, _search}
+let catalog = [];       // flat array of book records: {p,l,c,a,t,s,o?, _search}
 let categories = {};    // category code -> display name
 let tree = {};          // library -> category -> [{n, s}]  (ground truth from disk)
 let libraries = [];     // [{id, label, categoryCount, bookCount}]
@@ -43,7 +43,10 @@ export async function loadLibraryData() {
     byLibCategory.get(key).push(entry);
   }
   for (const list of byLibCategory.values()) {
-    list.sort((a, b) => (a.a + a.t).localeCompare(b.a + b.t, "ru"));
+    // A hand-picked order ("o", from scripts/book_order.json) comes first;
+    // everything else is by author, then title.
+    list.sort((a, b) => (a.o ?? Infinity) - (b.o ?? Infinity)
+      || (a.a + a.t).localeCompare(b.a + b.t, "ru"));
   }
 
   return { bookCount: catalog.length, libraryCount: libraries.length };

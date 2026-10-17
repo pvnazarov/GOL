@@ -11,6 +11,10 @@ Books that catalog.tsv doesn't know but that hold a FictionBook (.fb2) file get
 their author and title from the FB2's own <title-info>, so new FB2 sets need no
 catalogue edits either.
 
+scripts/book_order.json can give a category a hand-picked reading order
+({"<library>/<category>": [filename, ...]}); listed books get an "o" (order)
+field and are shown first, in that order, before any unlisted ones.
+
 Usage:
     .venv/bin/python scripts/build_catalog.py [libs_dir]
 
@@ -199,6 +203,18 @@ def build_catalog_json(catalog_rows, tree, libs_dir: Path):
     return entries, missing_on_disk, not_in_catalog, from_fb2
 
 
+def apply_book_order(entries, order):
+    """Set "o" on catalogue entries listed in book_order.json; warn on stale names."""
+    by_path = {e["p"]: e for e in entries}
+    for folder, filenames in order.items():
+        for position, filename in enumerate(filenames):
+            entry = by_path.get(f"{folder}/{filename}")
+            if entry:
+                entry["o"] = position
+            else:
+                print(f"  warning: book_order.json lists {folder}/{filename}, which is not catalogued")
+
+
 def build_libraries_json(tree, labels_override):
     libraries = []
     for library_id, categories in sorted(tree.items()):
@@ -243,6 +259,10 @@ def main():
     catalog_entries, missing_on_disk, not_in_catalog, from_fb2 = build_catalog_json(
         catalog_rows, tree, libs_dir)
     libraries = build_libraries_json(tree, labels_override)
+
+    order_path = Path(__file__).resolve().parent / "book_order.json"
+    if order_path.is_file():
+        apply_book_order(catalog_entries, json.loads(order_path.read_text(encoding="utf-8")))
 
     if missing_on_disk:
         print(f"  warning: {missing_on_disk} catalog rows point to files not found on disk (skipped)")
