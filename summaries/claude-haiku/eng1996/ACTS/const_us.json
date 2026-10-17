@@ -1,0 +1,23 @@
+{
+  "title": "The constitution",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the text of the Constitution of the United States of America, the foundational document of the American federal republic. It opens with the Preamble, which states the purposes of the government, and then sets out its structure in articles. Article I establishes the bicameral Congress, describing the House of Representatives and the Senate, their qualifications, powers, and procedures, and enumerates the legislative powers of Congress. Article II creates the presidency, covering election through the Electoral College, the President's duties and powers, and impeachment. Article III establishes the federal judiciary, including the Supreme Court and its jurisdiction, and defines treason. Article IV covers relations among the states, Article V describes the amendment process, Article VI establishes federal supremacy, and Article VII explains ratification. The document is followed by the signatures of the delegates to the 1787 Convention and by the amendments added to it, including the Bill of Rights, the first ten amendments, and later amendments on subjects such as voting rights, presidential succession, and the age of voters. The excerpt given is a scanned transcription with some OCR damage.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/const_us.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:18+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 45183,
+      "prompt_tokens": 12808,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

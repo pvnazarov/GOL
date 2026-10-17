@@ -1,0 +1,21 @@
+{
+  "title": "blond",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A collection of several hundred short blonde jokes, mostly in question-and-answer form, with a handful of longer anecdotes and one-liners. The jokes follow the familiar pattern of the 'dumb blonde' stereotype: riddles such as 'What do you call a blonde with half a brain?' are answered with punchlines built on wordplay, double meanings and crude sexual innuendo. Topics range from hair, cars and household chores to pregnancy, the workplace and bar-room stock gags, and some entries are repeated with minor variations. Several longer tales appear too, including a blonde who drives the wrong way and a trio of blondes trying to change a light bulb. The text is heavy with profanity and explicit sexual references, and the jokes are offensive by modern standards, though they are typical of the once-popular blonde-joke genre that circulated in print and online. No author or compiler is credited in the text, so the collection appears to be an anonymous compilation of folk humour.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ANECDOTS/blond.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:32+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 24180,
+      "text_chars": 24180,
+      "prompt_tokens": 10839,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

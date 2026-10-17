@@ -1,0 +1,23 @@
+{
+  "title": "The Oxford dictionary for writers and editors",
+  "authors": [
+    "Oxford English Dictionary Department"
+  ],
+  "kind": "non-fiction",
+  "summary": "A reference work for writers, editors, proofreaders and typesetters, arranged as an alphabetical dictionary of words, abbreviations, names, and usage problems. Each entry gives spelling rulings, hyphenation and capitalization conventions, plural forms, pronunciation hints, and brief identifications of people, places, institutions, and foreign terms. Entries distinguish between correct and incorrect forms, such as recommending 'latish' over 'lateish' or 'Zealand' over 'Zeeland', and note whether items should be italicized or set in roman type. The front matter explains the dictionary's typographic conventions, such as oblique strokes and dashes that stand for repeated headword elements, and lists abbreviations used throughout, from ordinary grammatical terms to subject labels and foreign-language forms. Longer general articles cover topics like abbreviations and contractions, punctuation, quotation marks, numerals, Latin and other foreign languages, and proofreading marks. Beyond its use as a style guide, the book serves as a practical handbook for anyone preparing text for publication who needs quick, authoritative answers on consistent usage.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/oxfrd_we.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:13+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1174058,
+      "prompt_tokens": 19639,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

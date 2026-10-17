@@ -1,0 +1,23 @@
+{
+  "title": "The mucker",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "The Mucker, by Edgar Rice Burroughs, follows Billy Byrne, a hard-bitten street tough raised among the gangs and saloons of Chicago's West Side. Billy begins as a petty thief and brawler, but a chance encounter with a patrolman and a wrongful murder accusation force him to flee west, where he is shanghaied to sea. His rough life is transformed when he falls in love with Barbara Harding, a wealthy girl far above his station, and he struggles to become a gentleman worthy of her. The story moves between the crude underworld of Chicago and San Francisco and the refined society of New York, exploring class, crime, and redemption. Its sequel, The Return of the Mucker, appears in this volume as well, continuing Billy's story after his return to Chicago to clear his name. The book is a fast-paced adventure with romance, violent street fights, and a memorable hero who tries to outgrow his origins while never fully losing them.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tmuck10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 677910,
+      "prompt_tokens": 12888,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

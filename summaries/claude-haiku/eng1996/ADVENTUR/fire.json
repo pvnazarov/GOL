@@ -1,0 +1,23 @@
+{
+  "title": "To build a fire",
+  "authors": [
+    "London Jack"
+  ],
+  "kind": "short stories",
+  "summary": "\"To Build a Fire\" is one of Jack London's best-known stories, set in the Yukon Territory during the Klondike gold rush era. A nameless newcomer, a \"chechaquo\" on his first winter in the north, sets out along a frozen trail toward a camp on Henderson Creek, where companions are waiting for him. He is confident and practical in everyday matters but lacks imagination, so he does not grasp the lethal severity of the extreme cold, which the story puts at roughly seventy-five degrees below zero. Accompanied only by a wolf-dog, he breaks through hidden springs under the snow, and his attempt to light a fire becomes a desperate struggle against numbed hands and failing matches. The tale traces his growing awareness of danger, his panic, and the slow, inexorable spread of frostbite through his body, while the dog, guided by instinct rather than reason, senses what he cannot. Through its spare, precise prose, the story explores human vulnerability, the limits of self-reliance, and the difference between knowing facts and understanding their meaning.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/fire.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:58+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 56217,
+      "prompt_tokens": 12670,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

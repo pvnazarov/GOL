@@ -1,0 +1,23 @@
+{
+  "title": "Father Damien: An Open Letter to the Reverend Dr. Hyde of Honolulu",
+  "authors": [
+    "Stevenson Robert Louis"
+  ],
+  "kind": "non-fiction",
+  "summary": "Father Damien is a polemical open letter written by Robert Louis Stevenson in Sydney in February 1890, responding to a published letter by the Reverend Dr. C. M. Hyde of Honolulu. Hyde had claimed that Father Damien de Veuster, the Belgian priest who ministered to lepers on Molokai and died of the disease, was a coarse, dirty, headstrong man who had gone to the settlement without orders and who had brought his illness on himself through sexual immorality. Stevenson, who had spent eight days and seven nights at the leper settlement at Kalawao, answers Hyde point by point. He quotes the letter at length, draws on his own diary and on testimony from Protestant critics of Damien, and concedes the priest's faults while insisting on his heroism. He mocks Hyde's comfortable position and his sectarian rivalry with Catholic missionaries, and rejects the sexual slander as unsupported gossip. The essay is a classic of Victorian polemic, notable for its rhetorical force, its candour about Damien's character, and its defence of human frailty against self-righteousness.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/frdam10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:35+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 30713,
+      "text_chars": 30713,
+      "prompt_tokens": 11610,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

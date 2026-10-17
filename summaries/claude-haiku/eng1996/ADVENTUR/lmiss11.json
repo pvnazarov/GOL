@@ -1,0 +1,23 @@
+{
+  "title": "Life on the mississippi",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "non-fiction",
+  "summary": "Life on the Mississippi is Mark Twain's account of the great river, drawn from his years as a steamboat pilot on the Mississippi and his later return trip up the river decades afterward. The book is part memoir, part history, and part travelogue. It opens with a survey of the river's physical features, its enormous drainage basin, its shifting channel and dramatic cut-offs, and then turns to its history, from the Spanish explorer De Soto through La Salle and the French voyageurs who first charted its course. Twain then recounts his apprenticeship as a cub pilot, learning the river's ever-changing sandbars, snags, and currents, and the steamboat culture that once dominated its banks. Interwoven with these chapters are digressions, anecdotes, and tall tales, along with a lengthy comic portrait of river towns and the people who lived along them. The excerpts also show Twain's willingness to range into other tales, including a dark story of a man's vengeance against soldiers who murdered his family during the Civil War, and a closing Native American legend. The work is a blend of humor, observation, and nostalgia for a vanished era of river travel.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/lmiss11.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 802013,
+      "prompt_tokens": 12921,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

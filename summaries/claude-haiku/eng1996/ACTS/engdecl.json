@@ -1,0 +1,23 @@
+{
+  "title": "Universal declaration of human rights",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the text of the Universal Declaration of Human Rights, adopted by the General Assembly of the United Nations in 1948. It opens with a preamble setting out the reasons for the declaration, namely that recognition of the inherent dignity and equal, inalienable rights of all members of the human family is the foundation of freedom, justice and peace. It then proclaims a common standard of achievement for all peoples and nations. The thirty articles that follow set out the rights and freedoms every person is entitled to, without distinction of any kind. They cover the right to life, liberty and security; freedom from slavery, torture and arbitrary arrest; equality before the law and fair trial; privacy; freedom of movement and asylum; nationality; marriage and family; property; freedom of thought, religion, opinion and expression; peaceful assembly; participation in government; social security; work and rest; an adequate standard of living; education; and participation in cultural life. The final articles state that individuals have duties to their community and that no provision may be used to destroy these rights.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/engdecl.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:22+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 10842,
+      "text_chars": 10842,
+      "prompt_tokens": 4742,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

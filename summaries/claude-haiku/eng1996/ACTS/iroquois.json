@@ -1,0 +1,23 @@
+{
+  "title": "The constitution of the iroquois nations the great binding law, Gayanashagowa",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a transcription of the Gayanashagowa, the Great Binding Law, the traditional constitution of the Haudenosaunee or Iroquois Confederacy, which united the Mohawk, Oneida, Onondaga, Cayuga and Seneca nations. The text is presented as the words of Dekanawidah, the founding peacemaker, who plants the Tree of the Great Peace and sets out the rules by which the Confederate Lords govern. It describes the council fire and its keepers, the order in which the nations deliberate and decide, and the rights, duties and qualifications of the hereditary Lords, who are chosen and can be deposed by the clan mothers and War Chiefs. It also covers the wampum strings and other symbols used to record pledges and treaties, the installation ceremonies, and rules for mourning and funeral addresses. The document is a foundational work of political and legal history, read both as a model of confederate government and as a source of Haudenosaunee ceremonial and spiritual tradition. This copy was prepared from an earlier transcription and carries editorial notes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/iroquois.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:26+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 69633,
+      "prompt_tokens": 12677,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Babel: a listing of computer oriented abbreviations and acronyms",
+  "authors": [
+    "Kind Irving"
+  ],
+  "kind": "non-fiction",
+  "summary": "Babel is a reference glossary of abbreviations, acronyms and short technical terms used in computing, compiled by Irving Kind and distributed free of charge in several dated versions, this one labelled Version 92A (January 1992). Its stated purpose is to help readers decode the jargon found in magazine articles, classified advertisements and equipment brochures. The listing is arranged alphabetically and covers personal computers, mainframes, communications, programming, networking and related fields. Entries range from programming languages such as ALGOL, BASIC and COBOL, to assembler mnemonics like JMP and LOOPNE, hardware standards such as ISA and SCSI-era interfaces, file name extensions like .BAK and .ZIP, and organisations such as IEEE and ANSI. Many entries give alternative expansions, some note historical usage, and some are marked with vendor names in brackets. The front matter explains the compiler's invitation for corrections, the schedule of updates three times a year, and the procedure for obtaining disks from bulletin board operators. The excerpt is partly damaged, with some lines truncated and page headers repeated, but the glossary body is legible.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/babel92a.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 65227,
+      "prompt_tokens": 16725,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

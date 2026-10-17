@@ -1,0 +1,21 @@
+{
+  "title": "The Oxford thesaurus an a-z dictionary of synonyms",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "The Oxford Thesaurus is a reference work arranged alphabetically, offering lists of synonyms for thousands of English headwords, each grouped by sense and illustrated with example sentences designed so that the listed alternatives can be substituted into the same context. The opening introduction explains the editorial principles: why no two words are perfectly interchangeable, how headwords were selected by frequency, how synonyms are grouped semantically and syntactically, and how usage labels such as Colloquial, Slang, Archaic, Technical, Literary, and regional markers for British, American, Australian, Canadian and New Zealand English are applied. The body entries run from A to Z, covering common words such as mother, motion, mouth, mourn, zany, zealot, zero and zone, with their variant spellings and idiomatic expressions. The book is aimed at writers, students and speakers seeking a more varied or precise word choice, and at anyone wanting to understand the nuances between near-equivalent terms in modern English.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/oxfrd_s.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:12+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 4300988,
+      "prompt_tokens": 13935,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

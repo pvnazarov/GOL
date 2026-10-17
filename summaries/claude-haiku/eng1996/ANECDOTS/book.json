@@ -1,0 +1,21 @@
+{
+  "title": "book",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A large, informal compilation of adult jokes in question-and-answer form, circulated as a plain text file that notes it runs to around 650 entries. Its sections are introduced by large ASCII-art headings that spell out their themes, and the material is deliberately crude and offensive, drawing on sexual content, bodily functions, profanity, and disability and ethnic stereotypes. Subjects include sex and marriage, AIDS and venereal disease, celebrities and politicians, the familiar light-bulb jokes in which various nationalities and professions are mocked, animal and farmyard puns, and a run of jokes about Helen Keller. Toward the end, a few longer story-style jokes appear, including religious and Polish-American punchlines. A preliminary notice states that the jokes do not reflect the collector's views and are meant only to amuse. Because the pieces are short and self-contained, the file works as a browsable reference of late twentieth-century folk humour rather than as a narrative.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ANECDOTS/book.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 115479,
+      "prompt_tokens": 15812,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

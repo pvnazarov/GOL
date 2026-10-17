@@ -1,0 +1,21 @@
+{
+  "title": "Lawyer jokes",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A compilation of jokes about lawyers, mixing short question-and-answer gags with longer anecdotes and a few parodies. Most target the profession's reputation for greed, dishonesty, and self-interest. Examples include a lawyer at the gates of Heaven who is given fifteen cents and told to go to hell, a sheriff who shoots the wrong bear, a butcher billed for a consultation after his lawyer's dog stole a roast, and a mock state hunting code with bag limits for attorneys. Other pieces feature St. Peter, the Devil, Diogenes searching for an honest lawyer, Clarence Darrow, and a doctor and a lawyer trading barbs in an emergency room. Some jokes are recycled from familiar circulation, and several are crude or sexual in content. The collection has no narrative arc, so each entry stands alone and can be read in any order.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ANECDOTS/lawyrjok.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:42+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 25325,
+      "text_chars": 25325,
+      "prompt_tokens": 10393,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

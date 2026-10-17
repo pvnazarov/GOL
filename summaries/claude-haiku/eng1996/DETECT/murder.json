@@ -1,0 +1,23 @@
+{
+  "title": "Убийство в антракте",
+  "authors": [
+    "Безымянный В"
+  ],
+  "kind": "collection",
+  "summary": "This is a collection of short detective puzzles in the style of a magazine feature, each presented as a \"detective story for your solution\" with an interactive jigsaw-puzzle clue picture. The pieces are built around Jessica Fletcher, the amateur sleuth from the television series Murder, She Wrote, who is drawn into murders while attending an antique convention, dining at a restaurant, investigating a suicide that looks staged, and visiting an advertising agency. Each story sets up a closed circle of suspects with competing motives such as affairs, blackmail, a gangster's grudge, a restaurant critic's feud, and a memoir threatening powerful people. Fletcher reasons from small physical details like a dry bathtub, an unused bar of soap, a stopped clock, or a dismantled food processor to expose the killer. The excerpt keeps the cozy, dialogue-driven tone typical of such puzzle pages, with the reader invited to re-read and solve before reaching the answer. The text is a fragment of a larger puzzle feature, so the title and author given here are a catalogue entry and may not match a single book.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/murder.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:53+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 28130,
+      "text_chars": 28130,
+      "prompt_tokens": 11452,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

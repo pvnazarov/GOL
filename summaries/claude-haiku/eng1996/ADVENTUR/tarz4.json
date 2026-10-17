@@ -1,0 +1,23 @@
+{
+  "title": "The son of Tarzan",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "The Son of Tarzan follows two intertwined threads of adventure in the African jungle. The first concerns Jack Clayton, the son of Lord Greystoke, better known as Tarzan of the Apes, who has been raised in a civilized English household but is drawn toward wild animals and savage life. The second concerns Meriem, a young girl raised among the apes by Korak, who is kidnapped by Arab slavers and villainous white men such as the Swede Malbihn and his companions. Their paths converge as Tarzan's family and allies search for the girl and confront the criminals who prey on the region. The novel includes encounters with cruel traders, dangerous beasts, and hidden tribes, and it builds toward the discovery of Meriem's true identity. Written in the early 1900s, the book is a classic pulp adventure in the Tarzan series, combining jungle action, rescue plots, and themes of heredity and belonging. The excerpts present the opening introduction of Ajax the ape and the disgraced Russian Paulvitch, the kidnapping of Meriem, and the eventual reunion that reveals her royal French origins.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz4.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:33+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 521671,
+      "prompt_tokens": 12821,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The wisdom of father brown",
+  "authors": [
+    "Chesterton G K"
+  ],
+  "kind": "short stories",
+  "summary": "The Wisdom of Father Brown is a 1914 collection of twelve detective stories by G. K. Chesterton, featuring his clerical sleuth, the small, unassuming Catholic priest Father Brown, who solves crimes through close attention to human psychology and moral reasoning rather than scientific method. The book is dedicated to Lucian Oldershaw. Its stories include The Absence of Mr Glass, in which the priest brings a case to the criminologist Dr Orion Hood; The Paradise of Thieves; The Duel of Dr Hirsch; The Mistake of the Machine; The Head of Caesar, which concerns a missing Roman coin and a family collection; The Purple Wig; and The Fairy Tale of Father Brown, which closes the volume. Across the tales, Chesterton sets rational, scientific explanations against the priest's intuition about sin, motive and disguise, often showing that the apparently impossible has a plain human answer. The stories blend mystery, satire of modern rationalism and reflections on faith, and are set mostly in England and occasionally on the Continent.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/wifrb10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 399484,
+      "prompt_tokens": 12857,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

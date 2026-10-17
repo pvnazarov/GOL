@@ -1,0 +1,24 @@
+{
+  "title": "Thesaurus-1911 version 1.02",
+  "authors": [
+    "Peter Mark Roget",
+    "Patrick Cassidy"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is an electronic text of a thesaurus derived from the 1911 edition of Roget's Thesaurus of English Words and Phrases, prepared by MICRA, Inc. in 1991. It is a machine-readable version of the classic word-finding reference, in which words and phrases are grouped by meaning under numbered concepts such as existence, relation, volition, and religious worship. Each main entry lists nouns, verbs, adjectives, adverbs, and related quotations or foreign phrases, with cross-references to other entry numbers. The file marks obsolete words with special notation and includes editorial comments in brackets. The front matter explains the editors' changes to the original arrangement, including the # markers on entries for computerized searching, transliterated Greek terms, and page-location comments. The excerpts shown run through the abstract relations section, the classes on representation and the arts, and the closing entries on religious ceremony and places of worship. The project was intended as a resource for natural-language processing experiments.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/roget13a.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:14+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1494603,
+      "prompt_tokens": 15648,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The German surrender documents",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a historical compilation of the formal documents by which German forces surrendered at the end of the Second World War in Europe, in May 1945. It gathers the instrument of surrender for German forces in Holland, northwest Germany, the Frisian Islands, Schleswig-Holstein and Denmark, signed at Lüneburg Heath under Field Marshal Montgomery; Admiral Dönitz's authorization of Colonel General Jodl to negotiate a general surrender; the Act of Military Surrender signed at Reims on 7 May 1945; and the later Berlin act of 8 May 1945, which was signed in the presence of Allied and Soviet representatives. Also included are the Supreme Commander's detailed naval orders, covering minefields, charts, naval representatives, disarmament of warships, submarines, aircraft and neutral shipping, and sabotage prevention. The collection closes with President Truman's 1945 proclamation of a national day of prayer. The text is a plain transcription of the documents, with some typographical errors from its source, and is useful to students of the war's end and the terms of German capitulation.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/germsurr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 34435,
+      "prompt_tokens": 13253,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

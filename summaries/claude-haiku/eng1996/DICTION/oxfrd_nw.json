@@ -1,0 +1,21 @@
+{
+  "title": "The Oxford dictionary of new words",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "The Oxford Dictionary of New Words is a popular reference guide, published by Oxford University Press, to roughly two thousand high-profile words, phrases, and senses that drew public attention during the 1980s and early 1990s. Unlike a standard dictionary, it explains each term's derivation, the events that brought it into the news, and its social or cultural context, illustrated with quotations from newspapers, magazines, and fiction drawn from across the English-speaking world. Entries are arranged alphabetically and grouped by subject areas such as environment, health, music, politics, computing, youth culture, and fashion. Its headwords range from acid house, hostile takeover, and hot button to HRT, GIFT, and zouk, and include cross-reference entries that point readers to fuller articles. The book draws on the resources of the Oxford English Dictionary and is intended as an entertaining guide for general readers rather than a technical work.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/oxfrd_nw.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1216409,
+      "prompt_tokens": 13633,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

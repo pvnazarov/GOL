@@ -1,0 +1,23 @@
+{
+  "title": "The hound of the baskervilles",
+  "authors": [
+    "Doyle Arthur"
+  ],
+  "kind": "novel",
+  "summary": "The Hound of the Baskervilles is a Sherlock Holmes novel by Arthur Conan Doyle. Dr. James Mortimer brings Holmes an old family manuscript, dated 1742, recounting the legend of a demonic hound that pursued a wicked ancestor of the Baskerville family across Dartmoor. The legend seems to have a modern echo: Sir Charles Baskerville has recently died of fright on the moor, apparently pursued by a gigantic spectral dog. Holmes, who is preoccupied with other matters, sends Dr. Watson to Devonshire to guard the new heir, Sir Henry Baskerville, who has just arrived from abroad. Watson finds a bleak landscape of mires, ancient ruins and isolated farms, and a cast of suspicious figures, including the naturalist Stapleton and his sister, the enigmatic Mrs. Barrymore, and the convict escaped from a nearby prison. Watson's narration, written as a report to Holmes, builds suspense through night watches, secret meetings and the sound of a baying hound. The book is widely regarded as one of the finest detective stories, blending gothic atmosphere with rational deduction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/houndxdy.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:48+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 322718,
+      "prompt_tokens": 12755,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

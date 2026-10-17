@@ -1,0 +1,23 @@
+{
+  "title": "The proclamation of neutrality",
+  "authors": [
+    "Washington George"
+  ],
+  "kind": "non-fiction",
+  "summary": "This short text is a public proclamation issued by President George Washington at Philadelphia on 22 April 1793, declaring that the United States would remain neutral and act with impartiality toward the belligerent powers. The war in question was the conflict that had broken out between France on one side and Austria, Prussia, Sardinia, Great Britain and the United Netherlands on the other. The document warns American citizens to avoid any acts that might compromise this neutral stance, and states that those who commit hostilities, aid belligerents, or carry contraband goods under the law of nations will not receive the protection of the United States. It also announces that prosecutions will be pursued against those who violate the law of nations within American courts. The proclamation is followed by a brief editorial note explaining the background: France's declaration of war against Great Britain and Holland in April 1793, and the special cabinet meeting that produced the declaration. The electronic edition was prepared by Gerald Murphy for the Cleveland Free-Net and distributed through the National Public Telecomputing Network.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/neutral.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:26+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2519,
+      "text_chars": 2519,
+      "prompt_tokens": 2065,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "jokes4",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A long collection of light-bulb jokes, the familiar \"How many does it take to change a light bulb?\" format, gathered from various sources and circulated widely in print and online. Each entry is a short one-line or few-line gag that targets a group, profession, nationality, or stereotype: lawyers, philosophy majors, programmers, Mac users, bureaucrats, Harvard students, Texans-style regional rivals such as Oregonians and Californians, New Yorkers, Iranians, Russians, feminists, yuppies, and psychiatrists. Some entries are attributed to sources such as a 1985 Boston Ad Club calendar and a Wall Street Journal item from October 1985, and others are riffs on surrealism, Zen, or Carl Sagan. The humor relies on punchlines that play on literalness, absurd escalation, and self-deprecation. The file contains no single author or narrative, and the entries are anonymous folk material. It is a light, topical, and occasionally dated compilation, with a few entries that rely on period references to politicians and corporations.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ANECDOTS/jokes4.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:41+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 13554,
+      "text_chars": 13554,
+      "prompt_tokens": 6162,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

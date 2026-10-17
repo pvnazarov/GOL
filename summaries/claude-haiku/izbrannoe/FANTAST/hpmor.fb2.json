@@ -1,0 +1,23 @@
+{
+  "title": "Harry Potter and the Methods of Rationality",
+  "authors": [
+    "Yudkowsky Eliezer"
+  ],
+  "kind": "novel",
+  "summary": "Harry Potter and the Methods of Rationality is a long fan fiction by Eliezer Yudkowsky, built on the characters and world of J. K. Rowling's Harry Potter books and published serially online. In this version, Harry is raised by a sceptical, scientifically minded adoptive father, Michael Verres-Evans, and a mother, Petunia, who claims that magic is real. Harry has read widely in science, mathematics and cognitive psychology, and when a Hogwarts acceptance letter arrives he tests its claims with experiments rather than taking them on faith. His investigations lead him into a school where Professor Quirrell teaches Battle Magic, Dumbledore behaves strangely, and Draco Malfoy is a rival. The story is written as a rationalist mystery, with clues planted for readers to solve. It explores the scientific method, probability, bias, and the idea of magic as a system that can be understood. Harry's stated ambition is to discover the laws of magic and become a god. The tone mixes humour, drama and moral complexity, and the pacing is modelled on a television series. The author notes that characters' opinions are not always his own, and that some of their advice is dangerously double-edged.",
+  "lang": "English",
+  "meta": {
+    "source": "izbrannoe/FANTAST/hpmor.fb2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 3651714,
+      "prompt_tokens": 13209,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The memoirs of sherlock holmes",
+  "authors": [
+    "Doyle Arthur Conan"
+  ],
+  "kind": "short stories",
+  "summary": "The Memoirs of Sherlock Holmes is a collection of short stories by Arthur Conan Doyle, first published in 1894, in which the consulting detective Sherlock Holmes and his companion Dr. John Watson take on a varied run of cases in late Victorian London and the English countryside. The stories are narrated by Watson and gathered here include \"Silver Blaze,\" a racehorse mystery set on Dartmoor after a trainer is murdered, \"The Yellow Face,\" \"The Stock-Broker's Clerk,\" \"The Musgrave Ritual,\" \"The Reigate Puzzle,\" \"The Greek Interpreter,\" \"The Naval Treaty,\" and \"The Final Problem,\" which features Holmes's confrontation with the criminal mastermind Professor Moriarty. The excerpts supplied show the opening of \"Silver Blaze,\" the burglary and murder investigation in \"The Reigate Puzzle,\" and the closing pursuit across Europe from \"The Final Problem.\" The pieces mix puzzles of deduction, country mysteries, and dramatic adventures, and are typical of Doyle's detective fiction in their clear reasoning, atmospheric settings, and the friendship between the sharp-minded Holmes and his more conventional chronicler.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/memoirsx.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:52+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 526229,
+      "prompt_tokens": 12865,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

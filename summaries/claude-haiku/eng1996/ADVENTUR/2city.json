@@ -1,0 +1,23 @@
+{
+  "title": "A tale of two cities",
+  "authors": [
+    "Dickens Charles"
+  ],
+  "kind": "novel",
+  "summary": "A Tale of Two Cities is Charles Dickens's historical novel set in London and Paris before and during the French Revolution, roughly 1775 to 1793. The story opens with Dr. Alexandre Manette, a physician released after eighteen years of secret imprisonment in the Bastille, and follows his daughter Lucie, who helps restore him to life. Their circle includes Charles Darnay, a French aristocrat who renounces his family's cruelty and settles in England, and Sydney Carton, a dissipated English barrister who loves Lucie without hope. The narrative moves between English respectability and the mounting violence of Paris, where the vengeful revolutionaries, including the wine-shop keeper Madame Defarge, pursue the old crimes of the aristocracy. Divided into three books, titled Recalled to Life, The Golden Thread, and The Track of a Storm, the novel explores sacrifice, justice, and redemption, and ends with a famous act of self-giving in the shadow of the guillotine.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/2city.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:46+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 756363,
+      "prompt_tokens": 13198,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

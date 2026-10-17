@@ -1,0 +1,23 @@
+{
+  "title": "A study in scarlet",
+  "authors": [
+    "Doyle A Conan"
+  ],
+  "kind": "novel",
+  "summary": "A Study in Scarlet is the first novel featuring the consulting detective Sherlock Holmes, published in 1887. It is narrated by Dr. John H. Watson, a former army surgeon invalided home from the Second Afghan War, who is looking for cheap lodgings in London. Introduced through a mutual acquaintance to Holmes, an eccentric chemist with an unusual method of reasoning, Watson shares rooms with him at Baker Street and becomes his chronicler. The story opens a series of investigations when Scotland Yard detectives Gregson and Lestrade bring Holmes a puzzling murder in an empty house, with a word written in blood on the wall. The first part follows the hunt for the killer and the mystery's solution. The second part shifts to the American West, to the Mormon settlements of Utah, where the backstory of the crime is revealed, involving a long-running vendetta, religious persecution, and a dying traveller's tale of revenge. The book blends detective puzzle, frontier narrative, and a sharp portrait of the Holmes–Watson partnership.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/studyxdy.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:55+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 242985,
+      "prompt_tokens": 13007,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

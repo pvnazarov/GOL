@@ -1,0 +1,23 @@
+{
+  "title": "John barleycorn",
+  "authors": [
+    "London Jack"
+  ],
+  "kind": "non-fiction",
+  "summary": "John Barleycorn is Jack London's 1913 autobiographical account of his long relationship with alcohol, personified as the title character. Written in the form of a sustained reflection, it traces how London, as a self-described normal drinker rather than a dipsomaniac, first encountered drink as a small child carrying beer to his father in the fields, and how the accessibility of saloons shaped his youth among sailors, miners, and wanderers along the California coast and the Oakland waterfront. The book moves between memories of hard work in canneries and jute mills, boyhood scrapes, and his years as a seal hunter, and it dwells on the \"white logic\" of intoxicated clarity, in which drinking sharpens thought while pushing the drinker toward pessimism and thoughts of death. London argues that alcohol offered fellowship and freedom from women's influence, and that its availability, not heredity, created his habit. The work also functions as an argument for prohibition, reflecting the temperance debates of its era. It is written in a discursive, often ironic voice, rich with vivid anecdotes and philosophical asides.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/jbarl10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 354219,
+      "prompt_tokens": 12998,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

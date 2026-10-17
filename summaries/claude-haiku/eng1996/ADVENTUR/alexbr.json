@@ -1,0 +1,23 @@
+{
+  "title": "Alexander`s bridge",
+  "authors": [
+    "Cather Willa"
+  ],
+  "kind": "novel",
+  "summary": "Alexander's Bridge is Willa Cather's first novel, published in 1912. It follows Bartley Alexander, a celebrated American bridge engineer who has built spans across rivers in Canada and elsewhere and is admired for his drive and vigor. Outwardly he is a success, living in a fine Boston house with his devoted wife, Winifred, a former concert pianist of proud and independent character. Beneath this prosperous surface, Alexander feels restless and stifled by the social world and the endless demands of his career. His old professor, Lucius Wilson, visits Boston and observes the household with a wry, perceptive eye, sensing the strains beneath the polished surface. The narrative moves between Boston drawing rooms, the engineer's study, and a transatlantic voyage, where Alexander's inner conflict grows more acute. The story explores ambition, desire, the pull of the past, and the cost of a life built on public achievement, with the bridge serving as a central metaphor for a man whose foundations may be less secure than his reputation suggests.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/alexbr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:47+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 156746,
+      "prompt_tokens": 13243,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

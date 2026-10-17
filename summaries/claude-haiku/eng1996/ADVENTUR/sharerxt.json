@@ -1,0 +1,23 @@
+{
+  "title": "The secret sharer",
+  "authors": [
+    "Conrad Joseph"
+  ],
+  "kind": "short stories",
+  "summary": "\"The Secret Sharer\" is a novella-length short story by Joseph Conrad, first published in 1910 and later collected in \"'Twixt Land and Sea.\" It is narrated by a newly appointed young captain who, while keeping an anchor watch aboard his ship anchored off the coast of Siam in the Gulf of Siam, discovers a naked man clinging to the side ladder. The swimmer, Leggatt, is the former chief mate of another ship, the Sephora, and confesses that he killed a sailor during a storm on the passage. The captain, who is a stranger to his own crew and uneasy about his authority, finds in Leggatt a mirror of his own hidden self, and he hides the fugitive in his cabin. The tale explores guilt, identity, secrecy, and the loneliness of command, with the captain's tense efforts to keep Leggatt concealed from his officers and crew. It is a psychological study of moral responsibility, sympathy, and the divided self, set against the stillness of the tropical sea.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sharerxt.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:25+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 101535,
+      "prompt_tokens": 13149,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

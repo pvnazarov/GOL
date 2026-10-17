@@ -1,0 +1,23 @@
+{
+  "title": "Detectives",
+  "authors": [
+    "Conan Doyle Arthur"
+  ],
+  "kind": "short stories",
+  "summary": "This is a collection of Sherlock Holmes stories by Arthur Conan Doyle, gathering the detective's cases from the Strand Magazine period into one volume. The contents list includes well-known tales such as \"A Scandal in Bohemia,\" \"The Red-headed League,\" \"The Speckled Band,\" \"The Blue Carbuncle,\" \"Silver Blaze,\" and \"The Dancing Men,\" along with several others from the later casebook and the empty-house return. The excerpts shown include \"The Five Orange Pips,\" in which the young John Openshaw brings Holmes a sinister series of letters marked K.K.K. that have haunted his family across generations, and the closing pages of a tale about a hydraulic engineer, a fire at a lonely house, and a severed thumb. The sampled middle passage is not Holmes fiction at all but a literary essay by Doyle on Walter Scott's novels and the qualities of soldiers in fiction. The collection mixes mystery, deduction, and a few digressive non-fiction pieces, with the Holmes stories as its core.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/condoyle.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:46+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1949680,
+      "prompt_tokens": 13086,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

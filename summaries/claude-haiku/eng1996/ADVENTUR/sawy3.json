@@ -1,0 +1,23 @@
+{
+  "title": "Tom Sawyer, detective",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "novella",
+  "summary": "Tom Sawyer, Detective is a short novel by Mark Twain, first published in 1896, in which Tom Sawyer and Huck Finn travel down the Mississippi and become entangled in a family feud in rural Arkansas. The story begins when Tom and Huck are sent to visit Tom's uncle Silas, a preacher whose household is torn apart by a quarrel with their neighbour Brace Dunlap, who has been rebuffed in his attempt to marry Silas's daughter Benny. On the steamboat, the boys meet a secretive passenger who turns out to be Jake Dunlap, the long-lost twin of the hired man Jubiter Dunlap, a fugitive presumed dead. The narrative moves through a supposed murder, a ghostly sighting, and a jewel robbery in which Tom uses his cleverness to expose the guilty parties. The book is a mixture of mystery, comedy and courtroom drama, told in Huck's colloquial voice, and it was based on an old Swedish criminal case that Twain adapted to an American setting.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy3.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 120242,
+      "prompt_tokens": 13483,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

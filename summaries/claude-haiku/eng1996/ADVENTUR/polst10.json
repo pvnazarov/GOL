@@ -1,0 +1,23 @@
+{
+  "title": "The captain of the polestar and other tales",
+  "authors": [
+    "Doyle Arthur Conan"
+  ],
+  "kind": "short stories",
+  "summary": "This collection gathers ten of Arthur Conan Doyle's shorter works, first published in magazines such as Cornhill, Temple Bar, Belgravia and The Boy's Own Paper, and brought together in one volume. The pieces range widely in mood and setting, mixing adventure, the uncanny and scientific speculation. The title story is an Arctic whaling narrative, told through the journal of a medical student aboard a Dundee ship whose enigmatic captain may be haunted or may be mad. Other tales include The Ring of Thoth, in which a man pursues an ancient Egyptian ring holding a liquid that promises relief from a painful disease, and The Great Keinplatz Experiment, a tale of scientific trial. The Parson of Jackman's Gulch carries the stories to the American frontier, while the remaining pieces, among them That Little Square Box and John Huxford's Hiatus, offer further short excursions into mystery and the fantastic. Together the stories show the young Doyle experimenting with the forms of adventure, mystery and horror fiction that would later make his reputation.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/polst10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:20+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 461968,
+      "prompt_tokens": 12898,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

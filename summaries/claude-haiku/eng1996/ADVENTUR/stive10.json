@@ -1,0 +1,23 @@
+{
+  "title": "St. Ives: Being the Adventures of a French Prisoner in England",
+  "authors": [
+    "Stevenson Robert Louis"
+  ],
+  "kind": "novel",
+  "summary": "St. Ives is an unfinished historical adventure novel by Robert Louis Stevenson, set in 1813 during the Napoleonic Wars. It follows Chevalier Anne de Saint-Yves, a French officer captured in Spain and held with other ordinary soldiers in the Castle of Edinburgh. Through his wit and social skill he earns a living selling toys to visitors, and he falls hopelessly in love with a visiting young Scottish woman, Flora Gordon. Early chapters comically portray his prison life, his cheerful pride, and his romantic feelings. The later passages follow his escape from captivity and his journey through England, where he impersonates a nobleman, the Vicomte de St. Yves, at the country house of his supposed great-uncle, the Count. He becomes entangled with a lawyer, a dubious aeronaut, and rowdy student revelers in Edinburgh. The manuscript breaks off in mid-episode, so the novel is incomplete.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/stive10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:26+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 554632,
+      "prompt_tokens": 13127,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

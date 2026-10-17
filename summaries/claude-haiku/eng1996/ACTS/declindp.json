@@ -1,0 +1,23 @@
+{
+  "title": "The declaration of independence",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Declaration of Independence is the founding document of the United States, adopted by the Continental Congress on July 4, 1776. Drafted chiefly by Thomas Jefferson, it formally announces the thirteen American colonies' separation from the British Crown. The text opens with its famous statement that all men are created equal and endowed with unalienable rights to life, liberty, and the pursuit of happiness, and it argues that governments derive their just powers from the consent of the governed. The bulk of the document is a list of grievances against King George III, cataloguing abuses such as taxation without consent, the quartering of troops, the suspension of trial by jury, and the dissolution of colonial legislatures. It ends by declaring the colonies free and independent states and pledging the signers' lives, fortunes, and sacred honor to that cause. The file also reproduces the signatures of the delegates from each of the thirteen states. This electronic edition was prepared by Gerald Murphy and distributed through the National Public Telecomputing Network.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/declindp.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:21+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9665,
+      "text_chars": 9665,
+      "prompt_tokens": 4817,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

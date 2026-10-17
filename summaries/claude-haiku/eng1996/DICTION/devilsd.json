@@ -1,0 +1,23 @@
+{
+  "title": "The devil`s dictionary",
+  "authors": [
+    "Bierce Ambrose"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Devil's Dictionary is a satirical lexicon by the American writer Ambrose Bierce, first published serially in newspapers from 1881 and gathered in book form in 1906 under the title The Cynic's Word Book before being reissued under its original name in 1911. Rather than offering neutral definitions, Bierce gives each entry a sharp, cynical twist, skewering politics, religion, law, medicine, marriage, and human vanity. Entries such as Abdication, Accomplice, Ambition, Lexicographer and Zoology are followed in many cases by mock-solemn verses contributed by invented poets, most of them credited to the pseudonymous Father Gassalasca Jape. The alphabetical sequence runs from A to Z, and the wit depends on compression, paradox and deflating irony. The book has been widely quoted and remains a classic of American satire, valued for its aphoristic style and its unsparing view of hypocrisy and self-deception.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/devilsd.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 355215,
+      "prompt_tokens": 13963,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

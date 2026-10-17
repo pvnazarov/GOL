@@ -1,0 +1,23 @@
+{
+  "title": "Declaration of the rights of man and of the citizen",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Declaration of the Rights of Man and of the Citizen is the founding statement of human and civic rights adopted by France's National Assembly on 26 August 1789, early in the French Revolution. Its preamble argues that ignorance, neglect, or contempt of rights causes public misfortune and government corruption, and it sets out seventeen articles. These establish that men are born free and equal, that sovereignty rests with the nation, and that liberty means the freedom to do anything that harms no one else. The articles also cover the principles of legality, the presumption of innocence, freedom of opinion and expression, equal taxation, the accountability of public officials, the separation of powers, and the inviolability of property. The text is traditionally credited to the Marquis de Lafayette with help from Thomas Jefferson, and it went on to influence many later constitutions and human rights documents around the world.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/rights.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:30+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 6093,
+      "text_chars": 6093,
+      "prompt_tokens": 3114,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

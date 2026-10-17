@@ -1,0 +1,23 @@
+{
+  "title": "The bill of rights",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Bill of Rights is the first ten amendments to the United States Constitution, ratified in 1791. This text reproduces the amendments in full, from the guarantees of freedom of religion, speech, the press, assembly and petition in the First Amendment, through the right to keep and bear arms and protections against unreasonable searches, to the rights of the accused in criminal proceedings, including due process, grand jury indictment, jury trial, and the right to counsel. It also covers the Seventh Amendment's protection of civil jury trials, the bans on excessive bail and cruel and unusual punishment, and the Ninth and Tenth Amendments, which reserve unenumerated rights to the people and undelegated powers to the states or the people. The file is an electronic transcription prepared by Gerald Murphy for the Cleveland Free-Net and distributed through the National Public Telecomputing Network, and its closing notice grants permission for redistribution with credit. The catalogue record lists the work under the generic author name People, but the amendments were drafted chiefly by James Madison and adopted by Congress in 1789.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/bill_rts.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:16+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3241,
+      "text_chars": 3241,
+      "prompt_tokens": 2281,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

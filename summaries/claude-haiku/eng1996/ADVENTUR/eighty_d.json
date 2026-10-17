@@ -1,0 +1,23 @@
+{
+  "title": "Around the world in eighty days",
+  "authors": [
+    "Verne Jules"
+  ],
+  "kind": "novel",
+  "summary": "Around the World in Eighty Days follows Phileas Fogg, a precise and emotionally reserved English gentleman who lives by strict routine at the Reform Club in London. When he wagers twenty thousand pounds with fellow members that he can circle the globe in eighty days, he sets out accompanied by his newly hired French valet, Passepartout. Their journey takes them by steamer, railway, elephant, sledge and sailing ship across Europe, India, Asia and America. Along the way they are pursued by Detective Fix, who suspects Fogg of stealing bank notes and hopes to arrest him before he leaves British jurisdiction. Fogg also rescues the young Indian woman Aouda from a sacrificial funeral pyre and wins her heart. The story is a light, witty adventure built on the tension between Fogg's mechanical punctuality and the chaos of the wider world. Its comic set pieces, cultural observations and the closing twist about the international date line have made it one of Verne's most enduring and widely read works.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/eighty_d.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:58+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 362080,
+      "prompt_tokens": 13377,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

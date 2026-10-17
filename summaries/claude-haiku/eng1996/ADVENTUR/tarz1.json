@@ -1,0 +1,23 @@
+{
+  "title": "Tarzan of the apes",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "Tarzan of the Apes is a 1912 adventure novel by Edgar Rice Burroughs. It opens with the mysterious disappearance at sea of John Clayton, Lord Greystoke, and his wife Alice, who are marooned on the African coast and die there, leaving an infant son who is raised in the jungle by a clan of great apes. The boy grows into a powerful, self-taught man named Tarzan, who learns to read from books left in a cabin and comes to understand both the wild and civilized worlds. Later he encounters Jane Porter, an American heiress, and her party, who are stranded on the coast after a shipwreck. His struggles against lions, hostile tribes, and a rival white man, Clayton, form the core of the story, which moves between jungle battles, shipboard intrigue, and the question of identity and inheritance. The book is a foundational work of pulp-era jungle adventure, exploring the tension between nature and civilization, and it introduced the character who became one of popular fiction's most enduring figures. This excerpt covers the opening of the story, a middle section involving a lioness attack and rescue, and the closing chapters where Tarzan reveals his origins.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:29+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 478888,
+      "prompt_tokens": 12884,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Moby dick",
+  "authors": [
+    "Melville Herman"
+  ],
+  "kind": "novel",
+  "summary": "Moby-Dick, or The Whale is a sprawling American novel published in 1851. It is narrated by Ishmael, a young schoolteacher who, restless and melancholy, signs on as a sailor aboard the Pequod, a whaling ship out of Nantucket. The ship is commanded by Captain Ahab, a monomaniacal figure who lost a leg to a great white sperm whale called Moby Dick and has vowed to hunt it down at any cost. The book moves between the dramas of shipboard life, the crew's varied characters, including the harpooneer Queequeg, the first mate Starbuck, and the steward Stubb, and long digressive chapters on whaling practice, cetology, and the symbolism of the sea. Its opening chapters follow Ishmael's journey to New Bedford and his lodging at the Spouter-Inn. The novel builds toward a final three-day chase in which Ahab's obsession leads to the destruction of the ship and nearly all aboard, with Ishmael the sole survivor. Remembered for its dense prose, philosophical reflection, and biblical cadences, the book explores obsession, fate, nature, and the limits of human knowledge.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mobydick.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:12+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1176325,
+      "prompt_tokens": 12997,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

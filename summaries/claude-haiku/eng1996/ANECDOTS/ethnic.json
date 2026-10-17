@@ -1,0 +1,21 @@
+{
+  "title": "ethnic",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is an anonymous, informally compiled archive of joke texts, the kind circulated in early internet and bulletin-board days. It opens with a warning that the material may offend people of any background and asks readers not to take it seriously. The jokes are grouped under headings by the groups they target, including Mexican and Puerto Rican, Jewish, Arab and Iranian, Italian, Canadian and Newfoundland, and WASP, along with other ethnic and regional sections. Most entries are short question-and-answer riddles or one-paragraph anecdotes built on stereotypes, dialect humour and punchlines. A few are longer tales, such as a plane journey, a contest of prayers, or a rabbi's argument with three colleagues. The entries share no characters, plot or authorial voice; they form a loose sequence of jokes that repeat familiar tropes. The collection is best read as a record of a particular era of crude, deliberately offensive humour.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ANECDOTS/ethnic.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:39+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 53056,
+      "prompt_tokens": 13745,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

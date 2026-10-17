@@ -1,0 +1,23 @@
+{
+  "title": "The chronicles of clovis",
+  "authors": [
+    "Munro H H"
+  ],
+  "kind": "short stories",
+  "summary": "The Chronicles of Clovis is a collection of humorous short stories by H. H. Munro, who wrote under the pen name Saki. The pieces follow Clovis Sangrail, a witty, indolent, and worldly young dandy whose sharp tongue and mischievous schemes drive most of the tales. The collection gathers over two dozen pieces, many built around society comedy, aristocratic eccentricity and social satire. Among the stories included are \"Esme\", a hunting yarn featuring a hyena, \"The Match-Maker\", in which Clovis plots to find his widowed mother a husband, \"Tobermory\", about a talking cat whose owner's discovery proves dangerous to the house guests, \"Mrs. Packletide's Tiger\", a satire on big-game hunting vanity, and \"The Story of St. Vespaluus\", a mock-saintly tale told by Clovis. Munro's style is epigrammatic and mocking, with a taste for the absurd, the cruel and the unexpected, and the stories are often closer to anecdote than to plot-driven fiction. The excerpt shows the collection's characteristic blend of drawing-room banter, gentle malice and sudden violence played for laughs.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/clovis.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 300564,
+      "prompt_tokens": 13231,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

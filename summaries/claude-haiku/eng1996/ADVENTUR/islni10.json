@@ -1,0 +1,23 @@
+{
+  "title": "Island nights` entertainments",
+  "authors": [
+    "Stevenson Robert Louis"
+  ],
+  "kind": "collection",
+  "summary": "Island Nights' Entertainments is a collection of four stories by Robert Louis Stevenson, set in the South Seas and drawn from his years living in the Pacific. The volume, in the 1905 edition, includes The Beach of Falesa, A South Sea Bridal, The Ban, The Missionary, Devil-work, Night in the Bush, The Bottle Imp, and The Isle of Voices. The excerpts show two of its tales: The Beach of Falesa, in which a young trader named Wiltshire arrives at a Samoan-style island village, is pressed into a sham marriage with a local woman, and finds himself entangled with a corrupt white partner and native superstitions; and The Isle of Voices, a Hawaiian tale of the warlock Kalamake, his son-in-law Keola, and a magical trip to a distant island where wizards and cannibals fight. The stories blend adventure, the clash of colonial traders, missionaries and island custom, and folklore of sorcery and the supernatural, told with Stevenson's vivid narrative voice and dialect.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/islni10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:03+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 250146,
+      "prompt_tokens": 13141,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

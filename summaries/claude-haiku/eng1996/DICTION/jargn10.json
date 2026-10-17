@@ -1,0 +1,23 @@
+{
+  "title": "The jargon file",
+  "authors": [
+    "Raymond Eric"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Jargon File is a comprehensive lexicon of hacker slang, humor, and folklore, compiled and maintained by volunteer editors from the computing community. Descended from a file begun at Stanford in 1975 and later circulated across the ARPANET, it grew into a dictionary of terms used among programmers and computer enthusiasts, with entries covering jargon, neologisms, and technical slang and their origins. Alongside the alphabetical entries are topic essays on hacker culture, a discussion of how slang differs from jargon and techspeak, and a revision history tracing the File's publication, including the 1983 book The Hacker's Dictionary and the 1991 MIT Press edition. Appendices gather longer folklore pieces, a portrait of a typical hacker, and a bibliography of influential non-technical works, such as The Soul of a New Machine, The Cuckoo's Egg, and True Names. The text is written with wordplay and deliberate humor, and it presents competing viewpoints in the community's disputes. This excerpt is the 2.9.10 version dated July 1992.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/jargn10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:04+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1049990,
+      "prompt_tokens": 13432,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

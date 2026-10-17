@@ -1,0 +1,23 @@
+{
+  "title": "The golden age",
+  "authors": [
+    "Grahame Kenneth"
+  ],
+  "kind": "short stories",
+  "summary": "The Golden Age (1895) is a collection of loosely connected sketches recalling the author's childhood among a band of siblings, looked after by aunts and uncles rather than attentive parents. Narrated by an older version of the boy, the pieces range from games of make-believe, pirates, Indians and imagined dragons, to the everyday tensions of family life, such as dentist visits, lessons, and the stiff manners of adults the children call Olympians. The narrator's wistful, lyrical voice, full of classical and literary allusions, treats small domestic crises with comic seriousness and a sense that childhood's intense inner worlds are being lost. Chapters named in the contents include \"A Holiday,\" \"A White-Washed Uncle,\" \"The Burglars,\" \"Snowbound,\" \"The Roman Road,\" \"The Secret Drawer\" and \"The Blue Room.\" The later pieces follow the eldest brother Edward as he leaves for school, marking the end of the children's shared world. The book is a classic of English childhood writing, admired for its humour, its rendering of imaginative play, and its melancholy awareness that the golden age of youth cannot last.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/gldna10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:01+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 205699,
+      "prompt_tokens": 13415,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

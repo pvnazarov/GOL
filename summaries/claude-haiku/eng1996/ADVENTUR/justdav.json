@@ -1,0 +1,23 @@
+{
+  "title": "Just David",
+  "authors": [
+    "Porter Eleanor H"
+  ],
+  "kind": "novel",
+  "summary": "Just David, a novel by Eleanor H. Porter (author of Pollyanna), was first published in 1916 with illustrations by Helen Mason Grose. It follows David, a gifted, sensitive boy raised in isolation on a mountain by his ailing father, who has deliberately shielded him from the ugliness of death, sorrow and evil and filled his days only with music, nature and beauty. When the father dies after the two descend into the world, David is taken in by the Holly family in a small valley town, where his unusual innocence and devotion to the beautiful unsettle and gradually transform the household. Through his friendship with Jack and Jill Gurnsey, a brother and sister whose lives have been damaged by illness and loss, David draws the town into a new way of seeing the world. Later, a revelation about his true parentage and a famous family opens the way to a larger life of music and recognition. The book is an earnest, sentimental tale of optimism, music and moral awakening, in the style of Porter's better-known work.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/justdav.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 326545,
+      "prompt_tokens": 13723,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

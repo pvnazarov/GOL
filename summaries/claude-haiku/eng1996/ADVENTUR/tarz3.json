@@ -1,0 +1,23 @@
+{
+  "title": "The beasts of Tarzan",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "The Beasts of Tarzan is an adventure novel by Edgar Rice Burroughs, the seventh book in his Tarzan series. John Clayton, Lord Greystoke, known as Tarzan of the Apes, is drawn back into conflict with his old enemy Nikolas Rokoff, who escapes from French custody and plots revenge. Rokoff kidnaps Tarzan's infant son, and the ape-man sets out through Africa to rescue him, while his wife Jane is also caught in the Russian's clutches. The story moves between London and the African interior, with Tarzan facing hostile tribes, treacherous confederates such as Alexis Paulvitch, and a series of perilous jungle encounters. Along the way the narrative follows the fate of the stolen child and the wider struggle between Tarzan and the cunning Rokoff. Typical of the series, it combines pulp-style action, jungle survival, and a romance-tinged vision of the wild, with Tarzan's loyalty to his family as the driving emotional core. The excerpts show the book's mix of tense captivity scenes, native village intrigue, and the final reunion of the family and their companions.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz3.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:31+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 352521,
+      "prompt_tokens": 12836,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

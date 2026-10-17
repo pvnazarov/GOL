@@ -1,0 +1,23 @@
+{
+  "title": "The innocence of father brown",
+  "authors": [
+    "Chesterton Gk"
+  ],
+  "kind": "short stories",
+  "summary": "The Innocence of Father Brown is a collection of twelve detective stories by G. K. Chesterton, first published in 1911. Each tale centres on Father Brown, a short, unassuming Roman Catholic priest whose mild appearance conceals a sharp understanding of human nature and sin. Rather than relying on forensic clues, he solves crimes by reasoning about the psychology, motives and moral assumptions of those involved, often seeing what more sophisticated investigators miss. The stories range across England and beyond. The opening piece, \"The Blue Cross,\" pits the priest against the criminal Flambeau and the French detective Valentin, while others include \"The Secret Garden,\" \"The Queer Feet,\" \"The Flying Stars,\" \"The Invisible Man\" and \"The Hammer of God.\" The collection mixes puzzles, comic reversals and reflections on faith, reason and paradox, and is a foundational work of the clerical-detective genre. The text supplied here is the Project Gutenberg edition, with some passages from the beginning, middle and end of the stories.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/infrb10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:48+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 438740,
+      "prompt_tokens": 12957,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

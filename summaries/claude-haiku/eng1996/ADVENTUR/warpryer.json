@@ -1,0 +1,23 @@
+{
+  "title": "The War Prayer",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "short stories",
+  "summary": "\"The War Prayer\" is a short piece by Mark Twain, written late in his life and published posthumously. It opens in a church on the eve of a nation's departure to war, where patriotic fervour runs high and young volunteers, their families and the congregation are caught up in dreams of glory. A minister offers a long prayer asking God to grant victory and bless the country's soldiers. Then an aged, mysterious stranger appears, claiming to bring a message from the Throne. He explains that every prayer contains an unspoken part, and he reads out the hidden wish within the minister's plea: the death, suffering and ruin of the enemy's soldiers, families and children. The text is a sharp satire of wartime jingoism and of the comfortable religion that blesses violence in God's name. It is a short work, less a story than a moral argument delivered as a dramatic monologue.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/warpryer.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:36+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7168,
+      "text_chars": 7168,
+      "prompt_tokens": 3675,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

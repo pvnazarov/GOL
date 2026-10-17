@@ -1,0 +1,23 @@
+{
+  "title": "Telecommunications dictionary",
+  "authors": [
+    "Perry R Scott"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a plain-text glossary of computer telecommunications terms, written by R. Scott Perry and released in 1991 as version 1.10, with more than 530 entries. Its author set out to fill a gap he saw in the BBS community, where few resources explained confusing terms such as modem standards, file transfer protocols, and BBS jargon. The front matter explains the author's background, the distribution and quotation terms (copying is allowed free of charge, but the text may not be altered), and the conventions used for cross-references such as \"See also\" and \"Same as.\" The entries are arranged alphabetically under letter headings and cover a wide range of material: transmission speeds like 300 and 2400 bps, the Hayes AT command set, parity and stop-bit formats such as 8N1, error-correction and file-transfer protocols including Xmodem, Ymodem and Zmodem, packet networks like X.25, and BBS culture terms such as sysop, alias, guest access, and hacker. A history section traces earlier versions and notes corrections made in this release.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/tdic110.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:18+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 104579,
+      "prompt_tokens": 12408,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Can such things be",
+  "authors": [
+    "Bierce Ambrose"
+  ],
+  "kind": "short stories",
+  "summary": "Can Such Things Be is a collection of supernatural and macabre tales by the American writer Ambrose Bierce, first gathered in book form in 1909. The pieces are unsettling stories of ghosts, apparitions, hauntings and uncanny deaths, many set in the American West, California and the Southern states. The collection includes well-known works such as \"The Death of Halpin Frayser,\" in which a man wakes in a haunted forest and is confronted by a reanimated, soulless version of his mother; \"The Haunted Valley\"; \"Staley Fleming's Hallucination,\" about a man tormented by a spectral dog linked to a murder; \"Moxon's Master,\" a tale of a chess-playing automaton; and \"The Damned Thing,\" an invisible creature story. Bierce's characteristic style is spare, ironic and grimly witty, and his narrators often deliver their horrors with a dry, detached tone. The stories are concerned with guilt, mortality, and the thin boundary between dream and waking, and they remain a classic of American weird fiction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/cansuch.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:51+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 337403,
+      "prompt_tokens": 13307,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The return of Tarzan",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "The Return of Tarzan is a 1915 adventure novel by Edgar Rice Burroughs and a sequel to Tarzan of the Apes. The ape-man, born John Clayton, Lord Greystoke, has renounced his title and estates so that Jane Porter can marry her original suitor, William Cecil Clayton. Aboard a liner bound for Europe he tangles with the Russian villains Nikolas Rokoff and Paulvitch, who are scheming against him and against Count Raoul de Coude. Later the story follows Jane, who believes Tarzan has drowned after a shipwreck, and the ape-man's return to his African jungle. There he rediscovers his old world, takes up the life of the savage ape-man again, and confronts the lost treasure city of Opar, a lost-race setting that gives the novel much of its adventure. The book blends jungle action, lost-world romance, and a tale of loyalty, rivalry and the pull between civilization and wilderness. It is a classic example of the pulp adventure style that made Burroughs famous, and it is sometimes read as a commentary on the tension between the civilized and the primitive.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 493442,
+      "prompt_tokens": 13250,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

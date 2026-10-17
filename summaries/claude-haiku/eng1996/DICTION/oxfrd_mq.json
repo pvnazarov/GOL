@@ -1,0 +1,23 @@
+{
+  "title": "The Oxford dictionary of modern quotations",
+  "authors": [
+    "Tony Augarde"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a reference dictionary of about 5,000 quotations from the twentieth century, compiled by Tony Augarde for Oxford University Press. Rather than being an editor's personal anthology, it selects sayings according to how widely they are actually remembered and repeated, drawing on a large body of citations from books, magazines, newspapers and other media. Entries are arranged alphabetically by author, usually under the name by which each person is best known, with anonymous quotations grouped in the letter A. Each quotation is followed by a source reference giving the work, date and location, and the entries include short life dates. The sources range widely across novels, plays, poems, speeches, films, songs, advertisements, radio and television, and even book titles that have become catchphrases. The compiler notes that the quotations were checked against original sources, and that the book is meant for tracing the origin of a half-remembered line or finding a fitting saying for a particular occasion. This electronic edition omits the printed index.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/oxfrd_mq.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1197517,
+      "prompt_tokens": 17780,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

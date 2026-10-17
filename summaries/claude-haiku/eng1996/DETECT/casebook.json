@@ -1,0 +1,23 @@
+{
+  "title": "The case book of sherlock holmes",
+  "authors": [
+    "Doyle Arthur Conan"
+  ],
+  "kind": "short stories",
+  "summary": "The Case Book of Sherlock Holmes is a late collection of Sherlock Holmes stories by Arthur Conan Doyle, gathering twelve adventures published in the Strand Magazine in the years before the First World War. Doyle's preface frames the book as a farewell, noting that Holmes first appeared in A Study in Scarlet and The Sign of Four and has since been revived after Doyle had tried to end the series. The stories included are The Adventure of the Mazarin Stone, The Problem of Thor Bridge, The Adventure of the Creeping Man, The Adventure of the Sussex Vampire, The Adventure of the Three Garridebs, The Adventure of the Illustrious Client, The Adventure of the Three Gables, The Adventure of the Blanched Soldier, The Adventure of the Lion's Mane, The Adventure of the Retired Colourman, The Adventure of the Veiled Lodger, and The Adventure of Shoscombe Old Place. The excerpts show Holmes and Dr. Watson at work on cases involving stolen crown jewels, a deadly rival with an air-gun, a forged Ming pottery scheme, and a grim family secret at a country estate. Holmes's deductions, disguises, and sharp exchanges with his opponents drive the plots.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/casebook.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 462977,
+      "prompt_tokens": 13337,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

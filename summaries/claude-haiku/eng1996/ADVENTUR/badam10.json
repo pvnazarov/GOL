@@ -1,0 +1,23 @@
+{
+  "title": "Before adam",
+  "authors": [
+    "London Jack"
+  ],
+  "kind": "novel",
+  "summary": "Before Adam is a short novel by Jack London, first published in 1906, that blends science fiction with a study of heredity and evolution. The narrator, a modern American man, is plagued from childhood by vivid dreams in which he lives as Big-Tooth, a hairy, arboreal ape-man of the Mid-Pleistocene. He comes to believe these dreams are racial memories carried in the germplasm, an atavistic inheritance from a distant progenitor, and that he is a freak of heredity whose other personality is nearly as powerful as his waking one. The main part of the book recounts Big-Tooth's life with his tribe, the Folk, living in caves and trees, threatened by lions, snakes, and rival bands, and facing a violent rival named Red-Eye. Struggles over food, mates, and shelter, and the arrival of the fire-using Fire People, drive the story. The narrator's frame sections reflect on the scientific theories of his time, including Weismann's ideas, and on the strangeness of living two lives at once.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/badam10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:46+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 210490,
+      "prompt_tokens": 12673,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

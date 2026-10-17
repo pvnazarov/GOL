@@ -1,0 +1,23 @@
+{
+  "title": "The cockoo`s egg",
+  "authors": [
+    "Stoll Clifford"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Cuckoo's Egg is Clifford Stoll's first-person account of a computer intrusion he tracked down while working as a systems administrator at the Lawrence Berkeley Laboratory in the mid-1980s. What begins as a 75-cent accounting discrepancy leads him to a hacker who slips into the lab's Unix systems and then uses them as a springboard into military, defense and government networks, including sites linked to the Army, the NSA and the CIA. Stoll describes the painstaking, improvised methods of the investigation: monitoring printers, working with telephone and network technicians to trace connections across Tymnet and European data networks, and piecing together clues from the hacker's habits. The trail eventually reveals a German spy ring selling information to the KGB. The book is part detective story, part technical primer on early networking and security, and part commentary on the bureaucratic indifference and legal gaps that made such espionage hard to stop. The excerpts here cover the initial discovery, the trace across the Atlantic, and the aftermath, including the arrests and the tragic death of one of the ring's members.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/cockoo.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:45+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 54622,
+      "prompt_tokens": 13698,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

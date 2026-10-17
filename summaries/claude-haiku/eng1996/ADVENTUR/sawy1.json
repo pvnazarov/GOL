@@ -1,0 +1,23 @@
+{
+  "title": "The adventures of Tom Sawyer",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "novel",
+  "summary": "The Adventures of Tom Sawyer follows a mischievous boy growing up in the small Mississippi River town of St. Petersburg in the 1840s. Raised by his strict but affectionate Aunt Polly, Tom constantly schemes to escape chores and church, whether by tricking boys into whitewashing his fence, fighting rivals, or pursuing romance with the well-behaved Becky Thatcher. The book's episodes include a playful courtship, a vigil in a haunted house, a brief career as a pirate on an island in the Mississippi, and a dramatic testimony in a murder trial. Tom's friends include the carefree Huckleberry Finn, an outcast whose freedom Tom both envies and shares. Written with affectionate humor and close attention to children's speech and games, the novel is also a reflection on adult memory and the mores of the antebellum American South. Mark Twain drew the characters from his own boyhood in Hannibal, Missouri, and the book has become a classic of American literature, widely read by both young people and adults.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 390025,
+      "prompt_tokens": 13819,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

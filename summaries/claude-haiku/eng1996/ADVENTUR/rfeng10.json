@@ -1,0 +1,23 @@
+{
+  "title": "Records of a family of engineers",
+  "authors": [
+    "Stevenson Robert Louis"
+  ],
+  "kind": "non-fiction",
+  "summary": "Records of a Family of Engineers is a family history by Robert Louis Stevenson, written partly as a tribute to the Scottish engineering dynasty of his mother's and father's lineage. The opening sections trace the surname Stevenson through Scottish records from the thirteenth century onward, examining its many spellings, its possible Gaelic and Highland roots, and the obscure, sometimes violent, ancestors who appear in court and parish documents. The narrative then turns to the eighteenth-century maltster family of Glasgow, including the brothers Hugh and Alan, whose West Indian ventures ended in early death. The later chapters, drawn from the engineers' own accounts, describe the construction of lighthouses for the Northern Lights service and the building of the Bell Rock lighthouse off the Angus coast. These passages give day-by-day journals of hazardous work at sea, including storms, landings, and the difficulties of raising a light on a rock covered by the tide. The book blends genealogical wit, antiquarian research, and practical engineering history.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/rfeng10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:18+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 370589,
+      "prompt_tokens": 13344,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

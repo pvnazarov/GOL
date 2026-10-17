@@ -1,0 +1,23 @@
+{
+  "title": "The annapolis convention",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "This short document is the report of the commissioners who met at Annapolis, Maryland, on September 11, 1786, to discuss commercial regulation among the American states under the Articles of Confederation. Dated September 14, 1786, it is addressed to the legislatures of Virginia, Delaware, Pennsylvania, New Jersey and New York. Because only five states sent delegates, with several others appointing commissioners who failed to attend, the commissioners declined to act on trade and instead urged a broader convention. They recommended that delegates meet at Philadelphia in May 1787 to consider the situation of the United States and revise the federal constitution. The text explains the wording of the states' powers, the commissioners' reasons for proposing wider authority, and their reluctance to list the national difficulties in detail. The file is a plain-text transcription of the report, with a trailing note about its electronic distribution through the National Public Telecomputing Network. It is a historically significant public record that led directly to the Constitutional Convention.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/annapols.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:17+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7210,
+      "text_chars": 7210,
+      "prompt_tokens": 3460,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

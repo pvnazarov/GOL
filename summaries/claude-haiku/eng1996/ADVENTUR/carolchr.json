@@ -1,0 +1,23 @@
+{
+  "title": "A christmas carol",
+  "authors": [
+    "Dickens Charles"
+  ],
+  "kind": "novella",
+  "summary": "A Christmas Carol, published in December 1843, is Charles Dickens's best-known seasonal tale, a short ghost story about the transformation of a miserly London businessman. Ebenezer Scrooge, a cold and grasping counting-house owner, scorns Christmas and refuses charity to the poor. On Christmas Eve he is visited by the ghost of his dead partner, Jacob Marley, who warns him of the chain of regret he has forged and announces three further spirits. These spirits, of Christmas Past, Present and Yet to Come, take Scrooge through memories of his lonely youth, the lives of his clerk Bob Cratchit and the sickly child Tiny Tim, and a bleak vision of his own unmourned death. The book is divided into five staves, combining social criticism of poverty, the workhouse and indifference to the poor with warm, comic descriptions of festive London. Its central theme is generosity and the possibility of moral change, and it helped shape the modern image of the Christmas holiday.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/carolchr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:52+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 156402,
+      "prompt_tokens": 13601,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

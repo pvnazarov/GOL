@@ -1,0 +1,21 @@
+{
+  "title": "Byu jokes",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a informal collection of jokes and short anecdotes about students at Brigham Young University, presented in the 40-column plain-text format of the early internet era. Its author is unnamed, and the opening note says it was circulated by a group called The Running Ute and Friends, with an invitation to swap in the name of any other school. Most entries are brief question-and-answer riddles, such as 'What's the difference between a BYU coed and a freezer?', while others are one-paragraph stories built around a punchline. The humour is crude and often demeaning toward women, relying on stereotypes about dating, appearance and intelligence, and it includes sexual innuendo. Many entries are formula gags that could be reused for any college. Some lines are repeated or truncated, and the file ends with a long run of corrupted characters, so the text is partly damaged. The collection has no narrative or characters beyond the stock figure of the BYU coed, and it reads as a piece of campus folklore rather than literature.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ANECDOTS/byujokes.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:35+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 16036,
+      "text_chars": 16036,
+      "prompt_tokens": 5235,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

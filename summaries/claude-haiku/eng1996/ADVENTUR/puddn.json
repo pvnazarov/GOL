@@ -1,0 +1,23 @@
+{
+  "title": "The tragedy of pudd`nhead wilson",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "novel",
+  "summary": "The Tragedy of Pudd'nhead Wilson is a novel by Mark Twain, first published in 1894, set in the small Missouri river town of Dawson's Landing in the decades before the Civil War. The story opens with David Wilson, a lawyer newly arrived in town, who earns the nickname \"Pudd'nhead\" after a careless remark about a dog, a label that sticks for decades. Wilson turns to amateur pursuits, including collecting fingerprints, and his quiet study of them becomes important later. The plot centers on two babies born on the same day in the household of the Driscoll family: one a white heir, the other the son of Roxy, an enslaved woman who is only one-sixteenth Black and so passes for white. The children are switched, and the book follows the consequences for the families, for the enslaved people, and for the town's ideas about race, identity, and justice. Twain weaves in a parallel story of the wayward heir Tom Driscoll and his gambling debts, along with a series of aphoristic calendar remarks by Wilson. The book is a satire of slavery, racial categories, and the codes of honor and class in the Old South, combined with a courtroom drama and a comedy of manners.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/puddn.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:17+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 291966,
+      "prompt_tokens": 12996,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

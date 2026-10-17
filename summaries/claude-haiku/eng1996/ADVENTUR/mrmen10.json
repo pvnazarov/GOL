@@ -1,0 +1,23 @@
+{
+  "title": "The merry men",
+  "authors": [
+    "Stevenson Robert Louis"
+  ],
+  "kind": "short stories",
+  "summary": "The Merry Men is a collection of four stories by Robert Louis Stevenson, published in a 1904 edition, with a Project Gutenberg text. The title piece is a novella-length tale narrated by a young Edinburgh student who returns to his uncle's remote Scottish island of Aros, where wrecks, the dangerous tidal Roost, and a legend of a sunken Spanish treasure ship shape a growing sense of dread. Other pieces include \"Will o' the Mill,\" a reflective tale of a miller's life, \"Markheim,\" a psychological story of a murderer confronting his conscience, \"Thrawn Janet,\" a Scots tale of a minister haunted by a sinister housekeeper, \"Olalla,\" a Gothic story set in a decayed Spanish household, and \"The Treasure of Franchard,\" a comic sequence about a dying mountebank's hidden fortune and a philosophical young man's misadventures. The stories mix supernatural horror, moral reckoning, and wry humour, and show Stevenson's range across Scottish, Spanish and French settings.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mrmen10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:13+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 433190,
+      "prompt_tokens": 13574,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

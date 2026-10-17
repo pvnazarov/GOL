@@ -160,7 +160,14 @@ gain, and dialect-heavy books (*Huckleberry Finn*) overflow it. A full-library r
 Q4/32k is roughly 9 days of GPU time. These three runs predate the catalogue-authoritative
 title/author change above.
 
-**Status:** `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries; `izbrannoe` has
+**Claude Haiku** (`--model haiku`, 2026-10-18) on the same 57 Adventure books: 81 s for all
+57 at `--jobs 4`, against ~50 min for GigaChat. On the 31 checked books: 16 correct / 14
+minor slips / 1 serious error. Its summaries are longer and much more specific than
+GigaChat's (it knows the famous books), so they carry more small slips (wrong number in a
+series, a wrong surname). Haiku is now used for the bulk runs. **EROTIC and SEX-TECH are
+not sent to Claude**; those stay on the local model.
+
+**Status:** `claude-haiku` has the first five categories of every library (1,528 books); `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries; `izbrannoe` has
 summaries from all four local models above; both Adventure categories have GigaChat
 summaries in three variants (Q6_K, Q4_K_M at 32k, and `gigachat3.1-q4-ctx64k` — an
 Ollama copy of Q4_K_M named so its 64k results get their own folder). **Nothing reads the output yet** — surfacing it

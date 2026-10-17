@@ -1,0 +1,23 @@
+{
+  "title": "The emancipation proclamation",
+  "authors": [
+    "Lincoln Abraham"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the text of the Emancipation Proclamation, the executive order issued by President Abraham Lincoln on January 1, 1863, during the American Civil War. It opens by quoting the preliminary proclamation of September 22, 1862, and then formally declares that all persons held as slaves in the states and parts of states still in rebellion against the United States are free, directing the executive and military authorities to recognize that freedom. It names the affected regions, excludes certain Louisiana parishes and Virginia counties already under Union control, urges freed people to abstain from violence and work faithfully for wages, and provides for their enlistment in the Union armed forces. The file also includes an explanatory essay by Douglas T. Miller, which notes that the proclamation freed few people in practice, did not apply to border states, and reframed the war around ending slavery, a goal later secured by the Thirteenth Amendment. A short bibliography and distribution notice from the Cleveland Free-Net are appended.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/emancptn.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:21+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5676,
+      "text_chars": 5676,
+      "prompt_tokens": 3133,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

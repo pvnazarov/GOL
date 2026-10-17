@@ -1,0 +1,23 @@
+{
+  "title": "The sign of the four",
+  "authors": [
+    "Doyle Arthur"
+  ],
+  "kind": "novel",
+  "summary": "The Sign of the Four is the second Sherlock Holmes novel by Arthur Conan Doyle, first published in 1890. Dr. John Watson, Holmes's companion and chronicler, narrates. The story opens in Baker Street with Holmes, bored and dosing himself with cocaine, demonstrating his deductive method on Watson's watch. Miss Mary Morstan then arrives seeking help: her father, a captain in an Indian regiment, vanished mysteriously in London years earlier, and she has since received a valuable pearl each year from an unknown benefactor. Holmes and Watson follow the trail to a fraught and violent search for a hidden treasure of Agra, pursuing a conspiracy rooted in a colonial-era oath among four men. Along the way they encounter a mysterious wooden-legged assassin, a Sikh-like servant figure, and a dangerous river chase on the Thames. The narrative moves between Watson's account and a long, first-person confession that explains the crime's origins in India and the Andaman Islands. The novel blends detective fiction with adventure, exotic settings, and Victorian anxieties about empire and class.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/signfour.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 243254,
+      "prompt_tokens": 12904,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

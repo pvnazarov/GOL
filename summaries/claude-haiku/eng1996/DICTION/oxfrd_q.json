@@ -1,0 +1,23 @@
+{
+  "title": "The Oxford dictionary of quotations - vol. i (a-z)",
+  "authors": [
+    "Tony Augarde"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Oxford Dictionary of Quotations is a reference work that gathers the sayings and lines most widely recognised and repeated in English and other languages. Its compilers drew on a collection of more than 200,000 citations taken from books, magazines, newspapers and other media, choosing quotations for their popularity rather than the editor's personal taste. Entries are arranged alphabetically by author, with anonymous quotations placed under 'Anonymous', and each is followed by a source reference giving the work, date and location, marked 'In' when taken from a secondary source. The material spans novels, plays, poems, essays, speeches, films, songs, advertisements and even book titles. Authors are listed under the names by which they are best known, and foreign quotations appear in the original language with translation where possible. This electronic edition is the first volume, covering authors from A to Z, and omits the printed index. The excerpts show entries from figures such as Martin Luther King, Charles Kingsley, Rudyard Kipling and Emile Zola.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/oxfrd_q.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:11+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 3365380,
+      "prompt_tokens": 17749,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

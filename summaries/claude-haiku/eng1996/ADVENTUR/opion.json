@@ -1,0 +1,23 @@
+{
+  "title": "O pioneers",
+  "authors": [
+    "Cather Willa"
+  ],
+  "kind": "novel",
+  "summary": "O Pioneers! is a novel by Willa Cather, first published in 1913, and the first book of her Great Plains trilogy. It follows the Bergson family, Swedish immigrants who farm the windswept Nebraska prairie, or the Divide, after the death of the father, John Bergson. His eldest daughter, Alexandra, shows remarkable vision and determination in turning the struggling homestead into a prosperous farm, earning the loyalty of the land and her family while others around her either fail or flee. The story moves forward over years, touching on the hardships of pioneer life, the tensions between Old World traditions and the new American landscape, and the sacrifices demanded by love and ambition. Among its central figures are Alexandra's younger brothers, Lou and Oscar, and her youngest brother Emil, whose restless longing leads him into a painful romance with Marie Tovesky, a Bohemian neighbor. Carl Linstrum, a childhood friend who leaves for the city, returns to shape the story's later movements. Cather's lyrical prose celebrates the land and the people who work it, with an enduring meditation on belonging, loss, and the passing of generations.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/opion.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:15+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 299644,
+      "prompt_tokens": 13286,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

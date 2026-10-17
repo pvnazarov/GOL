@@ -1,0 +1,23 @@
+{
+  "title": "The stark munro letters",
+  "authors": [
+    "Doyle A Conan"
+  ],
+  "kind": "novel",
+  "summary": "The Stark Munro Letters is a semi-autobiographical epistolary novel by Arthur Conan Doyle, presented as a series of letters written by a young Scottish doctor, J. Stark Munro, to his friend Herbert Swanborough in America. The letters, dated from 1881 to 1884, follow Munro as he qualifies in medicine and struggles to establish a career, with money troubles, strained family relations at home, and uncertain religious views. Much of the early correspondence describes his eccentric former fellow-student James Cullingworth, a volatile, inventive, and pugnacious man whose strange marriage, unorthodox medical theories, and wild schemes draw Munro into a close and difficult friendship. The later letters turn to Munro's time in provincial practice and his reflections on faith, charity, and the purpose of a good life. The book is lighter and more discursive than Doyle's detective fiction, mixing comedy, character sketches, and serious questions about belief and self-reliance, and it was written as a broadly satirical and personal portrait of the medical profession of the period.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/strkm10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:27+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 412915,
+      "prompt_tokens": 12499,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

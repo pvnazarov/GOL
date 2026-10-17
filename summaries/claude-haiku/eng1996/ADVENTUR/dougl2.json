@@ -1,0 +1,23 @@
+{
+  "title": "My escape from slavery",
+  "authors": [
+    "Douglass Frederick"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is Frederick Douglass's account of how he escaped from slavery in Maryland in September 1838. Writing in 1881, he explains why he had long withheld the details: publicizing them while slavery lasted could have endangered future fugitives and the people who helped them. His escape depended less on heroism than on address and luck. Using a borrowed seaman's protection, a sailor's costume, and a bold jump onto a moving train, he slipped past conductors and slave-catchers on the route through Baltimore, Havre de Grace, Wilmington, and Philadelphia to New York. He describes the anxiety of those hours and the fear he felt on arriving in New York, where a fugitive warned him that he was not safe. He then recounts the help he received from members of the Underground Railroad, his marriage, and his move to New Bedford, Massachusetts, where he took the name Frederick Douglass and found work as a laborer amid racial prejudice. The closing portion turns to political argument about Reconstruction and the citizenship rights of Black Americans after the Civil War.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/dougl2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:55+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 45579,
+      "prompt_tokens": 12472,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

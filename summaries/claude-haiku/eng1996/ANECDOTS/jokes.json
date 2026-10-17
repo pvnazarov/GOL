@@ -1,0 +1,21 @@
+{
+  "title": "Tasteless jokes",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A large compilation of tasteless, adult-oriented jokes gathered from the author's travels and from humor magazines of the early 1990s, including issues of Humor Digest. The collection is arranged in categories and runs to a great length. It groups jokes by subject, such as tasteless quips about celebrities and tragedies, serial killers, AIDS, ethnic and national stereotypes, dating, and blondes. Much of it is explicitly sexual, with long sections of crude question-and-answer jokes mocking sorority girls, along with lighter family and Christmas material, a list of 'bad day' one-liners, and collections of Murphy's Laws. Some entries are offered as parody or wordplay rather than narrative, while others are short stories with punchlines, such as a Red Riding Hood variant, a man on a beach, and a Biblical bit. The material is coarse and offensive throughout, and it is best understood as a period anthology of informal, off-color jokelore rather than a literary work. The file is a plain-text document with no single author credited, so the authors field is left empty.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ANECDOTS/jokes.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1515601,
+      "prompt_tokens": 13334,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

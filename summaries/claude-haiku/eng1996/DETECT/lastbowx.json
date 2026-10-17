@@ -1,0 +1,23 @@
+{
+  "title": "His last bow",
+  "authors": [
+    "Doyle Arthur"
+  ],
+  "kind": "short stories",
+  "summary": "His Last Bow is a collection of Sherlock Holmes stories by Arthur Conan Doyle, published in 1917 and presented as a set of cases recounted by Dr. John H. Watson. The preface states that Holmes has retired to a farm on the Sussex downs, but has come out of retirement to serve the British government during the approach of the German war, and that the volume also gathers earlier cases that had been held back. The contents include The Adventure of Wisteria Lodge, in which a strange vanishing household leads to a murder on Oxshott Common; The Adventure of the Bruce-Partington Plans, a tale of stolen naval secrets; The Adventure of the Devil's Foot, which concerns a poisonous root and a deadly family quarrel in Cornwall; The Adventure of the Red Circle; The Disappearance of Lady Frances Carfax; The Adventure of the Dying Detective; and the closing epilogue, which takes Holmes into espionage against a German agent. The stories mix detection, intrigue and wartime espionage, and show Holmes in both his earlier and later manner.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/lastbowx.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:50+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 342538,
+      "prompt_tokens": 13083,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Buzzwords",
+  "authors": [],
+  "kind": "collection",
+  "summary": "Buzzwords is an alphabetical glossary of computer-programming and home-computing slang, compiled in the 1980s from the jargon of programmers, game designers, and hobbyist users of machines such as the Commodore 64, Amiga, Apple Macintosh and GEOS. Its entries range from practical terms like kludge, hack, patch and vaporware to playful coinages such as Lebler, Wally, Printeffing and Turing tar-pit. Many entries are tied to specific companies and their in-house culture: Infocom's game implementers (Imps) and their parser-speak, Commodore's technical support staff, Activision's over-used phrases, and Gamestar's Rose Bug. The collection also includes chat-room abbreviations and emoticons such as :-) and ROFL, plus a few symbol-based shorthands. The text is a list of definitions rather than a narrative, and its humour depends on readers who recognise the early personal-computer scene. Credits at the end name the compilers and typists who prepared the list.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/buzzword.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:01+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 20491,
+      "text_chars": 20491,
+      "prompt_tokens": 8903,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

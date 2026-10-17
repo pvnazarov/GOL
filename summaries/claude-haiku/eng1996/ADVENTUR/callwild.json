@@ -1,0 +1,23 @@
+{
+  "title": "The call of the wild",
+  "authors": [
+    "London Jack"
+  ],
+  "kind": "novella",
+  "summary": "The Call of the Wild follows Buck, a large, well-cared-for dog raised on a sunny California estate, who is abruptly kidnapped and sold into the brutal world of the Klondike Gold Rush in 1897. Shipped north as a sled dog, he passes through a series of harsh owners, learning the primitive law of club and fang. Under a succession of masters, including a ruthless mail-carrier and then a clumsy, careless pair of prospectors, he endures exhausting journeys over frozen trails, cruelty, and near-starvation. His fortunes change when he is rescued by John Thornton, a gentle man for whom Buck develops a deep loyalty. The story is a powerful meditation on instinct, civilization, and the pull of the wild, as Buck's domestic nature gradually gives way to the older call of his ancestors. Jack London's tale, first serialized in 1903, is celebrated for its vivid descriptions of the Arctic landscape and its animal-centered perspective. The excerpts show Buck's early captivity, his grueling work on the trail, and the climactic transformation in which he joins a wolf pack.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/callwild.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:47+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 174840,
+      "prompt_tokens": 13110,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

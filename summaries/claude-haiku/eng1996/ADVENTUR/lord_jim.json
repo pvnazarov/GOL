@@ -1,0 +1,23 @@
+{
+  "title": "Lord jim",
+  "authors": [
+    "Conrad Joseph"
+  ],
+  "kind": "novel",
+  "summary": "Lord Jim is a novel by Joseph Conrad, first published serially in Blackwood's Magazine and then in book form. It follows Jim, a young English seaman who, as first mate of the steamship Patna, abandons a ship full of pilgrims in the belief that it is about to sink. The act brings disgrace when the vessel is saved, and Jim loses his certificate and his sense of himself as a man of honour. Haunted by his failure, he drifts from port to port across the East, eventually finding refuge in a remote Malayan settlement where the local people call him Tuan Jim, or Lord Jim. There he rebuilds his standing, earning trust and affection, and is given a chance at redemption. The story is related largely through Marlow, a sympathetic seaman who tries to understand Jim's character, and through a series of listeners and accounts that reveal the ambiguity of honour, guilt, and self-image. The book explores themes of courage, responsibility, romantic idealism, and the gap between how people see themselves and how they are judged by others.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/lord_jim.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:10+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 714240,
+      "prompt_tokens": 13012,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

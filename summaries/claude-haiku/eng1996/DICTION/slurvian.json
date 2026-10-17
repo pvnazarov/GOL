@@ -1,0 +1,23 @@
+{
+  "title": "Anguished english",
+  "authors": [
+    "Lederer Richard"
+  ],
+  "kind": "non-fiction",
+  "summary": "Anguished English is a light-hearted book about the mangling of spoken American English, written by the language writer Richard Lederer. Its central subject is what the author, borrowing a term from John Davenport, calls \"Slurvian\": the habit of slurring and mispronouncing words so that they turn into other words or into nonsense. The opening essay, \"How to Recognize American Slurvian,\" sets out the distinction between impure Slurvian, which produces meaningless sounds such as \"jeet jet?\" for \"Did you eat yet?\", and pure Slurvian, which swaps one real English word for another. The bulk of the book is a mock glossary of pure Slurvian, in which everyday words are given comic, misapplied definitions, such as \"dense\" for dentist, \"calvary\" for cavalry, and \"pitcher\" for picture. Each entry includes a short illustrative sentence. The tone is playful and satirical, aimed at readers who are irritated by careless speech and who enjoy wordplay.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/slurvian.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:16+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3779,
+      "text_chars": 3779,
+      "prompt_tokens": 2675,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

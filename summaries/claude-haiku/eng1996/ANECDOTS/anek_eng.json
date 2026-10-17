@@ -1,0 +1,21 @@
+{
+  "title": "Anecdots",
+  "authors": [],
+  "kind": "collection",
+  "summary": "Anecdots is a collection of short, mostly bawdy jokes, anecdotes and one-liners, presented as numbered entries with a few unnumbered pieces at the end. The material is aimed at adult readers and draws heavily on the traditional joke-book repertoire: sexual innuendo and crude punchlines, ethnic and national stereotypes (Poles, Mexicans, Texans, Israelis and Arabs, among others), gags about doctors, lawyers and priests, and riddles of the 'Q and A' type. Many entries are built around a single twist at the end, such as a husband who cannot tell his wife's nightgown is on backward, or a lumberjack who learns that a brothel girl's idea of the old-fashioned way differs from his. The final section gathers computing jokes, a mock Genesis about data and registers, and a run of wedding-night and Irish-themed quips. The text is undated and unattributed, and the offensive content is typical of its genre, so it reads as a light, irreverent gag book rather than a work with a continuous narrative or a named author.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ANECDOTS/anek_eng.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:29+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 30867,
+      "text_chars": 30867,
+      "prompt_tokens": 12333,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

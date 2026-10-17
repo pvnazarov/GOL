@@ -1,0 +1,21 @@
+{
+  "title": "The Oxford guide to english usage",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "The Oxford Guide to English Usage is a reference work designed to resolve the specific points of English usage that cause uncertainty, difficulty, or disagreement among speakers, rather than to catalogue everyday usage in full. It is organized into four main sections, word formation, pronunciation, vocabulary, and grammar, each arranged alphabetically by topic, with a preliminary introduction and glossary of grammatical terms. Entries illustrate usage with mostly real examples drawn from twentieth-century writers, and offer recommendations graded by formality and acceptability rather than simple right and wrong. Appendices cover the principles of punctuation, clichés and inflated diction to avoid, and the characteristics of overseas varieties of English, including those of the United States, Canada, Australia and New Zealand, and South Africa. The guide is written for general readers and students who want clear, concise advice on the contested or troublesome corners of the language.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/oxfrd_gu.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 412935,
+      "prompt_tokens": 13869,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

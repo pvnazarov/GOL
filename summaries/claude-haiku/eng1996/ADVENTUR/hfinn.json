@@ -1,0 +1,23 @@
+{
+  "title": "The adventures of huckleberry finn",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "novel",
+  "summary": "The Adventures of Huckleberry Finn follows Huck Finn, a poor boy from a small town on the Mississippi River, who narrates his own story in deliberately rough vernacular. Huck, who has come into a small fortune after the events of Tom Sawyer, is placed under the civilizing care of the Widow Douglas and her sister Miss Watson, and he chafes against their rules. His drunken, abusive father reappears to claim his money, so Huck fakes his own death and flees downriver. He soon meets Jim, an enslaved man who has run away from Miss Watson's household, and the two build a raft and drift down the Mississippi together, hoping to reach free territory. Along the way they encounter feuding families, con artists posing as royalty, a violent feud in a river town, and the moral dilemmas of helping a fugitive slave. The excerpts include a famous courtroom-like street scene in which a colonel faces down a lynch mob, a circus visit, and the closing chapters, in which Tom Sawyer returns to orchestrate an elaborate rescue of Jim. The novel is a classic of American literature, noted for its satire of slavery, religion and social hypocrisy, and its use of regional dialect.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/hfinn.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 565232,
+      "prompt_tokens": 13434,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Tarzan and the jewels of opar",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "Tarzan and the Jewels of Opar is an adventure novel by Edgar Rice Burroughs, the sixth book in his series about the ape-man Tarzan. The story follows Lieutenant Albert Werper, a disgraced Belgian officer who, after killing his captain in the Congo, joins the slave-raiding Arab chieftain Achmet Zek. Together they plot to exploit Tarzan's wealth and to capture his wife, Jane Clayton. Tarzan returns to the lost city of Opar, a ruined Atlantean-descended civilization full of gold and jewels, to recover fortune lost in a financial collapse. Werper follows him, and the two threads of pursuit, captivity, and escape move through the jungle, among hostile tribes, and inside the sinister temple of Opar, where a priestess named La rules. The book blends jungle action, romance, and ancient mystery, with Tarzan's animal instincts, his loyal Waziri and Mugambi, and Jane's resourcefulness central to the events. The tale is typical of Burroughs' pulp adventure style, combining exotic settings, villainy, rescue, and a final reckoning over the treasure.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz5.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:34+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 371051,
+      "prompt_tokens": 12993,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

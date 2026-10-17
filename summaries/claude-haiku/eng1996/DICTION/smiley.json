@@ -1,0 +1,21 @@
+{
+  "title": "The unofficial smiley dictionary",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a reference glossary of ASCII smileys, the text-based emoticons that circulated on Usenet, bulletin boards, and early email in the late 1980s and early 1990s. It explains what each combination of punctuation characters is meant to convey, grouping them into sections: the basic smileys such as :-) for a joking remark and ;-) for a winking, flirtatious one; variants that alter the mouth, nose, or eyes; smileys that add hats, moustaches, glasses, or other accessories; and miniature forms written without a nose. The text also includes a list of Unix-era jokes and network shorthand, a set of 'mega-smileys' built from many characters, and a few ASCII drawings of a monocled laughing man in evening dress. The excerpt shows several versions of the list, including one from a 1985 IBM SHARE update and a 1991 issue of a Russian-language newsletter, so it has been copied and revised over time. The work is informal, playful, and mainly of historical interest as a record of early online culture.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/smiley.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:17+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 10853,
+      "text_chars": 10853,
+      "prompt_tokens": 6362,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

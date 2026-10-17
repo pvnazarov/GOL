@@ -1,0 +1,23 @@
+{
+  "title": "The valley of fear",
+  "authors": [
+    "Doyle Arthur"
+  ],
+  "kind": "novel",
+  "summary": "The Valley of Fear is the fourth and final full-length Sherlock Holmes novel by Arthur Conan Doyle. It is told in two distinct parts. The first, titled The Tragedy of Birlstone, opens in London, where Holmes receives a cipher message warning of danger to a country gentleman, Douglas, who is then found murdered at his Birlstone Manor House. Holmes and Inspector MacDonald of Scotland Yard investigate, and the case leads back to Professor Moriarty and his network of crime. The second part, The Men of Gow Hill, is a flashback set in the Pennsylvania coal valleys. It follows Jack McMurdo, a newcomer who infiltrates a violent secret society, the Scowrers, that terrorises the mining communities under its boss, Jack McGinty. The excerpts show the novel's mix of detective puzzle-solving, Watson's narration, and a gripping undercover story. The book is notable for pairing Holmes's deductive methods with a self-contained account of crime and infiltration in an American setting.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DETECT/valley.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:57+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 323228,
+      "prompt_tokens": 13250,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

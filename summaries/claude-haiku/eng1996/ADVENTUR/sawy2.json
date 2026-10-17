@@ -1,0 +1,23 @@
+{
+  "title": "Tom Sawyer abroad",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "novel",
+  "summary": "Tom Sawyer Abroad is a novel by Mark Twain, published in 1894, in which Tom Sawyer, Huckleberry Finn and the escaped slave Jim, who had accompanied them on their earlier river adventures, are carried off on a flying machine. Narrated by Huck Finn in his own vernacular voice, the story follows Tom's restless search for a grand new adventure after the glory of their Mississippi journey fades. He settles on a crusade and then on a balloon voyage across the Sahara and beyond. Along the way the travelers encounter a mirage, a mysterious desert of dead people, and a bold scheme to cross the Atlantic. Huck's naive, plain-spoken commentary repeatedly deflates Tom's grand pronouncements and the tall tales of other travelers, giving the book much of its humor. Twain uses the balloon journey to satirize credulous travel writing, romantic adventure fiction, and American self-importance. The book is a lighter, more episodic sequel to Tom Sawyer and Adventures of Huckleberry Finn.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:22+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 173450,
+      "prompt_tokens": 13505,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Narrative of the life of frederick douglass, an american slave written by himself",
+  "authors": [
+    "Douglass Frederick"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the 1845 autobiographical narrative in which Frederick Douglass, a formerly enslaved man, describes his life in bondage in Maryland and his escape to freedom in the North. Written in his own words, it recounts his earliest years on a Maryland plantation, his separation from his mother, the brutal overseers and masters he encountered, and his hard-won literacy, which he pursued secretly and which opened his mind to the injustice around him. Later chapters cover his harsh period as a field hand under the so-called slave-breaker Edward Covey, his time in Baltimore and the shipyards, his failed escape attempt, and the daring flight that finally brought him to New Bedford. The edition includes prefaces by William Lloyd Garrison and Wendell Phillips, who vouch for its truthfulness, and closes with Douglass's own critique of slaveholding religion, including a pointed parody of pious slaveholders. The book became a landmark of the abolitionist movement and a foundational slave narrative in American literature.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/douglass.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:30:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 222831,
+      "prompt_tokens": 12845,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

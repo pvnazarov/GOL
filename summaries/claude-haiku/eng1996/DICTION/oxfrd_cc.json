@@ -1,0 +1,23 @@
+{
+  "title": "The concise Oxford dictionary of current english",
+  "authors": [
+    "Allen R E"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the eighth edition of a one-volume English-language dictionary, edited by R. E. Allen and first compiled by H. W. Fowler and F. G. Fowler. The front matter explains the editorial conventions in detail: how headwords, variant spellings, and homographs are marked, how parts of speech and inflections are shown, how definitions are ordered from most to least current, and how usage, register, and subject labels such as colloquial, archaic, or Law are applied. Phrases and idioms are listed under their key words, and compounds are given as main entries or sub-entries. The body of the book is an alphabetical list of general vocabulary with brief definitions, etymologies in square brackets, and illustrative examples in italics, running from A through Z. Entries cover ordinary words, scientific and technical terms, proper nouns used as common words, and foreign loanwords, with notes on pronunciation and usage where needed. The excerpts show entries such as lyre, lyric, macabre, machine, mackerel, zoot suit, and zygote. It is a standard reference work for students, writers, and general readers of British English.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DICTION/oxfrd_cc.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:53:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 9852439,
+      "prompt_tokens": 15510,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

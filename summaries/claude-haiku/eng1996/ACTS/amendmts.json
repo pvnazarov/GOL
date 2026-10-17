@@ -1,0 +1,23 @@
+{
+  "title": "Amendments to the constitution of the united states",
+  "authors": [
+    "People"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a plain-text transcription of the twenty-six amendments to the Constitution of the United States, from the Bill of Rights of 1791 through the amendment lowering the voting age to eighteen, ratified in 1971. The text presents each amendment in order with its year of ratification, so readers can see how the founding document has been expanded over nearly two centuries. The pieces cover freedoms of religion, speech, and the press; the right to bear arms; protections against unreasonable searches and criminal abuses; the right to jury trial; the abolition of slavery; equal protection and due process; the income tax; the direct election of senators; Prohibition and its repeal; presidential term limits; and the succession and disability rules for the presidency. The copy is an electronic edition prepared by Gerald Murphy for the Cleveland Free-Net and distributed through the National Public Telecomputing Network, which is noted in the closing front matter. No single author is credited, since the amendments were drafted by the Congress and ratified by the states.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ACTS/amendmts.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:52:16+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 18829,
+      "text_chars": 18829,
+      "prompt_tokens": 7005,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

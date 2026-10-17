@@ -1,0 +1,23 @@
+{
+  "title": "Ivanhoe",
+  "authors": [
+    "Scott Walter"
+  ],
+  "kind": "novel",
+  "summary": "Ivanhoe is a historical romance by Walter Scott, first published in 1819. It is set in England in the late twelfth century, toward the end of the reign of Richard I, when the Norman nobility dominates the conquered Saxon population and the king is absent on crusade and held captive abroad. The story opens in a forest near Sheffield, where the Saxon swineherd Gurth and the jester Wamba, both bound to the Saxon thane Cedric of Rotherwood, meet travellers who set the plot in motion. Cedric is a proud Saxon who hopes to restore Anglo-Saxon line and independence, and his ward Rowena is central to his plans. The narrative moves among knights, outlaws, Jews, and churchmen, including the disinherited knight Wilfred of Ivanhoe, the Norman barons Front-de-Boeuf and Bois-Guilbert, and the outlaw leader Locksley. Its action builds to a siege at Torquilstone castle and a tournament at Ashby. The book is noted for its portrait of the cultural divide between Normans and Saxons, its chivalric pageantry, and its sympathetic depiction of Isaac of York and his daughter Rebecca. The text supplied here also includes the author's prefatory and editorial apparatus, which is not part of the story.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/ivanhoe.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T22:31:04+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1119891,
+      "prompt_tokens": 13434,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

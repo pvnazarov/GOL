@@ -335,11 +335,16 @@ def parse_record(raw: str) -> dict:
     authors = record.get("authors") or []
     if isinstance(authors, str):
         authors = [authors]
+    summary = " ".join(str(record.get("summary") or "").split())
+    # Haiku once answered with a stub ("Роман Джека Лондона о ... (см. ниже)");
+    # treat anything that short as a failed attempt so it is retried.
+    if len(summary.split()) < 40:
+        raise ValueError(f"summary too short: {summary[:200]!r}")
     return {
         "title": str(record.get("title") or "").strip(),
         "authors": [str(a).strip() for a in authors if str(a).strip()],
         "kind": str(record.get("kind") or "unknown").strip(),
-        "summary": " ".join(str(record.get("summary") or "").split()),
+        "summary": summary,
     }
 
 
