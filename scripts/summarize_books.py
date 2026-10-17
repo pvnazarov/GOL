@@ -66,7 +66,7 @@ CLAUDE_CHARS = 34000
 # title page included -- so that case is detected and treated as a failure.
 OLLAMA_CTX = 65536
 OLLAMA_PREDICT = 1024
-OLLAMA_OVERHEAD = 3000
+OLLAMA_OVERHEAD = 4000
 CHARS_PER_TOKEN = {"cyrillic": 2.7, "latin": 3.7}
 
 # How an over-long book is split: beginning (title page, set-up), a middle
@@ -106,6 +106,15 @@ Keys:
 If the text is too damaged or fragmentary to identify the work, still fill in
 what you can and say so plainly in "summary".
 
+Front matter -- copyright lines, the author's real or full name, e-mail
+addresses, home pages, publisher notes -- is about the author or the edition.
+Never treat it as a character or as part of the story.
+
+When a catalogue record is given, take the title and authors from it (write
+names in their natural order, first name first) unless the text clearly
+contradicts it. When the book's own annotation is given, treat it as reliable
+background on the plot and characters, but describe the book in your own words.
+
 Write "title", "authors" and "summary" in {lang}, using the conventional {lang}
 spelling of names. Keep "kind" as one of the English values above."""
 
@@ -113,7 +122,7 @@ USER_TEMPLATE = """\
 File: {filename}
 Category folder: {category}
 Text length: {length} characters
-
+{known}
 {intro}
 
 {body}"""
@@ -162,6 +171,54 @@ def read_book(zip_path: Path) -> str:
         except UnicodeDecodeError:
             continue
     return data.decode("utf-8", errors="replace")
+
+
+def fb2_annotation(zip_path: Path) -> str:
+    """The <annotation> from an FB2's title-info, as plain text ("" if none)."""
+    with zipfile.ZipFile(zip_path) as zf:
+        names = [n for n in zf.namelist() if n.lower().endswith(".fb2")]
+        if not names:
+            return ""
+        root = ET.fromstring(zf.read(names[0]))
+    annotation = root.find(f"{FB2_NS}description/{FB2_NS}title-info/{FB2_NS}annotation")
+    if annotation is None:
+        return ""
+    paragraphs = (" ".join("".join(p.itertext()).split()) for p in annotation)
+    return "\n".join(p for p in paragraphs if p)
+
+
+_catalogue = None
+
+
+def catalogue_entry(rel: Path):
+    """The site catalogue's record for a book (libs/data/catalog.json), or None."""
+    global _catalogue
+    if _catalogue is None:
+        path = LIBS / "data" / "catalog.json"
+        entries = json.loads(path.read_text(encoding="utf-8")) if path.is_file() else []
+        _catalogue = {e["p"]: e for e in entries}
+    return _catalogue.get(rel.as_posix())
+
+
+def known_facts(zip_path: Path, rel: Path):
+    """Prompt lines with what is already known about the book, and flags for meta."""
+    lines, used = [], {"catalogue": False, "annotation": False}
+    entry = catalogue_entry(rel)
+    if entry and (entry.get("t") or entry.get("a")):
+        lines.append("\nCatalogue record:")
+        if entry.get("t"):
+            lines.append(f"  Title: {entry['t']}")
+        if entry.get("a"):
+            lines.append(f"  Author(s), surname first: {entry['a']}")
+        used["catalogue"] = True
+    try:
+        annotation = fb2_annotation(zip_path)
+    except (zipfile.BadZipFile, ET.ParseError):
+        annotation = ""
+    if annotation:
+        lines.append(f"\nThe book's own annotation:\n<annotation>\n{annotation[:4000]}\n</annotation>")
+        used["annotation"] = True
+    return "\n".join(lines) + ("\n" if lines else ""), used
 
 
 def normalize(text: str) -> str:
@@ -307,9 +364,10 @@ def process(zip_path: Path, args) -> str:
                      * CHARS_PER_TOKEN[script])
     else:
         budget = CLAUDE_CHARS
+    known, used = known_facts(zip_path, rel)
     source, intro, body = select_text(text, budget)
     prompt = USER_TEMPLATE.format(filename=zip_path.name, category=zip_path.parent.name,
-                                  length=len(text), intro=intro, body=body)
+                                  length=len(text), known=known, intro=intro, body=body)
     system = SYSTEM_PROMPT.replace("{lang}", lang)
 
     if args.dry_run:
@@ -335,7 +393,7 @@ def process(zip_path: Path, args) -> str:
         "backend": args.backend,
         "model": args.model,
         "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "input": {**source, "text_chars": len(text), "prompt_tokens": tokens},
+        "input": {**source, "text_chars": len(text), "prompt_tokens": tokens, **used},
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)
     tmp = out_path.with_suffix(".json.tmp")

@@ -1,0 +1,23 @@
+{
+  "title": "Harry Potter and the Methods of Rationality",
+  "authors": [
+    "Yudkowsky Eliezer"
+  ],
+  "kind": "novel",
+  "summary": "Harry Potter-Evans-Verres, a highly intelligent and scientifically minded boy raised by non-magical parents, receives a letter from Hogwarts and begins questioning the existence of magic. After witnessing a professor perform magic, he becomes convinced that magic is real and sets out to test and understand it using the scientific method. As he navigates the wizarding world, he uncovers the dark history of his parents’ deaths at the hands of the Dark Lord Voldemort, and grapples with the moral and emotional complexities of being a hero. Alongside his friends Hermione Granger and Ron Weasley, Harry uses rational thinking, logic, and critical analysis to confront the challenges of the magical world, ultimately leading to a profound transformation of himself and his understanding of heroism, friendship, and the power of reason.",
+  "lang": "English",
+  "meta": {
+    "source": "izbrannoe/FANTAST/hpmor.fb2.zip",
+    "backend": "ollama",
+    "model": "hf.co/t-tech/T-lite-it-2.1-GGUF:Q6_K",
+    "created": "2026-10-17T09:53:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 87496,
+      "text_chars": 3651714,
+      "prompt_tokens": 20738,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Harry Potter and the Methods of Rationality",
+  "authors": [
+    "Eliezer Yudkowsky"
+  ],
+  "kind": "novel",
+  "summary": "This is a fanfiction work set in the world of Harry Potter, written by Eliezer Yudkowsky. The narrative reimagines the established lore through the lens of rationalist philosophy and scientific methodology. The story follows Harry Potter-Evans-Verres as he attempts to apply rigorous scientific principles to the inexplicable nature of magic, challenging the accepted magical reality of his family and peers. Key plot points involve Harry's attempts to prove magic through experimentation, his interactions with characters like Professor McGonagall, and his eventual confrontation with the mysteries of the wizarding world, including the nature of the Dark Lord and the mechanics of magic itself. The work blends established character arcs with deep philosophical musings on knowledge, belief, and rationality.",
+  "lang": "English",
+  "meta": {
+    "source": "izbrannoe/FANTAST/hpmor.fb2.zip",
+    "backend": "ollama",
+    "model": "gemma4:e4b",
+    "created": "2026-10-17T10:15:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 132961,
+      "text_chars": 3651714,
+      "prompt_tokens": 32167,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

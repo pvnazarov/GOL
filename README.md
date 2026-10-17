@@ -122,10 +122,23 @@ tokens and carry nothing).
 
 Existing records are skipped unless `--force`, so it is safe to interrupt and re-run.
 
-**Status:** `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries (migrated from
-the earlier `.md` files beside the zips); `qwen3.5-9b` has two test books. **Nothing reads
-the output yet** — surfacing it means having `build_catalog.py` merge one model's records
-into `libs/data/`.
+Besides the text, the prompt carries what is already known: the catalogue's title and
+author (from `libs/data/catalog.json`) and, for FB2 books, the book's own annotation. The
+system prompt also says that front matter (copyright lines, the author's passport name,
+e-mail, home pages) is not part of the story. On a 13-book test this removed more errors
+than switching models did. Each record's `meta.input` notes whether the catalogue record
+and an annotation were used.
+
+**Local models tried** (Ollama on the 12 GB GPU box, «Избранное», 2026-10-17):
+GigaChat 3.1 Lightning (`hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K`, `--num-ctx 32768`)
+made the fewest errors; T-lite 2.1 (`hf.co/t-tech/T-lite-it-2.1-GGUF:Q6_K`,
+`--num-ctx 28672`) was nearly as accurate and twice as fast; qwen3.5:9b was the most detailed
+but the most often wrong; gemma4:e4b was generic. None is error-free — treat local summaries
+as drafts. The books in the old libraries have no annotations, so expect weaker results there.
+
+**Status:** `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries; `izbrannoe` has
+summaries from all four local models above. **Nothing reads the output yet** — surfacing it
+means having `build_catalog.py` merge one model's records into `libs/data/`.
 
 ## Running locally
 

@@ -1,0 +1,23 @@
+{
+  "title": "Harry Potter and the Methods of Rationality",
+  "authors": [
+    "Eliezer Yudkowsky"
+  ],
+  "kind": "short stories",
+  "summary": "This fanfiction reimagines the early years of Harry Potter, introducing a protagonist who applies rigorous scientific methods and rationalist thinking to the magical world. Unlike his canonical counterpart, this Harry is raised by a skeptical, academic family and is deeply influenced by Muggle science, logic, and critical thinking. Upon discovering magic, he approaches it as a field of study, seeking to understand its underlying laws rather than accepting it as mystical dogma. The story follows his first year at Hogwarts, where he navigates complex social dynamics, dangerous political machinations involving the Dark Lord Voldemort, and the aftermath of a war that ended with Voldemort's presumed death. Key themes include the tension between emotional intuition and logical analysis, the dangers of cognitive biases like the planning fallacy and fundamental attribution error, and the ethics of power. Harry forms a unique friendship with Hermione Granger, who evolves into a powerful figure in her own right, and interacts with a reinterpreted cast including a mysterious, multi-faceted Defense Against the Dark Arts professor and a pragmatic, rule-abiding Minerva McGonagall. The narrative explores how rationality can coexist with magic, the burden of being a hero, and the importance of protecting friends from both external threats and internal psychological traps. It concludes with Harry stepping back from the spotlight to empower Hermione, setting the stage for a new era of magical advancement.",
+  "lang": "English",
+  "meta": {
+    "source": "izbrannoe/FANTAST/hpmor.fb2.zip",
+    "backend": "ollama",
+    "model": "qwen3.5:9b",
+    "created": "2026-10-17T09:40:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 3651714,
+      "prompt_tokens": 52910,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

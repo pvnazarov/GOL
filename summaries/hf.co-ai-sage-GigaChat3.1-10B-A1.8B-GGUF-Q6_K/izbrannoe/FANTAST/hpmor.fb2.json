@@ -1,0 +1,23 @@
+{
+  "title": "Harry Potter and the Methods of Rationality",
+  "authors": [
+    "Eliezer Yudkowsky"
+  ],
+  "kind": "novel",
+  "summary": "A rationalist reimagining of J.K. Rowling’s Harry Potter, where young Harry is raised in a scientific household and applies logic to the magical world. The story follows his journey from skepticism to wizarding life at Hogwarts, as he uncovers dark secrets, confronts Voldemort, and grapples with morality, friendship, and destiny. Blending science, philosophy, and magic, it explores themes of rationality, power, and the cost of heroism in a world where assumptions are tested and truths are revealed through evidence rather than tradition.",
+  "lang": "English",
+  "meta": {
+    "source": "izbrannoe/FANTAST/hpmor.fb2.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T10:05:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 3651714,
+      "prompt_tokens": 27326,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}
