@@ -1,0 +1,23 @@
+{
+  "title": "The War Prayer",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short story by Mark Twain that critiques the patriotic fervor and religious hypocrisy surrounding war. Set during a wartime church service, it contrasts a fervent prayer for victory with a chilling vision of its true consequences—mass death, destruction, and suffering. An aged stranger reveals God’s unspoken side of the prayer, exposing the hidden costs of nationalistic zeal. Written in Twain’s satirical style, the piece serves as a powerful anti-war commentary that questions the moral justifications for conflict.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/warpryer.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T16:08:21+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7168,
+      "text_chars": 7168,
+      "prompt_tokens": 3458,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

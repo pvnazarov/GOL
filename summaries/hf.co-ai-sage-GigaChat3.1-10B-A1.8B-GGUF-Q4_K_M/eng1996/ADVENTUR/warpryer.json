@@ -1,0 +1,23 @@
+{
+  "title": "The War Prayer",
+  "authors": [
+    "Twain, Mark"
+  ],
+  "kind": "non-fiction",
+  "summary": "A satirical and cautionary tale by Mark Twain that critiques the patriotic fervor of war. Presented as a prayer service for American soldiers departing to battle, it juxtaposes fervent public supplication with a hidden prayer asking for destruction upon their enemies. An aged stranger reveals this unspoken counterpart, exposing the moral hypocrisy and devastating consequences of celebrating war under the guise of divine blessing. The story serves as a timeless warning against blind nationalism and the dehumanizing effects of conflict.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/warpryer.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:55:08+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7168,
+      "text_chars": 7168,
+      "prompt_tokens": 3458,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

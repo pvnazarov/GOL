@@ -1,0 +1,23 @@
+{
+  "title": "The Golden Age",
+  "authors": [
+    "Kenneth Grahame"
+  ],
+  "kind": "novel",
+  "summary": "A whimsical and nostalgic collection of childhood adventures, mischief, and philosophical musings from the perspective of a young boy growing up in early 20th-century England. The narrative is composed of episodic tales filled with imaginative play, encounters with eccentric relatives, school life, and fantastical daydreams. Through humor and gentle satire, Grahame explores themes of innocence, rebellion against authority, the loss of childhood wonder, and the inevitable transition to adulthood. The story is rich in English rural detail, fairy-tale elements, and a deep affection for the simple joys and trials of youth.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/gldna10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:40:36+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 205699,
+      "text_chars": 205699,
+      "prompt_tokens": 56475,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

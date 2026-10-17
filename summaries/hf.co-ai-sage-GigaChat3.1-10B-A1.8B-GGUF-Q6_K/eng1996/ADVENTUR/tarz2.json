@@ -1,0 +1,23 @@
+{
+  "title": "The Return of Tarzan",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "In this sequel to *Tarzan of the Apes*, the ape-man returns from civilization after being thrown overboard by his enemies. Stranded and alone in the African jungle, he faces hunger, danger, and the challenges of reclaiming his former life. As Tarzan struggles to survive and regain his strength, he encounters familiar foes like Rokoff and Paulvitch while rediscovering the freedom and beauty of his primeval home. The novel follows his adventures as he navigates both the wild jungle and human intrigue, ultimately leading to a reunion with Jane Porter and the fulfillment of their destiny.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz2.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:53:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 493442,
+      "prompt_tokens": 28255,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

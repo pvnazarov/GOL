@@ -1,0 +1,23 @@
+{
+  "title": "A Christmas Carol",
+  "authors": [
+    "Charles Dickens"
+  ],
+  "kind": "novella",
+  "summary": "Ebenezer Scrooge is a miserly old man who despises Christmas and all its cheerful trappings. On Christmas Eve, he is visited by the ghost of his former business partner Jacob Marley and three spirits—of Past, Present, and Future—who show him scenes from his own life, the joyous celebration at his nephew Fred's house, and a bleak vision of his lonely death and Tiny Tim's possible fate. Moved to repentance, Scrooge awakens on Christmas morning transformed into a kinder, more generous man who embraces family, charity, and the true spirit of the season.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/carolchr.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:24:16+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 156402,
+      "prompt_tokens": 30058,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

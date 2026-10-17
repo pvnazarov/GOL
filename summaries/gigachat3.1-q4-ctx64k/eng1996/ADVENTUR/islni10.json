@@ -1,0 +1,23 @@
+{
+  "title": "Island Nights' Entertainments",
+  "authors": [
+    "Stevenson, Robert Louis"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of five short stories by Robert Louis Stevenson set in the South Seas. The tales include a mix of adventure, romance, and supernatural elements, exploring themes of colonial life, cultural clashes, and personal redemption. In 'The Beach of Falesa,' a British trader navigates his marriage to a native girl amidst local customs and rivalries. Other stories involve cursed bottles, encounters with devils, missionaries, and island superstitions. The narratives blend humor, exotic locales, and moral lessons, offering a vivid portrait of Stevenson's Pacific imagination.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/islni10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:52:58+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 250146,
+      "prompt_tokens": 63464,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "A Tale of Two Cities",
+  "authors": [
+    "Charles Dickens"
+  ],
+  "kind": "novel",
+  "summary": "Set against the French Revolution, A Tale of Two Cities follows the intertwined lives of Charles Darnay and Sydney Carton in London and Paris. The novel explores themes of resurrection, sacrifice, and redemption as Dr. Manette is released from prison after years of unjust confinement, only to face new perils in revolutionary France. Lucie Manette's love and compassion become a source of healing for her father and those around her. Sydney Carton, initially seen as dissolute, makes the ultimate sacrifice by swapping places with Darnay on the guillotine, ensuring Lucie's happiness. The novel vividly depicts the chaos and brutality of the Revolution while celebrating enduring human virtues.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/2city.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:12:24+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 756363,
+      "prompt_tokens": 60932,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

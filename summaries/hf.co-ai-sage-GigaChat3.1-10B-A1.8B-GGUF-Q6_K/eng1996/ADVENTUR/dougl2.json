@@ -1,0 +1,23 @@
+{
+  "title": "My Escape from Slavery",
+  "authors": [
+    "Douglass, Frederick"
+  ],
+  "kind": "non-fiction",
+  "summary": "Frederick Douglass recounts his harrowing escape from slavery in Maryland to freedom in the North on September 3, 1838. Using a sailor's protection and disguise, he boards a train and navigates through Delaware before reaching Philadelphia and ultimately New York. The narrative details the perilous journey, encounters with potential betrayers, and his initial struggles as a free man in an unfamiliar land. Douglass reflects on the joy of liberation contrasted with lingering fears and racial prejudice in the North. He also describes his early life in New Bedford, Massachusetts, where he worked at various jobs, faced discrimination, and began to build a new identity. The essay includes reflections on Reconstruction after the Civil War, emphasizing the necessity of equal rights and enfranchisement for African Americans as essential to national healing.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/dougl2.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:21:27+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 45579,
+      "text_chars": 45579,
+      "prompt_tokens": 12606,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

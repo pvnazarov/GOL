@@ -1,0 +1,23 @@
+{
+  "title": "The Son of Tarzan",
+  "authors": [
+    "Burroughs, Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "In this sequel to *Tarzan of the Apes*, the story follows Jack Clayton, Lord Greystoke, as he grows up in the wild jungles of Africa after being raised by Kala, a she-ape. After years of living among apes and mastering jungle survival, Jack is rescued and returned to civilization with his parents, only to find that society's constraints clash with his primal instincts. The novel chronicles his struggle between the savage freedom of the jungle and the restrictive norms of human culture. It also introduces new characters like Korak (The Killer), a half-human, half-ape warrior who becomes Jack’s companion, as well as Meriem, an Arab girl raised by apes. Together, they face perilous adventures in Africa, battling poachers, hostile tribes, and remnants of Paulvitch's schemes, all while exploring themes of identity, civilization versus wilderness, and belonging.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz4.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T16:01:57+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 521671,
+      "prompt_tokens": 58672,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

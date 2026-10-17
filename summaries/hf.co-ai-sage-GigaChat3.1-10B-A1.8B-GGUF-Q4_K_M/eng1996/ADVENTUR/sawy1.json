@@ -1,0 +1,23 @@
+{
+  "title": "The Adventures of Tom Sawyer",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "This classic novel follows the mischievous and adventurous life of Tom Sawyer, a clever boy growing up in the small town of St. Petersburg, Missouri. The story begins with Tom's daily escapades, including his famous whitewashing fence scheme that earns him admiration and treasure from other boys. As he navigates school, family dynamics, and budding romance with Becky Thatcher, Tom becomes entangled in thrilling adventures such as witnessing a murder, escaping a cave to save Becky, and running away to become a pirate on an island with his friends Huckleberry Finn and Joe Harper. The novel captures the joys and perils of childhood, blending humor, suspense, and moral lessons in Twain's distinctive style.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy1.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:43:46+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 390025,
+      "prompt_tokens": 30112,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

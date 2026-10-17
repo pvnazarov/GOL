@@ -1,0 +1,23 @@
+{
+  "title": "The Stark Munro Letters",
+  "authors": [
+    "A. Conan Doyle"
+  ],
+  "kind": "novel",
+  "summary": "This epistolary novel follows the life and career of Dr. J. Stark Munro, a young Scottish physician navigating personal, professional, and philosophical challenges in late Victorian England. Through letters to his friend Herbert Swanborough, Munro recounts his struggles with poverty, family expectations, romantic entanglements, and his complex relationship with the flamboyant and eccentric Dr. James Cullingworth. The novel explores themes of individuality, reason versus faith, social class, medical ethics, and the search for personal fulfillment in a rigid society.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/strkm10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:49:22+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 412915,
+      "prompt_tokens": 60561,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

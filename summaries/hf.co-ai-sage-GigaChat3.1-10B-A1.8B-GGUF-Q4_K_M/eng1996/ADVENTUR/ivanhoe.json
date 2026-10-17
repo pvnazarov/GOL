@@ -1,0 +1,23 @@
+{
+  "title": "Ivanhoe",
+  "authors": [
+    "Scott Walter"
+  ],
+  "kind": "novel",
+  "summary": "Set in 12th-century England, *Ivanhoe* by Sir Walter Scott is a historical novel that follows the Saxon nobleman Ivanhoe as he returns from exile to aid his king Richard the Lionheart while navigating Norman-Saxon tensions. The story weaves together chivalric adventure, romance, and social conflict, centering on Ivanhoe’s quest to win the love of Lady Rowena and his struggle against the villainous Baron Front-de-Böf. Amidst tournaments, sieges, and betrayals, themes of loyalty, justice, and national identity emerge as Saxon and Norman worlds collide.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/ivanhoe.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:32:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 1119891,
+      "prompt_tokens": 29250,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

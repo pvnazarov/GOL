@@ -1,0 +1,23 @@
+{
+  "title": "Tom Sawyer, Detective",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "When a mysterious murder and stolen diamonds rock the quiet town of St. Petersburg, young Tom Sawyer takes on the role of detective to solve the case. Alongside his friend Huckleberry Finn, Tom uncovers deception, mistaken identities, and family secrets. The boys discover that the supposed victim is alive, having faked his own death with help from a scheming brother, while another innocent man is wrongly accused. Through clever deduction and bravery, Tom exposes the real criminals, clears an innocent man's name, and retrieves the stolen jewels, becoming a local hero in the process.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy3.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:40:51+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 120242,
+      "text_chars": 120242,
+      "prompt_tokens": 35468,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

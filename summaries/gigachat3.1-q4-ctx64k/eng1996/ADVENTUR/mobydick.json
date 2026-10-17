@@ -1,0 +1,23 @@
+{
+  "title": "Moby Dick",
+  "authors": [
+    "Melville Herman"
+  ],
+  "kind": "novel",
+  "summary": "A tale of obsession and revenge centered around Captain Ahab's monomaniac quest to hunt the white whale Moby Dick, which maimed him on a previous voyage. The story follows his doomed voyage aboard the whaling ship Pequod as he relentlessly pursues the elusive leviathan, with first mate Starbuck opposing his mission and other crew members representing diverse backgrounds. Through vivid sea prose, Melville explores themes of fate, good versus evil, man's struggle against nature, and the destructive power of obsession.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mobydick.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:15:00+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 1176325,
+      "prompt_tokens": 60937,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

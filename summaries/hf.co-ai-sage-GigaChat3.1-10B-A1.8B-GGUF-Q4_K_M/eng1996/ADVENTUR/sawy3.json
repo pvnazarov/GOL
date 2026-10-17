@@ -1,0 +1,23 @@
+{
+  "title": "Tom Sawyer, Detective",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "When Tom Sawyer and Huck Finn are summoned to Arkansaw to help with a family crisis involving the Dunlap twins, they stumble into a web of deception, murder, and diamond theft. After freeing an enslaved man named Jim, Tom and Huck receive cryptic letters about trouble at their Aunt Sally’s farm. There, they encounter the wealthy but cruel Brace Dunlap, his twin brother Jubiter in disguise as a deaf-mute stranger, and the troubled Uncle Silas. The boys uncover a plot to frame Uncle Silas for murder, steal diamonds hidden in Jake Dunlap's boots, and escape with loot. Using their wits, they expose the conspirators, recover the stolen gems, and restore justice—all while navigating misadventures that test their courage and friendship.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy3.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:46:05+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 120242,
+      "prompt_tokens": 30825,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

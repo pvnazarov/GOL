@@ -1,0 +1,23 @@
+{
+  "title": "The Tragedy of Pudd`nhead Wilkins",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "Set in the antebellum South along the Mississippi, this novel explores themes of race, identity, and social hypocrisy. The story centers on Roxy, a mixed-race slave who switches her light-skinned baby with the white son of a judge to save him from being sold downriver. Years later, the swapped children—Tom Driscoll (the real heir) raised as a slave and Valet de Chambers (the slave raised as white)—live vastly different lives. As Tom indulges in vice and deceit, the true Chambers endures humiliation. When Judge Driscoll is murdered, Pudd'nhead Wilson uses fingerprint evidence to expose the identity swap, leading to dramatic reversals of fortune, a trial, and an ironic resolution. The novel satirizes racism, class structure, and the absurdities of Southern society.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/puddn.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:29:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 291966,
+      "prompt_tokens": 61641,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

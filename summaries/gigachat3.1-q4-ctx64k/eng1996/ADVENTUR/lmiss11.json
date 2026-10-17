@@ -1,0 +1,23 @@
+{
+  "title": "Life on the Mississippi",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "non-fiction",
+  "summary": "Life on the Mississippi is a memoir and travelogue by Mark Twain that recounts his experiences as a steamboat pilot on the Mississippi River before and during the American Civil War. The book blends humor, historical anecdotes, and vivid descriptions of river life, geography, and culture. Twain explores the physical characteristics of the river, its history from early exploration to modern times, and the colorful characters who lived and worked along its banks. Through personal reminiscences and detailed observations, he captures the romance and reality of steamboat navigation, the eccentricities of river towns, and the profound influence the Mississippi had on American identity and commerce.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/lmiss11.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:07:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 802013,
+      "prompt_tokens": 60610,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

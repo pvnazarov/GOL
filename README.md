@@ -129,15 +129,41 @@ e-mail, home pages) is not part of the story. On a 13-book test this removed mor
 than switching models did. Each record's `meta.input` notes whether the catalogue record
 and an annotation were used.
 
-**Local models tried** (Ollama on the 12 GB GPU box, «Избранное», 2026-10-17):
+**Title and author come from the catalogue**, not the model, whenever the catalogue has
+them: small models copy whatever author they are shown or invent one (a book's hero
+listed as its author, "Stevens" for Stevenson), and the site displays the catalogue's
+anyway. Telling the model to "prefer the text" does not help, because many texts never
+name their author (*Father Damien*, *St. Ives*). Wrong catalogue records are corrected
+once, in `scripts/catalog_fixes.json` (`{"<library>/<category>/<file>": {"a": ..., "t":
+...}}`), which `build_catalog.py` applies — so the fix reaches the site and the next
+summary run alike.
+
+**Local models tried** (Ollama on the 12 GB GPU box, 2026-10-17). On «Избранное» (13 books):
 GigaChat 3.1 Lightning (`hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K`, `--num-ctx 32768`)
 made the fewest errors; T-lite 2.1 (`hf.co/t-tech/T-lite-it-2.1-GGUF:Q6_K`,
 `--num-ctx 28672`) was nearly as accurate and twice as fast; qwen3.5:9b was the most detailed
 but the most often wrong; gemma4:e4b was generic. None is error-free — treat local summaries
 as drafts. The books in the old libraries have no annotations, so expect weaker results there.
 
+Then GigaChat on both Adventure categories (`eng1996/ADVENTUR` 39 books, `rus1996/ADVENTUR`
+18), checked against the Claude pilot summaries and by searching the texts for every name:
+
+| GigaChat 3.1 | time / book (eng / rus) | share of book read | correct / minor slips / serious errors (31 books checked) |
+|---|---|---|---|
+| Q6_K, 32k (0.7 GB off the GPU) | 77 s / 59 s | 41% / 27% | 12 / 13 / 6 |
+| **Q4_K_M, 32k (all on the GPU)** | **59 s / 45 s** | 41% / 27% | **22 / 6 / 3** |
+| Q4_K_M, 64k | 198 s / 128 s | 69% / 52% | 23 / 4 / 4 (+1 overflow) |
+
+Q4 at 32k is the default for `--backend ollama`: fastest, and no less accurate than Q6
+(the gap is within run-to-run variation). 64k reads more but is 3× slower for no clear
+gain, and dialect-heavy books (*Huckleberry Finn*) overflow it. A full-library run at
+Q4/32k is roughly 9 days of GPU time. These three runs predate the catalogue-authoritative
+title/author change above.
+
 **Status:** `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries; `izbrannoe` has
-summaries from all four local models above. **Nothing reads the output yet** — surfacing it
+summaries from all four local models above; both Adventure categories have GigaChat
+summaries in three variants (Q6_K, Q4_K_M at 32k, and `gigachat3.1-q4-ctx64k` — an
+Ollama copy of Q4_K_M named so its 64k results get their own folder). **Nothing reads the output yet** — surfacing it
 means having `build_catalog.py` merge one model's records into `libs/data/`.
 
 ## Running locally

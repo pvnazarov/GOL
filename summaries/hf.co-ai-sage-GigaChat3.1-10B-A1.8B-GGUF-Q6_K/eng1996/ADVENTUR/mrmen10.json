@@ -1,0 +1,23 @@
+{
+  "title": "The Merry Men",
+  "authors": [
+    "Robert Louis Stevenson"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of five short stories by Robert Louis Stevenson, set in the rugged landscapes and maritime culture of Scotland. The title story follows a narrator's return to his ancestral home on the remote Ross of Grisapol, where he encounters tales of shipwrecks, superstition, and family secrets. Other stories include 'Will o' the Mill,' about a lonely shepherd’s tragic fate; 'Markheim,' a psychological tale of morality and temptation; 'Thrawn Janet,' a dark legend of witchcraft in rural Scotland; and 'Olalla,' set in Spain among an isolated aristocratic family. The collection blends adventure, mystery, and gothic elements with Stevenson’s evocative descriptions of wild coasts and haunting folklore.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mrmen10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:38:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 433190,
+      "prompt_tokens": 30603,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

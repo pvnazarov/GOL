@@ -1,0 +1,23 @@
+{
+  "title": "Alexander's Bridge",
+  "authors": [
+    "Willa Cather"
+  ],
+  "kind": "novel",
+  "summary": "Bartley Alexander, a renowned engineer known for his grand bridges, struggles with the pressures of success and an internal conflict between duty and desire. His marriage to Winifred is stable but emotionally distant, while he harbors an illicit affair with Hilda Burgoyne, an actress from his past. The novel explores themes of ambition, guilt, and personal freedom as Bartley's double life unravels. When a critical bridge project fails due to cost-cutting measures imposed by the commission, Alexander faces public scandal and personal crisis, culminating in a tragic accident that claims lives, including his own. Through its examination of moral compromise and the consequences of divided loyalties, Willa Cather’s novel is a poignant study of a man torn between professional greatness and private ruin.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/alexbr.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:14:27+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 156746,
+      "text_chars": 156746,
+      "prompt_tokens": 43575,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

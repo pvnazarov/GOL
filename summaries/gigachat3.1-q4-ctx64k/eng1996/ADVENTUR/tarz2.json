@@ -1,0 +1,23 @@
+{
+  "title": "The Return of Tarzan",
+  "authors": [
+    "Burroughs, Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "In this sequel to 'Tarzan of the Apes,' the Lord Greystoke recounts his adventures in Paris and Algeria. After thwarting Russian spies and navigating European intrigue, he is drawn back into the wilds of Africa where he must rescue Jane Porter from a ritual sacrifice in the ancient city of Opar. Battling savage tribes, prehistoric creatures, and deadly traps, Tarzan proves once again that his jungle upbringing makes him superior to any civilized man. The novel explores themes of civilization versus nature, love, loyalty, and the enduring power of primal instincts.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz2.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:55:44+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 493442,
+      "prompt_tokens": 59603,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

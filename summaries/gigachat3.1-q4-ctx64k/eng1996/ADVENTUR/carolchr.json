@@ -1,0 +1,23 @@
+{
+  "title": "A Christmas Carol",
+  "authors": [
+    "Dickens Charles"
+  ],
+  "kind": "novel",
+  "summary": "Ebenezer Scrooge is a miserly old man who despises Christmas and all its merriment. On the night of Christmas Eve, he is visited by three spirits—the Ghosts of Christmas Past, Present, and Yet to Come—who show him scenes from his own life, the joys and hardships of others during the holiday season, and a vision of his own lonely death. These encounters awaken Scrooge's conscience, leading him to transform into a kinder, more generous person who embraces Christmas with open arms, mends relationships, and makes amends for his past behavior.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/carolchr.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:25:48+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 156402,
+      "text_chars": 156402,
+      "prompt_tokens": 44739,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

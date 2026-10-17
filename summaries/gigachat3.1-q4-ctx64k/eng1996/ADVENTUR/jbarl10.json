@@ -1,0 +1,23 @@
+{
+  "title": "John Barleycorn",
+  "authors": [
+    "London, Jack"
+  ],
+  "kind": "non-fiction",
+  "summary": "Jack London's semi-autobiographical memoir recounts his lifelong relationship with alcohol. The book details how he first encountered drink as a child, became habituated through social pressures and accessibility, and later reflects on the destructive power of addiction. Through vivid anecdotes from his youth as a newsboy, sailor, oyster pirate, and seaman, London illustrates how saloons and drinking culture shaped his worldview and identity. He examines alcohol's role in society, its allure for men seeking camaraderie, and the devastating toll it takes on individuals and communities. Ultimately, he resolves to drink more moderately but acknowledges the deep social conditioning that makes sobriety a challenge.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/jbarl10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:00:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 354219,
+      "prompt_tokens": 60816,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

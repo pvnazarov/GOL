@@ -1,0 +1,23 @@
+{
+  "title": "The Mucker",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "Billy Byrne, a hardened street thug from Chicago's West Side, is framed for murder and sentenced to life in prison. After escaping, he undergoes a transformation through his experiences at sea and encounters with refined society. Re-entering civilization as a changed man, Billy seeks to clear his name, win back Barbara Harding, and prove himself worthy of her love despite the gulf between their worlds. The novel follows his struggles against both societal prejudice and law enforcement as he battles for justice, redemption, and a place in a world that once rejected him.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tmuck10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T16:08:14+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 677910,
+      "prompt_tokens": 60257,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

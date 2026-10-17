@@ -1,0 +1,23 @@
+{
+  "title": "The Tragedy of Pudd'nhead Wilson",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "A complex tale set in the antebellum Missouri town of Dawson's Landing, where a slave woman secretly switches her light-skinned baby with the white infant heir to the Driscoll estate. The story follows the fates of both boys—Tom, raised as the son of the judge and spoiled beyond measure, and Chambers, raised as a slave and mistreated—until a series of revelations expose the swap. As Tom's reckless behavior leads to scandal, murder charges, and eventual ruin, Chambers must navigate a world that has always denied him his birthright. The novel explores themes of race, identity, justice, and hypocrisy, with courtroom drama, almanac-style asides, and Twain’s signature satire woven throughout.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/puddn.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:41:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 291966,
+      "prompt_tokens": 28791,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

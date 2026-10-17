@@ -1,0 +1,23 @@
+{
+  "title": "Tarzan of the Apes",
+  "authors": [
+    "Burroughs, Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "Edgar Rice Burroughs' classic tale follows the life of John Clayton, Lord Greystoke, who is raised by apes in the African jungle after his parents die at sea. Known as Tarzan to his ape family, he grows up strong and agile, mastering survival skills and developing an affinity for the wild. As an adult, Tarzan encounters Westerners, including Jane Porter, whom he falls deeply in love with. The novel chronicles their adventures, Tarzan's internal struggle between civilization and jungle life, his battles against hostile tribes and dangerous beasts, and his quest to reclaim his birthright as a nobleman while protecting those he loves.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz1.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:52:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 478888,
+      "prompt_tokens": 59045,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

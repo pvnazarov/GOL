@@ -1,0 +1,23 @@
+{
+  "title": "The Captain of the Polestar and Other Tales",
+  "authors": [
+    "Arthur Conan Doyle"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of eleven short stories by Sir Arthur Conan Doyle, blending adventure, mystery, science fiction, and supernatural elements. The titular story follows a perilous Arctic voyage with an enigmatic captain plagued by visions and superstition. Other tales include scientific experiments on the nature of the soul, historical reflections, maritime mysteries like the Marie Celeste, and psychological explorations of obsession and madness. The stories showcase Doyle's fascination with science, exploration, and the unknown.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/polst10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:25:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 461968,
+      "prompt_tokens": 59243,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The Mucker",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "A gritty, fast-paced tale about Billy Byrne, a tough street orphan from Chicago's West Side who rises through crime and hardship to become a notorious gangster. After a series of violent encounters and adventures—including prison escape, piracy on the high seas, and a dramatic rescue attempt in Mexico—the novel follows his transformation as he grapples with love, class divides, and the law. The story is set against the backdrop of early 20th-century America, blending urban grit with swashbuckling adventure and exploring themes of redemption and identity.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tmuck10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:55:00+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 677910,
+      "prompt_tokens": 28295,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

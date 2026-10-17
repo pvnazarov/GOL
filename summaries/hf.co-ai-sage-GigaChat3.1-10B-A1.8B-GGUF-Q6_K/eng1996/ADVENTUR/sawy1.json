@@ -1,0 +1,23 @@
+{
+  "title": "The Adventures of Tom Sawyer",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "This classic novel follows the mischievous and adventurous life of Tom Sawyer, a boy growing up in the fictional town of St. Petersburg along the Mississippi River. The story captures his escapades with friends Huckleberry Finn and Joe Harper, including their imaginative adventures as pirates on the river, treasure hunts, schoolyard pranks, and secret rendezvous. Amidst these youthful exploits, Tom navigates family dynamics with his Aunt Polly, experiences first love with Becky Thatcher, and faces moral dilemmas that test his conscience. The novel is a nostalgic portrayal of boyhood freedom, friendship, and the transition from childhood to adulthood in 19th-century America.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy1.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:44:41+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 390025,
+      "prompt_tokens": 30112,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -54,7 +54,10 @@ ROOT = Path(__file__).resolve().parent.parent
 LIBS = ROOT / "libs"
 SUMMARIES = ROOT / "summaries"
 
-DEFAULT_MODELS = {"claude": "sonnet", "ollama": "qwen3.5:9b"}
+# GigaChat 3.1 Lightning Q4 at 32k fits the 12 GB GPU whole and was the most
+# accurate local model tried (see README, "Local models tried").
+DEFAULT_MODELS = {"claude": "sonnet",
+                  "ollama": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M"}
 
 # Claude backend: a fixed excerpt budget, ~9k tokens.
 CLAUDE_CHARS = 34000
@@ -64,7 +67,7 @@ CLAUDE_CHARS = 34000
 # (English ~3.9, Russian ~2.9) and are rounded down for safety. If the prompt
 # still overflows, Ollama silently drops its *beginning* -- system prompt and
 # title page included -- so that case is detected and treated as a failure.
-OLLAMA_CTX = 65536
+OLLAMA_CTX = 32768
 OLLAMA_PREDICT = 1024
 OLLAMA_OVERHEAD = 4000
 CHARS_PER_TOKEN = {"cyrillic": 2.7, "latin": 3.7}
@@ -110,10 +113,11 @@ Front matter -- copyright lines, the author's real or full name, e-mail
 addresses, home pages, publisher notes -- is about the author or the edition.
 Never treat it as a character or as part of the story.
 
-When a catalogue record is given, take the title and authors from it (write
-names in their natural order, first name first) unless the text clearly
-contradicts it. When the book's own annotation is given, treat it as reliable
-background on the plot and characters, but describe the book in your own words.
+When a catalogue record is given, it is the book's title and author: write the
+summary about that book by that author. (Your "title" and "authors" are then
+replaced by the catalogue's, so they only matter when no record is given.) When
+the book's own annotation is given, treat it as reliable background on the plot
+and characters, but describe the book in your own words.
 
 Write "title", "authors" and "summary" in {lang}, using the conventional {lang}
 spelling of names. Keep "kind" as one of the English values above."""
@@ -201,7 +205,13 @@ def catalogue_entry(rel: Path):
 
 
 def known_facts(zip_path: Path, rel: Path):
-    """Prompt lines with what is already known about the book, and flags for meta."""
+    """Prompt lines with what is already known about the book, and flags for meta.
+
+    Also returns the catalogue entry, whose title and author override the
+    model's: small models copy or invent authors (a book's hero listed as its
+    author, "Stevens" for Stevenson), and the site shows the catalogue's anyway.
+    Wrong catalogue data is fixed once, in scripts/catalog_fixes.json.
+    """
     lines, used = [], {"catalogue": False, "annotation": False}
     entry = catalogue_entry(rel)
     if entry and (entry.get("t") or entry.get("a")):
@@ -218,7 +228,7 @@ def known_facts(zip_path: Path, rel: Path):
     if annotation:
         lines.append(f"\nThe book's own annotation:\n<annotation>\n{annotation[:4000]}\n</annotation>")
         used["annotation"] = True
-    return "\n".join(lines) + ("\n" if lines else ""), used
+    return "\n".join(lines) + ("\n" if lines else ""), used, entry
 
 
 def normalize(text: str) -> str:
@@ -364,7 +374,7 @@ def process(zip_path: Path, args) -> str:
                      * CHARS_PER_TOKEN[script])
     else:
         budget = CLAUDE_CHARS
-    known, used = known_facts(zip_path, rel)
+    known, used, entry = known_facts(zip_path, rel)
     source, intro, body = select_text(text, budget)
     prompt = USER_TEMPLATE.format(filename=zip_path.name, category=zip_path.parent.name,
                                   length=len(text), known=known, intro=intro, body=body)
@@ -387,6 +397,10 @@ def process(zip_path: Path, args) -> str:
     else:
         return f"FAIL   {rel}: {last_error}"
 
+    if entry and entry.get("t"):
+        record["title"] = entry["t"]
+    if entry and entry.get("a"):
+        record["authors"] = [a.strip() for a in entry["a"].split(",") if a.strip()]
     record["lang"] = lang
     record["meta"] = {
         "source": str(rel),
@@ -430,7 +444,7 @@ def main() -> int:
                         help="claude CLI or an Ollama server (default: claude)")
     parser.add_argument("--model", default=None,
                         help="model name (default: sonnet for claude -- 'haiku' for bulk "
-                             "runs -- and qwen3.5:9b for ollama)")
+                             "runs -- and GigaChat 3.1 Lightning Q4_K_M for ollama)")
     parser.add_argument("--lang", default="auto",
                         help="summary language: 'auto' (Russian for Cyrillic books, "
                              "otherwise English) or a language name (default: auto)")
@@ -438,7 +452,8 @@ def main() -> int:
                         help="Ollama server (default: http://localhost:11434)")
     parser.add_argument("--num-ctx", type=int, default=OLLAMA_CTX,
                         help=f"Ollama context window in tokens (default: {OLLAMA_CTX}; "
-                             "qwen3.5:9b fits ~80k on the 12 GB GPU, gemma4 ~40k)")
+                             "on the 12 GB GPU GigaChat Q4 fits 64k but 32k is 3x faster; "
+                             "qwen3.5:9b fits ~80k, T-lite ~28k, gemma4:e4b ~40k)")
     parser.add_argument("--limit", type=int, default=None,
                         help="only process the first N zips (for testing)")
     parser.add_argument("--jobs", type=int, default=1,

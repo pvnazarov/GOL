@@ -1,0 +1,23 @@
+{
+  "title": "The Stark Munro Letters",
+  "authors": [
+    "A. Conan Doyle"
+  ],
+  "kind": "novel",
+  "summary": "The Stark Munro Letters is a semi-autobiographical novel by A. Conan Doyle, presented as a series of letters written by the protagonist J. Stark Munro to his friend Herbert Swanborough during the years 1881–1884. The epistolary format follows Munro's journey through early medical training, personal struggles with faith and ambition, and his complex relationship with his eccentric but brilliant friend James Cullingworth. Through these letters, Munro reflects on love, friendship, professional ethics, the nature of genius, and his gradual move away from orthodox religion toward a more rational worldview. The novel captures the Bohemian life of late Victorian London and Cambridge, blending humor, philosophical musings, and vivid anecdotes into a portrait of youthful idealism and self-discovery.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/strkm10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:51:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 412915,
+      "prompt_tokens": 28519,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

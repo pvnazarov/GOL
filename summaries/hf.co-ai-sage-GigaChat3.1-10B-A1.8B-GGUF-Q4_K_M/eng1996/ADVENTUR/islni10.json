@@ -1,0 +1,23 @@
+{
+  "title": "Island Nights' Entertainments",
+  "authors": [
+    "Robert Louis Stevenson"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of tales set in the South Seas, featuring a mix of adventure, romance, and supernatural elements. The stories explore themes of colonial life, cultural clashes, and personal transformation through vivid narratives such as 'The Beach of Falesa,' which follows a British trader's experiences on a remote island, his entanglement with local customs, and the challenges he faces in love and commerce.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/islni10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:31:27+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 250146,
+      "prompt_tokens": 30089,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

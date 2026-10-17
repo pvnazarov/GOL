@@ -1,0 +1,23 @@
+{
+  "title": "Can Such Things Be",
+  "authors": [
+    "Ambrose Bierce"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of macabre and supernatural tales by Ambrose Bierce, exploring themes of death, the uncanny, and psychological horror. The stories range from ghostly apparitions to hallucinations and mysterious deaths, often blurring the line between reality and nightmare. Works like 'The Death of Halpin Frayser' and 'Silas Deemer's Revenge' feature dream logic, spectral presences, and unsettling atmospheres, reflecting Bierce's fascination with the darker aspects of human experience and the unknown.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/cansuch.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:18:16+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 337403,
+      "prompt_tokens": 28679,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

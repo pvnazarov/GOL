@@ -1,0 +1,23 @@
+{
+  "title": "Tom Sawyer Abroad",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "novel",
+  "summary": "A whimsical sequel to The Adventures of Tom Sawyer, this novel follows the mischievous boy hero and his companions Huck Finn and Jim as they embark on a fantastical adventure. After being celebrated for previous exploits, Tom becomes restless and devises an elaborate plan to stage a Crusade in Africa. He convinces his friends to accompany him in a custom-built balloon, leading them across the Sahara Desert, through Egypt, and into Arabia. The journey is filled with absurd scientific theories, comical misunderstandings, encounters with lions, caravans, ancient ruins, and an eccentric professor who controls their airship. Through exaggerated humor and satire, Twain parodies adventure fiction, colonialism, and human folly as Tom’s grand schemes unravel in increasingly ridiculous ways.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy2.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:39:28+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 173450,
+      "text_chars": 173450,
+      "prompt_tokens": 51194,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

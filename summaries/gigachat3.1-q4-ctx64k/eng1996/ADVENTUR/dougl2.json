@@ -1,0 +1,24 @@
+{
+  "title": "My Escape from Slavery",
+  "authors": [
+    "Douglass",
+    "Frederick"
+  ],
+  "kind": "non-fiction",
+  "summary": "In this memoir, Frederick Douglass recounts his harrowing escape from slavery in Maryland to freedom in the North. He explains why he previously withheld details of his escape but now provides a candid account of the risks and strategies involved. The narrative describes his reliance on free papers disguised as a sailor's protection, narrow escapes during travel through slave states, and the emotional and practical challenges of becoming a free man in New York before settling in Massachusetts. Douglass also reflects on the broader themes of freedom, racial injustice, and the moral courage required to resist slavery. The book includes additional essays on Reconstruction and civil rights, emphasizing his lifelong commitment to abolitionism and equality.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/dougl2.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:29:43+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 45579,
+      "text_chars": 45579,
+      "prompt_tokens": 12606,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

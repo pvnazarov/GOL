@@ -1,0 +1,23 @@
+{
+  "title": "DJohn Barleycorn",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the semi-autobiographical memoir of Jack London's lifelong relationship with alcohol. The book recounts his early, disastrous encounters with drink as a child and adolescent, his immersion in saloons and sailor culture during his youthful adventures at sea and on land, and his eventual realization of how deeply ingrained the social habit of drinking is. London reflects on how accessibility and cultural connotations make alcohol irresistible to many men, while he personally was spared a chemical addiction but not the mental conditioning that drives drinkers. The work combines personal anecdote with philosophical musings on society, manhood, and the power of fellowship—all intertwined with his experiences as an alcoholic's friend turned critic.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/jbarl10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:33:32+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 354219,
+      "prompt_tokens": 28765,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

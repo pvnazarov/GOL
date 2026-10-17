@@ -1,0 +1,23 @@
+{
+  "title": "The Chronicles of Clovis",
+  "authors": [
+    "H. H. Munro (Saki)"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of witty and satirical short stories by Saki, featuring the clever and mischievous character Clovis Sangrail. The tales explore themes of social manners, human folly, and absurdity within Edwardian society. Through sharp humor and irony, Saki critiques class distinctions, hypocrisy, and pretension. Stories include 'The Match-Maker,' 'Tobermory,' 'Mrs. Packletide's Tiger,' and others, each showcasing his distinctive style of dark comedy and unexpected twists.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/clovis.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:20:54+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 300564,
+      "prompt_tokens": 28285,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

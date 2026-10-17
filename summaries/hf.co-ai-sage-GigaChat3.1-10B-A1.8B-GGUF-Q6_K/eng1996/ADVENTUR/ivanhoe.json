@@ -1,0 +1,23 @@
+{
+  "title": "Ivanhoe",
+  "authors": [
+    "Walter Scott"
+  ],
+  "kind": "novel",
+  "summary": "Set in medieval England, 'Ivanhoe' follows the adventures of Sir Wilfred of Ivanhoe, a brave and noble knight who returns from exile to support his father Cedric's cause during a time of Saxon-Norman tension. Amidst political intrigue, tournaments, and battles for love, Ivanhoe falls in love with the beautiful Lady Rowena while facing hostility from the sinister Baron Front-de-Bîef. The novel weaves themes of chivalry, loyalty, and justice as characters navigate a turbulent era marked by prejudice and power struggles.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/ivanhoe.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:30:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 1119891,
+      "prompt_tokens": 29250,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

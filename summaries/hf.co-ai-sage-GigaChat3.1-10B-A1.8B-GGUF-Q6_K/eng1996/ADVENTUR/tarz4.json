@@ -1,0 +1,23 @@
+{
+  "title": "The Son of Tarzan",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "The Son of Tarzan is an adventure novel by Edgar Rice Burroughs, following the life of Jack Clayton, the son of Lord and Lady Greystoke. After being raised in the wilds of Africa alongside the great ape Akut, Jack grows up with a deep connection to the jungle. The story explores his struggle between his civilized upbringing in England and his primal instincts inherited from his father, Tarzan. When Jack is kidnapped by Alexis Paulvitch, who seeks revenge against Tarzan, he must rely on both his human education and his innate savagery to survive. The novel weaves themes of identity, belonging, and the eternal conflict between civilization and nature, culminating in Jack's eventual return to the jungle and his acceptance of his dual heritage.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz4.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:56:32+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 521671,
+      "prompt_tokens": 27987,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

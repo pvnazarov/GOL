@@ -1,0 +1,23 @@
+{
+  "title": "The Stark Munro Letters",
+  "authors": [
+    "A. Conan Doyle"
+  ],
+  "kind": "novel",
+  "summary": "The Stark Munro Letters is a collection of twelve letters written by the fictional Dr. J. Stark Munro to his friend Herbert Swanborough, chronicling Munro's early career as a doctor in late-19th-century England and Scotland. Through these epistolary narratives, Munro reflects on his struggles with poverty, professional ambition, eccentric friends like the flamboyant Dr. James Cullingworth, and his own skepticism about religion and conventional morality. The letters blend humor, philosophical musings, and satirical commentary on Victorian society, medicine, and human nature. Doyle infuses the work with his characteristic wit and social observation, creating a semi-autobiographical portrait of youthful idealism clashing with worldly realities.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/strkm10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:49:16+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 412915,
+      "prompt_tokens": 28519,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

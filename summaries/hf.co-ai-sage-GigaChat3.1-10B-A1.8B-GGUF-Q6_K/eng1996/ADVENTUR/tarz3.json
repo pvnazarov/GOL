@@ -1,0 +1,23 @@
+{
+  "title": "The Beasts of Tarzan",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "In this thrilling adventure, Lord Greystoke (Tarzan) faces his greatest challenge yet: rescuing his kidnapped son from the clutches of his arch-enemy Nikolas Rokoff. After being marooned in Africa following a treacherous plot to steal his child, Tarzan must navigate perilous jungles, evade deadly beasts, and outwit cunning foes. With the help of his loyal companions—including Sheeta the panther and the apes of Akut—Tarzan embarks on a desperate quest through hostile terrain, confronting both natural dangers and human villainy. The novel is a classic tale of courage, survival, and paternal love set against the backdrop of Africa's untamed wilderness.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz3.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:55:15+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 352521,
+      "prompt_tokens": 28412,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

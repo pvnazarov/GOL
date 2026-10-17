@@ -1,0 +1,23 @@
+{
+  "title": "Lord Jim",
+  "authors": [
+    "Conrad Joseph"
+  ],
+  "kind": "novel",
+  "summary": "Joseph Conrad's *Lord Jim* is a psychological novel that follows the story of Charles Marlow’s retelling of the tale of the titular character, an impulsive young seaman whose career as a ship's officer ends in disgrace. After deserting his duty during a crisis on the ill-fated Patna, which carries hundreds of pilgrims, Jim is haunted by shame and seeks redemption in distant lands. He arrives in the fictional Malay village of Patusan, where he gains the trust of the local leader Dain Waris and becomes a protector against external threats. However, his fragile sense of honor and romantic idealism lead to tragic misjudgments, culminating in his downfall when he betrays the community’s faith in him. The novel explores themes of guilt, identity, colonial ambition, and the conflict between personal morality and societal expectations.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/lord_jim.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:36:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 714240,
+      "prompt_tokens": 28042,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

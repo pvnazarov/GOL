@@ -1,0 +1,23 @@
+{
+  "title": "The Tragedy of Pudd'nhead Wilson",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "Set in the fictional town of Dawson's Landing on the Mississippi River, this novel by Mark Twain explores themes of race, identity, and social hypocrisy. The story centers on a dramatic switch between two infants—one born to a white enslaved mother and one to a white slave owner—which leads to decades of deception, privilege, and tragedy. Through the lives of Tom Driscoll (the false heir) and Chambers (the real heir), Twain satirizes Southern society, slavery, and legal injustice, while also weaving in Wilson's obsession with fingerprinting as a metaphor for truth and identity. The novel combines farce and tragedy to critique the arbitrary nature of race and class in antebellum America.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/puddn.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:42:05+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 291966,
+      "prompt_tokens": 28791,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

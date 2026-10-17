@@ -11,6 +11,10 @@ Books that catalog.tsv doesn't know but that hold a FictionBook (.fb2) file get
 their author and title from the FB2's own <title-info>, so new FB2 sets need no
 catalogue edits either.
 
+scripts/catalog_fixes.json corrects wrong catalogue records
+({"<library>/<category>/<file>": {"a": author, "t": title}}), e.g. a letter
+catalogued under its subject instead of its writer.
+
 scripts/book_order.json can give a category a hand-picked reading order
 ({"<library>/<category>": [filename, ...]}); listed books get an "o" (order)
 field and are shown first, in that order, before any unlisted ones.
@@ -203,6 +207,17 @@ def build_catalog_json(catalog_rows, tree, libs_dir: Path):
     return entries, missing_on_disk, not_in_catalog, from_fb2
 
 
+def apply_catalog_fixes(entries, fixes):
+    """Overwrite author/title of catalogue entries listed in catalog_fixes.json."""
+    by_path = {e["p"]: e for e in entries}
+    for path, fix in fixes.items():
+        entry = by_path.get(path)
+        if not entry:
+            print(f"  warning: catalog_fixes.json lists {path}, which is not catalogued")
+            continue
+        entry.update({k: v for k, v in fix.items() if k in ("a", "t")})
+
+
 def apply_book_order(entries, order):
     """Set "o" on catalogue entries listed in book_order.json; warn on stale names."""
     by_path = {e["p"]: e for e in entries}
@@ -264,6 +279,10 @@ def main():
     catalog_entries, missing_on_disk, not_in_catalog, from_fb2 = build_catalog_json(
         catalog_rows, tree, libs_dir)
     libraries = build_libraries_json(tree, labels_override)
+
+    fixes_path = Path(__file__).resolve().parent / "catalog_fixes.json"
+    if fixes_path.is_file():
+        apply_catalog_fixes(catalog_entries, json.loads(fixes_path.read_text(encoding="utf-8")))
 
     order_path = Path(__file__).resolve().parent / "book_order.json"
     if order_path.is_file():

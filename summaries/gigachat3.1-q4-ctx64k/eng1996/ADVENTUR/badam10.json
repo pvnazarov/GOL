@@ -1,0 +1,23 @@
+{
+  "title": "Before Adam",
+  "authors": [
+    "London, Jack"
+  ],
+  "kind": "novel",
+  "summary": "A semi-autobiographical novel by Jack London in which the protagonist experiences vivid dreams of a prehistoric past as his ancient ancestor, Big-Tooth. The story explores themes of evolution, racial memory, and primal instincts through the dual perspective of modern man reflecting on his evolutionary heritage. It follows Big-Tooth's struggles for survival among early hominids, including conflicts with primitive creatures, social dynamics within a prehistoric tribe, encounters with Fire People, and the haunting influence of ancient fears and memories.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/badam10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:17:43+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 210490,
+      "text_chars": 210490,
+      "prompt_tokens": 57463,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

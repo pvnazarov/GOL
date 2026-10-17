@@ -1,0 +1,23 @@
+{
+  "title": "The Secret Sharer",
+  "authors": [
+    "Joseph Conrad"
+  ],
+  "kind": "novella",
+  "summary": "A young, inexperienced captain is left in command of a ship on a long voyage through the Malay Archipelago. While at anchor near an island, he encounters and secretly harbors a stowaway—a fugitive from justice who has murdered another crew member during a mutiny. The two men form a strange bond as they share their isolation and mutual guilt. As the captain struggles with his dual identity, both literally (in hiding his passenger) and metaphorically (as he confronts his own uncertainties), the narrative explores themes of authority, freedom, and self-discovery. Their secret partnership reaches its climax when the fugitive must escape in a perilous nighttime maneuver near treacherous shoals, leaving the captain to face the moral consequences alone.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sharerxt.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:41:51+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 101535,
+      "text_chars": 101535,
+      "prompt_tokens": 28883,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

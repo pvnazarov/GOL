@@ -1,0 +1,23 @@
+{
+  "title": "The Chronicles of Clovis",
+  "authors": [
+    "H. H. Munro"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of witty, satirical short stories by Saki (H. H. Munro) featuring the mischievous and incisive character Clovis. The tales blend humor with sharp social commentary on Edwardian society, exploring themes of class, hypocrisy, and absurdity through clever plots and ironic twists. Each story showcases Clovis's cunning schemes and sardonic observations, often involving animals, eccentric characters, and unexpected outcomes. The work captures the fin de siècle atmosphere with its blend of whimsical fantasy and biting realism.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/clovis.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:25:10+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 300564,
+      "prompt_tokens": 28285,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

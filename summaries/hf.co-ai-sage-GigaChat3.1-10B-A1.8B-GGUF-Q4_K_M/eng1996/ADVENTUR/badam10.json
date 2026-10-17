@@ -1,0 +1,23 @@
+{
+  "title": "Before Adam",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "novel",
+  "summary": "A prehistoric man recounts his past lives as a primitive hominid through dreams, exploring themes of evolution, racial memory, and the duality of human nature. The protagonist experiences vivid memories of life in the Mid-Pleistocene era, interacting with early humans, wild animals, and atavistic beings while grappling with fears, friendships, and survival struggles that mirror his modern psyche.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/badam10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:21:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 210490,
+      "prompt_tokens": 28804,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

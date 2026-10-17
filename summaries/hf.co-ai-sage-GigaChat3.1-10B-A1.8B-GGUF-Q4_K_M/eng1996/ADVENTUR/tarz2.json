@@ -1,0 +1,23 @@
+{
+  "title": "The Return of Tarzan",
+  "authors": [
+    "Edgar Rice Burroughs"
+  ],
+  "kind": "novel",
+  "summary": "After being falsely believed dead, the ape-man Tarzan returns to civilization and discovers that his beloved Jane Porter is about to marry another man. Using his jungle skills and strength, he clears his name, thwarts villains including Rokoff, and ultimately wins back Jane's love in a series of daring adventures across Europe and Africa. The novel follows his struggle between the civilized world and his true home in the wilds.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz2.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:51:11+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 493442,
+      "prompt_tokens": 28255,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

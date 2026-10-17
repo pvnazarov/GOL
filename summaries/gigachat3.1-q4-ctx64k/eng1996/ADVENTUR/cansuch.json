@@ -1,0 +1,23 @@
+{
+  "title": "Can Such Things Be",
+  "authors": [
+    "Bierce, Ambrose"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of macabre and supernatural tales by Ambrose Bierce. The stories explore themes of death, the afterlife, psychological horror, and the grotesque, often set in eerie or surreal environments. Characters confront ghosts, haunted landscapes, dream logic, and inexplicable phenomena that blur the line between reality and madness. Each story is a blend of dark humor, irony, and unsettling imagery, reflecting Bierce's fascination with mortality and the uncanny.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/cansuch.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:23:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 337403,
+      "prompt_tokens": 60484,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

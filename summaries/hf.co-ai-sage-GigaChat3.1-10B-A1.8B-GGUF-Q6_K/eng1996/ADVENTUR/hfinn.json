@@ -1,0 +1,23 @@
+{
+  "title": "The Adventures of Huckleberry Finn",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "Huckleberry Finn, a mischievous and adventurous boy growing up in the antebellum South, escapes from his abusive father and sets off on a raft down the Mississippi River with Jim, an escaped slave. Together they encounter con artists, feuding families, and moral dilemmas as Huck grapples with societal norms about race and freedom. The novel is both a rollicking adventure story and a profound commentary on slavery, racism, and individual conscience in America.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/hfinn.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:27:45+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 565232,
+      "prompt_tokens": 30862,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+  "authors": [
+    "Douglass, Frederick"
+  ],
+  "kind": "non-fiction",
+  "summary": "Frederick Douglass recounts his life as a slave in Maryland and his eventual escape to freedom. The narrative details the brutalities of slavery, including physical abuse, psychological torment, and systemic dehumanization. Douglass describes his journey from ignorance to literacy, which becomes pivotal in his quest for liberation. He highlights key relationships with kind-hearted individuals who taught him to read and write, as well as encounters with cruel slaveholders and overseers. The book culminates in his daring escape to the North and his emergence as a powerful orator and abolitionist. Douglass uses his personal experiences to expose the moral corruption of slavery and advocate for its immediate abolition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/douglass.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:33:01+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 222831,
+      "text_chars": 222831,
+      "prompt_tokens": 57869,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

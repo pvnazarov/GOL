@@ -1,0 +1,23 @@
+{
+  "title": "The Call of the Wild",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "novel",
+  "summary": "Buck, a domesticated dog living in California, is kidnapped and sold to work as a sled dog in the harsh Klondike Gold Rush. He endures brutal treatment, learns to survive by instinct and cunning, and gradually reverts to his wild ancestry. Buck becomes leader of a sled team and earns respect among men and wolves alike. After forming an unbreakable bond with his final master, John Thornton, he is called back to the wild when humanity's ties are severed by death. He joins a wolf pack, embracing his primal nature in a final howl that signals his return to the wilderness.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/callwild.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:20:05+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 174840,
+      "text_chars": 174840,
+      "prompt_tokens": 47276,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

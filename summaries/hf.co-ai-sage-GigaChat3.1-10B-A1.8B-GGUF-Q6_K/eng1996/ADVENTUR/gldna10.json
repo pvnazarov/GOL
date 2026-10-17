@@ -1,0 +1,23 @@
+{
+  "title": "The Golden Age",
+  "authors": [
+    "Kenneth Grahame"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of nostalgic and whimsical vignettes from childhood, written by Kenneth Grahame. The stories capture the magic, mischief, and adventures of a group of children growing up in the English countryside during the late nineteenth century. Through their games, imaginative escapades, and encounters with eccentric relatives and neighbors, the tales explore themes of innocence, friendship, rebellion against authority, and the bittersweet transition from childhood to adolescence. Blending humor and gentle melancholy, Grahame evokes a timeless sense of wonder and the fleeting nature of youth.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/gldna10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:26:24+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 205699,
+      "prompt_tokens": 28978,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

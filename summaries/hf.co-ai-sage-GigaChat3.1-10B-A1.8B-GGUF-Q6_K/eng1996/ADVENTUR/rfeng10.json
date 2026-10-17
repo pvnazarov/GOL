@@ -1,0 +1,23 @@
+{
+  "title": "Records of a Family of Engineers",
+  "authors": [
+    "Robert Louis Stevenson"
+  ],
+  "kind": "non-fiction",
+  "summary": "This book is an extensive historical account by Robert Louis Stevenson detailing the lives and achievements of his engineering ancestors, particularly focusing on their contributions to lighthouse construction along Scotland's treacherous coasts. It intertwines family anecdotes with technical descriptions of major projects such as the Bell Rock Lighthouse, exploring themes of perseverance, ingenuity, and maritime heritage. Stevenson blends personal narrative with meticulous historical research, offering insights into 18th- and early 19th-century engineering challenges, Scottish history, and familial legacy.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/rfeng10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:43:17+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 370589,
+      "prompt_tokens": 28235,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

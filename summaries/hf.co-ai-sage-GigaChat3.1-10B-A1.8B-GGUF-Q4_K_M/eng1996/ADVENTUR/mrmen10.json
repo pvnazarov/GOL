@@ -1,0 +1,23 @@
+{
+  "title": "The Merry Men",
+  "authors": [
+    "Stevenson, Robert Louis"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of five short stories by Robert Louis Stevenson. The tales include 'Eilean Aros,' a tale set in the Scottish Hebrides about shipwreck and treasure; 'What the Wreck Had Brought to Ards' exploring superstition and mystery on a remote island; 'Land and Sea in Sandag Bay' focusing on a salvage expedition for a lost Spanish galleon; 'The Gale,' which depicts a violent storm at sea and its aftermath; and 'Markheim,' a psychological story about a murderer's conscience. The stories are steeped in the wild, rugged landscapes of Scotland and Spain, with themes of greed, fate, and the supernatural.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mrmen10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:38:39+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 433190,
+      "prompt_tokens": 30603,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

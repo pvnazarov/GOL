@@ -1,0 +1,23 @@
+{
+  "title": "Around the World in Eighty Days",
+  "authors": [
+    "Jules Verne"
+  ],
+  "kind": "novel",
+  "summary": "Phileas Fogg, a wealthy British gentleman living in London, makes an outrageous wager that he can travel around the world in just eighty days. Accompanied by his new French servant Passepartout, he embarks on a breathtaking journey filled with unexpected delays, thrilling escapes, and cultural encounters across Europe, America, and Asia. As Fogg navigates perilous situations—from Indian riots to typhoons—he is relentlessly pursued by a bumbling detective who mistakenly believes him to be a bank robber. With each challenge overcome, Fogg edges closer to victory, only to narrowly miss his deadline due to having gained an unforeseen day from traveling eastward. The novel celebrates ingenuity, perseverance, and the wonders of 19th-century exploration.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/eighty_d.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:27:29+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 362080,
+      "prompt_tokens": 28681,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

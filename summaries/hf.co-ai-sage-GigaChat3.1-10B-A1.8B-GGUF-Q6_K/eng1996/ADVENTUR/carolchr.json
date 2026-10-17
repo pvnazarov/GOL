@@ -1,0 +1,23 @@
+{
+  "title": "A Christmas Carol",
+  "authors": [
+    "Charles Dickens"
+  ],
+  "kind": "novel",
+  "summary": "A chilling yet redemptive tale follows Ebenezer Scrooge, a miserly old man who despises the festive season. On one bitter Christmas Eve, he is visited by three ghosts—the Ghost of Christmas Past, the Ghost of Christmas Present, and the Ghost of Christmas Yet to Come—who show him visions of his life, the joy and sorrow around him, and the bleak future that awaits if he does not change. Through these encounters, Scrooge confronts his greed, loneliness, and lost opportunities, ultimately finding compassion, generosity, and a renewed sense of purpose. The novella is a timeless celebration of kindness, forgiveness, and the transformative power of Christmas.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/carolchr.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:19:40+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 156402,
+      "prompt_tokens": 30058,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The Call of the Wild",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "novel",
+  "summary": "Buck, a domesticated dog living in California, is stolen from his comfortable home and sold into the harsh life of an Alaskan sled dog during the Klondike Gold Rush. Forced to adapt to brutal conditions under the rule of men like Francois and Perrault, Buck sheds his civilized ways and rediscovers his primal instincts. He endures starvation, violence, and hardship while forming a fierce bond with his sled team leader Spitz. After a climactic battle for dominance, Buck assumes leadership but is later mistreated by two inexperienced mushers, Hal and Charles, whose incompetence leads to the team's collapse. Following the death of his beloved owner John Thornton, Buck breaks free from human control, joins a wolf pack, and answers the ancient call of the wild, becoming a legendary ghost wolf at the head of a growing pack.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/callwild.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:22:20+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 174840,
+      "prompt_tokens": 28463,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

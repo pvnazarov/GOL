@@ -1,0 +1,23 @@
+{
+  "title": "Just David",
+  "authors": [
+    "Eleanor H. Porter"
+  ],
+  "kind": "novel",
+  "summary": "A heartwarming tale about a young boy named David, raised in isolation on a mountain with his father who is determined to shelter him from the world's harshness. After his father's death, David must navigate life in the valley below, encountering new friends and challenges that teach him about love, loss, and finding beauty in everyday life. Through music and resilience, David grows into a compassionate young man, guided by his father’s lessons and his own innate goodness. The story explores themes of innocence, sacrifice, and the enduring connection between a parent and child across life's boundaries.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/justdav.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:32:58+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 326545,
+      "prompt_tokens": 30235,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

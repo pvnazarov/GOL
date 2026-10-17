@@ -1,0 +1,23 @@
+{
+  "title": "To Build a Fire",
+  "authors": [
+    "London, Jack"
+  ],
+  "kind": "short stories",
+  "summary": "Jack London's 'To Build a Fire' is a classic short story about man's struggle against the unforgiving elements of the Yukon wilderness. The narrative follows an unnamed newcomer to the Klondike who underestimates the extreme cold and sets out alone on a treacherous trail, accompanied only by his dog. Despite warnings from experienced miners, he fails to recognize the lethal danger posed by temperatures far below freezing. As he attempts to survive through ingenuity and sheer willpower—building fires, battling frostbite, and succumbing to physical limits—the story explores themes of nature's indifference to human arrogance and the thin line between life and death in a hostile environment. The tale is renowned for its stark realism, vivid descriptions of Arctic conditions, and haunting portrayal of man's vulnerability when isolated against overwhelming forces.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/fire.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:27:58+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 56217,
+      "text_chars": 56217,
+      "prompt_tokens": 15995,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

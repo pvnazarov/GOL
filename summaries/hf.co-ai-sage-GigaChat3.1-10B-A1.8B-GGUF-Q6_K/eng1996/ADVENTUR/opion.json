@@ -1,0 +1,23 @@
+{
+  "title": "O Pioneers!",
+  "authors": [
+    "Willa Cather"
+  ],
+  "kind": "novel",
+  "summary": "Set on the Nebraska prairie, *O Pioneers!* tells the story of Alexandra Bergson, a strong-willed Swedish-American woman who inherits and transforms her family's struggling farm after her father's death. Through decades of hardship, drought, and personal loss, she defies societal expectations to build a prosperous agricultural empire. The novel explores themes of land, love, sacrifice, and the clash between individual ambition and community norms, centering on Alexandra’s deep connection to the land and her complex relationships with Carl Linstrum and Emil Bergson.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/opion.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:39:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 299644,
+      "prompt_tokens": 29957,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Tom Sawyer Abroad",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "In this sequel to The Adventures of Tom Sawyer and Adventures of Huckleberry Finn, Tom Sawyer and his friend Huckleberry Finn embark on a new adventure—this time in a hot air balloon across the world. After being celebrated as heroes for their previous escapades, Tom grows restless and devises an elaborate plan to journey abroad with Huck and Jim. The trio ascends into the sky, encountering exotic locales such as Egypt, Arabia, and the Holy Land, while navigating comedic misunderstandings, absurd scientific experiments, and cultural encounters. Through humor and satire, Twain parodies travelogues, religious crusades, and imperial ambitions, all filtered through Tom’s boundless imagination and boyish bravado.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy2.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:44:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 173450,
+      "prompt_tokens": 31142,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

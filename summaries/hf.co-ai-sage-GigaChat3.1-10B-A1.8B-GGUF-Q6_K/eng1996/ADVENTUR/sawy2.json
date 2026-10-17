@@ -1,0 +1,23 @@
+{
+  "title": "Tom Sawyer Abroad",
+  "authors": [
+    "Mark Twain"
+  ],
+  "kind": "novel",
+  "summary": "In this sequel to The Adventures of Tom Sawyer, the irrepressible Tom Sawyer and his friend Huckleberry Finn embark on a wildly imaginative adventure. After being inspired by tales of chivalry and exploration, Tom convinces Jim to join him in a fantastical journey aboard an airship he builds with the eccentric Professor. Their globe-trotting escapades take them from Missouri to exotic lands, including Egypt and Arabia, where they encounter lions, dervishes, ancient ruins, and bizarre optical illusions. The novel blends Twain’s signature humor, satire of human folly, and whimsical storytelling as Tom navigates his own grandiose plans, scientific misunderstandings, and the limits of imagination.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sawy2.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:46:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 173450,
+      "prompt_tokens": 31142,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

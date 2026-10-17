@@ -1,0 +1,23 @@
+{
+  "title": "Ivanhoe",
+  "authors": [
+    "Scott Walter"
+  ],
+  "kind": "novel",
+  "summary": "Set in 12th-century England during the time of King Richard I, *Ivanhoe* is a swashbuckling historical romance following Sir Wilfred of Ivanhoe, a brave and noble knight who returns from exile to fight for his beloved Lady Rowena amidst the tensions between Saxons and Normans. The novel weaves together themes of chivalry, justice, and cultural conflict as Ivanhoe encounters rebels, villains like the Templar Brian de Bois-Guilbert, and a vibrant cast including the Jewish physician Isaac of York and his courageous daughter Rebecca. Battles, tournaments, and daring rescues punctuate the narrative, leading to revelations about identity, loyalty, and redemption.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/ivanhoe.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T14:56:45+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 1119891,
+      "prompt_tokens": 61680,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

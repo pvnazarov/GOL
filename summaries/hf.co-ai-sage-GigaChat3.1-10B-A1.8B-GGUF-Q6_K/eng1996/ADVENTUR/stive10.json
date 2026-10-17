@@ -1,0 +1,23 @@
+{
+  "title": "St. Ives: Being the Adventures of a French Prisoner in England",
+  "authors": [
+    "Robert Louis Stevenson"
+  ],
+  "kind": "novel",
+  "summary": "The novel follows the adventures of Alain de Keroual St. Ives, a French émigré and soldier who is imprisoned in Edinburgh Castle after being captured during the Napoleonic Wars. Through his wit, charm, and resourcefulness, he navigates life as a prisoner, forming friendships with fellow captives, engaging in duels, and maintaining his dignity amidst hardship. St. Ives' story also includes romantic entanglements, encounters with English society, and daring escapades that test his courage and ingenuity. The narrative blends humor, adventure, and social commentary as it explores themes of honor, identity, and resilience in a foreign land.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/stive10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:50:10+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 554632,
+      "prompt_tokens": 29671,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

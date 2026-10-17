@@ -1,0 +1,23 @@
+{
+  "title": "Moby-Dick; or, The Whale",
+  "authors": [
+    "Herman Melville"
+  ],
+  "kind": "novel",
+  "summary": "A tale of obsession and revenge aboard the whaling ship Pequod, led by Captain Ahab who is determined to hunt down the white sperm whale Moby Dick that maimed him. Through a series of adventures at sea, narrator Ishmael recounts the voyage, encounters with diverse crew members like harpooneer Queequeg, and escalating supernatural dread as Ahab’s monomaniacal quest leads to tragedy.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mobydick.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:37:33+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 1176325,
+      "prompt_tokens": 28692,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

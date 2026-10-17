@@ -1,0 +1,23 @@
+{
+  "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+  "authors": [
+    "Douglass, Frederick"
+  ],
+  "kind": "non-fiction",
+  "summary": "Frederick Douglass's Narrative is a powerful autobiographical account of his life as a slave in Maryland and his journey to freedom. The book details the brutalities of slavery, including physical abuse, psychological manipulation, and systemic dehumanization. Douglass recounts his early experiences with literacy, which became both a tool for empowerment and a source of anguish under enslavement. He describes key relationships—with slaveholders like Mr. Gore and Mr. Covey, who embodied the worst aspects of slavery—and his eventual escape to the North. The narrative not only exposes the moral corruption of American slavery but also highlights Douglass’s intellectual growth, spiritual struggles, and transformation into an abolitionist orator and writer. Appendices include reflections on religion as practiced by slaveholders and a critique of hypocrisy in American Christianity.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/douglass.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:26:27+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 222831,
+      "prompt_tokens": 27705,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

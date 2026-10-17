@@ -1,0 +1,23 @@
+{
+  "title": "Just David",
+  "authors": [
+    "Eleanor H. Porter"
+  ],
+  "kind": "novel",
+  "summary": "This novel tells the story of a young boy named David who grows up in seclusion on a mountain with his father, learning to live off the land and finding beauty in nature and music. After his father's sudden death, David is thrust into an unfamiliar world when he must leave the mountains for the first time. The book follows his struggles and triumphs as he adapts to village life, makes new friends, and learns about love, loss, and self-reliance. Through his violin playing and gentle spirit, David brings joy to those around him while discovering his own strength and identity.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/justdav.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:34:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 326545,
+      "prompt_tokens": 30235,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The Golden Age",
+  "authors": [
+    "Kenneth Grahame"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of whimsical, nostalgic tales about childhood adventures and mischief in a rural English setting. The stories follow the escapades of three brothers—Edward, Harold, and the narrator—and their friends as they play at knights, pirates, and explorers, navigate family life with aunts, uncles, and governesses, and experience the magic and chaos of growing up. Through humor and fantasy, Grahame captures the blend of imagination, rebellion, and tender reflection that defines youthful summers, holidays, and the transition to school. Themes include friendship, authority versus independence, and the bittersweet passage from carefree play to responsibility.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/gldna10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:29:18+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 205699,
+      "prompt_tokens": 28978,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

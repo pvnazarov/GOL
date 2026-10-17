@@ -1,0 +1,23 @@
+{
+  "title": "The Secret Sharer",
+  "authors": [
+    "Joseph Conrad"
+  ],
+  "kind": "novel",
+  "summary": "A young and inexperienced captain, newly appointed to command a cargo ship in the South Seas, is isolated on his vessel and struggles with loneliness and self-doubt. His solitude is disrupted by the appearance of a stowaway—a fugitive named Leggatt—who hides in the captain’s cabin after committing murder aboard another ship. The two men form an intense bond as they share secrets and confidences, exchanging roles and identities. The captain becomes both protector and accomplice to Leggatt, shielding him from authorities while navigating his own moral crisis. As their secret partnership deepens, the captain must confront questions of identity, guilt, and authority before ultimately aiding Leggatt’s escape at great personal risk.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/sharerxt.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:47:07+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 101535,
+      "text_chars": 101535,
+      "prompt_tokens": 28883,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

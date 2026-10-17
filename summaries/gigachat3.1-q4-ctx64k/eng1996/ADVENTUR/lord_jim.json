@@ -1,0 +1,23 @@
+{
+  "title": "Lord Jim",
+  "authors": [
+    "Conrad Joseph"
+  ],
+  "kind": "novel",
+  "summary": "A psychological and moral tale of a young British seaman who fails in a crisis and is haunted by his perceived cowardice. After deserting his ship, the Patna, during a pilgrimage disaster, Jim seeks redemption through isolation and eventual leadership among Malay tribesmen on a remote island. The novel explores themes of honor, guilt, and the burden of reputation, as Jim attempts to build a new life while confronting his past failures in an inquiry that exposes his inner turmoil.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/lord_jim.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:11:25+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 714240,
+      "prompt_tokens": 59816,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

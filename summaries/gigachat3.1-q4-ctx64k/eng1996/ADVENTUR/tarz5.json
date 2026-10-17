@@ -1,0 +1,23 @@
+{
+  "title": "Tarzan and the Jewels of Opar",
+  "authors": [
+    "Burroughs, Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "In this adventure novel by Edgar Rice Burroughs, Lord Greystoke, known as Tarzan, embarks on a perilous journey to retrieve the lost treasures of the ancient city of Opar. After his home is destroyed and Jane Clayton, his wife, captured by Arab raiders led by Achmet Zek, he must navigate deadly jungles, face ferocious lions, and contend with primitive Oparian priests who worship a Flaming God. The story follows Tarzan’s struggle to rescue Jane, recover the jewels of Opar, and confront betrayal from within his own circle when renegade Belgian Albert Werper steals the treasures for himself. Blending romance, action, and primal survival, the novel showcases Tarzan’s transformation between civilized man and jungle beast as he battles both human and animal foes to restore justice.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz5.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T16:05:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 371051,
+      "prompt_tokens": 59715,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

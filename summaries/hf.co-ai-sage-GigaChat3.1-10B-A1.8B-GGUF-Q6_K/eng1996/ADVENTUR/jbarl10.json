@@ -1,0 +1,23 @@
+{
+  "title": "John Barleycorn",
+  "authors": [
+    "Jack London"
+  ],
+  "kind": "non-fiction",
+  "summary": "In this autobiographical work, Jack London recounts his lifelong relationship with alcohol from childhood to maturity. He explores how accessibility and social conditioning led him to drink despite lacking a physiological predisposition for addiction. Through vivid anecdotes spanning his youth in California, seafaring adventures, and life among sailors and laborers, London examines the allure and destructive power of alcohol. The book is both a personal memoir and a broader commentary on societal attitudes toward drinking, arguing that temperance requires removing alcohol from social institutions rather than relying solely on individual willpower.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/jbarl10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:31:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 354219,
+      "prompt_tokens": 28765,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

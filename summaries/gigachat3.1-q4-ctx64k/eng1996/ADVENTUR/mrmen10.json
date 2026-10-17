@@ -1,0 +1,23 @@
+{
+  "title": "The Merry Men",
+  "authors": [
+    "Stevenson, Robert Louis"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of short stories by Robert Louis Stevenson set in the Scottish islands. The title story follows a narrator's return to his ancestral home on Aros and explores themes of family legacy, superstition, shipwrecks, and hidden treasure. Other tales include 'Will o' the Mill,' which tells of a restless boy longing for adventure beyond his mountain valley; 'Thrawn Janet,' a ghost story about a haunted minister's manse; and various other narratives blending adventure, folklore, and moral reflection. The stories capture Stevenson's fascination with Scotland's rugged coasts, maritime life, and the supernatural.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/mrmen10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:18:48+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 433190,
+      "prompt_tokens": 62456,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "An open letter to the reverend dr. Hyde of Honolulu",
+  "authors": [
+    "De Veuster Damien"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a polemical essay by Father Damien, written in response to a critical letter from Reverend C. M. Hyde accusing him of moral failings and inefficiency during his service to lepers on Molokai. In this impassioned defense, Damien refutes the allegations against him, citing firsthand accounts from fellow residents of the leper colony, where he lived among and cared for those afflicted with Hansen's disease. He highlights his voluntary dedication, personal sacrifices, and contributions to improving conditions at Kalawao settlement, including infrastructure, sanitation, and spiritual care. Damien also critiques Hyde’s privileged background and failure to visit the leper colony, arguing that true heroism lies in selfless service rather than worldly comforts or sectarian pride. The work stands as both a personal vindication and a broader commentary on faith, duty, and social justice.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/frdam10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q6_K",
+    "created": "2026-10-17T12:25:07+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 30713,
+      "text_chars": 30713,
+      "prompt_tokens": 9630,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

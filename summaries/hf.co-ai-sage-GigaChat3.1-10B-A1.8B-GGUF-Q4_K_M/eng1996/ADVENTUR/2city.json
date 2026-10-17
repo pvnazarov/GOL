@@ -1,0 +1,23 @@
+{
+  "title": "A Tale of Two Cities",
+  "authors": [
+    "Charles Dickens"
+  ],
+  "kind": "novel",
+  "summary": "Set against the backdrop of the French Revolution, A Tale of Two Cities follows the lives of Charles Darnay and Sydney Carton, who are linked by their resemblance and love for Lucie Manette. The novel opens with the famous lines, 'It was the best of times, it was the worst of times...' as Dickens contrasts the opulence and corruption in London with the chaos and violence in Paris. Dr. Alexandre Manette, recently released from a eighteen-year imprisonment in the Bastille, is reunited with his daughter Lucie. As revolution looms, Darnay, a French aristocrat who has renounced his family's title, falls in love with Lucie, while Carton, a dissipated English lawyer, pines for her. The narrative weaves themes of resurrection, sacrifice, and redemption as characters face the terror of the Revolution, culminating in Carton's ultimate act of self-sacrifice to save Darnay's life.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/2city.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:19:32+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 756363,
+      "prompt_tokens": 28743,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

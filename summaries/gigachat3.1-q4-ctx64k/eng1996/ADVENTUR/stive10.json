@@ -1,0 +1,23 @@
+{
+  "title": "St. Ives: Being the Adventures of a French Prisoner in England",
+  "authors": [
+    "Stevens, Robert Louis"
+  ],
+  "kind": "novel",
+  "summary": "A tale of espionage and escape set during the Napoleonic Wars. The protagonist, a French officer named Champdivers (later St. Ives), is imprisoned in Edinburgh Castle after being captured as a spy. Through wit, charm, and daring, he navigates prison life, escapes with fellow prisoners, and embarks on a series of adventures that include duels, secret missions, love affairs, and encounters with English society. The novel blends humor, romance, and adventure as St. Ives seeks freedom, justice, and the woman he loves while evading capture by British authorities.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/stive10.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:45:41+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 554632,
+      "prompt_tokens": 62441,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

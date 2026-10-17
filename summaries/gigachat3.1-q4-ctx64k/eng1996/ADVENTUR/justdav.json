@@ -1,0 +1,23 @@
+{
+  "title": "Just David",
+  "authors": [
+    "Eleanor H. Porter"
+  ],
+  "kind": "novel",
+  "summary": "David is a young boy raised in seclusion on a mountain with his father, learning to live simply and appreciate nature's beauty. After his father's sudden death, David must navigate the unfamiliar world of civilization, facing loneliness, misunderstanding, and prejudice. Through his innocence, kindness, and love for music, he slowly wins over those around him, including the skeptical Simeon Holly who reluctantly becomes his guardian. The novel explores themes of loss, resilience, and finding one's place in a complex world, with David's violin serving as both solace and connection to his father and the beauty he once knew.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/justdav.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:04:19+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 326545,
+      "prompt_tokens": 63330,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The Beasts of Tarzan",
+  "authors": [
+    "Burroughs, Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "Edgar Rice Burroughs's *The Beasts of Tarzan* is an adventure novel featuring the legendary Lord Greystoke, known as Tarzan of the Apes. After being shipwrecked and marooned on a mysterious island, Tarzan must survive the perils of the jungle while evading his arch-enemy, Nikolas Rokoff, who seeks to punish him by stealing his son. The novel follows Tarzan's resourcefulness in rebuilding weapons, forming alliances with apes and panthers, and leading a makeshift crew to escape captivity. It is filled with jungle battles, daring escapes, and themes of survival against both man and beast. Ultimately, the story resolves with the Russian villain's downfall and the child's safe return to his parents in London.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/tarz3.zip",
+    "backend": "ollama",
+    "model": "gigachat3.1-q4-ctx64k",
+    "created": "2026-10-17T15:58:52+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 223893,
+      "text_chars": 352521,
+      "prompt_tokens": 59303,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Father Damien",
+  "authors": [
+    "De Veuster"
+  ],
+  "kind": "non-fiction",
+  "summary": "This book is an open letter written by Brother Damien of Molokai to the Reverend Dr. Hyde, responding to a critical letter published in which he was described as a coarse, dirty, and bigoted man who had not contributed meaningfully to leprosy reforms on Molokai. The letter defends Damien's character, recounts his selfless service to the leper colony at Kalawao, details the harsh conditions of the settlement, and refutes Hyde’s claims with both personal experience and testimonies from those who worked alongside him. It also critiques the moral failings of missionary institutions in Hawaii and argues for Damien's heroism as a man who voluntarily embraced suffering to aid the afflicted. The work serves as both a defense of Damien’s legacy and a broader commentary on religious hypocrisy, sacrifice, and social justice.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ADVENTUR/frdam10.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T13:28:17+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 30713,
+      "text_chars": 30713,
+      "prompt_tokens": 9630,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}
