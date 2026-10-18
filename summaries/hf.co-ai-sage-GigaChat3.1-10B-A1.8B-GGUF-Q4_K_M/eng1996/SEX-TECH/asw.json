@@ -1,0 +1,24 @@
+{
+  "title": "The official alt.sex.wizards faq file with answers - (dated september 1, 1993)",
+  "authors": [
+    "David Johnson",
+    "Snugglebunny"
+  ],
+  "kind": "non-fiction",
+  "summary": "This FAQ file serves as a guide to the frequently asked questions (FAQ) for the Usenet group alt.sex. wizards, focusing on sexual techniques and wizardry practices to promote health and happiness among its readers. It includes practical advice on creating sex toys, enhancing masturbatory experiences, achieving multi-orgasmic states in men, performing various forms of tantric massages (Yoni and Lingam), kegel exercises for both genders, and the use of sexual energy for magical reality creation. The document also provides resources for further reading on tantra and sacred sexuality, as well as instructions for navigating Usenet archives to find related content. It emphasizes respectful communication and consent in sexual practices while offering a blend of practical tips and esoteric knowledge.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SEX-TECH/asw.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:38:08+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 76181,
+      "text_chars": 76181,
+      "prompt_tokens": 22545,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

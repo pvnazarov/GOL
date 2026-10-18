@@ -12,8 +12,9 @@ environment facts that the README does not. Open items are in `TODO.md`.
   vendored in `.tools/node/bin` and used per command
   (`PATH=.tools/node/bin:$PATH node ...`).
 - **EROTIC and SEX-TECH folders are never sent to Claude** (cloud). They go to the
-  local GigaChat model only. Their summaries stay **uncommitted** until the user
-  has reviewed those folders (some books there involve minors; see `TODO.md`).
+  local GigaChat model only. SEX-TECH summaries are committed; EROTIC summaries
+  stay **uncommitted** until the user has reviewed that folder (some books there
+  involve minors; see `TODO.md`).
 - A book Haiku fails on (refusal, stub replies) is summarized with local GigaChat
   instead; the site should use Haiku's summary and fall back to GigaChat's.
 - The user writes in English and Russian; answer in the language of the message.
@@ -41,7 +42,8 @@ environment facts that the README does not. Open items are in `TODO.md`.
   SEX-TECH. Committed (`475396e`).
 - `summaries/hf.co-ai-sage-GigaChat3.1-10B-A1.8B-GGUF-Q4_K_M/` — GigaChat Q4 @32k:
   the two Haiku failures (`eng1996/TEACHER/pyro`, `rus2004/PHYLOS/alievm`,
-  committed) and all 190 EROTIC/SEX-TECH books (**not committed**).
+  committed), the 73 SEX-TECH books (committed) and the 117 EROTIC books
+  (**not committed**).
 - Run commands:
   - Haiku: `.venv/bin/python scripts/summarize_books.py --model haiku --jobs 4 libs/<lib>/<CAT> ...`
     (~41 books/min).

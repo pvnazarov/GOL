@@ -27,8 +27,8 @@ All of these are served on the public site today.
   Not flagged: `rus2004/TEACHER/vv`, Багал's chemistry textbook.
 - [ ] Decide which of these to remove from `libs/` and the catalogue (then rebuild
   the catalogue), and whether to delete their summaries.
-- [ ] After the review, commit the EROTIC/SEX-TECH GigaChat summaries, minus any
-  removed books.
+- [ ] After the review, commit the EROTIC GigaChat summaries, minus any removed
+  books. (SEX-TECH summaries are committed.)
 
 ## Summaries
 

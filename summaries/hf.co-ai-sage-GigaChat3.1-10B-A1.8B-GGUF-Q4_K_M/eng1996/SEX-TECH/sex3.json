@@ -1,0 +1,23 @@
+{
+  "title": "Human sexuality a brief edition",
+  "authors": [
+    "Mccary James Leslie"
+  ],
+  "kind": "non-fiction",
+  "summary": "This book provides a concise overview of human sexuality, covering topics such as sexual response cycles, contraception methods, sexually transmitted diseases, and techniques for addressing common sexual concerns like premature ejaculation. It includes practical advice on enhancing sexual experiences through communication with partners, exploring various positions, and understanding the body's responses to stimulation. The book also discusses medical treatments and exercises (e.g., Kegel) that can improve sexual function and satisfaction for both men and women. Aimed at a general audience, it seeks to educate readers about healthy sexual practices while dispelling myths and providing scientifically grounded information.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SEX-TECH/sex3.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-17T22:39:36+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 55254,
+      "text_chars": 55254,
+      "prompt_tokens": 16325,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "How to give the perfect hand job",
+  "authors": [
+    "Peters Brooks"
+  ],
+  "kind": "non-fiction",
+  "summary": "This book by Brooks Peters is a guide on manual sexual stimulation, specifically focusing on how to give an effective hand job. It provides detailed instructions and techniques for mutual masturbation between partners, addressing common concerns about technique, pressure, and rhythm. The author discusses the anatomy of male genitalia, emphasizing sensitivity in various areas such as the glans and corona, and offers a variety of hand motions and grips to enhance pleasure. The book also touches on topics like penis size, circumcision, and the use of lubricants or ointments for added sensation. It includes additional sections answering common sexual health questions, including female ejaculation, G-spot stimulation, and the effects of diet on bodily fluids. Written in a direct and instructional style, it aims to improve sexual experiences through knowledge and practice.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SEX-TECH/sex2.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:38:33+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 48842,
+      "text_chars": 48842,
+      "prompt_tokens": 14845,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}
