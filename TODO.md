@@ -32,10 +32,6 @@ All of these are served on the public site today.
 
 ## Summaries
 
-- [ ] Commit the overflow retry in `scripts/summarize_books.py`: on a context
-  overflow, Ollama runs retry with a shorter excerpt.
-- [ ] Commit `CLAUDE.md`, `TODO.md`, `scripts/summaries_page/` and the
-  `.gitignore` line.
 - [ ] **Show the summaries on the site:** have `build_catalog.py` merge them
   (Haiku first, GigaChat as fallback) into `libs/data/`, and show them in the
   book view.
