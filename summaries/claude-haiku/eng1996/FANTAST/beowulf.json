@@ -1,0 +1,21 @@
+{
+  "title": "Beowulf",
+  "authors": [],
+  "kind": "poetry",
+  "summary": "Beowulf is an Old English heroic epic, preserved in a single manuscript from around the tenth century, that tells of events in Scandinavia, principally Denmark and the land of the Geats. This modern verse rendering opens with a prologue praising the Danish kings of the Scyldings, then moves to the reign of Hrothgar, who builds the great hall Herot. For twelve years the hall is terrorised by Grendel, a monster descended from Cain, who kills the king's warriors at night. The excerpt closes with the court's despair and its turn to pagan sacrifice in search of relief. The full poem goes on to recount how the Geatish hero Beowulf crosses the sea to confront Grendel and then Grendel's mother, and later, as an aged king, faces a dragon that threatens his own people. The work blends heroic values of loyalty, fame and courage with a Christian narrative frame, and it is the foundational text of English literature. Note that the text supplied is a fragment that breaks off in the early sections of the poem, and no author is credited, as the original poet is unknown.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/beowulf.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:44+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7985,
+      "text_chars": 7985,
+      "prompt_tokens": 3972,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

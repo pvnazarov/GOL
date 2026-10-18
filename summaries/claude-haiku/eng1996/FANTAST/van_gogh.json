@@ -1,0 +1,23 @@
+{
+  "title": "V a n g o g h i n s p a c e infinity city series book 1",
+  "authors": [
+    "Bell Douglas K"
+  ],
+  "kind": "novel",
+  "summary": "Van Gogh in Space is the first book of the Infinity City series, a science fiction adventure by Douglas K. Bell. Infinity City is a human world of about a million people that floats inside a black hole. Its society is run by powerful matriarchal families called Grand Dames, its men crave adventure, and an anti-aging drug keeps its citizens young. Its sailships travel the galaxy and occasionally travel back in time. John One, a former militia officer, sails into the past to collect artworks and rare objects from late nineteenth-century Earth. During his trip he becomes entangled with the painter Vincent van Gogh, whose despair and recent suicide attempt are bound up with John's own lost pistol. John brings the painter back to Infinity City, where Van Gogh meets a world of sophisticated women, a strange state theology called the One True Belief, and the ever-present danger of the Well of the Wish. The book blends romance, action, and comic social satire, poking fun at gender roles, cultural clashes, and the consequences of time travel.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/van_gogh.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 357284,
+      "prompt_tokens": 12702,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

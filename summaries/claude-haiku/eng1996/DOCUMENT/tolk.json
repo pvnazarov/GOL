@@ -1,0 +1,23 @@
+{
+  "title": "Tolkien faq",
+  "authors": [
+    "Tolkien Jrr"
+  ],
+  "kind": "non-fiction",
+  "summary": "A fan-compiled Frequently Asked Questions list about the works and invented world of J.R.R. Tolkien, posted to Usenet in 1993 and revised by William D.B. Loos with contributions from several readers. It is organised as numbered questions grouped under headings such as Tolkien and His Work, General History of Middle-earth, Hobbits, Humans, Dwarves, Istari, Enemies and Miscellaneous. Answers draw on Tolkien's letters, The Silmarillion, Unfinished Tales and T.A. Shippey's The Road to Middle-earth, and cite page references to the standard editions. Topics include Tolkien's biography and philology, whether the languages of The Lord of the Rings were real, the pretence that the book was a translated manuscript, how Gollum's riddle game was rewritten between The Hobbit and its sequel, why The Silmarillion was delayed, the sinking of Numenor and the reshaping of the world, hobbit ancestry, the origins of Orcs and Trolls, Tom Bombadil, the fate of the Entwives and the cats of Queen Beruthiel. Entries are marked as revised or new, and the list includes a page-number conversion table between American and British editions and a glossary of abbreviations.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/tolk.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:48+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 81108,
+      "prompt_tokens": 14149,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

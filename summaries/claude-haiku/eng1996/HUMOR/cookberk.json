@@ -1,0 +1,23 @@
+{
+  "title": "How to cook a berkeley student",
+  "authors": [
+    "the wharf rat"
+  ],
+  "kind": "short stories",
+  "summary": "A humorous piece of Usenet-era satire, posted to the rec.humor.funny newsgroup in the late 1980s and reposted in a 1988 digest. Written as a mock recipe in the style of a cookbook, it lampoons stereotypes of the University of California, Berkeley student community, which were common targets of campus and computing-culture jokes at the time. The ingredients list and step-by-step instructions play on the conventions of cookery writing, substituting absurd items such as a keg of cheap beer, alfalfa sprouts and health foods for conventional ingredients, and treating a student's ego, pencils, calculators and fraternity habits as culinary matter. The text also mocks computing jargon, with references to posting to net.general, flames and terminals. The piece is brief and comedic rather than narrative, and the surrounding material is a newsgroup header and editor's note explaining how the joke was circulated. It is one of many light parodies of the period that poked fun at academic and hacker subcultures.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/cookberk.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:10+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2908,
+      "text_chars": 2908,
+      "prompt_tokens": 2343,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

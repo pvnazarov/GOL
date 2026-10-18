@@ -1,0 +1,23 @@
+{
+  "title": "The taming of the shrew",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "The Taming of the Shrew is a comedy by William Shakespeare, set in Padua and Petruchio's country house. It opens with an induction in which a drunken tinker, Christopher Sly, is tricked by a lord into believing he is a nobleman, and a troupe of players is invited to perform for him. The main action follows two sisters. Katharina, the elder, has a reputation for a sharp, quarrelsome tongue, which blocks the marriage of her younger sister Bianca, who is courted by several suitors. Lucentio, who disguises himself as a tutor, woos Bianca, while his servant Tranio impersonates him. Petruchio, a gentleman from Verona, agrees to marry the difficult Katharina for her dowry and sets about taming her through a campaign of outrageous behaviour, deprivation and mock-obedience. The play closes with a wager among the husbands over which wife is the most obedient, and with Katharina delivering a speech on wifely duty. The work is known for its sharp wordplay, its farcical disguises, and its debated treatment of gender and marriage.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/taming.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 121851,
+      "prompt_tokens": 15082,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

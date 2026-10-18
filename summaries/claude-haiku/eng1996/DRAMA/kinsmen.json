@@ -1,0 +1,23 @@
+{
+  "title": "The two noble kinsmen",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "The Two Noble Kinsmen is a tragicomic play written in collaboration by William Shakespeare and John Fletcher, drawing on Chaucer's Knight's Tale. It opens with the wedding of Theseus, Duke of Athens, and Hippolyta, the Amazon queen, interrupted by three widowed queens who beg Theseus to avenge their husbands, slain in battle against the tyrant Creon of Thebes. Theseus marches to Thebes, defeats Creon, and returns in triumph. Meanwhile, two Theban cousins, Palamon and Arcite, have been imprisoned and remain sworn friends until both fall in love with Emilia, Hippolyta's sister, whom they glimpse from their prison window. Their friendship turns into a bitter rivalry, and they fight in a duel in the forest, only to be discovered and sentenced to death. Emilia's plea and the intervention of the women and Pirithous lead Theseus to a compromise. The play explores friendship, love, honour, and the workings of fate, and ends with a formal, bittersweet resolution. The text here includes the prologue, the opening scenes, and a glossary of archaic terms.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/kinsmen.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 169630,
+      "prompt_tokens": 15500,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

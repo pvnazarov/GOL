@@ -1,0 +1,23 @@
+{
+  "title": "The poetry cranny - political poetry to spark your imagination",
+  "authors": [
+    "Bailey William"
+  ],
+  "kind": "poetry",
+  "summary": "The Poetry Cranny: Political Poetry to Spark your Imagination is a collection of short, rhymed political verse by William Bailey. The pieces are topical satires aimed at the American political scene of the early 1990s. They include poems on the Whitewater affair and the Clintons, a circus-themed piece about the two major parties and the 1996 election, a tongue-in-cheek verse on taxing smokers, a poem on gays in the military, a lament over crime and moral decline, and a piece on immigration and self-reliance. The verse is loose and often comic, with a blunt partisan edge and a folksy, sing-song meter. The file also includes a second section, Selected Works, containing sentimental and patriotic poems by Karen Westerman. Her pieces concern a child who becomes an angel, a shot deer, a mother's question about war, a broken marriage, a veteran's suicide, and a disabled boy given a puppy. Westerman's poems are sincere and emotional, in contrast to Bailey's satirical tone.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/poem.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:34+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9947,
+      "text_chars": 9947,
+      "prompt_tokens": 4669,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

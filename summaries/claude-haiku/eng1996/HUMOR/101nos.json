@@ -1,0 +1,21 @@
+{
+  "title": "101 Easy ways to say no",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a light humor book offering a numbered list of 101 absurd excuses for turning down invitations, each beginning with the phrase \"I'd love to, but...\" The reasons range from the whimsical and surreal, such as having to floss one's cat, being scheduled for a karma transplant, or teaching a ferret to yodel, to playful pop-culture and wordplay jokes, like referring to Millard Fillmore's fan club or the Grunion running. The entries are brief, one-line gags with no continuous narrative, so the book works as a quick, dippable collection meant for amusement. It suits readers who enjoy absurdist wit, goofy lists, and deadpan nonsense, and it could also serve as a playful source of ridiculous excuses for anyone wanting to decline an invitation without giving a real reason. The catalogue record gives the title but no author, and the excerpt itself carries no named writer.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/101nos.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:43+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4527,
+      "text_chars": 4527,
+      "prompt_tokens": 3005,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

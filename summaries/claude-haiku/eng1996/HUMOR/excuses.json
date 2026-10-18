@@ -1,0 +1,21 @@
+{
+  "title": "Excuses, excuses",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A light-hearted humor piece that gathers real excuse notes written by parents to explain their children's absences or tardiness at school. The text opens with the observation that the notes, though meant to be routine, reveal how casually adults mangle the English language, and then presents a long run of examples. Some notes are funny because of misspellings and muddled phrasing, such as a child who 'misplaced his hip' after falling from a tree, a girl who was 'administrating' instead of at school, or a student excused for having 'an acre in his side.' Others are comic through unintended candour or odd explanations, including a boy who missed school because he 'missed his bust' and a father's fault blamed for a child's absence. The collection is short and anonymous, with no single author credited, and works as a lighthearted, gently mocking catalogue of parental writing errors.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/excuses.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:23+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2861,
+      "text_chars": 2861,
+      "prompt_tokens": 2175,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

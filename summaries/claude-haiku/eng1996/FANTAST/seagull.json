@@ -1,0 +1,23 @@
+{
+  "title": "Jonathan livingston seagull",
+  "authors": [
+    "Bach Richard"
+  ],
+  "kind": "novella",
+  "summary": "Jonathan Livingston Seagull is a short parable about a young gull who finds joy in flight and rejects his flock's preoccupation with food and bare survival. Scorned and eventually cast out by the other gulls for his experiments with speed, diving, and aerobatics, he pursues mastery of the air alone, discovering loops, rolls, and controlled turns that no gull has attempted. After his death he arrives in a higher realm where gulls strive for perfection under the guidance of the Elder Chiang, who teaches that freedom lies in understanding one's unlimited nature rather than in the limits of a body or a chart. Jonathan then returns to the ordinary gulls out of love, hoping to share what he has learned, and his student Fletcher Lynd Seagull carries the work forward. Written as an allegory about striving for excellence, nonconformity, and the value of teaching others, the book became a widely read inspirational work in the 1970s.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/seagull.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:57+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 49293,
+      "prompt_tokens": 13122,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

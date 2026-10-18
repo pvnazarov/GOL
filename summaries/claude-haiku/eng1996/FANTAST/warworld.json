@@ -1,0 +1,23 @@
+{
+  "title": "The war of the worlds",
+  "authors": [
+    "Wells H(erbert) G(eorge)"
+  ],
+  "kind": "novel",
+  "summary": "The War of the Worlds is a science fiction novel first published in 1898, narrated by an unnamed writer living in Surrey, England. Its opening reflects on how humanity failed to notice intelligent beings on Mars, who, facing the slow cooling of their own world, turn their envious gaze toward Earth. Cylindrical projectiles fired from Mars land near the narrator's home at Woking, and the Martians emerge with heat rays and towering war machines that devastate the countryside and London. The story follows the narrator as he flees the panic, reunites with his brother, and witnesses the collapse of ordinary society under attack. The book is a landmark of invasion literature, using the alien war as a lens on imperial arrogance, the fragility of civilization, and human vulnerability. Its closing chapters reflect on the aftermath, the Martians' eventual defeat by terrestrial microbes, and the lasting unease that such events leave behind.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/warworld.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:25+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 337482,
+      "prompt_tokens": 12688,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Actual excerpts from student science exam papers in the u.s.a.",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A short humorous collection of genuine-seeming wrong answers written by American schoolchildren on science examinations, gathered and presented as a light satire on the state of science teaching. The pieces are numbered, brief one-liners that run through biology, chemistry, physics, mathematics, human anatomy, first aid, and reproduction. Typical entries misstate the work of famous scientists such as Charles Darwin and Benjamin Franklin, garble terms like arteries, bisect and conversion, and offer absurd first-aid advice such as treating a nosebleed by lowering the nose or treating drowning by artificial perspiration. Each answer is a confident error that is funny because of its misplaced seriousness. The compiler's parenthetical framing suggests the joke is aimed at doubts about the education system, but the book's appeal rests on the entertainment value of the mistakes themselves. It is a quick, self-contained read with no narrative or characters, suited to dipping into at random.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/science1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:25+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3897,
+      "text_chars": 3897,
+      "prompt_tokens": 2587,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

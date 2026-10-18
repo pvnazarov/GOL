@@ -1,0 +1,23 @@
+{
+  "title": "The constitution in cyberspace",
+  "authors": [
+    "Tribe Laurence H"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the prepared keynote address Laurence H. Tribe, Tyler Professor of Constitutional Law at Harvard Law School, delivered at the First Conference on Computers, Freedom & Privacy in 1991. Tribe uses the term \"cyberspace\" broadly, covering telephones, bulletin boards, networks and virtual reality, and asks what happens to constitutional principles when the physical and temporal lines on which the Constitution relies blur or vanish. He opens with the Maryland v. Craig case on closed-circuit testimony and the Confrontation Clause, and discusses the danger of relativist thinking inspired by Borges and postmodern theory. He examines five constitutional axioms: the distinction between government and private action, the limits on private property and personhood, the government's inability to control information content, and related principles. He argues that the Constitution's core values apply to new technologies, and that the First Amendment and privacy protections should extend to electronic information. The essay closes with a proposed \"cyberspace corollary\" and a hypothetical Twenty-seventh Amendment modeled on the Ninth.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/tribe1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:46+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 47726,
+      "prompt_tokens": 12432,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

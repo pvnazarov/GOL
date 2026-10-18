@@ -1,0 +1,21 @@
+{
+  "title": "Collection of lawyer jokes - offensive to attorneys",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is an informal anthology of jokes, one-liners, short anecdotes and mock-legal documents that make fun of lawyers. It is a humor collection circulated in plain-text form, with no single author credited, and its contents are compiled from many sources. Its pieces include question-and-answer riddles such as 'How can you tell when a lawyer is lying? His lips are moving,' longer tales like a lawyer who loses his Czech friend to a bear and then has the wrong animal shot, and a mock Washington State hunting code declaring lawyers a game animal with bag limits. Other entries are a Heaven-and-Hell quarrel over a fence, a rabbi, priest, doctor and lawyer comparing stolen funeral money, an extended tale in which a sick attorney and a doctor trade insults over a kidney stone, and a series of quotations mocking legal practice. The jokes target lawyers' greed, dishonesty and litigiousness, and many rely on stock formats such as the 'lawyer brain' price joke and the 'bus full of lawyers' line. Some of the material is crude or vulgar. The collection is best read as a sampler of the traditional lawyer-joke genre.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/lawyers.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:54+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 40413,
+      "prompt_tokens": 14692,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

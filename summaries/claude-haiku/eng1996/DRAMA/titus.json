@@ -1,0 +1,23 @@
+{
+  "title": "Titus andronicus",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Titus Andronicus is a Shakespearean tragedy set in ancient Rome during the late empire, and is often regarded as one of the playwright's earliest and most violent works. The play opens with a contest for the imperial throne between two sons of the late emperor, Saturninus and Bassianus. The victorious general Titus Andronicus, returning from years of war against the Goths, is offered the crown but declines it, and his choice of Saturninus begins a chain of events. Titus takes Tamora, Queen of the Goths, as a captive, and her sons are sacrificed to avenge his own dead sons. Tamora, now empress, and her Moorish lover Aaron set out on a campaign of revenge, which brings rape, mutilation, murder and cruel deceit upon the Andronici family. The story escalates into a grim cycle of retribution, with Titus himself driven to madness and extreme acts of vengeance. The closing scenes bring a bloody banquet and a final reckoning, after which new order is sought in Rome. The play is notable for its extreme violence, its use of classical allusion, and its examination of revenge, power and civic duty.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/titus.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:17+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 121498,
+      "prompt_tokens": 15500,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

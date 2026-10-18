@@ -1,0 +1,23 @@
+{
+  "title": "As you like it",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "As You Like It is a comedy by William Shakespeare, first printed in the First Folio of 1623. Its action moves between the court of Duke Frederick, who has usurped his elder brother, and the Forest of Arden, where the banished Duke Senior and his loyal followers live a simple pastoral life. The story follows Rosalind, the banished duke's daughter, and her cousin Celia, Frederick's daughter, after Rosalind is also cast out. Disguised as a young man named Ganymede, Rosalind travels into the forest with Celia and the court jester Touchstone. There she meets Orlando, a young man mistreated by his elder brother Oliver, who has fallen in love with her. The play is full of witty banter, romantic misunderstandings, and reflections on love, time, and the contrast between court and country life. Among its well-known figures are the melancholy courtier Jaques, the shepherds Corin and Silvius, and the shepherdess Phebe. The comedy ends with several weddings, the reconciliation of the brothers, and the restoration of the rightful duke, followed by an epilogue spoken by Rosalind.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/as_you.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:00+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 122815,
+      "prompt_tokens": 14543,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "King John",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "King John is a history play by William Shakespeare, dramatising the reign of King John of England (1199-1216) and his disputed claim to the throne against his young nephew Arthur, Duke of Brittany, who is backed by the French king Philip. The play opens with a diplomatic clash over sovereignty and a lively dispute between two brothers over their inheritance, which introduces Philip the Bastard, a sharp-witted son of Richard the Lionheart who becomes a central figure. The action moves through battles near Angiers, the political manoeuvring of the church through Cardinal Pandulph, and the moral collapse of John, who orders Hubert to blind or kill Arthur. Arthur's death and the public outrage that follows turn the English lords against the king. The later acts show John poisoned by a monk, his sickness and death, and the closing reconciliation around his son Prince Henry. The work explores legitimacy, national identity, political expediency and the costs of war, and is often read alongside Shakespeare's other English histories.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/kingjohn.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:34+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 119761,
+      "prompt_tokens": 14823,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Construction project, atomic bomb",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a satirical humor piece in the form of a 'how-to' column, reprinted from The Journal of Irreproducible Results, a magazine known for parody scientific writing. Its introduction mocks court decisions that restrict publication of atomic bomb construction details, claiming the real reason is that the average reader is too unintelligent to build one. The bulk of the text is a deadpan, ten-step 'construction method' that treats building a nuclear device as a casual weekend hobby, with absurd advice about sourcing plutonium from Junior Achievement, disguising the casing as a Buick, and hiding the device under the kitchen sink. A brief theory-of-operation section, a teaser for a future column on cloning a neighbor's wife, and a list of earlier columns in the same series ('Let's Make a Time Machine', 'Let's Make Test Tube Babies!') complete the joke. The piece is a parody of the self-help DIY genre and a dark comedy about nuclear proliferation, not a usable set of instructions.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/abomb.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:45+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5686,
+      "text_chars": 5686,
+      "prompt_tokens": 3203,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The prisoner of zenda",
+  "authors": [
+    "Hope Anthony"
+  ],
+  "kind": "novel",
+  "summary": "The Prisoner of Zenda is a romantic adventure novel by Anthony Hope, first published in 1894, set in the fictional Central European kingdom of Ruritania. The narrator, Rudolf Rassendyll, is an English gentleman of idle habits who looks almost exactly like the young King Rudolf V, a resemblance he shares with his royal ancestors. Travelling to the coronation in Strelsau, he finds the King drugged on the eve of the ceremony by his scheming half-brother, Duke Michael, known as Black Michael, who intends to seize the throne. Rassendyll is persuaded to impersonate the King, and in doing so falls in love with the Princess Flavia, the King's betrothed. The story follows his attempts to rescue the real King, imprisoned in the Castle of Zenda, while keeping the deception intact, with loyal companions such as Colonel Sapt and Fritz von Tarlenheim. The book is famous for its swordplay, intrigue, and the sacrificial tension of its love story, and it spawned many imitations and film adaptations.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/zenda.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 288314,
+      "prompt_tokens": 13309,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

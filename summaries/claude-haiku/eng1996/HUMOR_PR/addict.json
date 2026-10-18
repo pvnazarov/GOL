@@ -1,0 +1,23 @@
+{
+  "title": "The tragedy of an on-line addiction",
+  "authors": [
+    "King Steve"
+  ],
+  "kind": "short stories",
+  "summary": "A short humorous piece, written in the first person, satirising the early home-computer culture of dial-up modems and remote bulletin board systems (RBBS). The narrator, presented as a counsellor for a fictional support group called Modems Anonymous, opens with a scene of a husband scolded by his wife over an enormous telephone bill, then sketches the progression of 'modem fever': buying a modem, connecting with a friend, discovering a local bulletin board, and being lured by free public-domain software downloads. Dialling ever more distant boards late into the night, the addict neglects work, marriage and social life, only collecting programs without ever running them. The jokes rely on period details such as half-duplex connections, PC-Talk, long-distance rates and BBS file listings. The text ends with a mock cure that is as cynical as the problem it describes. The piece is a single essay-style story rather than a novel, and reads as a light parody of computer hobbyist excess.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/addict.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:48+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 6189,
+      "text_chars": 6189,
+      "prompt_tokens": 3330,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

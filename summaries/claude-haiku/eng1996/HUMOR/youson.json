@@ -1,0 +1,23 @@
+{
+  "title": "You`s on first (the sequel)",
+  "authors": [
+    "Mark Lutton"
+  ],
+  "kind": "play",
+  "summary": "A short comic dialogue sketch that parodies Abbott and Costello's famous routine \"Who's on First?\" and presents itself as a sequel. Costello, a baseball fan, hears that Abbott has been fired as a team manager and has taken over another team. The two spin the conversation into confusion over pronouns and player names. Costello objects to the \"indefinite pronouns\" on the roster, which turn out to be players named Who, What, I, Me, You, and He, while the outfield includes the Field brothers. Abbott tries to explain the lineup, with Herman Costello pitching and He at shortstop, while Costello angles to join as catcher and keeps tangling with the grammar of the names. The exchange builds through repeated call-and-response lines such as \"Right!\" \"Center!\" \"Left!\" and closes with a joke on \"shove it\" and the designated hitter. The piece is a self-contained wordplay sketch meant to be read aloud or performed, relying on rhythm and the absurd logic of the lineup.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/youson.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:49+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5003,
+      "text_chars": 5003,
+      "prompt_tokens": 3385,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

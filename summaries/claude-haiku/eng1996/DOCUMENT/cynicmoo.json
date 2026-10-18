@@ -1,0 +1,23 @@
+{
+  "title": "A cynic looks at a moo",
+  "authors": [
+    "Steffen David"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a Usenet posting from January 1993, written for the bionet.general newsgroup by David Steffen, a cell biologist at Baylor College of Medicine. It is a user's review of the MOO, a text-based multi-user environment descended from MUD games, and its potential as a tool for scientific communication. Steffen compares it with BIONET, WAIS and gopher, argues that its real-time conversation could suit scientists better than asynchronous journals, and describes how biologists were setting up a Biosciences Electronic Conference Center in JaysHouseMOO. The piece covers practical matters: how to connect by telnet, basic commands, creating a character and description, and navigating the rooms. It also notes the MOO's immaturity and planned features such as white boards and poster sessions. The tone is informal and opinionated, with an admitted cynicism that tempers the enthusiasm.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/cynicmoo.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:11+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 17450,
+      "text_chars": 17450,
+      "prompt_tokens": 7016,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

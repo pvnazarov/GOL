@@ -1,0 +1,23 @@
+{
+  "title": "The gift of the magi",
+  "authors": [
+    "Henry O"
+  ],
+  "kind": "short stories",
+  "summary": "\"The Gift of the Magi\" is a short story by O. Henry, first published in 1905 and among the author's best-known works. It follows Della and Jim Young, a poor young married couple living in a cramped furnished flat in New York on the eve of Christmas. With only one dollar and eighty-seven cents to spend, Della is determined to buy her husband a meaningful present. Jim is proud of his gold watch, inherited from his father and grandfather, while Della is proud of her long brown hair. Each secretly makes a sacrifice to afford a gift for the other, and their Christmas Eve reunion turns on the irony of what they have done. The story is a brief, warm, and wry tale about love, generosity, and the value of giving. Its closing reflection compares the couple to the biblical magi, the wise men who brought gifts to the infant Jesus, and reframes their foolishness as a kind of wisdom. The text is narrated with the author's characteristic humour and sentimentality.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/LYRIC/giftmagi.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:39+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 11280,
+      "text_chars": 11280,
+      "prompt_tokens": 5187,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

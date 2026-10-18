@@ -1,0 +1,21 @@
+{
+  "title": "skool",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a humorous collection of genuine wrong answers taken from science and mathematics test papers written by students in Virginia schools. The pieces are short, self-contained quotations, each a student's mistaken definition, explanation or observation, presented with the intent of amusing readers. Subjects range across biology, chemistry, physics, geometry, algebra and basic health. Entries include confident but garbled claims such as that Charles Darwin wrote the Organ of the Spices, that a thermometer is an instrument for raising temperature, that algebra was the wife of Euclid, that a circle is a line which meets its other end without ending, and that the cerebrum is a cavity in the head. Some answers are mangled words or invented terms, such as conversation for condensation and osculations for vibrations. The collection contains no narrative or characters. It is a light, joke-driven compilation of schoolroom errors, suited to readers who enjoy quirky reference-style humour.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/skool.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:29+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2783,
+      "text_chars": 2783,
+      "prompt_tokens": 2149,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Dargonzine volume 1, issue 1",
+  "authors": [
+    "Khaytsus Max"
+  ],
+  "kind": "short stories",
+  "summary": "DargonZine Volume 1, Issue 1 is the inaugural issue of a fan-fiction magazine that carried on the Dargon Project, a shared-world fantasy setting that had been central to the earlier FSFNet electronic magazine. The issue gathers five stories and an editorial. Max Khaytsus continues \"Unlikely Partners,\" in which a thief named Kera and a swordsman named Rien are drawn into a plot involving lycanthropy, a crooked alchemist, and the crimelord Liriss. Other pieces include Michelle Brothers's \"Runaway,\" which follows a young woman fleeing a violent household, and John Sullivan's \"Steel Souls,\" a character study of Ittosai before he became Castellan of Connall. John Doucette's \"Inquiries\" introduces foreign intrigue, and M. Wendy Henniquin opens the new serial \"Trial by Fire.\" The stories share a medieval-style setting with swords, magic, guilds, and political danger. The magazine also described its plan to publish other non-Dargon speculative fiction under a separate editor.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/JOURNAL/dragon_z.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:31+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 2944452,
+      "prompt_tokens": 13439,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

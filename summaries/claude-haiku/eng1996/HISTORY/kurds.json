@@ -1,0 +1,21 @@
+{
+  "title": "A history of the kurds of kurdistan",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This work is a reference-style history of the Kurds, a people spread across the mountainous borderlands of southeast Turkey, northwest Iran, northern Iraq, northeast Syria, and Soviet Azerbaijan. It explains the Kurdish language, the largely Sunni Muslim population, and the traditional tribal structure that mirrors Bedouin society, with most Kurds now living as village farmers rather than nomads. Historically, it traces Kurdish identity from the Arab conversion of the tribes in the seventh century through medieval dynasties, including that of Saladin, to the emergence of nationalism in the late nineteenth and early twentieth centuries. It covers the failed promise of an independent Kurdistan under the Treaty of Sevres, the Turkish reversal at Lausanne, and the uprisings and conflicts in Iraq and Iran that followed. A companion entry describes Kurdistan itself as a high plateau region of the Zagros and Taurus mountains, with its rivers, climate, and the Iranian province that bears the name. The text reads like an encyclopedia article, written with dates, places, and proper names for quick reference.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HISTORY/kurds.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:38+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4295,
+      "text_chars": 4295,
+      "prompt_tokens": 2893,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

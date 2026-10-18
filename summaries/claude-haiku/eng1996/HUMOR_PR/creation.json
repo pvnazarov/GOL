@@ -1,0 +1,21 @@
+{
+  "title": "The creation",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A humorous parody of the Book of Genesis retold for computer programmers and mainframe users, circulated in the computing community and credited in the text to editor Brad Templeton. It recasts the six days of creation as the building of a computer system: God speaks Bytes into existence, divides them into Bits, creates hardware (the CPU, tape drives, printers), animates it with software, and builds the IBM mainframe, with its operating system as God's favorite. Man is made to maintain the system and woman is given to him, and the story then turns into a version of the Fall. Woman finds a warning in the system documentation, urges man to break into the operating system's master mode, and his attempt to type 'DELETE G-O-D' is cut short when the system crashes. God expels him, scatters the core memory, and the piece ends with a joke about IBM and 'all the rest' of computer makers. The text is a short, light piece of computing folklore, full of puns, jargon and jabs at rival firms.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/creation.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:05+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8611,
+      "text_chars": 8611,
+      "prompt_tokens": 4139,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

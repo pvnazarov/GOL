@@ -1,0 +1,23 @@
+{
+  "title": "Dream days",
+  "authors": [
+    "Grahame Kenneth"
+  ],
+  "kind": "short stories",
+  "summary": "Dream Days is a collection of loosely linked sketches and stories by Kenneth Grahame, first published in 1898, that look back on childhood from the viewpoint of an adult remembering the imaginative life of young children. The pieces are narrated by a boy and his siblings, Edward, Harold, Selina and an unnamed narrator, and they range over their private enthusiasms, games and fancies. Among the pieces named in the contents are \"The Twenty-First of October,\" in which Selina, inspired by the anniversary of Trafalgar, stages a bonfire tribute to Nelson; \"Dies Irae,\" a dreamlike account of a child's journey into a picture book; \"A Saga of the Seas,\" which recalls a game of rafts; \"The Magic Ring\" and \"Its Walls Were as of Jasper\"; \"The Reluctant Dragon,\" a gentle tale that later became a well-known children's story; and \"A Departure.\" The book blends humour, nostalgia and an affectionate understanding of how children make their own meanings out of ordinary things, such as animals in the garden, toy figures, and the imagined worlds of books. It is often classed with fantasy for children.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/drday10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:57+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 214288,
+      "prompt_tokens": 12875,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

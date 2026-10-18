@@ -1,0 +1,23 @@
+{
+  "title": "Cooper`s laws",
+  "authors": [
+    "Dick Cooper"
+  ],
+  "kind": "collection",
+  "summary": "Cooper's Laws is a short humorous list of thirteen numbered maxims about computer-aided design (CAD) systems and the frustrations of adopting them. Each law is a brief, wry observation: that systems look good on paper but rarely work as expected, that vendor demonstrations flatter and user manuals assume an impossibly gifted reader, that bugs found by new users are really their own mistakes, and that new releases trade old bugs for fresh ones. Other laws mock the timing of hardware failures, the habit of installing new software just before a critical deadline, and the perpetual wish for more speed and power. The piece ends with a note explaining that the laws were originally told to a trade magazine in June 1989 by an engineering coordinator at 3M's Test and Measurement Systems division, and later typed up for a bulletin board system. It is a brief piece of workplace humour aimed at engineers and designers, circulated as a text file, and is best read as a light-hearted, enduring commentary on software and technology frustrations.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/cooplaws.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:04+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2342,
+      "text_chars": 2342,
+      "prompt_tokens": 1994,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

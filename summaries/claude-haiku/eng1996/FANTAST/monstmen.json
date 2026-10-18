@@ -1,0 +1,23 @@
+{
+  "title": "The monster men",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "The Monster Men is a science fiction adventure by Edgar Rice Burroughs. Professor Arthur Maxon, a Cornell biologist, has secretly created life by chemical means, but his first creation dies and he flees with his daughter Virginia to the East Indies to continue his work on a remote island off Borneo. There they fall into the hands of pirates and of Von Horn, a dishonest companion whose schemes lead to disaster. Virginia is rescued by a mysterious, amnesiac young man who is one of the grotesque, artificially made creatures the professor has been building. As the story unfolds, the monsters' origins, the hidden identity of their leader, and the dangers of the scientist's experiments are revealed. The narrative moves between tropical jungle, sea battles with native head hunters, and the question of what it means to be human. Burroughs blends pulp adventure, romance, and speculative science, and the book is often read as a companion to his earlier work on lost-world and man-made-creature themes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/monstmen.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:38+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 320152,
+      "prompt_tokens": 12570,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "J a s o n t h e r e s c u e r",
+  "authors": [
+    "Bell Douglas K"
+  ],
+  "kind": "novel",
+  "summary": "Jason the Rescuer is the second book in Douglas K. Bell's Infinity City series, a science fiction adventure set in a disk-shaped artificial world held inside a black hole. Its citizens use gravitonic sailships to trade across the galaxy, and the men of the city are expected to serve in the Militia Guard and to go on lucrative expeditions called Adventures, while the female-only Council of Grand Dames governs. The hero, Jason, is a roguish adventurer who keeps his youth through the PILL OF LIFE, a substance that prevents aging. After learning of a colony ship called the Heaven that vanished eighty-seven years earlier, he sets out to find it near a gravitonic whirlpool that may have flung it toward near-light speed. He discovers a damaged ship whose colonists have fallen into factionalism and barbarism after a catastrophic rupture. Among its inhabitants is a young woman who captures the attention of his companion Dalton, and Jason's own flirtations and schemes shape the story. The book blends rescue-mission adventure, comic romance, and speculative physics, with a wry, playful narrative voice and a sense of a richly imagined world.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/jason.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:24+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 442199,
+      "prompt_tokens": 13023,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

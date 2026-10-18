@@ -1,0 +1,23 @@
+{
+  "title": "altsexl",
+  "authors": [
+    "Garber Eric Lyn"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a Usenet posting, dated to the early 1990s, from a bibliographic listing titled \"SF and Fantasy Alternate Sexuality Listing,\" posted to alt.sex/fantasy-sci-fi. It is the working draft of a reference list compiled by Eric Garber and Lyn Paleo for their bibliography Uranian Worlds: A Reader's Guide to Alternate Sexuality in Science Fiction and Fantasy. The compilers invite readers to suggest titles and to send non-positive portrayals of alternate sexuality. The list is organised into sections: critical works, magazine stories, anthologies, and a long roster of novels and story collections by authors such as Samuel Delany, Marion Zimmer Bradley, Ursula K. Le Guin, John Varley, Lois McMaster Bujold, Anne McCaffrey and Virginia Woolf. Brief annotations note themes such as bisexuality, gender change, lesbian and gay protagonists, and sadomasochism, and some entries are marked as not strictly science fiction or fantasy. The text ends with a short closing quotation from a T'ang dynasty poem.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/altsexl.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:05+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 11855,
+      "text_chars": 11855,
+      "prompt_tokens": 7011,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

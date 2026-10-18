@@ -1,0 +1,23 @@
+{
+  "title": "Humorous tidbits 6 computer languages from the enforcer",
+  "authors": [
+    "The Enforcer"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a short humorous collection of satirical writing about computing, programming languages and the software industry, assembled as the sixth in a series of 'Humorous Tidbits' from The Enforcer and friends. It opens with a mock language specification called Babbage, whose keywords and control structures (GoingGoingGone, Didn't Do, The Basket Case statement) parody the design choices of real languages and the habits of programmers. A second section, a supposed catalogue of obscure languages, lampoons several invented or pastiche tongues: SIMPLE, which cannot produce syntax errors because it can do nothing useful; SLOBOL, notoriously slow to compile; VALGOL, with its surfer-slang syntax; LAIDBACK, SARTRE, FIFTH, C-, LITHP and DOGO. The piece also quotes Dijkstra's sharp opinions on FORTRAN, COBOL, BASIC and APL. The collection closes with lists of the 'three biggest lies' told by software staff, computer rooms, companies, marketers, professors and executives, and a set of three propositions on engineering as hunting a black cat in a dark room. Its tone is irreverent and aimed at people who work with computers.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/newlang.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:17+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 11976,
+      "text_chars": 11976,
+      "prompt_tokens": 5552,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

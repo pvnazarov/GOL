@@ -1,0 +1,21 @@
+{
+  "title": "aphorism",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A collection of short aphorisms, witticisms, verses and sardonic observations gathered under the heading of profundities and general wisdom. The pieces are brief, often a single paragraph, and range across politics, religion, money, marriage, human folly and the workings of government. Some are jokes or cynical quips, such as remarks on the power of stupidity, the rigging of games and the pointlessness of trying to convince the stubborn. Others take the form of short poems under headings like On War, On Dying and Souls, with a mix of gravity and mockery. A recurring thread is a skeptical, libertarian distrust of authority, taxes, priests and democratic majorities, alongside advice on living freely and not taking oneself too seriously. Several entries are attributed to named sources or framed as an 'Aristocrat's Code' satirizing those who wish to control knowledge. The tone is irreverent and deliberately provocative, meant more for amusement than for instruction. The author is not identified in the text.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/aphorism.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:53+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 6461,
+      "text_chars": 6461,
+      "prompt_tokens": 3454,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

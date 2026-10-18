@@ -1,0 +1,23 @@
+{
+  "title": "The rat and the snake",
+  "authors": [
+    "Van Vogt Ae"
+  ],
+  "kind": "short stories",
+  "summary": "\"The Rat and the Snake\" is a short story by A.E. van Vogt, a writer associated with the science fiction and fantasy magazines of the mid-twentieth century. The tale is set during a wartime period when rats have become scarce and costly to obtain. Mark Gray, a solitary man, keeps a pet python in a sealed room and amuses himself by feeding it rats through a rigged tunnel, savoring the sounds of their terror. When he discovers a research laboratory full of rats, he tries to steal some and is caught by its staff. The laboratory is secretly testing an experimental process on a human subject, and the story turns on a grim reversal of Mark's cruel pastime. The piece is brief and works as a sharp, ironic twist, examining cruelty, indifference and the moral blindness of people who see others as expendable. The text as supplied is a complete short piece, though it contains scattered OCR errors in places.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/ratsnake.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:53+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5958,
+      "text_chars": 5958,
+      "prompt_tokens": 3281,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

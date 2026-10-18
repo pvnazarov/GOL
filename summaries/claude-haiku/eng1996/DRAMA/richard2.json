@@ -1,0 +1,23 @@
+{
+  "title": "King richard ii",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "King Richard II is a history play by William Shakespeare, written around 1595 and first printed in 1597. It dramatises the last two years of the reign of Richard II of England, from 1398 to 1400. The play opens with a quarrel between Henry Bolingbroke, son of John of Gaunt, and Thomas Mowbray, Duke of Norfolk, which the king halts by banishing both men. When Gaunt dies, Richard seizes his estates to fund his military campaign in Ireland, prompting Bolingbroke to return from exile and challenge the crown. Richard, weakened by his own rashness and flattery from favourites, loses support and is forced to abdicate. Bolingbroke becomes Henry IV, and Richard is later murdered in prison by Sir Pierce of Exton. The play explores the nature of kingship, divine right, guilt, and the costs of usurpation, and is noted for its lyrical verse and the king's reflective soliloquies. The excerpts show the opening challenge scene, the Duchess of Gloucester's lament, the Welsh landing, and the closing deposition and murder scenes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/richard2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 132075,
+      "prompt_tokens": 15204,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

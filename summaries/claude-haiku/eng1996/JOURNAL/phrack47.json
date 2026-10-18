@@ -1,0 +1,21 @@
+{
+  "title": "Phrack magazine volume six, issue forty-seven",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is issue 47 of Phrack, a long-running electronic magazine for the hacker and phone-phreaking underground, published in April 1995 and edited by Erik Bloodaxe. It is a collection of many separately authored files gathered into one issue. The contents include an editorial that explains why an anarchy file on bomb-making was withdrawn after the Oklahoma City bombing, a letters section called Phrack Loopback, and a multi-part guide to the #hack IRC channel by Voyager. Other pieces cover conference reports from HoHoCon and DEFCon, technical articles on prepaid calling cards, paging systems, voice mail, British Telecom caller ID, and direct broadcast satellite, along with a column on Windows customization and a report on the warez trade. The issue closes with international scene news and a world news roundup. The excerpts also include reprinted press coverage of software piracy in China and a controversy over an Internet rape fantasy story, reflecting the magazine's interest in the legal and social pressures on computer users in the mid-1990s.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/JOURNAL/phrack47.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:36+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 736653,
+      "prompt_tokens": 13332,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "bearer",
+  "authors": [],
+  "kind": "poetry",
+  "summary": "A short sequence of comic verse that reworks episodes and images from J. R. R. Tolkien's legendarium. The text is partly garbled by a character-encoding fault, so some headings and words are unreadable, but the content is clear. The first poem, \"Yesterday in The Shire,\" speaks as a hobbit-like narrator who once found the Ring a silly toy. Now the Nazgûl have come to the Shire, the Ring is a burden he cannot put down, and he longs for the carefree past. The second poem, \"Yellow Silmaril,\" imagines a Hobbiton household that owns a yellow Silmaril. It recalls an elf who sailed to the Sea and brought the jewels, and its refrain repeats that the family lives with their Silmaril while their friends have no need for a Ring or a Lord. The pieces are light, rhymed and repetitive, with a playful tone that mixes Shire domesticity with Mordor dread. The work is brief and appears to be an excerpt or an informal fan piece rather than a complete published volume, and the author is not named in the text.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/bearer.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:22+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 914,
+      "text_chars": 914,
+      "prompt_tokens": 1616,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

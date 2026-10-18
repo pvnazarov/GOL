@@ -1,0 +1,23 @@
+{
+  "title": "october",
+  "authors": [
+    "Hall David C"
+  ],
+  "kind": "short stories",
+  "summary": "\"October\" is a short piece of science fiction dated October 24, 1991, set in a universe with two parallel timelines. In one, a spacefaring civilization descended from ancient Greece has reached the stars. In the other, the planetbound Companion Earth imagines such voyages through its films, television and fiction, and that material is now flooding into the first timeline. Captain Stoneman, preparing to join his crew for the launch of a newly overhauled ship, reflects on how this imported culture is changing people's names, art and sense of identity. He also recalls that his civilization began its climb to the stars through a teaching machine left by unknown aliens. Admiral Demetrius Barnabas then addresses the assembled crew, contrasting the dreams of the Companion Earth with the voyages his people have already made. He closes by reporting the death of Gene Roddenberry, whose vision gave the ship's class its name. The story is a brief, reflective tribute to Roddenberry and his legacy, using an alternate-history premise to ask what cultures owe to the imagined futures of others. It has little conventional plot and works mainly through its measured, essayistic prose and its single scene.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/october.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:48+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4484,
+      "text_chars": 4484,
+      "prompt_tokens": 2657,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

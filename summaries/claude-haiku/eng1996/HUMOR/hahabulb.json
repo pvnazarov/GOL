@@ -1,0 +1,21 @@
+{
+  "title": "Exploding light bulbs ( shadow hawk 1 )",
+  "authors": [],
+  "kind": "unknown",
+  "summary": "This short text, filed under humor, is a circulated set of instructions that claims to describe a homemade incendiary booby trap disguised as a light bulb, meant to be screwed into a fixture and used to injure or kill whoever is in the room. Written in all capitals with a sign-off of 'Shadow Hawk 1' and a joking 'Have phun' closing, it presents the scheme as a tested prank or tip, though its real content is a plan for causing serious harm and a fire hazard. The text gives no reliable author, date, or publication details. Its only apparent purpose is to frighten or shock readers. It should not be treated as a usable guide or as a harmless joke, and it is catalogued here only to describe what the file contains.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/hahabulb.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:40+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1039,
+      "text_chars": 1039,
+      "prompt_tokens": 1903,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

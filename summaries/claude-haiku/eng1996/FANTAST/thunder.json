@@ -1,0 +1,23 @@
+{
+  "title": "thunder",
+  "authors": [
+    "Rose Martin Pchammer"
+  ],
+  "kind": "novel",
+  "summary": "Hammer Time: Days of Thunder is a fan-written science fiction adventure, billed as a tale of undocumented features and set in a shared universe that mixes Transformers, Robotech-style space opera and a rock-and-roll band of spacefaring survivors. The story follows the Clay Pigeons, a band that doubles as a mercenary unit calling itself Thunder Force, after the collapse of the Wedge Defense Force has left its members scattered and hunted by old enemies. Their leader Martin, a musician and tactician, keeps the group together through concerts, pirate hunts and personal tensions among a crew that includes human pilots, a Valkyrie-piloting engineer, a Transformer named Blaster and a giant mute bassist. Chapters move between backstage banter, rehearsals, tense strategy sessions and space combat, with a lot of playful pop-culture references and running jokes. The excerpts show the group weighing whether to stay together, planning a concert despite threats, and answering a distress call from a trading fleet attacked by pirates. The tone is comic and affectionate, with the band's camaraderie and bickering at the centre of the action.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/thunder.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:14+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 74660,
+      "prompt_tokens": 14025,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

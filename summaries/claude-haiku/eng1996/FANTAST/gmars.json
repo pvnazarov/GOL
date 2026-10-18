@@ -1,0 +1,23 @@
+{
+  "title": "The gods of mars",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "The Gods of Mars is the second of Edgar Rice Burroughs's novels about John Carter, the Virginia-born warrior who is transported to Barsoom, the Martian world. The book is narrated by Carter's nephew, who recounts notes Carter left after returning to Earth for a visit. Carter travels back to Mars, where he finds himself in a forest of strange trees and among the plant men, grotesque creatures with thousand-eared hair. He soon becomes entangled with the First Born, a mysterious cult of the goddess Issus, whose temple hides dark secrets and cruel rituals. The story moves through arenas, prison isles, pirate waters, and flying battles, as Carter pursues his wife, Dejah Thoris, Princess of Helium, and their son, who are separated from him. Along the way he meets allies and rivals, including the young red warrior Carthoris and the Martian princess Thuvia. The narrative mixes swordplay, rescues, and planetary adventure with themes of love, loyalty, and the nature of divinity. It remains a classic of early planetary romance and pulp adventure fiction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/gmars.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:11+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 450386,
+      "prompt_tokens": 12773,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

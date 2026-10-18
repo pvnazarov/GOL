@@ -1,0 +1,23 @@
+{
+  "title": "Final exam",
+  "authors": [
+    "Flack Eliot"
+  ],
+  "kind": "short stories",
+  "summary": "Final Exam is a short science-fiction story by Eliot Flack, first circulated in 1994. It follows Annalie, a gifted student training as a Nurturer, a guardian who steers primitive species toward a place in a wider galactic civilisation. Her examinations use a history projector and a future projector to model how a small change in a living system will ripple through many generations. Her first test concerns birds, the trees they nest in, and a rival fruit that threatens them. She solves it with apparent elegance, assuming the problem is hypothetical, until she learns that the exam questions are real. Her final test involves a thinking species on the brink of self-destruction, where the rules of subtle intervention clash with her growing compassion for individuals. The story explores the ethics of paternalistic guidance, the appeal of detached problem-solving, and the moment a student realises what her craft costs. Its closing turn is wry and historically pointed, giving the piece a sharp ironic sting for readers who enjoy compact, tightly constructed speculative fiction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/finexam.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:21+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 10440,
+      "text_chars": 10440,
+      "prompt_tokens": 4590,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

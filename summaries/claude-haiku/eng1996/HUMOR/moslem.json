@@ -1,0 +1,21 @@
+{
+  "title": "Important tips for mideastern travelers",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A short humorous piece posing as a traveller's phrasebook for visitors to the Middle East. Each entry pairs a nonsense-sounding phrase, rendered in invented transliterated words, with a deadpan English translation that turns the expected courtesies into absurd or alarming statements. The jokes rely on the gap between polite travel vocabulary and the bizarre things a visitor might be forced to say: admiring a gun, accepting an invitation to lie on the floor, agreeing with everything ever said, riding in a car trunk, offering to betray one's country, and naming American spies posing as reporters. Some lines mock the stereotypes of foreign travel writing, while others end in a gag about a hostage choice and a model. The text is brief, with no plot or characters beyond the speaker of each line. The author is not named in the excerpt, and the piece reads as a satirical joke list rather than a serious guide.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/moslem.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:04+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1451,
+      "text_chars": 1451,
+      "prompt_tokens": 1792,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

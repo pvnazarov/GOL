@@ -1,0 +1,23 @@
+{
+  "title": "Daisy miller",
+  "authors": [
+    "James Henry"
+  ],
+  "kind": "novella",
+  "summary": "Daisy Miller is a short novella by Henry James, first published in 1879 and presented here as a two-part study. It follows Frederick Winterbourne, a somewhat reserved American expatriate living in Geneva, who meets a vivacious and unconventional young American woman, Daisy Miller, at a hotel in the Swiss resort town of Vevey. Daisy travels Europe with her mother and younger brother Randolph, and she openly enjoys the company of male admirers, which Winterbourne finds both charming and troubling. When the two meet again in Rome, Winterbourne hears that Daisy is being talked about in fashionable American circles because of her friendship with an Italian gentleman, Mr. Giovanelli, and her willingness to go about without a chaperone. The story turns on Winterbourne's uncertain judgments of her character and on the social codes that shape how an innocent young woman is perceived. It is a compact, witty study of transatlantic manners, class, and the clash between American candor and European propriety.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/dasym10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:12+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 122464,
+      "prompt_tokens": 13203,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

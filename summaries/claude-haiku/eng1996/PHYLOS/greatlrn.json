@@ -1,0 +1,23 @@
+{
+  "title": "The great learning",
+  "authors": [
+    "Confucius"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Great Learning (Daxue) is a short classical Chinese Confucian text, presented here in James Legge's English translation. It is traditionally held to be a chapter of the Book of Rites and was later made one of the Four Books of the Neo-Confucian curriculum. The work opens with a brief statement of its aims: to illustrate illustrious virtue, to renew the people, and to rest in the highest good. It then sets out a sequence of stages, from investigating things and extending knowledge, through sincerity of thought, rectifying the heart, and cultivating the person, to regulating the family, governing the state, and bringing peace to the whole kingdom. Cultivation of the self is presented as the root from which all else grows. The text is followed by a commentary attributed to the disciple Tsang, which quotes the Book of Poetry, the Book of History and other ancient sources to illustrate each point. The excerpt covers the chapters on sincerity, family, and government, including advice on rulers, virtue and wealth, and the proper management of revenue. The work is a foundational statement of Confucian moral and political philosophy.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/greatlrn.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:36:57+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 17711,
+      "text_chars": 17711,
+      "prompt_tokens": 7228,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

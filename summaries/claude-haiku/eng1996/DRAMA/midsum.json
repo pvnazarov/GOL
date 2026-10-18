@@ -1,0 +1,23 @@
+{
+  "title": "A midsummer night`s dream",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "A Midsummer Night's Dream is a comedy by William Shakespeare, set in Athens and a nearby wood. The play interweaves three strands. At the Athenian court, Duke Theseus prepares for his wedding to Hippolyta, queen of the Amazons, while the young lovers Hermia, Lysander, Demetrius and Helena are tangled in a quarrel over marriage: Hermia's father wants her to wed Demetrius, but she loves Lysander, and Demetrius once loved Helena. The lovers flee into a forest by night, where the fairy king Oberon and queen Titania are themselves quarrelling. Oberon sends the mischievous sprite Puck to apply a magic love-juice, with confused and comic results. Meanwhile a troupe of amateur craftsmen, led by the weaver Bottom, rehearses a clumsy tragedy of Pyramus and Thisbe for the wedding celebration, and Bottom is transformed into an ass and beloved by Titania. The play moves between romance, farce and fairy enchantment, and closes with the lovers reconciled and a blessing for the household. It is among Shakespeare's most performed and widely read comedies.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/midsum.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:44+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 94289,
+      "prompt_tokens": 15102,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

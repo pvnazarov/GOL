@@ -1,0 +1,23 @@
+{
+  "title": "The prime of life",
+  "authors": [
+    "Asimov Isaac"
+  ],
+  "kind": "poetry",
+  "summary": "The Prime of Life is a collection of light verse by Isaac Asimov, the American science-fiction writer and popular science author. The pieces are comic and self-mocking, turning a wry eye on the author's own fame, his working methods, and the conventions of the science-fiction genre. The opening poem imagines an eager fan who is astonished to find the writer still alive and vigorous, and the author responds by hurling him off. Another asks the author, addressed as Dr A., how on earth he comes up with his wild ideas, and suggests drink and drugs as the cause. Further pieces, written in the manner of W. S. Gilbert's comic operas, mock the stock ingredients of space opera, such as hyperspace voyages, heroic Earthmen, reptilian villains and a rescued maiden, and the writer's own struggles to meet a deadline. Each piece carries a date, mostly from the 1950s and 1960s, and an author's note explains some of the wordplay. The book is a playful portrait of a prolific writer who did not take himself too seriously.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/asivers.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:22+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8045,
+      "text_chars": 8045,
+      "prompt_tokens": 4219,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

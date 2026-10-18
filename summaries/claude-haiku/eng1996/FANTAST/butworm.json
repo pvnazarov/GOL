@@ -1,0 +1,23 @@
+{
+  "title": "Butterflies and wormholes",
+  "authors": [
+    "Chang David"
+  ],
+  "kind": "short stories",
+  "summary": "A science fiction short story written by David Chang during a summer writing course and tied to the 1993 World Trade Center bombing. Jack Gibson, a fifteen-year-old in New York, begins having recurring dreams of an old bearded man being tortured by hooded, gray-robed creatures, and feels compelled to travel to Ohio. Hitching rides and wandering across Pennsylvania, he meets a homeless woman who gives him directions to a professor in New Waterford. The professor, Albert Huxley, has built a machine that uses sunlight and a mirror to open a wormhole into parallel universes. Jack travels into a world where the bombing succeeded and the creatures have taken over, and returns with only fragmented memories. The story blends domestic hardship, with Jack's absent father and his mother's struggles, with speculative physics and a hopeful ending in which the threat is averted. The text also includes a brief author note asking readers for feedback.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/butworm.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:45+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 28176,
+      "text_chars": 28176,
+      "prompt_tokens": 10855,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

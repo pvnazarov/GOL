@@ -1,0 +1,23 @@
+{
+  "title": "Astral projection oobe class conducted on the compuserve newage forum",
+  "authors": [
+    "Degracia Donald J"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a set of fifteen instructional text files, originally written as notes for an online class held in CompuServe's New Age forum in 1994, and later released as a free package. It is a practical and theoretical guide to astral projection, also called out-of-body experiences (OOBEs) and lucid dreaming, which the author treats as essentially the same experience. The notes survey occult views of the planes, the subtle bodies, and the sevenfold universe, alongside scientific perspectives from parapsychology and psychology. They then give techniques for inducing OOBEs, such as using dreams as a springboard, entering trance states, and visualization. Later sections describe what the author calls the OOBE realm: flight, passing through walls, the places and beings one may encounter, the risks of fear and getting lost, and the return to waking life. The package closes with an annotated bibliography of works by Ophiel, Robert Monroe-style authors, Seth, Theosophical writers, and Indian philosophy scholars. The author's stated aim is a balance between competing views, with a strong emphasis on practice.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/apread.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:36:51+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 471268,
+      "prompt_tokens": 13112,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

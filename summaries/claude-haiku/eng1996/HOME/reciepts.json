@@ -1,0 +1,23 @@
+{
+  "title": "reciepts",
+  "authors": [
+    "Prudhomme Paul"
+  ],
+  "kind": "collection",
+  "summary": "This is a personal recipe collection compiled as a text file for sharing on bulletin board systems, with recipes gathered from several sources. The opening note explains that many recipes come from Cajun cookbooks by Paul Prudhomme, Alex Patout, Justin Wilson, and the Lafayette Junior League's \"Talk About Good,\" and that the file was formatted for the Meal Master recipe program. The bulk of the collection is baking and dessert recipes, many using whole wheat pastry flour, honey, and maple syrup in a wholesome style. Examples include oatmeal and wheat germ cookies, pecan and lemon meringue pies, carrot and pound cakes, scones, and fruit crisps. Chocolate indulgences also feature, such as fudge bars, rocky road pie, chocolate marshmallow drops, Passover brownies, and a cold bittersweet souffle. Beverages like Irish coffee and a peach smoothie appear as well. Each recipe carries a short introduction, ingredients, method, yield, and keywords for indexing such as bake sale, make ahead, or holiday. The collection is practical and informal, aimed at home cooks.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HOME/reciepts.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 176467,
+      "prompt_tokens": 16768,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The keepsake",
+  "authors": [
+    "Scott Walter"
+  ],
+  "kind": "short stories",
+  "summary": "The Keepsake is a collection of prose tales and related pieces by Walter Scott, first gathered from his contributions to the Keepsake annual, the illustrated gift-book miscellany of the 1820s. The excerpts show the collection's range. The opening tale, My Aunt Margaret's Mirror, is a framed narrative in which an elderly narrator visits his devout, superstitious aunt in a decaying Scottish manor. She tells him of a magic mirror, a fortune-teller in Edinburgh, and the events in Holland that led to a fatal duel. Its tone mixes gothic horror, family memory, and Jacobite political feeling. Another story, set on the Scottish border, follows the Laird's Jock, a disabled old warrior whose famous two-handed sword passes to his son before a challenge duel with an English champion. The stories are concerned with superstition, revenge, forgiveness, and the vanished world of Border chivalry, and they are written in the leisurely, digressive manner of Scott's historical fiction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/keepsake.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:31+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 140774,
+      "prompt_tokens": 12977,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

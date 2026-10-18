@@ -1,0 +1,23 @@
+{
+  "title": "Костры",
+  "authors": [
+    "Сергеев Иннокентий"
+  ],
+  "kind": "novella",
+  "summary": "Костры — short prose work, written in a fragmentary, interior first-person voice, that follows an unnamed narrator through a night in an unnamed city where bonfires burn in the streets and portraits are set alight. The narrator gathers candy wrappers he hopes to exchange for a train ticket out, while his thoughts drift between personal disappointments with women, a broken relationship, and bitter reflections on Europe, the bombing of Yugoslavia, and the wider decay of the world. Along the way he meets a stranger on a bench, drives a car that has crashed into a pole, and ends up in a drunken evening with strangers in an apartment. A later section moves to a summer camping trip, where he has a brief affair with an older woman he meets there. The text is dense with irony, digression and echoes of classical and religious references, and it is closely tied to the spring and summer of 1999 when NATO bombed Yugoslavia. The closing pages, dated June 1999 in Kaliningrad, end with a turn toward a new woman named Nina and a sense that the narrator is starting over.",
+  "lang": "Russian",
+  "meta": {
+    "source": "rus2004/DRAMA/kostry.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T01:43:50+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 158494,
+      "prompt_tokens": 17462,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

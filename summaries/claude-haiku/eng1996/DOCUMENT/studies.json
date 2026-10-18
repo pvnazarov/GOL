@@ -1,0 +1,23 @@
+{
+  "title": "Can science studies be spoken in a civil tongue",
+  "authors": [
+    "Fuller Steve"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a critical essay by sociologist of science Steve Fuller, published as a review article, that responds to two popular science books: Steven Weinberg's Dreams of a Final Theory and Lewis Wolpert's The Unnatural Nature of Science. Both authors, a Nobel-winning physicist and a developmental biologist, treat the field of science studies as a threat to public confidence in science, and Fuller examines how their attacks rely on the history of science and on assumptions about the scientific mind and what counts as rational. He argues that positivist philosophy and relativist sociology, which normally disagree, are lumped together by the two authors. He also challenges their use of the cargo cult analogy, their reading of Weimar Germany's hostility to science, and their claim that scientists should not make moral judgments. The essay ends by urging science studies to engage public debate and to let citizens take part in setting research priorities, and it is written with an aim of encouraging a more civil and productive discussion about science's place in society.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/studies.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:41+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 54067,
+      "prompt_tokens": 12186,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

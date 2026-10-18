@@ -1,0 +1,23 @@
+{
+  "title": "One hundres ways to say hello",
+  "authors": [
+    "Kington Miles"
+  ],
+  "kind": "non-fiction",
+  "summary": "A humorous miscellany by Miles Kington, presented as a list of one hundred ways to say hello, ranging from plain greetings such as \"Hi\" and \"How's tricks?\" to elaborate, comic openings. The piece moves through several registers: casual and slangy hellos (\"Groovy\", \"Hey, man\"), formal introductions, and playful pub-style greetings (\"Evening, landlord\", \"Well I never did!\"). Some entries are parodies of radio announcements, and others are absurd set-ups, such as a stranger who recalls a long-ago dinner in Basingstoke and then asks for a large loan. There are also fencing and exclamation lines, old-fashioned oaths like \"Gordon Bennett!\", and a closing run of farewells. The text includes a small note from a reader about a computing acronym, which is an aside rather than part of the joke list. The whole thing is light, witty, and built on the comedy of familiar social phrases taken to ridiculous extremes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/hello!.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:45+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2945,
+      "text_chars": 2945,
+      "prompt_tokens": 2413,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

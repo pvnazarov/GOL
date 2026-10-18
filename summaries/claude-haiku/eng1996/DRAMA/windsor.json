@@ -1,0 +1,23 @@
+{
+  "title": "The merry wives of windsor",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "The Merry Wives of Windsor is a comedy by William Shakespeare, set in and around the English town of Windsor. Its central figure is Sir John Falstaff, the corpulent, self-serving knight from the Henry IV plays, who decides to solve his money troubles by courting two wealthy married women, Mistress Ford and Mistress Page, in the hope of getting at their husbands' purses. The wives, however, see through him and, with a sharp sense of fun, set about humiliating him in a series of schemes, including hiding him in a laundry basket of dirty linen and disguising him as the wise woman of Brentford. Alongside this plot run the jealousies of Master Ford, who suspects his wife and tries to catch her out, and a comic courtship of Anne Page, the daughter of Master Page, by several suitors: the foolish Slender, the French physician Doctor Caius, and the young gentleman Fenton, whom Anne prefers. The play is notable for its lively English middle-class setting, its cast of bumbling and quarrelsome characters, and its Welsh parson Sir Hugh Evans, whose broken English provides much of the humour.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/windsor.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 129432,
+      "prompt_tokens": 15782,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Bible",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is the Bible, a collection of sacred texts that Jewish and Christian traditions regard as scripture. The excerpts supplied come from the Acts of the Apostles, which recounts the ascension of Jesus, the choosing of Matthias to replace Judas, the descent of the Holy Spirit at Pentecost, Peter's preaching and healing of a lame man at the temple, and the early community's sharing of goods. Further excerpts come from the Book of Job, showing a debate between Job and his friends Eliphaz and Bildad over suffering, divine justice and human righteousness, and from the Book of Zephaniah, which contains oracles of judgment against Nineveh and Jerusalem followed by a promise of restoration and rejoicing for a purified remnant of Israel. The Bible as a whole is traditionally divided into the Old Testament, the Hebrew scriptures of law, history, poetry and prophecy, and the New Testament, which contains the Gospels, the Acts, the epistles and Revelation. The complete text is far longer than these excerpts, and the file itself is a large multi-book compilation rather than a single work by one author.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/RELIGION/bible.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 4458952,
+      "prompt_tokens": 14292,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

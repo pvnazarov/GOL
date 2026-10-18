@@ -1,0 +1,23 @@
+{
+  "title": "Ersatz eternal",
+  "authors": [
+    "Van Vogt Ae"
+  ],
+  "kind": "short stories",
+  "summary": "\"Ersatz Eternal\" is a science fiction short story by A.E. van Vogt, first published in the 1940s and later anthologised widely. Three men, Bill Grayson, John Hart and Henry Malkins, are stranded on an apparently barren planet after their ship is wrecked. Grayson sets out to find Malkins, who has gone looking for fuel, and wanders into a strange, earthlike landscape where he is confronted by illusory versions of his own past, including his mother and younger selves. Hart, left behind in the lifeboat, is seen to drift into a dreamlike existence that spans his whole life. The story then jumps forward across centuries: the men discover that they have become immortal, that civilisation has grown up around them, and that some unseen force has been using their minds. Grayson and Malkins meet by chance in a New York bar and reach a grim understanding of their situation. Typical of van Vogt's work, the story mixes puzzling, dreamlike episodes with a large cosmic idea, and it ends on an unresolved note about the purpose of their strange fate.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/ersatz.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:59+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8768,
+      "text_chars": 8768,
+      "prompt_tokens": 4321,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

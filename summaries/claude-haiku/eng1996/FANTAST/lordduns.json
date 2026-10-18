@@ -1,0 +1,23 @@
+{
+  "title": "A tale of london",
+  "authors": [
+    "Dunsany Lord"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of short fantasy pieces by Lord Dunsany (Edward Plunkett, eighteenth Baron Dunsany), gathering tales of dreamlike and uncanny settings. The opening story, \"A Tale of London,\" is a hasheesh-eater's rapturous description of an imagined London of ebony houses, golden balconies and white sand streets, told to a Sultan. Other pieces include \"Bethmoora,\" a meditation on a desolate desert city abandoned after a mysterious message; \"Charon,\" in which the ferryman of the dead grows weary as the shades arrive in ever greater numbers; \"How the Enemy Came to Thlunrana,\" about a prophesied doom befalling a sinister house of wizardry; and \"The Exiles Club,\" in which deposed kings dine in a London basement among their salvaged heirlooms. The later tales are more whimsical and satirical, including a narrator's bargain for a trivial fear and an account of the secret tale told by the Company of Milkmen. Written in a lyrical, archaic style with rich imagery, the collection draws on myth, Eastern romance and the odd humour of ordinary London life.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/lordduns.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:32+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 239861,
+      "prompt_tokens": 12516,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

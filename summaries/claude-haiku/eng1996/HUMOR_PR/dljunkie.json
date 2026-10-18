@@ -1,0 +1,21 @@
+{
+  "title": "Confessions of a download junkie",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A humorous, list-based piece written as a playful confession about compulsive downloading in the early days of bulletin board systems (BBSs). Its narrator admits to being addicted to grabbing files from BBSs, from calling the same board several times a day to hoarding unzipped programs in closets full of disks. The text is structured as a numbered list of twenty-five symptoms, each one a comic exaggeration of familiar habits: scanning bulletins without reading them, chasing upload ratios, ignoring the neglected yard, bringing a laptop on vacation, and staying up until sunrise to finish a transfer. The jokes rely on the period details of dial-up modems, Zmodem progress bars, and sysops, and the piece closes by inviting readers who match any five symptoms to join the club. It is a short, self-contained satire rather than a narrative, and its author is not named in the text provided.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/dljunkie.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:05+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2897,
+      "text_chars": 2897,
+      "prompt_tokens": 2196,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

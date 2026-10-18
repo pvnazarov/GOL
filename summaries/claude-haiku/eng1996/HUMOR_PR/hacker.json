@@ -1,0 +1,23 @@
+{
+  "title": "The hacker test - version 1.0",
+  "authors": [
+    "Nieder Claudio"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Hacker Test is a humorous, satirical questionnaire about computer hacker culture, first released in 1989 by Felix Lee, John Hayes and Angela Thomas and redistributed here in a version submitted by Claudio Nieder. Framed as a test, it presents hundreds of numbered yes-or-no questions, each awarding a point for a claimed experience or piece of knowledge. Scoring places the reader on a scale from Computer Illiterate through User, Operator, Nerd, Hacker and Guru up to Wizard. The questions range widely across programming languages such as Fortran, Lisp, Forth and Algol, operating systems including Unix, VMS and CP/M, early hardware like punched cards, paper tape and acoustic modems, Usenet etiquette, phone phreaking, and classic games such as Rogue and Zork. It also includes references to computing folklore, films like Tron and WarGames, and in-jokes about the Jabberwocky, Dining Philosophers and the Halting Problem. The text is a compendium of fact and folklore about hacker culture of its era, meant to amuse readers who know the material.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/hacker.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:10+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 19377,
+      "text_chars": 19377,
+      "prompt_tokens": 9700,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

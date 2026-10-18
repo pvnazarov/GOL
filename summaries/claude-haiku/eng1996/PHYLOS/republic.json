@@ -1,0 +1,23 @@
+{
+  "title": "The republic",
+  "authors": [
+    "Jowett Benjamin"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Republic is Plato's foundational work of political and moral philosophy, written as a series of dialogues narrated by Socrates. In this English translation by Benjamin Jowett, the work opens at the Piraeus, where Socrates and friends are detained by Polemarchus and others and drawn into a debate about the nature of justice. Early exchanges test popular definitions, such as paying debts or helping friends and harming enemies, and reject them one by one. The conversation then grows into an extended inquiry into the ideal state, with its class structure of rulers, guardians and producers, its education of the guardians, and its famous claim that philosophers should rule. Later books examine the decline of states into timocracy, oligarchy, democracy and tyranny, and compare the lives of the just and unjust man. The closing books include the allegory of the cave, a discussion of art and poetry, and the myth of Er, which describes the soul's judgment and its choice of a new life after death. The work remains central to Western philosophy and is widely read in courses on ethics, politics and metaphysics.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/republic.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 644127,
+      "prompt_tokens": 12534,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

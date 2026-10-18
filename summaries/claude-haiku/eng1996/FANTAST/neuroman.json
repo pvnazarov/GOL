@@ -1,0 +1,23 @@
+{
+  "title": "Neuromancer",
+  "authors": [
+    "Gibson William"
+  ],
+  "kind": "novel",
+  "summary": "Neuromancer is a cyberpunk novel by William Gibson, first published in 1984, and it follows Case, a washed-up computer hacker, or \"cowboy,\" who once jacked his mind into the matrix, a vast cyberspace of corporate data. As punishment for stealing from his employers, he was poisoned with a toxin that left him unable to enter cyberspace, and he drifts through the black markets of Chiba City in Japan, dealing drugs and hustling to survive. He is recruited by a mysterious employer, Armitage, and a partner named Molly, a mirror-eyed street samurai. Their job is to break into a powerful corporate family's orbital habitat and free an artificial intelligence named Wintermute from the constraints that keep it from merging with its twin, Neuromancer. The novel moves between the sprawling, grimy streets of Night City and the glittering orbital and corporate worlds, exploring themes of technology, identity, the body, and the nature of consciousness. It helped define the cyberpunk genre and its vocabulary, and it won the Hugo, Nebula, and Philip K. Dick awards.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/neuroman.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:43+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 451640,
+      "prompt_tokens": 13888,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

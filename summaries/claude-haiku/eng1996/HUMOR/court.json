@@ -1,0 +1,21 @@
+{
+  "title": "Disorder in the court",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A humor collection of real courtroom transcripts, gathered from the work of American court reporters who recorded every word spoken during trials. The book presents a series of short question-and-answer exchanges, each one a verbatim moment of confusion, misstatement, or unintended comedy from the witness stand. Examples include a witness who cannot recall his brother-in-law's first name, a doctor whose autopsy experience is described with unexpected literalness, a defendant who claims to have been 'argumentary' while under the influence, and a foreman announcing that the jury is 'temporarily insane.' The pieces are brief and self-contained, with no overarching plot or characters beyond the lawyers, judges, witnesses and defendants who appear in each. The tone is lighthearted throughout, relying on the gap between formal legal procedure and the plain, sometimes baffling answers that people give under oath. The text opens with a short introduction about the permanence of courtroom speech and closes with a brief exchange involving a child witness.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/court.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:12+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5721,
+      "text_chars": 5721,
+      "prompt_tokens": 3413,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

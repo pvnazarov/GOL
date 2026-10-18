@@ -1,0 +1,23 @@
+{
+  "title": "The official dan quayle joke book",
+  "authors": [
+    "Quayle Dan"
+  ],
+  "kind": "collection",
+  "summary": "This is a short humor collection of jokes, one-liners, and mock quotations aimed at Dan Quayle, the American politician who served as Vice President under George H. W. Bush from 1989 to 1993. Quayle was a frequent target of late-1980s and early-1990s comedy, mostly for his perceived lack of intellect, his National Guard service, and verbal gaffes. The pieces take the form of question-and-answer riddles, quips, and attributed remarks, some plausibly real and others plainly invented. Typical targets include his time in the National Guard, his law school application, his comparisons with earlier vice presidents such as Millard Fillmore, and his wife Marilyn Quayle. Several entries reference contemporary figures and events, including Bush's inauguration, Lloyd Bentsen, Jane Fonda, and a 1988 episode of the television series Night Court. The book is a product of its era's political satire and is best read as a dated, lighthearted piece of political humor rather than as a factual account of Quayle or his career.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/quayle.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:17+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2971,
+      "text_chars": 2971,
+      "prompt_tokens": 2372,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

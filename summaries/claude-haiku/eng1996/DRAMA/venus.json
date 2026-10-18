@@ -1,0 +1,23 @@
+{
+  "title": "Venus and adonis",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "poetry",
+  "summary": "Venus and Adonis is a narrative poem by William Shakespeare, published in 1593 and dedicated to Henry Wriothesley, Earl of Southampton. It retells a story from Ovid's Metamorphoses in some 1,200 lines of six-line stanzas in rhyme royal, with a final couplet. The goddess Venus, struck with desire, finds the young hunter Adonis indifferent to love. She pursues him with a long, witty and sometimes erotically insistent wooing, arguing that beauty must be passed on and that youth should not waste itself. Adonis, more interested in hunting boars and hares, resists her. The poem includes vivid digressions, such as a wild horse that abandons its rider to chase a mare, and a long description of the hare's cunning flight. Adonis announces he will hunt the boar the next day, and Venus, terrified for him, warns him against it, but he goes and is fatally gored. The poem ends with Venus's lament, her prophecy about the troubles of love, and the flower that springs from his blood. It is among Shakespeare's most popular non-dramatic works.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/venus.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:24+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 54387,
+      "prompt_tokens": 14395,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

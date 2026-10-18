@@ -1,0 +1,23 @@
+{
+  "title": "Andy dulay bluewater 727 school of boeing technique",
+  "authors": [
+    "Andy Dulay"
+  ],
+  "kind": "non-fiction",
+  "summary": "A humorous mock advertisement for a fictional flight-training seminar, written as a tongue-in-cheek newsletter-style piece. It opens with a scenario in which a passenger in seat 37B is asked by a flight attendant to help land a stricken airliner, and then pitches a course that promises to teach ordinary people the switches, systems and quirks of the Boeing 727 so they will be ready for such an emergency. The author, presenting himself as chief instructor, lampoons the course with absurd claims, a steep price tag, jokes about satisfied customers, and asides about his personal life. Postscripts describe the school's supposed move to the Boeing 757 and then the 747, each with more jokes about climbing into the cockpit and the difficulty of operating the aircraft. The piece is light satire aimed at aviation enthusiasts and readers of early online bulletin boards, and it relies on in-jokes about flight simulation hobbyists, the AVSIG community, and the everyday experience of flying as a passenger.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/school.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:23+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4672,
+      "text_chars": 4672,
+      "prompt_tokens": 2854,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

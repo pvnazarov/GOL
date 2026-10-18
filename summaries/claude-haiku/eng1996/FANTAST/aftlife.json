@@ -1,0 +1,23 @@
+{
+  "title": "The shady side of afterlife",
+  "authors": [
+    "Lightburn Kipp"
+  ],
+  "kind": "short stories",
+  "summary": "A comic fantasy short story about Rick Dawson, a cheerful, slightly scatterbrained man who finds himself in a vast, crowded afterlife waiting hall after being mistakenly collected from his kitchen while making a banana milkshake. He is stuck with an elderly clerk who keeps a surprisingly modern computer and a bureaucratic attitude toward death, and who explains that the angel who retrieved Rick is a habitual drinker. While Rick waits to be returned to his body, a short, ugly demon with brimstone breath mistakes the black ink circle Rick accidentally smeared on his palm for the mark of a special messenger. The demon blurts out a plot involving an apocalypse and a disguised destroyer, and Rick, too bewildered to correct him, nods along. The story is a light, dialogue-driven satire that plays on afterlife clichés, mangled idioms, and mistaken identity, and ends with a sinister figure in black searching for the demon.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/aftlife.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:38+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 10704,
+      "text_chars": 10704,
+      "prompt_tokens": 5261,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

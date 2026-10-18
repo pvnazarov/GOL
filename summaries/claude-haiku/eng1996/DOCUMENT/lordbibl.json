@@ -1,0 +1,23 @@
+{
+  "title": "A bibliography of lord dunsany`s works",
+  "authors": [
+    "Plunkett Edward John Moreton Drax"
+  ],
+  "kind": "non-fiction",
+  "summary": "This electronic bibliography, compiled by Jim Henry III, lists the published works of Edward John Moreton Drax Plunkett, the eighteenth Baron of Dunsany, the Irish writer. Entries run roughly in order of publication, from The Gods of Pegana (1905) onward, and each gives the original publisher, year, and form. Most entries are short story collections, including Time and the Gods, A Dreamer's Tales, Fifty-One Tales, and the Jorkens series of club-room tall tales. The list also covers plays such as Five Plays and Plays of Near and Far, novels such as The King of Elfland's Daughter, poetry collections, war writings like Unhappy Far-off Things, and autobiographical volumes. Where a book was reprinted, the bibliography notes the later edition, and for titles still in print in the early 1990s it gives the ISBN. Several collections are broken down into their individual stories and plays. The compiler invites corrections and says fuller contents lists may appear in later revisions.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/lordbibl.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:31+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8992,
+      "text_chars": 8992,
+      "prompt_tokens": 5888,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

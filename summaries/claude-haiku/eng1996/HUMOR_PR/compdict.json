@@ -1,0 +1,21 @@
+{
+  "title": "Computer dictionary",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A short humorous glossary that parodies the jargon of personal computing in the early microcomputer era. Its premise is that most computer owners are not experts but still stumble over the terms, abbreviations and slang in magazines and articles, so this dictionary promises to make them understandable. Entries are alphabetical and mostly joke definitions that play on the literal sense of technical words or on near-homonyms: the chip numbers 8086, 8087 and 8088 become the years you finish paying for your machine, 'Buffer' is a programmer who works in the nude, 'Megabyte' is a nine-course dinner, and 'GiGo' is garbage in, garbage out. Other entries mock programming languages such as Algol, Forth and Pascal, hardware such as the joystick and disk drive, and software names like Newdos. The text breaks off partway through the letter P, and no author is credited in the excerpt provided.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/compdict.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:00+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2080,
+      "text_chars": 2080,
+      "prompt_tokens": 2016,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

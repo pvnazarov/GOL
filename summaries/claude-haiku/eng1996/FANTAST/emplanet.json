@@ -1,0 +1,23 @@
+{
+  "title": "emplanet",
+  "authors": [
+    "Meadows Chris"
+  ],
+  "kind": "short stories",
+  "summary": "Emplanet is a science-fiction tale by Chris Meadows, written as an Undocumented Features story set in the shared fan universe of Eyrie, Unlimited and the Superguy circle. It follows Chris \"Mako\" Meadows and his partner Katie \"Temper\" Tanner, a Cybertronian-enhanced Valkyrie pilot whose human brain is housed in a transformer body, as they investigate a deserted mining world called New Wales. Their search for the missing inhabitants of a 3WA outpost and dilithium plants turns up mysterious deletions in the station logs, an unexplained meteor, and a GENOM probe droid, pointing toward a larger threat. The heroes must piece together what happened while their fleet of starships and mecha battle to uncover the truth. The story mixes mecha action, crossover references to Transformers and Robotech-style fleet combat, and the banter between its leads. The excerpt is a fragment of a longer piece, and the full text runs to a climactic planetary showdown with GENOM forces in which a trap is sprung. The tone is lighthearted fan fiction with frequent in-jokes and pop-culture nods.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/emplanet.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 54377,
+      "prompt_tokens": 13645,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

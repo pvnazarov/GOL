@@ -1,0 +1,23 @@
+{
+  "title": "grave",
+  "authors": [
+    "Allen Dave"
+  ],
+  "kind": "short stories",
+  "summary": "This short humour piece is a single joke, filed under the HUMOR category, presented as a favourite joke with a brief note from its teller. It recounts a Cajun-dialect style tale about two drunks who each take a rain-soaked shortcut through a graveyard and fall into the same open grave. The first drunk gives up and settles in for the night; when the second drunk fails to climb out of the slippery mud, the first taps him on the shoulder and delivers a deadpan line about his chances of escape. The teller notes that the joke closely resembles one told by Dave Allen on his British television programme 'Dave Allen at Large', praises Allen as an inventive storyteller, and admits that the text on the page cannot match the performance. The catalogue lists the title as 'grave' and the author as Allen Dave, following the record supplied with the file. The piece is brief and anecdotal, relying on its punchline and the tone of the telling.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/grave.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:34+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1092,
+      "text_chars": 1092,
+      "prompt_tokens": 1600,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

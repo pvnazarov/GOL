@@ -1,0 +1,21 @@
+{
+  "title": "Buzzword",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "Buzzword is a short humorous glossary that parodies the jargon of data processing and computer programming. Its alphabetised entries take familiar technical terms and turn them into jokes about the working life of the programmer. Assumed Decimal Point becomes a quip about overestimating one's own worth relative to salary, Bit is the increment by which programmers slowly go mad, and Chaining is a method of attaching programmers to desks to speed output. Other entries redefine storage, input, and machine concepts in terms of food, drink, bathroom needs, and office clutter: core storage is the centre of apples, external storage is a wastebasket, and input means food, whiskey, beer and aspirin. The programmer is defined as a red-eyed, mumbling mammal capable of conversing with inanimate objects. Each entry is a line or two, and together they build a cumulative picture of computing culture seen through exhaustion and dark wit. It suits readers who have worked with computers, or anyone who enjoys satire of technical language and the people who speak it.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/buzzword.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:01+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1242,
+      "text_chars": 1242,
+      "prompt_tokens": 1635,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

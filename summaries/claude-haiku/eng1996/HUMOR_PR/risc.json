@@ -1,0 +1,21 @@
+{
+  "title": "risc",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a satirical, humorous text in the form of an internal computer-industry newsletter or mailing-list digest, parodying the terse, jargon-heavy style of technical reference documentation and bulletin-board exchanges from the Honeywell GCOS8/DPS8 mainframe era. It opens with a supposed erratum to the reference manual, playfully reinterpreting the abbreviation MBZ (\"must be zero\") as \"might be zero,\" \"could be zero,\" or \"transfer on maybe.\" It then presents a list of invented assembler instructions and operators with absurd functions: a \"load virtually everytime\" instruction, a \"test litmus paper\" instruction, a \"test rabbit\" instruction that skips the program if the rabbit is deceased, and an assembly-time operator for neither/nor logic. Further sections mock government procurement requirements, bureaucratic development schedules, and staff meetings. The author is not named in the excerpt, and the piece is a lighthearted send-up of programming culture rather than a real technical document.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/risc.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:22+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8046,
+      "text_chars": 8046,
+      "prompt_tokens": 6856,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

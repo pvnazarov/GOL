@@ -1,0 +1,23 @@
+{
+  "title": "Timeline of amber",
+  "authors": [
+    "Knight Kevin"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a reader-compiled chronology of Roger Zelazny's Amber series, the ten-volume fantasy cycle beginning with Nine Princes in Amber. Kevin Knight's text lays out the events of the Amber books in a sequence of dated entries, running from the creation of Amber by Dworkin and the birth of Oberon's many children, through the family feuds, wars and intrigues of the Old Days, to the events of the Corwin-narrated novels and the later Merlin-centred books. Entries cover the rivalries between Eric, Corwin, Brand and Bleys, the struggle over the Pattern and the Jewel, Corwin's journey through Chaos and Shadow, and Merlin's adventures on Earth and in Shadow, with occasional relative timestamps such as days, months and years. The author notes that many dates are inferred or approximate and that the file is marked with major spoilers. It is a fan reference work intended for readers who want to untangle the series' complicated genealogy and timeline, and it is most useful after reading the books.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/timeambe.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:13+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 16600,
+      "text_chars": 16600,
+      "prompt_tokens": 8721,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

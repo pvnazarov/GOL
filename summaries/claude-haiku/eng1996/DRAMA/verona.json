@@ -1,0 +1,23 @@
+{
+  "title": "The two gentlemen of verona",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "The Two Gentlemen of Verona is one of William Shakespeare's early comedies, written around the mid-1590s and set in Verona, Milan, and the frontiers of Mantua. It follows two young friends, Valentine and Proteus. Valentine leaves Verona for the imperial court at Milan, where he falls in love with Silvia, the daughter of the Duke. Proteus, who has left his own beloved Julia behind, follows him to Milan and quickly abandons his vows to Julia in favour of Silvia, betraying his friend by revealing Valentine's plan to elope with her. Julia, disguising herself as a page, travels after Proteus and enters his service. The play moves through rivalries, banishment, and a forest encounter with outlaws, before the tangled loves are sorted out. The comedy is known for its witty servant characters, Speed and Launce, its meditations on friendship and inconstancy, and its ending, which turns on repentance and reconciliation rather than on any single revelation of guilt. It is among Shakespeare's most straightforward early plays in structure.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/verona.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:24+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 99997,
+      "prompt_tokens": 14903,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "sf&f",
+  "authors": [
+    "Abbey Edward"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a reference work of alphabetically arranged entries covering science fiction and fantasy as a field. Its entries range across authors, editors, magazines, publishers, films, television programmes, themes, technical terms, and historical events. Author entries sketch careers and central works, often with brief critical judgments, and cross-refer to related topics in capitals. Among the subjects covered are Edwin Abbott's Flatland, Kobo Abe's Inter Ice Age 4, Ace Books and its famous Ace Doubles, Kathy Acker, Forrest J. Ackerman, Absolute Magnitude and Aboriginal Science Fiction magazines, and films such as The Abyss, The Absent Minded Professor, and Forbidden Planet. The excerpts also include illustrated film and history entries that describe milestones such as the first Hugo Awards, the founding of Galaxy and The Magazine of Fantasy and Science Fiction, and the rise of Flash Gordon. The entries are written with dry, opinionated, sometimes witty commentary, and contributors are credited with initials at the ends of entries. The work functions as a broad guide to the history, people and ideas of the genre across much of the twentieth century.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ENCICL/sf&f.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:38+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 9605922,
+      "prompt_tokens": 14102,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

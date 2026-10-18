@@ -1,0 +1,23 @@
+{
+  "title": "Цезарь и Клеопатра",
+  "authors": [
+    "Шоу Бернард"
+  ],
+  "kind": "play",
+  "summary": "Caesar and Cleopatra is a five-act history play by George Bernard Shaw, first staged in 1898. It dramatises the winter of 48-47 BC, when Julius Caesar arrives in Alexandria in pursuit of Pompey and is presented with Pompey's severed head by Ptolemy's courtiers. Caught in the dispute between the boy-king Ptolemy and his sister Cleopatra, Caesar takes the spirited, unformed queen under his wing and tutors her in statecraft and self-possession. Shaw plays the material largely as comedy, mocking political vanity, romantic idealisation and military bluster, while giving Caesar a wry, sceptical humanity. Supporting figures include the scheming minister Pothinus, the fierce nurse Ftatateeta, the Roman officer Rufio and the sympathetic Apollodorus. The action moves from palace intrigue to street fighting and the burning of the library, ending with the Egyptian campaign concluded and Caesar sailing away, leaving Cleopatra a changed ruler. The play is often read as a meditation on power, growth and the education of a monarch. The excerpts supplied with this record are actually from Shakespeare's Julius Caesar, not Shaw's play.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/caesar.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:11+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 115172,
+      "prompt_tokens": 15305,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

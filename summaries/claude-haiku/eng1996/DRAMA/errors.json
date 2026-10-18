@@ -1,0 +1,23 @@
+{
+  "title": "The comedy of errors",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "The Comedy of Errors is a farce by William Shakespeare, one of his earliest and shortest comedies, set in the Greek city of Ephesus. It turns on a long-separated pair of identical twins and their equally identical servants. Aegeon, a merchant of Syracuse, arrives in Ephesus under sentence of death, since Syracusians are forbidden to trade there, and he recounts how a shipwreck divided his family decades earlier. His son Antipholus of Syracuse, searching for his lost brother, arrives in the city with his servant Dromio, unaware that Antipholus and Dromio of Ephesus live there. Mistaken identities multiply: wives, merchants, a goldsmith, a courtesan and a jailer all confuse the pairs, leading to misunderstandings, arrests, a scolding wife and a chain that changes hands. The play builds through physical comedy, wordplay and rapid misidentification toward a reconciliation in which the families are reunited and the confusions are explained. Its themes include marriage, identity and the unreliability of appearances.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/errors.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:17+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 88052,
+      "prompt_tokens": 15581,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

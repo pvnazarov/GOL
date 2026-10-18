@@ -1,0 +1,23 @@
+{
+  "title": "The eclogues",
+  "authors": [
+    "Virgil"
+  ],
+  "kind": "poetry",
+  "summary": "The Eclogues, also known as the Bucolics, are a set of ten pastoral poems by the Roman poet Virgil, composed in the decades before 37 BC. Written in dactylic hexameter and modelled on the Greek idylls of Theocritus, they present shepherds and herdsmen singing, competing, and conversing in an idealised Arcadian countryside. The poems mix personal feeling with the public troubles of their age. The first eclogue, between Meliboeus and Tityrus, deals with land confiscations after civil war and the loss of a farm. The second is Corydon's unrequited passion for the boy Alexis. The third is a singing contest between rival shepherds, and the fourth, addressed to Pollio, prophesies a golden age under a coming child. The fifth mourns the death of Daphnis, and the sixth, sung to Varus, describes the cosmos and the love of the poet Gallus. The remaining eclogues treat love, rivalry and the poet's own vocation. The collection is a foundational work of pastoral literature and influenced European poetry for centuries.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/bucoe10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 46962,
+      "prompt_tokens": 15263,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

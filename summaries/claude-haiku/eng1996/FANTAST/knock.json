@@ -1,0 +1,23 @@
+{
+  "title": "Knock",
+  "authors": [
+    "Brown Fredric"
+  ],
+  "kind": "short stories",
+  "summary": "\"Knock\" is a short science fiction story by Fredric Brown, first published in the mid-twentieth century and widely anthologized. It opens with a famous two-sentence horror setup, \"The last man on Earth sat alone in a room. There was a knock on the door...\", and then subverts the expected dread. The narrator, Walter Phelan, a mild-mannered anthropology professor, is one of the few human survivors of an alien invasion. The Zan, a race of tall, emotionless beings who look nothing like humans, have wiped out Earth's population with a vibration weapon and kept a zoo of specimens aboard their ship. Walter, who has been placed in a cubicle with a woman named Grace Evans, works with the aliens to understand their immortality and their mistaken assumptions about mortal creatures. The tale is a witty, ironic piece of wry humour in which the knock at the door turns out to be harmless, and the story ends on a playful note about the future of the human race. Brown's story is known for its brevity, its dry comedy, and its inversion of the expected menace.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/knock.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:26+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 19994,
+      "text_chars": 19994,
+      "prompt_tokens": 8290,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

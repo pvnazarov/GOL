@@ -1,0 +1,23 @@
+{
+  "title": "Morgana",
+  "authors": [
+    "Jamie"
+  ],
+  "kind": "short stories",
+  "summary": "This is a fantasy short story presented as a rough draft shared with an online community for feedback. Its heroine, Morgana, is a reclusive healer and seer who lives alone in a rural area, uses herbs, carved runic stones, and a crystal-tipped wand, and dresses like a noblewoman despite her humble home. When a peasant named John asks for help to save his dying wife, Genieve, Morgana heals her, refuses payment, and asks only for discretion. Her noble brother William then has her imprisoned and condemned to burn as a witch. Before she dies, she curses him and his family to live as vampires, outcast among the people they have harmed. The final section jumps to 1994, where a repentant William gives a pouch of runes to a stranger, Debra Hampson, and a news report describes a fire and mysterious bones. The piece is written in an earnest, sometimes uneven prose style, with echoes of Arthurian legend in its names and themes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/morgana.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:43+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14947,
+      "text_chars": 14947,
+      "prompt_tokens": 6086,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

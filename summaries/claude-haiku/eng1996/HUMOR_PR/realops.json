@@ -1,0 +1,21 @@
+{
+  "title": "Real operators guide",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A humorous set of ten rules for bulletin board system (BBS) operators, written in the informal, opinionated voice of the early 1990s dial-up modem scene. The text is a short piece of satirical etiquette advice, circulated as a text file and branded with the Hexagon Suite name. Its ten rules cover subjects such as handles and system names, spelling and typing ability, writing one's own system software instead of using shareware like Wildcat or QuickBBS, running a system around the clock on a dedicated phone line, using a hard drive of reasonable size, and refraining from advertising one's own board at the end of every post on other systems. Each rule is followed by a jokey justification that pokes fun at common habits of sysops and callers, such as the 'unregistered evaluation version' message and systems that cannot be reached after 6 p.m. The piece is a period artifact of bulletin board culture, offering a tongue-in-cheek portrait of what the author considers a well-run board. No author is named in the text.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/realops.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:22+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4220,
+      "text_chars": 4220,
+      "prompt_tokens": 2566,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Aeneid",
+  "authors": [
+    "Dryden John"
+  ],
+  "kind": "poetry",
+  "summary": "The Aeneid is the Latin epic poem by Virgil, here given in John Dryden's English verse translation from the Harvard Classics edition. It follows Aeneas, a Trojan prince who escapes the fall of Troy and, under the favor of fate and the gods, sets out to found a new home in Italy. Juno's enduring hatred drives storms that scatter his fleet, and the early books show his arrival on the coast of Carthage, where he meets Queen Dido and recounts the destruction of his city. Later, in Italy, he seeks an alliance with King Latinus and must face the hostility of Turnus, a Rutulian prince who also wants the king's daughter Lavinia. The poem closes in combat, with Aeneas's final act of vengeance against Turnus. Throughout, Virgil weaves together personal grief, duty to the gods, and prophecy of the future greatness of Rome, including the founding of Alba Longa and the lineage that leads to Romulus and Augustus. The excerpts include the opening invocation, the storm and its aftermath, the scene at Latinus's palace, and the closing duel.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HISTORY/aeneid.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:32+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 614242,
+      "prompt_tokens": 14538,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

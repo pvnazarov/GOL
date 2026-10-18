@@ -1,0 +1,21 @@
+{
+  "title": "An abridged collection of interdisciplinary laws",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a humorous compilation of pseudo-scientific and pseudo-serious maxims, often called laws, principles, corollaries and axioms, gathered from many sources across science, engineering, economics, management, computing, politics, and everyday life. Many entries are well-known parodies of scientific or technical statements, such as variants of Murphy's Law, Clarke's Laws, Finagle's Laws, Brook's Law on adding manpower to late projects, and Parkinson-style observations about bureaucracy. Others are sly jokes about bicycles, backpacking, gardening, model railroading, and the perversity of tools and toast. Economic entries include Gresham's Law and several \"Kamin's Laws\" on currency and taxation, while the management and computing sections mock meetings, committees, programmers, and organizational dysfunction. The collection also includes aphorisms attributed to figures such as Churchill, Vonnegut, and Clarke, along with a number of anonymous or invented maxims. The tone is wry and irreverent throughout, and the entries are short, self-contained and meant to be read in any order. The text is an excerpt-based view of a larger file, so the full set may contain additional entries beyond those shown.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/laws.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:51+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 38846,
+      "prompt_tokens": 13300,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

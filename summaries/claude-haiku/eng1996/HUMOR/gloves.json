@@ -1,0 +1,21 @@
+{
+  "title": "A mismatched pair of gloves",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A short comic piece about a young man who buys a pair of white gloves as a birthday present for his sweetheart. While shopping with his sweetheart's sister, the items are mixed up during gift wrapping, so the sister receives the gloves and the sweetheart receives a pair of panties. He seals the parcel without checking and sends it with an affectionate note that is full of unintended double meanings: he praises the gloves' suggestive qualities, comments on their condition and on other men's hands, and offers instructions for handling them. The joke rests on the gap between his innocent intentions and the risqué reading his words acquire once the mistake is revealed. The piece is a brief, self-contained anecdote in the tradition of light bawdy humor, with no named characters beyond the couple and the sister, and no author credited in the text.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/gloves.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:32+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1535,
+      "text_chars": 1535,
+      "prompt_tokens": 1713,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

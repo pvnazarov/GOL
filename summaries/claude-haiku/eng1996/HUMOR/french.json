@@ -1,0 +1,21 @@
+{
+  "title": "Funny french phrases",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A short humorous glossary of French idioms, presented as a list of colloquial phrases currently in use in Paris. Each entry gives the French expression in capitals, a literal word-for-word translation, and then the real English equivalent in parentheses, so the joke lies in the mismatch between what the words say and what they mean. Examples include 'Ah la vache!' (Good God!), 'C'est la fin des haricots' (It's hopeless), 'Poser un lapin' (to stand someone up), 'Avoir le gueule de bois' (to have a hangover), and 'Prendre le taureau par les cornes' (to face a problem head-on). Some entries are rude or slangy, such as 'Boire comme un trou' (to get smashed) and 'Etre un bon coup' (to be good in bed). The piece is brief and undated, with no named author, and the text itself notes that accent marks are missing. It is aimed at English speakers who want to learn playful, everyday French.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/french.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:28+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1899,
+      "text_chars": 1899,
+      "prompt_tokens": 2178,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

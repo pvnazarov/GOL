@@ -1,0 +1,23 @@
+{
+  "title": "Split personalities on electronic bulletin boards",
+  "authors": [
+    "Spliekin Rangott"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short satirical article, translated from the Soviet newspaper Pravda and dated 1987, that mocks the American enthusiasm for home computers and dial-up bulletin boards. The narrator, a Moscow correspondent who visited the United States that autumn, reports a supposed new affliction among young technicians: they adopt several online personas and effectively talk to themselves through their modems. To support this, he quotes a Berkeley specialist, Dr. George Sands, who compares computers to the early telephone and to ships raced for sport, and who warns that screen-bound isolation is worse than television. The piece then lists ten telltale signs of the condition, including bare furniture, unmade beds, stacks of junk food, divorce and neglected children. It closes by suggesting that Soviet officials need no such gadgets, since television already serves the state well as a hypnotic tool for the intelligentsia. The text is brief and wry, mixing real observations about technology with exaggeration and political jabs, and reads best as Cold War propaganda humour rather than reportage.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/modem_e.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:20+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 6830,
+      "text_chars": 6830,
+      "prompt_tokens": 3234,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

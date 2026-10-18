@@ -1,0 +1,23 @@
+{
+  "title": "delrey",
+  "authors": [
+    "Harris Ellen"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a collection of issues of The Del Rey Internet Newsletter (DRIN), an electronic publication from Del Rey Books, the science-fiction and fantasy imprint of Random House, distributed monthly in 1995 and 1996 over Usenet, online services, and bulletin boards. Edited by Ellen Key Harris, it is a publisher-run newsletter rather than a novel. Each issue lists new releases in the stores with short, non-promotional descriptions, gives sample-chapter availability, and carries Del Rey data such as ISBN-style numbers, page counts, and cover artists. It also includes forthcoming and works-in-progress notes on authors such as Julian May, Terry Brooks, David Eddings, Barbara Hambly, and Dave Duncan, news about editors and backlist reissues, a reader Q&A, and an 'In Depth' section where publishing staff describe their jobs, such as a publicist's account of tours and press kits and a writer's account of creating a Star Wars technical guide. The excerpts reproduce several issues, including the February 1995 second-anniversary issue and the September 1995 issue, along with the newsletter's copyright and reproduction notices.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/JOURNAL/delrey.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:29+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 287875,
+      "prompt_tokens": 15088,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

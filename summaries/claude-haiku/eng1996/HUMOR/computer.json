@@ -1,0 +1,21 @@
+{
+  "title": "Computer diagnosis",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A short comic anecdote from the humor category, told in a single piece of prose. A doctor proudly introduces his new computer, which handles his billing, payroll, taxes and supply orders, and which he claims can also diagnose patients from a urine sample. The machine's first two printed diagnoses are wrong: it correctly gives the patient's age but reports a tennis elbow the patient has never had. When the doctor asks for a retest, the patient, annoyed, deliberately contaminates the sample with urine from his family, motor oil and his own semen. The machine responds with a longer, absurd printout that mixes accurate and invented claims about the patient's family and car. The story is a bawdy, knowing joke about gullibility toward technology, stubbornness, and the limits of automated medicine, with a punchline built on the escalating sabotage.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/computer.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:06+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3072,
+      "text_chars": 3072,
+      "prompt_tokens": 2281,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

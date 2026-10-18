@@ -1,0 +1,23 @@
+{
+  "title": "The frequently questioned answers",
+  "authors": [
+    "Paul Johnson"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Frequently Questioned Answers is a FAQ compiled by Paul Johnson for the sci.skeptic Usenet newsgroup, first circulated in the early 1990s. It aims to give a factual, evidence-based overview of topics commonly debated by skeptics and believers in the paranormal. The document is organised into numbered sections covering the scientific method, psychic powers and psi research, UFOs and alleged alien abductions, crop circles, the Tunguska explosion, Ezekiel's vision, faith healing and alternative medicine, creation versus evolution, fire-walking, astrology and New Age beliefs, perpetual motion machines, AIDS conspiracy theories, and false memory syndrome. Each entry gives a short answer, often with references to skeptical literature, and some carry bracketed notes inviting further submissions. The text reflects a sceptical, scientific outlook while acknowledging contrary views, and it includes background on prominent skeptics and skeptical organisations. The excerpts show the FAQ's conversational, community-edited character, with the author openly soliciting contributions from readers.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/skeptic.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:39+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 148050,
+      "prompt_tokens": 13758,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

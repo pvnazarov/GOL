@@ -1,0 +1,23 @@
+{
+  "title": "Little women",
+  "authors": [
+    "Alcott Louisa May"
+  ],
+  "kind": "novel",
+  "summary": "Little Women follows the March sisters, Meg, Jo, Beth and Amy, as they grow up in New England while their father is away serving as a chaplain in the Civil War. Their mother, Marmee, guides them through poverty, family illness, and the everyday struggles of youth, while the girls pursue their ambitions, quarrel, and learn to live up to their father's hopes for them. The story moves forward over several years, covering courtship, marriage, the loss of a beloved sister, and the growth of the next generation. Jo's writing ambitions, Meg's domestic life, Amy's artistic aims, and Beth's quiet strength each shape the narrative, and the neighboring boy Laurie becomes a close companion to the family. The novel, first published in 1869, is a classic of American domestic fiction, valued for its warm portrait of family life, its moral lessons about character and duty, and its vivid depiction of nineteenth-century Concord and Boston. This copy is a digital transcription that includes a publisher's preface and some uploader notes, which are not part of the story.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/littlwom.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1008754,
+      "prompt_tokens": 13446,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

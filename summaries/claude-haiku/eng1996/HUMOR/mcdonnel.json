@@ -1,0 +1,23 @@
+{
+  "title": "mcdonnel",
+  "authors": [
+    "Unknown Unknown"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a satirical parody of a product warranty registration card, styled as a humorous mock-up from the McDonnell Douglas aerospace company. Its ASCII-art title spells out 'McDonnell Douglas' with a tagline reading 'Aircraft-Space Systems-Missiles.' The card instructs the buyer to register a military aircraft, then asks a series of absurd questions: the purchaser's latitude, longitude, altitude and code name; which fighter model was bought (F-14 Tomcat, F-15 Eagle, F-19A Stealth, or 'Classified'); and how the purchase was paid for, with options like suitcases of cocaine, ransom money and oil revenues. Further questions cover how the buyer learned of the product (a loud noise, espionage, or being attacked by one), intended operating regions including aircraft carriers and misc. third-world countries, political self-description ranging from 'Crazed' to 'Corrupt,' and leisure interests such as sabotage, torture and crushing rebellions. The joke is a Cold War-era satire of arms-trade marketing and the sinister conduct of military sales. The author is unknown, and the piece is a short, self-contained parody rather than a conventional book.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/mcdonnel.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:02+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4249,
+      "text_chars": 4249,
+      "prompt_tokens": 3029,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

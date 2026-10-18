@@ -1,0 +1,23 @@
+{
+  "title": "Frankenstein, or, the modern prometheus",
+  "authors": [
+    "Shelley Mary"
+  ],
+  "kind": "novel",
+  "summary": "Frankenstein, or, the Modern Prometheus is a Gothic novel first published in 1818 and revised in 1831. It is told through nested narratives in epistolary and first-person form. The framing story comes from the letters of Robert Walton, an Arctic explorer sailing toward the North Pole, who rescues a half-frozen stranger named Victor Frankenstein from the ice. Victor recounts how he became obsessed with the secrets of life and created a living being from assembled body parts. Horrified by the creature's appearance, he abandoned it, and the creature, rejected by everyone it encounters, learned language and human history by secretly observing a cottage family. Its requests for companionship turned into bitterness and violence, as it destroyed Victor's family and friends. The book explores creation and responsibility, isolation, prejudice, ambition, and the moral duties of a creator toward what he makes. It is widely regarded as a foundational work of science fiction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/frankens.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 418809,
+      "prompt_tokens": 12528,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

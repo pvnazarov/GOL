@@ -1,0 +1,21 @@
+{
+  "title": "Sex",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a satirical parody of Unix man pages, written as a joke reference document for a fictional command called sex. It mimics the layout of the traditional SEX(1) user commands page and the SEX(6) Programmer's Manual, with sections for NAME, SYNOPSIS, DEFAULTS, OPTIONS, ERRORS, ENVIRONMENT, FILES, BUGS and HISTORY. Each option is a playful sexual act or 'option' written in the flag style of real command-line tools, such as wiggle, chocolate sauce, whips or triple parallel. The error messages are punchlines that map computer failures onto sexual mishaps, and a mock Pascal section extends the joke with programming-language errors. A short demonstration program and a few tongue-in-cheek notes close the piece. The text is bawdy and aimed at readers who know Unix conventions, and it relies on the contrast between technical formality and crude humour. It is brief, anonymous, and presented as a piece of informal computing folklore rather than a formal work.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/sj.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:25+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7995,
+      "text_chars": 7995,
+      "prompt_tokens": 4397,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

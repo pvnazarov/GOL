@@ -1,0 +1,23 @@
+{
+  "title": "Remember the alamo",
+  "authors": [
+    "Barr Amelia E"
+  ],
+  "kind": "novel",
+  "summary": "Remember the Alamo is a historical novel by Amelia E. Barr set in San Antonio, Texas, during the years leading up to the Texan revolution against Mexico in the 1830s. The story opens in a richly described Franciscan-Moorish city where Mexican grandees, American settlers, friars and soldiers mingle under growing tension. Its central figure is Dr. Robert Worth, an American-born physician long settled in San Antonio and married into a Mexican family. His household is the emotional center of the book: his devoted daughter Antonia, his wife Maria, and his sons and kin are pulled between loyalty to Mexico, the Catholic Church, and their conscience as the Texan cause gathers strength. Religious conflict within the family, particularly with a zealous priest, sharpens these divisions. The narrative builds toward the fighting at the Alamo and the Texan independence movement, with the later chapters placing the family's personal sacrifices against the larger drama of a nation being born. The book combines romance, domestic drama and patriotic history, and it is written in a lush, sentimental style typical of its period.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/alamo.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:54+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 448731,
+      "prompt_tokens": 13177,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "ansible",
+  "authors": [
+    "Langford Dave"
+  ],
+  "kind": "non-fiction",
+  "summary": "Ansible is a long-running British science fiction fanzine edited by Dave Langford, here represented by a sequence of issues spanning roughly 1982 to 1995. Its contents are a mix of news, gossip, and commentary about the SF field, fandom, and publishing, written in a witty, irreverent and often self-deprecating voice. The excerpts include convention reports from Novacon and Fencon, with accounts of panels, auctions, parties and misbehaviour; a tribute to the late Kingsley Amis; and short items on authors' disputes, obituaries, awards such as the Nebulas, small-press magazines, fan trivia and club notices. Later issues carry practical listings of fan contacts, convention bids, websites and back-issue archives. The newsletter is known for its compact, cross-referenced style, its running jokes and its cheerful gossip. Its archive is valued as a record of British fandom and the genre scene of the period, and as an example of the fannish newsletter tradition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/JOURNAL/ansible.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1721223,
+      "prompt_tokens": 15251,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

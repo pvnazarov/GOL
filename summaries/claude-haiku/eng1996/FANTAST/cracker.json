@@ -1,0 +1,23 @@
+{
+  "title": "The hacker crackdown law and disorder on the electronic frontier",
+  "authors": [
+    "Sterling Bruce"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Hacker Crackdown is a non-fiction account of the 1990 nationwide crackdown by the U.S. Secret Service, telephone companies, and state and local police against American computer hackers, phone phreaks, and the bulletin board systems on which they traded codes, cards, and software. Bruce Sterling, a science fiction writer, pulls together interviews, court records, and reporting to portray a wide cast: cops, teenage whiz-kids, lawyers, civil libertarians, and industry security staff. The book covers the history of telephony, the underground boards and their culture, the Operation Sundevil raids of May 1990, the trial of Knight Lightning, and the founding of the Electronic Frontier Foundation in response. It examines how the law struggled with questions of free speech, evidence, and jurisdiction in cyberspace. The text is divided into four parts: Crashing the System, The Digital Underground, Law and Order, and The Civil Libertarians. This electronic edition, released in 1994, carries an afterword updating events and the author's reflections on how quickly the electronic frontier was changing.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/cracker.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:50+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 663590,
+      "prompt_tokens": 13679,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

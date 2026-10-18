@@ -1,0 +1,23 @@
+{
+  "title": "Lone soul",
+  "authors": [
+    "Olson Brian"
+  ],
+  "kind": "short stories",
+  "summary": "A short piece of speculative fiction, presented as a single story rather than a collection. Dr. Marks, a fifty-three-year-old scientist working in a cramped one-bedroom apartment, has spent his life developing his late father's theory of reincarnation: that a person's spirit is reborn at death and that many of one's lives may overlap in the present. He builds a noisy, gasoline-powered machine meant to break down the energy and temporal barriers between these lives so that he can remember them all. His landlord, Mr. Johnson, and kindly neighbour, Mrs. Duncan, visit and respond with mockery and polite bewilderment. That evening Marks activates the device, and the result is far larger than he expected: every living person's lives merge, and the consciousness of all humanity becomes one mind that remembers every life ever lived. The tale is comic in its early scenes and turns philosophical and melancholy at the end, ending with the observation that the world became a lonely place.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/lonesoul.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:29+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14882,
+      "text_chars": 14882,
+      "prompt_tokens": 6353,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

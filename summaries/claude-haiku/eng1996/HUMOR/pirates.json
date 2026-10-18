@@ -1,0 +1,21 @@
+{
+  "title": "Real pirates",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "\"Real Pirates\" is a humorous textfile, a satirical etiquette guide for software pirates, of the kind circulated on bulletin board systems in the early home-computer era. Written as a list of numbered-style rules with corollaries, it lampoons the habits of would-be crackers and traders. Its targets include juvenile or pretentious aliases, clumsy spelling tricks, cliched BBS posts such as \"I have...\" announcements, leeching, outdated modem hardware, and the trading of games from particular publishers. Sections are grouped under headings for Aliases, Wares, BBS's, Transfers and Miscellaneous, each full of mock-serious advice about what genuine pirates would never do. The text closes by promising a sequel and jokingly telling offended readers to quit the pirate scene. It is a piece of scene commentary and self-mockery rather than a story, and it reads as a period document of underground computer culture.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/pirates.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:14+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5397,
+      "text_chars": 5397,
+      "prompt_tokens": 3349,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "There`s only decaf in hell",
+  "authors": [],
+  "kind": "poetry",
+  "summary": "A short humorous piece in list form, set out as a partial catalogue of the things that are found in hell. Each line is a jab at everyday annoyances and dated cultural touchstones: decaf coffee and non-dairy creamer, day-old white bread, margarine, lima beans, Pepsi products, warm Pabst Blue Ribbon, Muzak, plastic flowers, and fan-fold printer paper. Some lines skewer particular targets, such as a political figure named as hell's only candidate, or the Smurfs and ALF as the only cartoon and television show on offer. Others nod to older technology and games, including TRS-80 computers with membrane keyboards, Pong that is out of order, and Chutes and Ladders as the only board game. The tone is wry and self-deprecating, leaning on the idea that a perfect hell is simply a place of mild, tiresome disappointments. The piece closes with a sly joke about foreplay. It reads as a light, irreverent bit of comic verse rather than a narrative, and is typical of the jokey list-poems that circulated in print and online.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/hell.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:43+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1273,
+      "text_chars": 1273,
+      "prompt_tokens": 1676,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

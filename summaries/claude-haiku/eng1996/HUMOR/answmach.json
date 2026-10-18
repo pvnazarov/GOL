@@ -1,0 +1,21 @@
+{
+  "title": "The canonical list of telephone answering machine messages",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a humorous compilation of imaginary and parodied answering machine greetings, gathered largely from Usenet-era posts and passed around by readers who submitted their favourite messages. Each entry is a short, invented outgoing message, often with stage directions or sound cues in brackets. The pieces parody a wide range of targets: Star Trek and its crew, Mr. Rogers, Elvis, Shakespeare, Kubrick's 2001, Calvin and Hobbes, The Cosby Show, and Kate Bush, among others. Other entries play with absurd premises, such as a machine that is connected to a kitten by a relay, a Dial-A-Shrink therapist, a family fight, a recording of someone who has been abducted by aliens, or a message left by a mafia henchman disposing of a body. Some are crude or profane, and some are deliberately confusing. The collection is an informal, anonymous joke anthology rather than a work with a single author or narrative, and its entries vary considerably in quality and length. Several are attributed to named celebrities, such as the Pope or Kylie Minogue, as obvious spoofs.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/answmach.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:50+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 50025,
+      "prompt_tokens": 12983,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

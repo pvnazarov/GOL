@@ -1,0 +1,21 @@
+{
+  "title": "Seagull electronic university fall semester 1990 - self improvement courses",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a satirical course catalogue, styled as the fall 1990 offerings of a fictional correspondence-style institution called SeaGull Electronic University, whose classes meet on a beach in West Yarmouth. It is a parody of adult-education and self-help listings. The catalogue is divided into departments: Self Improvement, Home Economics, Business and Career, Health, and Crafts. Each entry carries a course code and an absurd or darkly comic title, such as 'Creative Suffering,' 'How to Convert your Vacuum to a Fully-Automatic Rifle,' 'Looting as a Career,' 'Mortgage Reduction Through Arson,' and 'Bonsai Your Pet.' The brief closing notes promise further courses, invite students to suggest subjects by e-mail, and set morning class times. The humour relies on deadpan absurdity, transgressive subject matter, and the mock-earnest tone of real institutional listings. The text is short and consists entirely of course titles and administrative notes, with no narrative or instructional content beyond the joke itself.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/seagull.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:24+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3176,
+      "text_chars": 3176,
+      "prompt_tokens": 2591,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

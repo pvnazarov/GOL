@@ -1,0 +1,23 @@
+{
+  "title": "Fsfnet fantasy-science fiction fanzine",
+  "authors": [
+    "Liscomb Orny"
+  ],
+  "kind": "collection",
+  "summary": "FSFnet was an electronic fanzine for fantasy and science fiction fans, distributed over BITNET in the mid-1980s and edited by 'Orny' Liscomb. The issues gathered by this record include short reviews, featured-author profiles, letters of comment, and original fiction and verse from readers on various university networks. Reviews discuss the 1984 film Dune and Diana Paxson's novel Brisingamen. Featured-author pieces cover M.A.R. Barker's Tekumel setting, with its roleplaying games and the novel Man of Gold, and Larry Niven's Known Space and Ringworld books. The fiction includes a short tale of an errant knight in a frozen kingdom, a close-encounter story set on a cold night patrol, and the opening chapters of a heist story about a thief infiltrating a bardic college. Other pieces include a serialized chronicle of a lost empire with translated sources and footnotes, an Orwellian poem, and a fiction excerpt about a wedding and a father's test of a suitor. The editorial material solicits submissions and announces play-by-net Diplomacy games and dungeon modules, giving a picture of early computer-network fandom.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/JOURNAL/fsf1-11.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:36+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 2276990,
+      "prompt_tokens": 13963,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

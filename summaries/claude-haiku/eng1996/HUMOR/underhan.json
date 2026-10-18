@@ -1,0 +1,21 @@
+{
+  "title": "Underhanded",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "\"Underhanded\" is a short, bawdy joke story presented as a single anecdote. A little old lady arrives at the head office of Chase Manhattan Bank carrying a paper bag holding about $3 million in cash, and asks to meet the bank's president before opening an account. Once in his office, she explains that she makes her fortune by betting people, and she offers him a wager of $25,000 that his private parts will be different by the next morning. Amused and confident, he accepts. The story builds through his careful precautions and his morning self-inspection, leading to a comic twist at the ten o'clock meeting, when her lawyer appears and the reason for the lawyer's distress is revealed. The piece relies on a punchline and a crude double meaning, and it reads as a stand-alone humorous anecdote rather than part of a larger work. No author is credited in the text provided.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/underhan.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:38+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3431,
+      "text_chars": 3431,
+      "prompt_tokens": 2332,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Timon of athens",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Timon of Athens is a tragedy by William Shakespeare, generally thought to be a late work co-written with Thomas Middleton and, by some accounts, unfinished. It follows Timon, a wealthy and extravagantly generous Athenian lord whose hospitality attracts a crowd of flatterers, poets, painters, jewellers and hangers-on who profit from his favour. When his fortune collapses through his own lavish giving, he discovers that the friends who fed on his wealth abandon him, and his creditors refuse to show mercy. Embittered, Timon withdraws from society and turns against humankind, while the cynical philosopher Apemantus mocks both him and the city. The play also follows the general Alcibiades, who is banished after pleading for a soldier condemned for killing a man, and who then marches on Athens. The work explores money, flattery, friendship, ingratitude, and the corrupting power of wealth, with sharp satire of courtly sycophancy and the mercantile society of the city. Its final scenes, including Timon's self-written epitaph, give the story a bleak and ironic close.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/timon.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:15+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 109572,
+      "prompt_tokens": 14720,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

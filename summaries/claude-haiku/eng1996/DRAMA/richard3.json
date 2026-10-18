@@ -1,0 +1,23 @@
+{
+  "title": "King richard iii",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "King Richard III is a history play by William Shakespeare, written around 1592 and first published in 1597. It dramatises the last part of the Wars of the Roses, following Richard, Duke of Gloucester, a deformed and ruthless younger brother of King Edward IV, as he schemes his way to the English throne. Richard manipulates rivals and allies alike, including his brother Clarence, Lord Hastings, and the grieving Lady Anne, whom he woos over the corpse of her husband, and he has the young princes in the Tower murdered. His rise is shadowed by curses and the ghosts of those he has wronged, who appear to him on the eve of battle. The play builds toward the climactic battle of Bosworth Field, where Richard, crying for a horse, is defeated and killed by Henry, Earl of Richmond, who becomes King Henry VII and unites the houses of York and Lancaster. The text is in verse with some prose, and includes the famous opening soliloquy, the Tower murders, the fall of Hastings, and the closing battle scenes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/richard3.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 176857,
+      "prompt_tokens": 15533,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

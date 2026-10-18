@@ -1,0 +1,23 @@
+{
+  "title": "The tragic tale of old macdonald`s farm a personnel saga",
+  "authors": [
+    "Mouse A"
+  ],
+  "kind": "short stories",
+  "summary": "A short satirical piece that parodies the nursery rhyme \"Old MacDonald Had a Farm\" by recasting the farm as a workplace governed by bureaucratic personnel and procurement rules. A retired university Personnel Officer buys a farm, labels his animals with formal Job Titles and Job Descriptions, and assigns his wife the title of Procurement Officer. When a neighbour tries to buy a milk cow, the narrative piles up absurd obstacles: reclassification requests in quintuplicate, sole-source justifications, three-bid requirements, and rules forbidding discrimination by breed or age. The humour lies in the mock-serious officialese, the EIEIO acronyms, and the escalating logic that turns simple farming into paperwork. The story ends with the protagonist giving up on farm life to lead a bureaucratic agency of his own. It is a short comic piece about institutional red tape, and it is the sort of thing that circulated as an office-humour parody rather than a full novel.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/govperso.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:33+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 12594,
+      "text_chars": 12594,
+      "prompt_tokens": 5727,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

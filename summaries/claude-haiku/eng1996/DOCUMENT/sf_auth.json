@@ -1,0 +1,23 @@
+{
+  "title": "SF author lists archive",
+  "authors": [
+    "John Wenn"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a bibliographic reference compiled by John Wenn, a Los Angeles Unix programmer and science fiction bibliography enthusiast, who began posting author checklists to the SF-Lovers Usenet group in 1988. Each entry gives a science fiction, fantasy or horror writer's career in a compact format: birth and death dates, nationality, gender and awards, followed by series listings and titles with years and publication notes. Abbreviations flag story collections, young adult books, omnibus editions, chapbooks and alternate titles. The archive covers hundreds of authors, from Poul Anderson and Lin Carter to Douglas Adams, Diana Wynne Jones, Roger Zelazny and J. R. R. Tolkien, and includes essays on sources and the Ace Specials imprint. The surrounding messages describe the compiler's reference works, his plans for a multi-volume encyclopedia with Prentice Hall, and his method of correcting lists from readers and authors. The text is a fragment, so some entries are cut off or garbled.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/sf_auth.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:38+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 745212,
+      "prompt_tokens": 16353,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

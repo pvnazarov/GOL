@@ -1,0 +1,23 @@
+{
+  "title": "Confessio amantis or tales of the seven deadly sins",
+  "authors": [
+    "Gower John"
+  ],
+  "kind": "poetry",
+  "summary": "Confessio Amantis, written in English verse by the late fourteenth-century poet John Gower (c. 1330-1408), is a long narrative poem in eight books of rhyming couplets. Its frame is a dialogue in which a lover, despairing in his unrequited passion, confesses to Genius, a priest of Venus, who responds with moral instruction and illustrative tales. The poem is organised around the seven deadly sins, and within that structure Gower gathers stories drawn from classical, biblical, historical and medieval sources, including the tales of Virgil's mirror and Hannibal, and the story of Rome's avaricious emperor. The prologue laments the disorder of Gower's age, the corruption of the clergy and the decline of love and peace between kingdoms, and it is dedicated to Henry of Lancaster. The work moves between courtly love and moral teaching, and its closing passages reflect on the proper ordering of a king's conduct. This excerpt covers the prologue, a tale of avarice and the closing envoy.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/conam.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1091031,
+      "prompt_tokens": 15348,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

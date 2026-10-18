@@ -1,0 +1,21 @@
+{
+  "title": "Toleranc",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A short, deliberately provocative piece set in the far future, presented by its author as a disturbing fable aimed at people known for either tolerance or intolerance. A congregation gathers for worship, and a woman brings her young daughter forward to describe an incident from the previous day in a nearby park. The girl recounts watching an elderly man perform a grotesque, bestial act with his dead dog. She observes it with a child's naive concern and a wish to comfort him. The listeners respond with horror mixed with praise for the child's wisdom, then return to worship without challenge. The ending reframes the episode: a thin old man sitting outside the door, who has been listening, appears to be the figure behind the events, and the closing passage offers an allegorical statement about intolerance and incomplete knowledge. The work is less a conventional story than a provocation. It uses shock and a mock-religious tone to press readers to consider how communities respond to what they find repugnant, and how easily the language of tolerance can be turned against itself.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/toleranc.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:19+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4671,
+      "text_chars": 4671,
+      "prompt_tokens": 2710,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

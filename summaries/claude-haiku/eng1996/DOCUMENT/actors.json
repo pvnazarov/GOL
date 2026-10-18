@@ -1,0 +1,23 @@
+{
+  "title": "The actors list",
+  "authors": [
+    "Col Needham"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Actors List is a periodic reference compilation posted to the Usenet newsgroup rec.arts.movies, maintained by Col Needham. It catalogues living actors alphabetically, with each entry listing the movies and recurring television roles that performer has appeared in, such as films, TV movies, mini-series and series. Notation marks TV movies, made-for-video releases, mini-series, and Academy Award and Golden Globe nominations or wins. The list is split into numbered parts, and this excerpt is the opening section, which covers names from A to Cl, followed by a later section, sampled here, that runs through names like Keaton and Zerbe. The front matter explains the inclusion rules, which require an actor to be living and to have been requested by more than one reader, along with a schedule of companion lists covering directors, composers, actresses, the dead, and writers. The closing sections give a submission format for new entries, using a surname, first name, title and attributes layout, and a policy note encouraging readers to send corrections, since the list is admittedly incomplete.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/actors.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:00+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 423456,
+      "prompt_tokens": 18726,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

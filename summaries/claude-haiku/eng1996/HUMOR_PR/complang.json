@@ -1,0 +1,23 @@
+{
+  "title": "Selecting a programming language made easy",
+  "authors": [
+    "Solomon Daniel"
+  ],
+  "kind": "non-fiction",
+  "summary": "A light-hearted humorous essay from the University of Waterloo's computer science department that compares programming languages to automobiles, to help readers choose one without reading the manuals. The piece runs through a chart matching languages with cars: assembler is a Formula One race car, FORTRAN versions are a succession of Ford models, COBOL is a delivery van, BASIC is a worn-out second-hand Rambler, C is a black Firebird, Pascal a Volkswagen Beetle, LISP an electric car, APL a double-decker bus driving only in reverse, and Ada an army-green Mercedes staff car offered with no options. Each comparison pokes fun at the languages' reputations, their users, and their quirks, such as Pascal's appeal to intellectuals or Ada's rigid design process. The text is short and built entirely around these jokes, aimed at programmers and computer science readers who will recognise the languages and the culture around them.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/complang.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:00+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2451,
+      "text_chars": 2451,
+      "prompt_tokens": 2184,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Accidents",
+  "authors": [],
+  "kind": "collection",
+  "summary": "Accidents is a short humorous collection of real-sounding statements taken from accident reports, insurance claims and similar official paperwork. Each entry is a single, often unintentionally comic explanation of how a mishap happened, written by a motorist, pedestrian or other party who seems unaware of how absurd the account sounds. Among the examples: a truck that backs through a windshield into a wife's face, a driver who swerves to kill a fly and hits a telephone pole, a man who falls asleep after forty years at the wheel, and a pedestrian who was run over because he had no idea which way to go. The brief introduction notes that accidents themselves are not funny, but the wording of the reports often makes readers smile. The pieces are not connected by plot or characters; they are a standalone run of anecdotes that relies on deadpan phrasing and the gap between the mundane explanation and the disaster it describes. The text carries no named author, and its origin and publication details are not given in the excerpt.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/accident.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:47+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1544,
+      "text_chars": 1544,
+      "prompt_tokens": 1732,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

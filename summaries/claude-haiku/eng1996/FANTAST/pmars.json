@@ -1,0 +1,23 @@
+{
+  "title": "pmars",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "A Princess of Mars is the first of Edgar Rice Burroughs' Barsoom novels, a science fiction adventure that opens in Arizona in the 1860s. Captain John Carter, a Confederate veteran prospecting for gold, finds his companion killed by Apaches and takes refuge in a cave. There he is mysteriously transported to Mars, called Barsoom by its inhabitants, where his greater Earthly strength and leaping ability make him a celebrated warrior. He allies with the four-armed green Martians, the Tharks, under the chieftain Tars Tarkas, and becomes entangled in the politics of the city of Helium and the courtship of Princess Dejah Thoris. The narrative moves between Carter's account of his life on Mars and his later return to Earth, and it combines planetary romance, sword-and-battle action, and an imaginative picture of a dying world with canals, ancient cities, and strange creatures. The story is told in the first person as a memoir written by Carter in old age.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/pmars.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:51+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 362800,
+      "prompt_tokens": 12386,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

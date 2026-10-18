@@ -1,0 +1,23 @@
+{
+  "title": "stih-wk",
+  "authors": [
+    "Tolkien Jrr"
+  ],
+  "kind": "poetry",
+  "summary": "This is a collection of verse drawn from J. R. R. Tolkien's legendarium, chiefly from The Lord of the Rings and The Hobbit, gathered as a standalone anthology of song-lyrics and poems. The pieces range widely in tone and subject. Some are rousing marching songs and drinking verses, such as the opening lines about the One Ring and the ballad of the Road that goes ever on. Others are lyrical and elegiac, recounting the Elvish tale of Tinuviel and Beren, the mariner Earendil's voyage to Valinor, the lament of Amroth for Nimrodel, and the Dwarf-king Durin's lost halls of Moria. Comic interludes include Tom Bombadil's songs, the bawdy-spirited Troll and Tom episode, and the nursery-rhyme tale of the Man in the Moon at the inn. Several poems are sung in Elvish languages such as Quenya, with lines addressed to Elbereth and Galadriel. Taken together, the book offers a sampler of the songs that give the larger works their folk and mythic texture.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/stih-wk.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:08+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 26037,
+      "text_chars": 26037,
+      "prompt_tokens": 11325,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

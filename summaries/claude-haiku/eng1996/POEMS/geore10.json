@@ -1,0 +1,23 @@
+{
+  "title": "The georgics",
+  "authors": [
+    "Virgil"
+  ],
+  "kind": "poetry",
+  "summary": "The Georgics is a didactic poem in four books, written by the Roman poet Virgil in the late 30s to 29 BC and dedicated to his patron Maecenas. Ostensibly a manual on farming, it covers the cultivation of crops, the care of vines and trees, the raising of livestock, and beekeeping. Beneath its practical instruction runs a meditation on labour, the rhythms of the seasons, the fragility of human life, and the dignity of rural existence, set against the civil wars that had torn Rome apart. The excerpts here include the opening invocation to the gods and to Octavian, the first book's account of ploughing, sowing, and weather signs; the praise of the countryside in the second book; the opening of the third book on breeding horses and cattle; and the closing episode of the fourth book, the story of Orpheus and Eurydice, told to the grieving Aristaeus, which leads into the method of regenerating a bee colony from the carcass of a slaughtered ox. The poem is written in dactylic hexameter and is widely regarded as one of the masterpieces of Latin literature.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/geore10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 122312,
+      "prompt_tokens": 14512,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

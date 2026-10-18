@@ -1,0 +1,21 @@
+{
+  "title": "ansmach",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a humorous collection of short, imagined answering machine greetings, the kind of recorded messages people leave on their phones. The pieces are joke monologues rather than stories, and most end with an instruction to leave a message after the tone. The opening section is an anecdote from a narrator who once worked for the Welsh coastguard, sending weather reports by fax and playing pranks on the phone lines. The rest gathers greetings in many voices: a telepathic recorder, a dial-a-shrink who asks for word associations, a Confessional Hotline, a Santa's workshop where the elves are barbecuing Blitzen, a counterfeiter in a basement, a Hal-and-Dave exchange from 2001, a Clockwork Orange-style narrator, an Australian with a crocodile, and a Tarzan-style pidgin greeting. Parodies of phone culture, pop references, and dark or offensive gags are mixed throughout. No single author is credited in the text.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/ansmach.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:50+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8704,
+      "text_chars": 8704,
+      "prompt_tokens": 4293,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

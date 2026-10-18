@@ -1,0 +1,23 @@
+{
+  "title": "Documenting useless programs",
+  "authors": [
+    "Scoop"
+  ],
+  "kind": "non-fiction",
+  "summary": "A satirical humor piece, presented as a short essay in a computer-hobbyist magazine style, that mocks the software documentation industry of the early personal-computer era. The author argues that programs with no real value need no explanation, yet a lucrative trade exists in writing thick manuals for them, and offers a tongue-in-cheek guide to becoming a successful Program Document Specialist. The piece pokes fun at overbuilt help systems, simple games such as Test Drive and Break-Out, and the notion that users need hand-holding. Its centrepiece is a mock manual for PAC-MAN, complete with absurdly literal step-by-step instructions covering turning on the computer, inserting floppy disks, running a DIR command, and pressing keys rather than hitting them. The closing editor's note jokes about readers who wasted their time and promises further absurd articles. The tone is crude, irreverent and deliberately juvenile, aimed at a reader who grew up with DOS and early arcade games.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/document.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:06+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 6217,
+      "text_chars": 6217,
+      "prompt_tokens": 3237,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

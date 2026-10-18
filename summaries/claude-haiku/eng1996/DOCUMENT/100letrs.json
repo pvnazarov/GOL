@@ -1,0 +1,21 @@
+{
+  "title": "Index to 100 form letters",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a business-correspondence template collection, a set of 100 pre-written form letters for everyday commercial and personal dealings, organised under short mnemonic codes such as LTSCHRA, SLPYBS, BADCHK and UNSATCRD. The opening pages give an index mapping each code to a one-line description, followed by the letters themselves, each with blanks such as (name), (date) and (amount) to be filled in. The letters cover several groups: collection notices for delinquent accounts that escalate from polite requests to firm demands; responses to credit applications, references and charity requests; customer relations such as apologies for billing errors, thank-you notes and inactive-customer inquiries; and personnel matters including resignations, terminations, retirements and job references. Others handle orders, cancellations, product complaints and sales follow-ups. The text is a plain reference resource for businesses or office workers who need ready wording, and it has no plot or characters. Some passages in the middle contain garbled, partly scrambled text, and the excerpt does not show the book's publisher or date.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/100letrs.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:04+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 61920,
+      "prompt_tokens": 13539,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

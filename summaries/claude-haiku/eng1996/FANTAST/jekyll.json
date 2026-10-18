@@ -1,0 +1,23 @@
+{
+  "title": "The strange case of dr. jekyll and mr. hyde",
+  "authors": [
+    "Stevenson Robert Louis"
+  ],
+  "kind": "novella",
+  "summary": "A Victorian Gothic novella told through the perspective of Mr. Utterson, a reserved and dependable London lawyer. He becomes troubled when his friend Dr. Henry Jekyll, a respected physician, has drawn up a will leaving his estate to a mysterious man named Edward Hyde, whose cruelty is shown in an early incident involving a trampled child. As Utterson investigates, he finds Hyde hard to describe yet deeply repellent, and his suspicions deepen when Jekyll withdraws from society. The story builds through documents, testimonies and servants' accounts toward a confrontation at Jekyll's laboratory, and it closes with Jekyll's own confession, which reveals the disturbing experiments behind the dual identity. The work is a classic exploration of the divided self, respectability and hidden vice, and the dangers of unchecked scientific ambition, written in a tense, atmospheric style that moves between mystery and psychological horror.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/jekyll.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:26+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 138128,
+      "prompt_tokens": 12918,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

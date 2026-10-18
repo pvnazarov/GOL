@@ -1,0 +1,23 @@
+{
+  "title": "Khayyam`s fall",
+  "authors": [
+    "Euclid K."
+  ],
+  "kind": "short stories",
+  "summary": "Khayyam's Fall is a short, dreamlike piece of fiction that follows a woman named Khayyam through a cycle of unsettling episodes set in an autumn landscape of woods, hills, and steep valleys. She has been haunted for years by a car wreck that killed her partner Jeremy, and her nightmares of the crash return just as she wakes beside a grave marker on a hill. Her attempts to leave the place lead to a series of uncanny encounters: a car that will not start, a field of leaves that is strangely dry, a scorched figure at a cliff edge, and finally Jeremy himself, alive and insisting that she is dead or refusing to accept what happened. The story turns on their argument and on the question of whether she can ever go home. Its prose is compact and atmospheric, mixing grief, denial, and the pull of a final release. The text was posted to a Usenet-era mailing list in 1994, and the excerpt given is the complete story.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/khayyam.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:32+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 12174,
+      "text_chars": 12174,
+      "prompt_tokens": 5379,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

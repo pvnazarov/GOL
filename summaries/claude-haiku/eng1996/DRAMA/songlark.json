@@ -1,0 +1,23 @@
+{
+  "title": "The song of the lark",
+  "authors": [
+    "Cather Willa"
+  ],
+  "kind": "novel",
+  "summary": "The Song of the Lark follows Thea Kronborg, a Swedish-American girl raised in the small railroad town of Moonstone, Colorado, as she grows into a professional singer. The first part shows her childhood in a crowded parsonage, where her unusual gift and stubborn temperament set her apart from her practical mother, her pious father, and her older siblings. Her friendships with the town's outsiders, including the German piano teacher, the Mexican section hands who sing in the evenings, and the doctor who admires her, shape her early sense of what art can mean. Later sections trace her move to Chicago and then to Arizona, where she is drawn to the ruins of the ancient cliff dwellers and to a long period of solitude and self-discovery. Cather writes about ambition, the cost of artistic devotion, and the tension between loyalty to home and the need to leave it. The novel is the second in Cather's Divide trilogy, after O Pioneers!, and is valued for its portrait of a woman's struggle to develop her talent against family expectations and the limits of a frontier town.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/songlark.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 839909,
+      "prompt_tokens": 13338,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

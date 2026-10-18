@@ -1,0 +1,21 @@
+{
+  "title": "Wisconsin-isms",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "Wisconsin-isms is a light-hearted glossary of the English spoken in Wisconsin, nicknamed Dairyland, written for outsiders who want to hold a conversation with the locals. Its entries are short, jokey definitions of regional words, foods, customs, and landmarks. They cover local terms such as \"ain'a\" and \"bubbler\" (a drinking fountain), beer and cheese culture, and dishes like the brat, the pasty, the cannibal sandwich, and the smelt fry. Other entries explain Wisconsin institutions and quirks: the coffee klutch, the deer hunt treated as a holiday, the Kettle Moraine glacial landscape, the long winter and the road-construction season, and the \"cooler by the lake\" weather forecast. The tone is affectionate ribbing, with exaggeration and punchlines aimed at both the state's residents and the people from neighboring Illinois and Michigan's Upper Peninsula. The text is a short humor piece rather than a scholarly study of dialect, and its jokes depend on familiarity with Midwestern life.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/wisconsi.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:40+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5796,
+      "text_chars": 5796,
+      "prompt_tokens": 3558,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

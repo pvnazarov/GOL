@@ -1,0 +1,23 @@
+{
+  "title": "Tonkin`s first computer dictionary",
+  "authors": [
+    "Tonkin Bruce"
+  ],
+  "kind": "non-fiction",
+  "summary": "A satirical glossary of computing terms, circulated as a plain text file among bulletin board users and originally reprinted from a 1987 magazine article. Its entries define familiar jargon with sardonic, cynical wit: programmers are optimists who trust their code, users are realists who know better, and the operator is a beginner paid partly in soft drinks. Terms such as bug, glitch, kludge, benchmark, documentation, license and warranty are reframed as corporate double-talk or hard-won observations about failure. Many entries mock hardware and marketing, including the megabyte, the mouse, icons, user-friendly interfaces, word processors and the Pascal and C languages. The text also includes jokes about number systems such as binary, octal and hexadecimal, and a few bulletin board menu listings and cookie-style quotations. It is a humorous reference work rather than a serious dictionary, aimed at anyone who has spent time with personal computers in the 1980s and their frustrations.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/compdic.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:59+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 16054,
+      "text_chars": 16054,
+      "prompt_tokens": 7607,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

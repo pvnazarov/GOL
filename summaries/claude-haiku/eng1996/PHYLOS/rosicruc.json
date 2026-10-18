@@ -1,0 +1,23 @@
+{
+  "title": "The rosicrucian mysteries",
+  "authors": [
+    "Heindel Max"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Rosicrucian Mysteries is an elementary exposition of the esoteric teachings of the Rosicrucian Fellowship, a Western mystery school founded by Max Heindel and published in the early twentieth century. The book presents a blended science of religion and occultism intended to reconcile heart and intellect. It explains the history of the Rosicrucian Order, the purpose of the Aquarian Age, and the dangers and aims of occultists and mystics. Later chapters address the problem of life and death, the nature of the invisible worlds (the chemical, etheric, desire, and thought regions), the constitution of man into physical, vital, desire, and mental bodies, and the experiences of the soul after death, including purgatory, the heavens, and the panorama of past life. The work also covers invisible helpers and mediums, reincarnation-related themes, birth and child development, light and color, and education of children. Its method includes daily meditative self-review and an emphasis on love, compassion, and vegetarian living. The text includes interspersed poems by the author and by others.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/rosicruc.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:12+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 190913,
+      "prompt_tokens": 12695,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

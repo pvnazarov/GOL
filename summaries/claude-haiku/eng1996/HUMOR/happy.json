@@ -1,0 +1,21 @@
+{
+  "title": "happy",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "This is a very short humorous piece, a single fable-style verse-and-prose item rather than a full book, presented under the catalogue title \"happy\" and the category HUMOR. Its text, titled \"If You Are Unhappy,\" tells of a nonconforming sparrow who refuses to fly south for winter, freezes, and falls into a barnyard. A passing cow leaves manure on him, which warms and revives him, so he starts to sing. A cat then digs him out and eats him. The closing \"moral\" offers a wry, crude lesson: not everyone who dumps on you is your enemy, not everyone who pulls you out is your friend, and when you are comfortable in a bad situation, it is wise to keep quiet. The piece is a bawdy, cynical parody of the proverbs and fables it imitates. No author is named in the excerpt, so the record lists none, and the kind is given as short stories because the form is a brief self-contained tale.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/happy.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:41+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 950,
+      "text_chars": 950,
+      "prompt_tokens": 1534,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

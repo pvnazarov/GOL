@@ -1,0 +1,23 @@
+{
+  "title": "The chalice of ecstasy parzival",
+  "authors": [
+    "Achad Frater"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Chalice of Ecstasy is a short occult essay by Frater Achad, the pen name of Charles Stansfield Jones, written as a magical and Qabalistic reading of Richard Wagner's music-drama Parsifal, itself derived from Wolfram von Eschenbach's medieval romance Parzival. Dedicated to a companion who died in 1918, it treats the opera as a symbolic map of the spiritual path rather than a plain retelling. The text follows the hero's stages in sections titled roughly The Coming of Parzival, The Tempting of Parzival, and The Redemption of the Redeemer. Along the way it draws on Blavatsky's The Voice of the Silence, Lao Tzu, and Aleister Crowley's Liber Al and other Thelemic writings, reading characters such as Gurnemanz, Kundry, Amfortas and Klingsor as aspects of inner development. A large closing section applies Hebrew gematria and Tree of Life correspondences to the names of the characters and the Grail. The work is written in the ornate, esoteric style of early twentieth-century Thelema and is aimed at readers already drawn to Western mysticism, though it is also accessible to newcomers to the legend.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/parzival.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 72997,
+      "prompt_tokens": 13707,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

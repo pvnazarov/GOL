@@ -1,0 +1,23 @@
+{
+  "title": "Hamlet",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Hamlet is William Shakespeare's tragedy, set at the royal court of Elsinore in Denmark, and one of the most widely read and performed plays in English. The story begins with the appearance of the ghost of the recently dead King Hamlet, who tells his son, Prince Hamlet, that he was murdered by his brother Claudius, who has since seized the throne and married the grieving queen, Gertrude. Commanded to revenge, Hamlet feigns madness while he struggles with doubt, grief, and the moral weight of killing. He tests Claudius through a play staged by traveling players, and his actions bring tragedy to Polonius, Ophelia, and others around him. The drama moves through its famous meditations on life and death, including the soliloquy beginning 'To be, or not to be', and its court intrigues involving Laertes, Rosencrantz and Guildenstern, and the young Fortinbras of Norway. The play ends in a final duel that leaves much of the court dead, with Fortinbras taking control of Denmark. The text is in Elizabethan verse and prose, with stage directions for the court, the ghost, and the players.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/hamlet.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 178187,
+      "prompt_tokens": 15079,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

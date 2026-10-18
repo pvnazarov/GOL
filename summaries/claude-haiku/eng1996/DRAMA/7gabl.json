@@ -1,0 +1,23 @@
+{
+  "title": "The house of the seven gables",
+  "authors": [
+    "Hawthorne Nathaniel"
+  ],
+  "kind": "novel",
+  "summary": "The House of the Seven Gables is a romance by Nathaniel Hawthorne, first published in 1851, that traces the fortunes of the Pyncheon family in a gabled wooden mansion in a New England town. The house was built on land seized from the Maule family, and a curse pronounced by Matthew Maule hangs over the Pyncheons across generations. In the present day of the story, the aging spinster Hepzibah Pyncheon opens a small shop in the house to keep it from ruin, joined by her younger cousin Phoebe, and by her brother Clifford, who has returned after decades of wrongful imprisonment. A boarder, the young daguerreotypist Holgrave, turns out to be a descendant of the Maules, and the lives of the two families become entangled. The novel explores inherited guilt, the burden of the past on the present, and the search for happiness, and it is noted for its atmospheric mixture of realism and the marvellous. The excerpts supplied cover the garden gatherings, Clifford's longing for happiness, the arched window overlooking the street, and the closing departure from the house.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/7gabl.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:55+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 612741,
+      "prompt_tokens": 13071,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

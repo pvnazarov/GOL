@@ -1,0 +1,23 @@
+{
+  "title": "Proving grounds",
+  "authors": [
+    "Hutchins Ben"
+  ],
+  "kind": "novel",
+  "summary": "Proving Grounds is a long fan fiction work, posted in installments in 1994, that forms part of the Future Imperfect cycle of the Undocumented Features series. The story is set in the twenty-fourth century and follows a small group of characters as the galaxy changes around them. Its central figure is R-Type, a GENOM executive and researcher whose company's military division has been broken up and whose former loyalties are being tested. The narrative moves between his corporate life, a cyberspace raid on an Internet control node, and a visit to Titan with the legendary pilot Gryphon, who is travelling with his partner Kei and their newborn daughter. Later sections follow R-Type's personal relationship with Yuri, a meeting that deepens into a soul-bond. The authors describe the work as sprawling, deliberately rambling, and concerned with growth and the way times change people. The text is a mix of science fiction, cyberpunk-style hacking, and multiple media-universe crossovers, and it ends with the note that this is Part One.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/progro.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 231214,
+      "prompt_tokens": 13344,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

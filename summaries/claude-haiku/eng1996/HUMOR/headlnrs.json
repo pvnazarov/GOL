@@ -1,0 +1,21 @@
+{
+  "title": "A collection of true newspaper headlines that merit a second glance",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This humorous collection gathers genuine newspaper headlines whose wording, through unintended double meanings or unfortunate phrasing, invites a second look. Each headline appears in capitals and is followed by a short parenthetical remark that pokes fun at its ambiguity or absurdity. The items cover crime, public policy, medicine, business and everyday local news, and many depend on the reader pausing over a word that can be read two ways. Examples include a sheriff's request for a 13.7 percent increase paired with a joke about muggings, a mortuary that adds a drive-through, a teacher whose school board accepts his resignation after he has died, and a terrorist who bought bomb parts at a discount store. The comments are brief and mostly deadpan, and the humour rests on the clash between headline and remark rather than on any continuing story. As a whole it is a light, quick-to-browse piece of newspaper satire that suits dipping into at random.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/headlnrs.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:46+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4144,
+      "text_chars": 4144,
+      "prompt_tokens": 3702,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

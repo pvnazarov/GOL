@@ -1,0 +1,21 @@
+{
+  "title": "The king james bible (second version, 10th edition)",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a Project Gutenberg electronic edition of the King James Version of the Bible, the English translation first published in 1611 under the authority of King James I of England. The text runs through the full canon of Scripture, organized into numbered books, chapters and verses in the format Book, chapter:verse. The excerpts show the opening of Genesis, with the creation account, the Garden of Eden, the fall of Adam and Eve, the story of Cain and Abel, and the genealogies leading to Noah and the Flood. The middle portion contains Psalms, including prayers for deliverance, hymns of praise, and psalms of lament. The closing portion is the final chapters of Revelation, describing the New Jerusalem, the river of life, and the closing blessing. Because the text is the complete scripture, it is widely read as a religious, historical and literary work, and it has shaped English prose and idiom for centuries. The edition is a plain-text transcription with no commentary or added material beyond the scriptural text and the Gutenberg framing lines.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/RELIGION/biblej.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:46+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 4418991,
+      "prompt_tokens": 13472,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

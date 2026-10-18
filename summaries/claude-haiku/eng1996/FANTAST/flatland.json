@@ -1,0 +1,23 @@
+{
+  "title": "Flatland",
+  "authors": [
+    "Abbott Edwin A"
+  ],
+  "kind": "novella",
+  "summary": "Flatland is a satirical novella first published in 1884 by the English schoolmaster Edwin Abbott Abbott. It is narrated by A. Square, a respectable gentleman living in a two-dimensional world where inhabitants are geometric figures: women are straight lines, soldiers are sharp isosceles triangles, professionals are squares and pentagons, and priests are nearly perfect circles. The social order is rigidly hierarchical, with status tied to the number of sides, and the narrator describes its laws, customs, and the dangers of collision. The second part, set in the sequel-like sections, has the Square receive a visit from a Sphere out of three-dimensional Spaceland, who tries to convey the existence of a third dimension and is dismissed as mad. Later, the Square is taken to Lineland and Pointland in visions, and the book uses these encounters to satirize Victorian class prejudice, the subjugation of women, and the limits of imagination. Through its geometric conceit, the work examines how difficult it is for any mind to conceive of dimensions beyond its own experience.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/flatland.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:05+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 192350,
+      "prompt_tokens": 12603,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

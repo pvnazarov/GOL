@@ -1,0 +1,23 @@
+{
+  "title": "Female chauvinists",
+  "authors": [
+    "Girouard Helen"
+  ],
+  "kind": "short stories",
+  "summary": "A short humorous piece presented as a bulletin-board style memo addressed to all, titled \"Female Chauvinists?\" and attributed to Helen Girouard. It consists of a numbered list of fifteen mock rules that satirize supposed double standards in relations between women and men. The rules insist that the female always makes the rules, that they may change without notice, that the female is never wrong, and that a male must apologize for any misunderstanding that is nominally his fault. Other rules forbid the male from changing his mind, bar the female from revealing whether she wants him upset, and declare all rules void during PMS. The joke rests on exaggerated, self-contradictory logic, presenting a one-sided pseudo-manual with a deadpan tone. The text ends with a small footer giving the name and phone number of a Beaumont, Texas exchange, which reads as a trace of its original distribution. It is a single brief piece rather than a longer narrative, and it belongs to the humor category.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/female.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:28+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1400,
+      "text_chars": 1400,
+      "prompt_tokens": 1648,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

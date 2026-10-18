@@ -1,0 +1,23 @@
+{
+  "title": "Far from the madding crowd",
+  "authors": [
+    "Hardy Thomas"
+  ],
+  "kind": "novel",
+  "summary": "Far from the Madding Crowd is a pastoral novel set in the rural English county of Wessex, first published in 1874. It follows Bathsheba Everdene, a proud and independent young woman who inherits a farm and becomes its mistress, and the three men who vie for her affection. Gabriel Oak, a steady shepherd who loses his flock and fortune early in the story, works his way back up to become a farmer and remains devoted to her. William Boldwood, a reserved and wealthy bachelor, becomes obsessed with her after she sends him a playful valentine, and his passion turns dangerous. Sergeant Frank Troy, a dashing and unreliable soldier, wins her heart with charm and a romantic gesture, but his past and his weaknesses threaten her happiness. The novel moves through the seasons of farm labour, country festivals and local gossip, with a chorus of rural characters providing humour and commentary. Hardy explores pride, desire, duty and the consequences of impulsive choices, against a backdrop of changing rural life.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/crowd.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 762024,
+      "prompt_tokens": 13232,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

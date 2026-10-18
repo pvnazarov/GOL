@@ -1,0 +1,23 @@
+{
+  "title": "Dark conspiracy involving electrical power companies surfaces",
+  "authors": [
+    "Les Dark"
+  ],
+  "kind": "short stories",
+  "summary": "A satirical newsletter-style piece, circulated in the humor category, that mocks the idea that electric utilities merely supply power. Presented as an exposé from an editor named Les Dark, it claims that light bulbs do not emit light but instead suck up 'dark,' a substance with mass that is then carried to power stations through wires, rivers and lakes. Light is framed as the absence of dark, and the theory is extended to candles, flashlights, car batteries, and the Sun, whose sunspots are blamed on over-sucking. The text includes mock experiments, such as yanking open a closed desk drawer to watch the dark vanish, and tall tales about secret dark piles disguised as coal. It parodies pseudoscientific reasoning and conspiracy writing, and it was originally a joke text that has been passed around and rewritten over the years.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/dark1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:15+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8015,
+      "text_chars": 8015,
+      "prompt_tokens": 3747,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Comments on the symbol grounding problem",
+  "authors": [
+    "Pindor Andrzej J"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a short academic paper by Andrzej J. Pindor, written as a critical commentary on Stevan Harnad's proposed solution to the symbol grounding problem. The problem concerns how symbols manipulated by computers or neural nets come to be about anything in the world, rather than deriving meaning only from an interpreter's mind. Harnad argues that a system must pass a Total Turing Test, with full linguistic and sensorimotor capacity, so that analog sensory projections and nonarbitrary sensory invariants tie its symbols to real objects. Pindor challenges two parts of this model. He argues, using examples from colour vision, visual inversion experiments, and tactile perception, that the shapes of sensory projections are largely arbitrary products of the transducers. He also contends that the analog nature of the input is not essential, since digitized signals could serve as primitive symbols. He concludes that grounding may instead arise from the deep correlational structure among sensorimotor experiences, which could in principle be programmed into a symbolic system. The paper cites Searle's Chinese Room and Katz's semantics, along with work on colour vision.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/symbol.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:44+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 18010,
+      "text_chars": 18010,
+      "prompt_tokens": 7226,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

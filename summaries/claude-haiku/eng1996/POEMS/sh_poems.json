@@ -1,0 +1,23 @@
+{
+  "title": "A lover`s complaint",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "poetry",
+  "summary": "This volume gathers Shakespeare's narrative and lyric poems as they appear in the traditional collections associated with his name. It opens with \"A Lover's Complaint,\" a long narrative poem of 47 seven-line stanzas in rhyme royal. A woman, pale and grieving, tears up letters and rings beside a river, and an older man sits down to hear why. She recounts how she was seduced by a beautiful, eloquent young man who had collected tokens of love from many admirers, and how she yielded to him despite her better judgment. The second part gathers \"The Passionate Pilgrim\", a group of twenty short lyrics on love, faithlessness, beauty and age, some drawn from other writers' work, with pieces such as \"Live with me, and be my love\" and the sequence of songs on Venus and Adonis. The collection closes with \"The Phoenix and the Turtle\", an allegorical threnody on the death of an ideal love, followed by its funeral song. Together the pieces range from courtly complaint and pastoral song to dense metaphysical verse on constancy and mourning.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/sh_poems.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:34+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 33214,
+      "text_chars": 33214,
+      "prompt_tokens": 13955,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

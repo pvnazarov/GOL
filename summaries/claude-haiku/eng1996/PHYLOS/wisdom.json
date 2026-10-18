@@ -1,0 +1,23 @@
+{
+  "title": "The Book of Wisdom or Folly",
+  "authors": [
+    "Crowley Aleister"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Book of Wisdom or Folly (Liber CXI, also called Aleph) is a esoteric treatise by Aleister Crowley, written in the form of a fatherly epistle addressed to a spiritual son. Crowley presents it as a guide to the Great Work of self-discovery in the Thelemic system, whose central maxim is that the true Will is the whole of the Law. The text is divided into short numbered chapters bearing Greek-letter and Latin headings, such as the Apologia, the Qabalah, self-control, love, dreams and the key to dreams, astral travel, ritual practice, and the nature of Choronzon as the force of division and doubt. Crowley argues that repression of the true Will causes disease and madness, that love is sacred when kept free of outside interference, and that dreams are the Will speaking in symbolic form. Passages refer to his personal life, his lover Olun, the goddess Babalon and Nuit, and to literary and historical figures from Romeo and Juliet to Wagner's Parzival. The work ends with a meditation on the Pure Fool and the Word TRINC. The text as read here is a poorly proofed digital transcription with some garbled passages.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/wisdom.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T08:16:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 245576,
+      "prompt_tokens": 14935,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

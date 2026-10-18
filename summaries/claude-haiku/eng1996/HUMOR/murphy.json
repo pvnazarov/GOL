@@ -1,0 +1,21 @@
+{
+  "title": "Murphy`s military laws",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A humorous collection of aphorisms built on Murphy's Law, the old principle that anything that can go wrong will go wrong. The text is split into two parts. The first, Murphy's Military Laws, offers forty-two numbered maxims about soldiering and combat, such as warnings that friendly fire is never friendly, that the easy way is always mined, that recoilless rifles never work as advertised, and that Murphy himself was a grunt. The second part, Murphy's Programmers Laws, is a longer sequence of named observations about software and computing, each attributed to a figure such as Brooks, Dijkstra, Hoare, Golub, Weinberg and Shaw. Its entries include Brooks's Law that adding manpower to a late project makes it later, Hoare's observation that a small program struggles to get out of every large one, and the 99 rule for scheduling. The tone is wry and cynical, and the pieces are short, independent quips with no narrative or characters. The compiler of the collection is not named in the text, and the aphorisms circulated widely in military and computing circles over many years.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/murphy.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:07+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7873,
+      "text_chars": 7873,
+      "prompt_tokens": 3859,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

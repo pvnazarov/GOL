@@ -1,0 +1,21 @@
+{
+  "title": "Our lawyer writes",
+  "authors": [],
+  "kind": "collection",
+  "summary": "Our Lawyer Writes is a humorous collection of mock advice-column letters, in which an imaginary British solicitor answers readers' legal troubles with sardonic, bawdy and deliberately unhelpful replies. The format is a question from a reader followed by the lawyer's response, and the jokes rely on the gap between the sober tone of legal advice and the absurd or squalid circumstances being described. The excerpt contains three exchanges. A woman who finds a dead rat in a bottle of milk is told that her reaction, whether horror, delight or surprise, determines whether any claim is worth pursuing. A wife wanting a divorce is advised that the lawyers' real work is gathering evidence, and is teased about the old methods of private detectives and compromising photographs. A neighbour seeking a share of her lover's belongings is lectured about American litigation and British legal practice, with a closing joke that is a reference to a famous court case. The final letter is a long chain of misfortunes, ending in a one-word answer. The book is a satirical look at the legal profession, the litigious public and the absurdity of the law, written in a broad, cheerfully vulgar British comic style.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/olw.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:12+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9731,
+      "text_chars": 9731,
+      "prompt_tokens": 4297,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

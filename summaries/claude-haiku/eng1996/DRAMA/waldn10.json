@@ -1,0 +1,23 @@
+{
+  "title": "Walden on the duty of civil disobedience",
+  "authors": [
+    "Thoreau Henry"
+  ],
+  "kind": "non-fiction",
+  "summary": "This volume combines two major works by Henry David Thoreau, the American writer and philosopher of Transcendentalist circles. Walden is his account of the two years and two months he spent living simply in a self-built cabin beside Walden Pond near Concord, Massachusetts. Organized into eighteen chapters, it moves from the opening essay on economy and the critique of material ambition, through reflections on reading, solitude, nature, and the seasons, to a closing meditation on living deliberately. The book blends close observation of the pond, its animals, and its plants with sharp social criticism and reflections on self-reliance. On the Duty of Civil Disobedience is a shorter political essay arguing that individuals owe their conscience higher allegiance than the state, and that government legitimacy depends on the consent of the governed. Together the pieces form a foundational text of American nature writing and of the tradition of nonviolent resistance to unjust authority.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/waldn10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:26+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 632487,
+      "prompt_tokens": 12398,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

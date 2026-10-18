@@ -1,0 +1,23 @@
+{
+  "title": "The canterbury tales",
+  "authors": [
+    "Chaucer Geoffrey"
+  ],
+  "kind": "poetry",
+  "summary": "The Canterbury Tales is Geoffrey Chaucer's unfinished collection of narrative poems, written in Middle English in the late fourteenth century. A framing story describes a group of pilgrims who gather at the Tabard Inn in Southwark and agree to travel together to the shrine of Thomas Becket at Canterbury. To pass the time on the road, each pilgrim is to tell two tales on the way there and two on the return, with the teller of the best story winning a supper at the end. The General Prologue sketches the company in vivid detail: a worthy knight, his son the squire, a prioress, a monk, a friar, a merchant, a clerk, a wife of Bath, a cook, a miller, a pardoner and a summoner, among others. The tales that follow range widely in tone and genre, from courtly romance and bawdy fabliau to moral sermon and beast fable, such as the Nun's Priest's tale of a rooster and a fox. The work closes with Chaucer's retraction of his more worldly writings.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/cantbury.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 522124,
+      "prompt_tokens": 15737,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

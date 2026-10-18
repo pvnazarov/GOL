@@ -1,0 +1,23 @@
+{
+  "title": "Cymbeline",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Cymbeline is a late tragicomedy by William Shakespeare, set partly in ancient Britain and partly in Rome during the reign of the British king Cymbeline. The play centres on his daughter Imogen, who secretly marries the poor but worthy Posthumus Leonatus, an act that earns the king's wrath and Posthumus's banishment to Rome. There a boastful Italian, Iachimo, wagers that he can seduce Imogen, and uses deception to win a bet against Posthumus, leading the husband to order her murder. Imogen escapes in disguise, while the queen's scheming and the king's stolen sons, raised in the Welsh wilds by the exiled lord Belarius, drive a tangled plot of disguise, mistaken identity and reunion. Roman forces, led by Caius Lucius, bring the British and Roman powers into conflict. The play moves through jealousy, false report, and a mysterious prophecy, and it ends in forgiveness, family recognition, and a peace between Britain and Rome. It is a work of romance, combining court intrigue with pastoral scenes and fairy-tale resolutions.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/cymbelin.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:10+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 160732,
+      "prompt_tokens": 14937,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

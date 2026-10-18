@@ -1,0 +1,21 @@
+{
+  "title": "The renegade",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "The Renegade is an explicit, pornographic and violent piece of adult fiction, published as the third issue of a small amateur magazine volume and titled \"The Sacred Order of\" in its header. It is narrated in the first person by Ron Peterson, a corporate vice-president who is in fact a member of a secret occult order, living under a false identity in a town near Seattle. He uses a mind-control skill and a hidden meditation laboratory to dominate his partner Jenny and an office worker. Trouble arrives in the form of Kaljel, a former order brother who has stolen the order's sacred staff, the polsten, and is hunting him. The story moves through sexual degradation, a store massacre carried out by Kaljel, and a ritual that goes wrong, ending with a house fire set by the narrator. The text is poorly edited, full of misspellings and crude humour, and its gratuitous sexual violence against women is central to the material. It is presented as one installment and does not appear to be a complete or self-contained novel. I have not reproduced any of its explicit passages here.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/pic#1#3.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:51+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 32964,
+      "text_chars": 32964,
+      "prompt_tokens": 12806,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

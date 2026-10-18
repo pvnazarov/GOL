@@ -1,0 +1,23 @@
+{
+  "title": "The worm before christmas",
+  "authors": [
+    "Morris Clement C"
+  ],
+  "kind": "poetry",
+  "summary": "The Worm Before Christmas is a comic poem that parodies Clement Clarke Moore's 'A Visit from St. Nicholas' and reworks its rhythm and rhymes around a computer network crisis. Set on the night before university finals, it follows a systems administrator who is working late in a computer lab when a worm program, nicknamed Morris's Worm, floods the networked Sun-3 workstations with runaway processes. The reindeer names from Moore's poem are reused for the lab's machines, such as Dasher, Dancer, and Prancer, which the worm invades. The narrator logs in as root, unplugs the network, and eventually traps the worm in a core dump, while frustrated users phone in complaints about slow systems and lost mail. The poem ends with a playful twist as a later virus leaves a holiday greeting that mocks the staff. A short editor's note attached to the piece explains the renaming of the machines and the humor circulated among computer science students. The piece is a light, technical in-joke for readers familiar with early Unix culture and internet security incidents.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/wormxmas.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:43+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2785,
+      "text_chars": 2785,
+      "prompt_tokens": 2297,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "forgfut",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is not a book but a PKUNZIP extraction log, the console output of a DOS unzip utility listing the contents of a large archive of ZIP files. The log repeatedly reports, for each archive, its uncompressed length, compression method, compressed size, ratio, date, time, CRC-32 checksum and file name. The entries in the listing carry titles that suggest a science fiction and fantasy collection: names such as BARBARIA, BEOWULF, JEKYLL, DRAKULA, HITCH1 through HITCH4, TIMEMACH, DOGHEART, HEECHEE3, ISHMAEL, PROPHET1, KHARON1 and WINGS1 point to adaptations of classic tales, time-travel stories, and works from the Heechee and Hitchhiker lines. The excerpt contains no narrative text, so no plot, characters or authorship can be determined from it. The catalogue title forgfut appears to be the archive's own name. The category folder is FANTAST, which indicates the material is intended as a fantasy and science fiction collection of e-texts.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/forgfut.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 452832,
+      "prompt_tokens": 20087,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

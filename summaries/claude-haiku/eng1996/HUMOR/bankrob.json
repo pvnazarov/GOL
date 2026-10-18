@@ -1,0 +1,23 @@
+{
+  "title": "How not to rob a bank",
+  "authors": [
+    "Clark Tim"
+  ],
+  "kind": "collection",
+  "summary": "This is a humor anthology of short jokes, pranks, mock advice pieces, and newsgroup-style lore, gathered in a joke-collection format. The pieces include a tongue-in-cheek guide to bank robbery, drawn from a 1987 Old Farmer's Almanac article, which lists ten ways robbers fail, with examples of holdups gone wrong. Other sections satirize condom buying and etiquette, invent slogans for a condom awareness week, and offer a mock feminist story about a fiancee and God. There are also military slang about 'FUBAR' and its variants, a tech-themed condom for computers, a sculptor's fairy tale, Iranian T-shirt slogans, a German beer-glass anecdote, a parody song sung to 'My Way' about academic life, and a series of elephant riddles. The tone is bawdy, irreverent, and dry throughout. Many items are short and self-contained, so the book reads as a grab bag rather than a continuous narrative. The excerpts suggest the text is a loosely assembled, sometimes crude collection that mixes original writing with circulated internet jokes and newspaper clippings.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/bankrob.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 34776,
+      "prompt_tokens": 13599,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

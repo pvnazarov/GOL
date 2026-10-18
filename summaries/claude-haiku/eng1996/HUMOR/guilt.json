@@ -1,0 +1,23 @@
+{
+  "title": "Guilt without sex",
+  "authors": [
+    "Collens Gina"
+  ],
+  "kind": "non-fiction",
+  "summary": "Guilt Without Sex is a light-hearted humor book, published in Los Angeles in 1985, that examines the everyday guilt that many people carry. It opens by asking what guilt is, observing that a large share of Americans feel guilty all the time, and then turns to a long run of short, comic scenarios illustrating the condition. Each example is a small, relatable moment: straightening the apartment before the cleaning lady arrives, rooting for the bull at a bullfight, pretending a limp after parking in a handicapped space, barking at the building manager in a no-pets building, or taking the last wooden hanger in the closet. The examples are brief, mostly one or two sentences, and rely on self-deprecating recognition rather than argument or advice. The excerpt presented here consists of these examples and the introduction, so it does not develop a systematic theory of guilt or offer therapeutic remedies, though the book's premise suggests that such guilt is a familiar and amusing part of ordinary life.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/guilt.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:38+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2392,
+      "text_chars": 2392,
+      "prompt_tokens": 2042,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

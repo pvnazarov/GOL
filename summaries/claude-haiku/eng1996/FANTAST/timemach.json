@@ -1,0 +1,23 @@
+{
+  "title": "The time machine",
+  "authors": [
+    "Wells Herbert George"
+  ],
+  "kind": "novella",
+  "summary": "The Time Machine is H. G. Wells's classic science fiction novella, first published in 1895. It is narrated by a visitor to the home of an unnamed inventor known only as the Time Traveller, a clever and somewhat enigmatic man who, before a circle of skeptical dinner guests in Richmond, demonstrates a small model of a machine that vanishes into time. He then reveals a full-size machine of his own construction and sets off into the far future. The bulk of the story recounts his journey to the year 802,701 AD, where he encounters the Eloi, a gentle, childlike people living in apparent leisure above ground, and the Morlocks, pale, nocturnal creatures who live in underground tunnels and tend the machinery that sustains the surface world. Along the way he forms an attachment to a small Eloi woman named Weena and pieces together the dark social logic that has split humanity in two. The work is a foundational text of time-travel fiction, and it offers pointed reflections on class division, social evolution, and the fragility of civilization, along with a meditation on the nature of time itself as a fourth dimension.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/timemach.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:14+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 178381,
+      "prompt_tokens": 12814,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

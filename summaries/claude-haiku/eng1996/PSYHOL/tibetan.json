@@ -1,0 +1,23 @@
+{
+  "title": "The psychedelic experience a manual based on the tibetan book of the dead",
+  "authors": [
+    "Leary Timothy"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Psychedelic Experience is a 1964 guidebook written by three former Harvard researchers, Timothy Leary, Ralph Metzner and Richard Alpert, who had been studying LSD and other psychedelic drugs before their experiments were halted. The authors adapt the Tibetan Book of the Dead, a text traditionally read to the dying and the newly deceased, into a map for the drug session. They divide the experience into three phases, borrowed from the bardo stages: a initial state of pure transcendence, a longer middle stage of visions and hallucinations, and a return to ordinary reality. The book stresses the importance of set and setting, the preparation of the individual and the environment, and the role of a trusted guide who reads passages aloud to the voyager. It offers commentary on Evans-Wentz, Carl Jung and Lama Govinda, a detailed sequence of named visions with their dangers, and reading passages intended to steer the traveller away from fear and ego-attachment. The work is a foundational text of the 1960s psychedelic movement.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PSYHOL/tibetan.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:41+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 203997,
+      "prompt_tokens": 12738,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

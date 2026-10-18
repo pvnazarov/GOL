@@ -1,0 +1,21 @@
+{
+  "title": "New employee evaluation forms",
+  "authors": [],
+  "kind": "unknown",
+  "summary": "This short humorous piece imitates an internal personnel memo, a performance appraisal form addressed to department heads. It is a satirical parody of workplace bureaucracy. Each section of the form covers a standard evaluation area: accuracy, rate of work, dependability, knowledge, cooperation, orderliness, and handling people. Under each heading, a series of checkbox options runs from the worst possible employee to the best. The options are deliberately crude, mocking the managerial habit of reducing a worker to a few boxes and undercutting the formal tone with coarse, vulgar wording. The joke depends on the contrast between the neutral language of the form and its blunt, cynical descriptions of ideal and useless staff. The document ends with signature lines for the employee and supervisor. It is a single brief text rather than a longer narrative, and it is intended as an irreverent comment on office life and the meaninglessness of standardized evaluations. The language is explicit throughout, so readers should expect strong profanity.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/empeval.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:22+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2581,
+      "text_chars": 2581,
+      "prompt_tokens": 2470,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Civil war songbook",
+  "authors": [
+    "Crawford Richard"
+  ],
+  "kind": "poetry",
+  "summary": "This is a collection of lyrics to American Civil War songs, gathered as a companion for readers who want to know what soldiers, North and South, actually sang during the 1860s. The compiler notes that the music is not included and points to a published songbook as a source for the melodies. The pieces include well-known marching and camp songs such as \"The Battle Cry of Freedom\" by George F. Root, \"Marching Through Georgia\" by Henry Clay Work, \"All Quiet Along the Potomac Tonight\" by Ethel Beers, \"The Vacant Chair,\" \"Tramp, Tramp, Tramp,\" \"Tenting on the Old Campground,\" \"Battle Hymn of the Republic\" by Julia Ward Howe, and \"Goober Peas.\" Some are humorous, some elegiac, some sentimental about home and mothers, and some express the soldiers' hardships, such as the anonymous complaints about hardtack and army beans. The compiler warns that a few songs, including \"Old Black Joe,\" \"Old Folks at Home\" and \"Kingdom Coming,\" use racist language and have been left unaltered, and frames this as a historical record of period attitudes. The text is an informal, partly transcribed file with some spelling and typographical errors.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/civilsng.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T08:16:35+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 16618,
+      "text_chars": 16618,
+      "prompt_tokens": 7929,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

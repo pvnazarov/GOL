@@ -1,0 +1,23 @@
+{
+  "title": "A study guide for magick in theory and practice",
+  "authors": [
+    "Heidrick Bill"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a study guide by Bill Heidrick to Aleister Crowley's Magick in Theory and Practice, reprinted from the O.T.O. Newsletter. It was prepared for a class on the book and offers a chapter-by-chapter reading guide. Heidrick explains that Crowley's chapters are numbered to correspond with the Tarot Trumps, advises which sections are essential, which are specialized, and which can be read later. He points readers to supporting texts such as Magick Without Tears, Book Four, Liber Aleph and Liber 777, and comments on the difficulty of various rituals, including the Lesser Pentagram Ritual, Liber Samekh, Liber XV and Liber Resh. The guide also gives cautions about dangerous or ethically fraught practices, such as sexual magick, bloody sacrifice and advanced techniques, and it includes some wry, skeptical asides. Its audience is students of Thelemic and Golden Dawn-derived ritual magick who want a structured path through Crowley's text.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/mtpguide.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:04+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 13334,
+      "text_chars": 13334,
+      "prompt_tokens": 5790,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "To test your understanding of the language spoken by some people in the north of england",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A light-hearted humorous quiz that parodies the dialect of northern England, presented as a translation test. The piece opens with a timed challenge of twenty minutes and a scoring key that ranks the reader from an immigrant from the south of England up to a fully settled local, with a final verdict urging anyone who scores perfectly to brush up on the Queen's English. The body is a list of fifty short phrases written in phonetic, heavily dialectal spelling, such as questions about what someone has got, greetings, and everyday remarks, each to be rendered into standard English. The joke relies on the reader's ability to decode run-together, dropped-consonant speech, and the sample items give a comic sense of how the local speech sounds to outsiders. The document has no named author and reads as a short piece of folk humour, likely circulated informally rather than as a formal publication. It is brief and self-contained, offering amusement rather than narrative or argument.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/north.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:10+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1560,
+      "text_chars": 1560,
+      "prompt_tokens": 2026,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

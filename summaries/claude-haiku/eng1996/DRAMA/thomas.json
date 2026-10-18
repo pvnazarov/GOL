@@ -1,0 +1,23 @@
+{
+  "title": "Sir thomas more",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "This excerpt comes from the Shakespearean play Sir Thomas More, a collaborative drama on the life of the Tudor statesman and later Lord Chancellor Thomas More, with passages long attributed to Shakespeare. The included scenes are drawn from the play's early section, set in London, where apprentices and tradesmen rise in riot against the city's foreign residents, whose presence they blame for high food prices and lost work. The sheriff More addresses the mob, arguing that rebellion against lawful authority is rebellion against God and that the strangers' plight would be even worse if the crowd prevailed. He persuades the rioters to submit and seek the King's mercy. A soliloquy follows in which More reflects on how high rank and fortune are gifts of providence, and how greatness can prove dangerous. The work is noted for its sharp verse and its portrayal of popular unrest, and the included glossary explains its archaic vocabulary, including many bawdy double meanings.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/thomas.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:13+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14166,
+      "text_chars": 14166,
+      "prompt_tokens": 7675,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

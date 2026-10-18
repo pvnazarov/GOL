@@ -1,0 +1,23 @@
+{
+  "title": "Warlord of mars",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "Warlord of Mars is the third of Edgar Rice Burroughs's Barsoom novels, continuing the adventures of John Carter, the Earthman who has become a warrior hero on the dying planet Mars. The story follows Carter as he searches for his beloved Dejah Thoris, Princess of Helium, who was lost in the Temple of the Sun after a violent confrontation with the scheming Phaidor. Carter's quest takes him through the Valley Dor, a mythical land of false paradise on the River Iss, and into the Carrion Caves, a fearsome passage through the ice barrier of the north that leads to the hidden realm of the yellow men. Along the way he allies with old friends such as Thuvan Dihn, while confronting the Holy Therns and their intrigues, including Matai Shang's plots against Helium. The novel is full of planetary romance staples: swordplay, giant beasts, strange cultures, and a sprawling struggle between civilizations. Its chapters move between desperate survival, political maneuvering, and tense courtroom drama, and the book is notable for its vivid, invented Martian geography and customs.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/wmars.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:26+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 311480,
+      "prompt_tokens": 12835,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

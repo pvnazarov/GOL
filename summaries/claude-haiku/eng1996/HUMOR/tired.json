@@ -1,0 +1,21 @@
+{
+  "title": "I`m tired",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A short humorous piece in the form of a comic monologue or light verse-like essay, in which a narrator explains their chronic tiredness. Rather than blaming middle age, poor blood, vitamins, pollution, or a long list of other ailments, the speaker argues the real cause is overwork. Using a tongue-in-cheek population breakdown, the narrator subtracts groups such as retirees, schoolchildren, the unemployed, government and armed forces employees, council workers, hospital patients and prisoners, arriving at the conclusion that only two people are left to do the work. The closing turn turns the joke on the reader, who is sitting idle while reading. The tone is British, blunt and self-deprecating, relying on statistical absurdity and coarse colloquial language for its comic effect. The text is brief and anonymous, with no author credited in the excerpt, and it reads like a piece of popular humour rather than a full book.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/tired.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:36+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 972,
+      "text_chars": 972,
+      "prompt_tokens": 1544,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

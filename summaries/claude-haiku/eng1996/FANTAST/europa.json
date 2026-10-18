@@ -1,0 +1,23 @@
+{
+  "title": "The europa affair",
+  "authors": [
+    "Denissen Richard J"
+  ],
+  "kind": "novel",
+  "summary": "The Europa Affair is a science fiction novel by Richard J. Denissen, set in a future where Earth's central government has grown corrupt and oppressive and the asteroid belt has become a frontier of resistance. The opening follows Abe Fortas, a covert agent of an intelligence agency who disguises himself as a homeless man to stalk and eliminate a wealthy financier suspected of murder and market manipulation, and who is then drawn into an operation against the dangerous Dr. Quade. The middle part shifts to a rebel-crewed ore carrier, the Runner, where a young man named Joe weighs whether to join the belt colonists against Earth, guided by Captain Shaun O'Cassidy. Later sections reveal a daring secret mission involving a hidden ship, a faked identity, and a risky experimental drive, and jump ahead to a grown Joe commanding a vast interstellar ship bound for Alpha Centauri. The book mixes espionage, space adventure and political conflict over Earth and the belt, with themes of loyalty, sacrifice and the cost of revolution.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/europa.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:01+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 431964,
+      "prompt_tokens": 12558,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

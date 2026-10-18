@@ -1,0 +1,21 @@
+{
+  "title": "Lost on patrol",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A short, tongue-in-cheek humorous piece in the form of a mock police training memo or essay, offering advice to officers who find themselves lost while on patrol. It opens with the claim that even Daniel Boone once wandered lost in Kentucky, then moves through a series of comically serious instructions: stay calm, don't call in a false Mayday, flip a coin to choose a direction, never admit to being a police officer, travel in convoys, and think positive by humming or counting. It pokes fun at police culture with lines about John Wayne, the Academy, and the coffee truck, and suggests the sensible remedy of napping on the front seat until a supervisor arrives. The text closes on a punchline that any officer can get lost, but only a rookie is late going off duty. The author is not named in the text, and the piece is not part of a larger collection. It is a single brief satirical text rather than a narrative.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/lostptrl.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:56+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3350,
+      "text_chars": 3350,
+      "prompt_tokens": 2306,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

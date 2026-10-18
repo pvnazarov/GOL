@@ -1,0 +1,23 @@
+{
+  "title": "Star wars episode v the empire strikes back",
+  "authors": [
+    "Kasdan Lawrence"
+  ],
+  "kind": "novel",
+  "summary": "This is the shooting script for the 1980 film The Empire Strikes Back, the second installment of the Star Wars saga, adapted by Lawrence Kasdan and Leigh Brackett from a story by George Lucas. It is a screenplay rather than a novel, presented as a sequence of numbered scene headings, dialogue, and stage directions. Several years after the destruction of the Death Star, the Rebellion is on the run. Luke Skywalker, Han Solo, Princess Leia, and the droids Threepio and Artoo are scattered across the galaxy after Imperial forces attack the rebel base on the ice world of Hoth. Luke is sent to the swamp planet Dagobah to train with the aged Jedi master Yoda, while Han, Leia and Chewbacca are pursued through an asteroid field and beyond. Darth Vader, meanwhile, hunts for Luke and works to turn him to the dark side of the Force. The script also includes the closing credit listings of cast and crew, which appear at the end of the file.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/starwar5.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:03+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 165258,
+      "prompt_tokens": 16026,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

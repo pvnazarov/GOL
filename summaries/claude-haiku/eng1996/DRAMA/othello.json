@@ -1,0 +1,23 @@
+{
+  "title": "Othello",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "Othello is a tragedy by William Shakespeare, first performed around 1603 and printed in 1622. It is set in Venice and Cyprus and follows Othello, a celebrated Moorish general in the Venetian service. He secretly marries Desdemona, the daughter of the senator Brabantio, which provokes a public quarrel before the Duke. Othello is then sent to defend Cyprus against the Turks. There his ensign, Iago, a bitter and manipulative soldier who has been passed over for promotion in favour of the scholarly Michael Cassio, begins to poison his mind. Using a lost handkerchief, half-truths and insinuations, Iago convinces Othello that Desdemona is unfaithful with Cassio. The play explores jealousy, racial prejudice, reputation, and the gap between appearance and reality. Its tension rises through Iago's schemes, Othello's growing rage, and Desdemona's innocent bewilderment, until the tragedy reaches its violent climax in a bedchamber and a final scene of exposure and grief.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/othello.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:51+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 153909,
+      "prompt_tokens": 14976,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

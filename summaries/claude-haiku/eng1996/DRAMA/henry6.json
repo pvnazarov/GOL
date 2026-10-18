@@ -1,0 +1,23 @@
+{
+  "title": "King henry vi",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "The Henry VI trilogy is a sequence of history plays by William Shakespeare chronicling the troubled reign of King Henry VI of England and the dynastic conflict that became the Wars of the Roses. The first part, the excerpt shows, opens with the funeral of Henry V and the English losses in France, where Joan la Pucelle, or Joan of Arc, rises as a rival power. Rivalries among the nobles, including Gloucester, Winchester, Suffolk and Warwick, poison the court, while Talbot's heroics and defeats frame the war in France. The later passages in this text move to the second and third parts, where the murder of Duke Humphrey of Gloucester, the rise of Queen Margaret and the house of York lead toward open civil war. The final section shows Richard, Duke of Gloucester, killing Henry VI in the Tower and vowing to seize the crown, before the play ends with Edward IV's triumphant accession. The text is a single file that runs through the trilogy's scenes, with stage directions and character lists, and the play's themes of ambition, treachery, providence and the cost of civil strife run throughout.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/henry6.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:26+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 426853,
+      "prompt_tokens": 15274,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

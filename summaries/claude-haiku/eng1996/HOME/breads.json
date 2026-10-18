@@ -1,0 +1,23 @@
+{
+  "title": "Basic white bread",
+  "authors": [
+    "Beard James"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a compilation of bread and baking recipes gathered from a late-1980s BBS echo conference, where home cooks posted recipes in plain-text messages. The central item is a basic white bread adapted from James Beard's \"Beard on Bread\", with variations for milk powder, rye flour, and wheat bran, along with the original author's notes on the 'home-style' loaf. Other posts include a wheatberry bread after Beard, a set of troubleshooting guides for common bread faults drawn from Beard and Beatrice Ojakangas, and general tips on yeast proofing, dough consistency, and oven temperature. The collection also contains recipes for challah, sourdough starters and sourdough pizza shells, saffron buns, buckwheat-corn muffins, pumpkin and whole wheat muffins, hermits, spoon bread, banana bread, and fairy gingerbread. Taken together it reads as a practical, informal recipe file, with messages mostly signed by enthusiastic amateur bakers sharing family favourites and tested adaptations.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HOME/breads.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 85124,
+      "prompt_tokens": 15089,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

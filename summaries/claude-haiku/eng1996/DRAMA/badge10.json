@@ -1,0 +1,23 @@
+{
+  "title": "The red badge of courage",
+  "authors": [
+    "Crane Stephen"
+  ],
+  "kind": "novel",
+  "summary": "The Red Badge of Courage is an American Civil War novella by Stephen Crane, first published in 1895. It follows Henry Fleming, a young Union private in a New York regiment who enlists eagerly, imagining glory and heroic battle, only to find that the realities of camp life and combat are far different from his romantic expectations. Fearing that he may run in his first engagement, he struggles with doubt and self-judgment as the army prepares for and fights a major battle. In the chaos he flees, and his shame and sense of inadequacy follow him afterward, shaping his interactions with comrades and his understanding of himself. The book is noted for its vivid, impressionistic imagery, its close psychological focus on a single consciousness, and its unflinching portrayal of fear, confusion, and the gap between myth and experience in war. The excerpts here cover the youth's enlistment and early camp life, his panic before the fight, the retreat, and his return to the regiment with a changed sense of manhood.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/badge10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 258363,
+      "prompt_tokens": 12791,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

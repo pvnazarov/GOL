@@ -1,0 +1,21 @@
+{
+  "title": "Things to do when bored",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a humorous list of absurd, playful, and deliberately pointless activities, arranged as a long run of short items separated by dashes. Each entry is a single line, often built on a wordplay, a dash of parody, or a surreal twist on everyday life. Examples include waxing the ceiling, playing Houdini with a sibling, learning Greek by reading Homer in the original, trying to join the Foreign Legion, sleeping on a bed of nails, and giving a Rorschach test to a gerbil. The list also pokes fun at pop culture, politics, and history, with references to Richard Nixon, Pat Boone, Three's Company, the Mansons, Ronco and K-tel, and the Cold War. Some items are clever puns, such as Ski Kansas or Be a square root, while others are sheer nonsense meant to make the reader laugh. The text reads as a single gag-driven catalogue rather than a narrative, and it is typical of the joke-book and novelty-list genre of its era.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/bored.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:01+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 13034,
+      "text_chars": 13034,
+      "prompt_tokens": 6617,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

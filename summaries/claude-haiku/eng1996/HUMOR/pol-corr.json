@@ -1,0 +1,21 @@
+{
+  "title": "New official politically correct terms for 1991",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A short satirical glossary of supposedly official politically correct vocabulary from the early 1990s, presented as a humorous mock-guide with the tongue-in-cheek subtitle \"You Must Comply.\" It is organized as a two-column list pairing traditional words with their newly mandated replacements. Entries mock euphemisms for conservatives (\"reactionary\"), disability terms (\"visually challenged\" for blind, \"aurally abled\" for hearing), occupations (\"sanitation engineer\" for janitor), food and farming (\"where cows are raped\" for dairy), and even physical features like baldness (\"follicularly challenged\") and ugliness (\"aesthetically challenged\"). A second section lists 1980s terms now considered outdated, such as \"mentally challenged\" and \"alternative body image\" for fat. The piece is a parody of the euphemism-heavy language debates of its era, poking fun at both the jargon itself and the earnest enforcement of it. It is a brief, anonymous text with no named author, and its humor relies on exaggerated, deliberately absurd substitutions.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/pol-corr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:14+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1561,
+      "text_chars": 1561,
+      "prompt_tokens": 1742,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

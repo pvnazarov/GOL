@@ -1,0 +1,23 @@
+{
+  "title": "Sonnets",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "poetry",
+  "summary": "This is the sonnet sequence of William Shakespeare, first published in 1609 and comprising 154 fourteen-line poems in English verse form, typically three quatrains followed by a rhyming couplet. The collection falls into two broad strands. The first group, addressed to a young man of great beauty, urges him to marry and father children so that his beauty will outlive him, and meditates on time, mortality, and the power of verse to preserve the beloved. The later group turns to a dark lady, a woman whose charms and faithlessness provoke passion, jealousy, and self-reproach, and the speaker's own betrayals within that affair. Recurring themes include the transience of beauty, the immortality conferred by art, desire and shame, and the tensions between love and reason. Some of the best-known individual poems, such as Sonnet 18, which begins 'Shall I compare thee to a summer's day?', and Sonnet 116 on constant love, are among the most widely quoted works in the English language. The sequence closes with two poems based on classical Cupid legends.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/sonnets.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 95035,
+      "prompt_tokens": 13835,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Herland",
+  "authors": [
+    "Gilman Charlotte Perkins"
+  ],
+  "kind": "novel",
+  "summary": "Herland is a utopian novel by Charlotte Perkins Gilman, first serialized in 1915. It is narrated by Vandyck Jennings, a sociologist who sets out with two college friends, the wealthy adventurer Terry Nicholson and the gentle doctor Jeff Margrave, to find a rumored country of women deep in an uncharted mountain plateau. The three men are convinced they will find a primitive society, but they discover a hidden nation of several thousand women who reproduce without men, live in orderly, highly developed communities, and have built a remarkably advanced culture in science, education, architecture, and child-rearing. The narrative follows the men's growing acquaintance with their hosts and their own assumptions about gender, motherhood, and masculinity, as the women study them with equal curiosity. The book is a satirical and philosophical work that uses the outsiders' perspective to examine social organization, the position of women, and the values of the men's own world, ending with the women's cautious decision about whether the visitors may leave.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/LYRIC/herland.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:41+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 294221,
+      "prompt_tokens": 12625,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

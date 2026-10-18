@@ -1,0 +1,21 @@
+{
+  "title": "Mouse balls now available as fru",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This short text is a mock service bulletin, styled as an entry from an IBM field-service database, that pretends to instruct technicians on replacing the rubber ball inside a computer mouse. It presents the ball as a field replaceable unit, distinguishes between \"domestic\" and \"foreign\" balls and their removal methods, and warns that the work should be done only by trained personnel. The humour comes from the deadpan use of technical jargon and from the closing advice that servicers keep a spare pair of balls, and that customers who lose theirs should suspect local staff of theft. A bracketed note at the end makes the joke explicit. It is a piece of office humour, circulated as a parody of corporate support documentation, and is far too brief to be called a story.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/mousebal.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:17+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1877,
+      "text_chars": 1877,
+      "prompt_tokens": 2216,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "This guy walks into a bar.",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a collection of short, traditional joke-style vignettes, each built around the familiar opening line \"This guy walks into a bar.\" The pieces are brief comic anecdotes told in a folksy, conversational voice, mostly relying on punchlines, wordplay, and exaggerated dialect for their humor. Among the entries here are a bar visitor who carries a crocodile and a chicken, with the twist that the chicken is the ventriloquist; a man whose canary ends up squeezed into his drink by mistake; a stuttering patron whose order leads to a confused exchange with a bartender who stammers in turn; and a newcomer who tries to get laughs by calling out joke numbers the way a group of old-timers does, only to discover that delivery matters. The text carries the feel of a humor anthology or joke book, with short sections separated by dividing lines. The excerpt does not include a named author, so the creator remains unidentified.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/thisguy.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:34+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3824,
+      "text_chars": 3824,
+      "prompt_tokens": 2523,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

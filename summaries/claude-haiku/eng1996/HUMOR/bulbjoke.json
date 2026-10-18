@@ -1,0 +1,21 @@
+{
+  "title": "Bulb jokes",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A short collection of light bulb jokes, the traditional \"how many does it take to change a light bulb?\" format, in which each joke mocks a particular group, profession, or type of person by suggesting an absurdly inflated or self-defeating number of participants. The jokes are numbered and run to roughly eighty entries, with occasional answers that turn on a single punchline. Targets include psychiatrists, programmers, hardware engineers, Yuppies, Taoists, Zen Buddhists, Teamsters, economists, environmentalists, Oregonians, and Mr. T. A separate section, headed Star Trek Bulb Jokes, applies the same formula to the Borg, Ferengi, Cardassians, Klingons, Romulans, Vulcans, and Q, with references to Ferengi rules of acquisition and Klingon honour. Some entries use ethnic, religious, or gender stereotypes that many readers will find offensive. The text has no named author or publication details, so it reads as an anonymous folk-joke compilation typical of early internet humour circulation.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/bulbjoke.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:05+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3974,
+      "text_chars": 3974,
+      "prompt_tokens": 2643,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

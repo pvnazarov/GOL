@@ -1,0 +1,23 @@
+{
+  "title": "A history of the arab peoples",
+  "authors": [
+    "Charles D. Smith"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is an encyclopedia-style entry on the Arabs, drawn from a reference work on the Middle East. It defines Arabs as the people whose native language is Arabic, lists the countries where they form most of the population, and estimates the total Arab population at roughly 175 to 200 million. It traces Arab history from Assyrian references to nomadic Arabs, through the rise of Islam in the seventh century, the Umayyad and Abbasid caliphates, and the transmission of Greek learning to medieval Europe. It then covers the Ottoman centuries, the division of Arab lands after World War I, independence movements, and the creation of Israel and the Arab-Israeli wars. The entry also examines social structure, urbanization, kinship, the Sunni-Shiite division, rapid population growth, and economic constraints. It closes with politics, the Arab League, the role of oil and OPEC, and future prospects, and includes a table of Arab League members with area, population, income, and infant mortality figures.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HISTORY/arabs.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:32+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 18765,
+      "text_chars": 18765,
+      "prompt_tokens": 7981,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

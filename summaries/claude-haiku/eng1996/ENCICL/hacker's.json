@@ -1,0 +1,23 @@
+{
+  "title": "Hacker`s dictionary",
+  "authors": [
+    "Eric S. Raymond"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Hacker's Dictionary is a glossary of slang, jargon, and folklore used by programmers, computer enthusiasts, and technical communities. Arranged alphabetically, each entry gives a term, its pronunciation where useful, its part of speech, and a description of its meaning and origin, often with anecdotes and cross-references to related words. The entries range from long-established terms such as ABEND, ASCII, and ADVENT, the early text adventure game, to humorous coinages like AIDS for an infected-disk syndrome and J. Random Hacker for an archetypal programmer. Many entries explain the history of mainframe and minicomputer culture, including references to the PDP-10, ITS, and early MIT and Stanford labs, while others cover networking, USENET conventions, programming languages, and the naming of ASCII characters. The text also records the playful, sometimes irreverent tone of hacker culture, with notes on holy wars, flame wars, and in-jokes. The excerpts shown are from a 1990s edition, and the work as a whole is a broad reference for anyone wishing to understand the vocabulary of computing culture.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ENCICL/hacker's.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:34+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 804355,
+      "prompt_tokens": 14544,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "A connecticut yankee in king arthur`s court",
+  "authors": [
+    "Twain Mark"
+  ],
+  "kind": "novel",
+  "summary": "A Connecticut Yankee in King Arthur's Court is a satirical fantasy novel by Mark Twain, first published in 1889. The narrator, Hank Morgan, a practical New England arms-factory superintendent, is struck on the head in a fight and wakes in sixth-century England, in the realm of King Arthur and the Knights of the Round Table. He is taken captive by a knight and brought to Camelot, where his modern knowledge and inventiveness quickly set him apart. Known to the court as 'The Boss,' he rises to become the king's chief minister and attempts to introduce telephones, newspapers, schools, factories, and other technologies, while also confronting the Church, the aristocracy, and the cruelties of feudal society. The book is framed as a manuscript he wrote, which a modern narrator later finds and edits. Twain uses the premise to lampoon chivalric romance, institutional authority, and social injustice, and to contrast medieval superstition with nineteenth-century republican ideals. Its ending turns darkly serious, as the hero's ambitions collide with the forces that oppose him.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/yanke.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 641474,
+      "prompt_tokens": 13223,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

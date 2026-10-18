@@ -1,0 +1,21 @@
+{
+  "title": "Table of american and british english words",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A humorous reference table comparing American and British English vocabulary, spelling, and usage. It is organised as a two-column list headed AMERICAN and BRITISH, with a key marking slang (sl.), nouns, verbs, archaic or rare American usages (+), and optional American spellings (>). Entries pair everyday terms across the Atlantic: airplane and aeroplane, elevator and lift, sidewalk and footpath, pants and trousers, cookie and biscuit, gasoline and petrol. Spelling differences such as -or/-our, -ize/-ise, and -er/-re are also listed, along with slang pairs like bum, nick, and telly. The closing section turns from vocabulary to grammar and logic, noting how British phrasing and the British habit of describing light switches differ from American conventions. The author is not named in the text, and the piece is light, joking in tone, and useful as a quick guide for speakers or writers crossing between the two varieties of English.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/brittish.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:02+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7667,
+      "text_chars": 7667,
+      "prompt_tokens": 4714,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

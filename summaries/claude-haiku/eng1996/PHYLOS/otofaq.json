@@ -1,0 +1,23 @@
+{
+  "title": "otofaq",
+  "authors": [
+    "Mathiesen Robert"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a frequently asked questions document about Ordo Templi Orientis (O.T.O.), the esoteric fraternal order, compiled and extended from the alt.magick newsgroup. It answers three basic questions: what the Order is, what its stated purpose is, and what its members do. It traces the history of the group from Karl Kellner's founding in 1895 through Theodore Reuss, whose leadership and Masonic charters shaped it, to Aleister Crowley's later role and the sexual magic teachings tied to The Book of the Law. The text quotes the Order's own constitution and its 1912 Oriflamme publication, then describes its degree structure, its membership of roughly two thousand, and its favoured subjects such as Qabalah, Hermetic magick and Enochian magick. Much of the file is practical: a suggested study syllabus called Liber MCLI covering the Minerval through Third Degree, a list of reference books and newsletters, contact details, and a set of bulletin board numbers for Thelemic discussion. The contributors add commentary and caveats throughout, so the document reads as a community guide rather than an official Order publication.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/otofaq.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:08+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 16747,
+      "text_chars": 16747,
+      "prompt_tokens": 7657,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

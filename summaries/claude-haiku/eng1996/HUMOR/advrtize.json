@@ -1,0 +1,21 @@
+{
+  "title": "It`s a ad, ad, ad, ad world",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This humorous collection gathers real advertising blunders, classified ads, and radio commercials that have gone wrong through careless wording, misplaced punctuation, or plain bad judgment. The opening essay observes that the average American consumer is exposed to hundreds of commercial messages a day, and that advertisers sometimes seem to have given up on clear communication. The bulk of the book is a run of short quoted examples. A hair salon's placemat reads as an offer to 'throw gunk on your hair.' Classified notices advertise a poodle 'like one of the family,' a 'lady with thick legs' desk, and a job for 'girls for stripping machine operators.' Other items include a 'Dinner Special' with children's prices, an 'unrivaled inconvenience' superstore, and a cemetery tour that boasts of famous dead. Radio spots mangle words and produce unintended double meanings. The pieces are brief and self-contained, meant to be dipped into and enjoyed for their unintentional comedy about language and marketing.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/advrtize.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:50+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5922,
+      "text_chars": 5922,
+      "prompt_tokens": 3460,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

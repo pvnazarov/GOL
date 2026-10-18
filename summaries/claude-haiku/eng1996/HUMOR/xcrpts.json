@@ -1,0 +1,21 @@
+{
+  "title": "Excerpts news you may not have read",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A collection of short, offbeat news items compiled from newspapers and wire stories and distributed as a weekly text file, presented under the banner \"Excerpts: News you may NOT have read,\" changed every Saturday. It was circulated through the Stonehenge BBS in San Rafael, California, in the early 1990s, and the items are typically introduced by bold capitalized headlines followed by a few sentences of reporting. The pieces are brief, deadpan, and often grotesque or absurd: a holdup man who fainted when told the teller had no money, a man who tied balloons to a lawn chair and rose to 16,000 feet, a pelican-raping suspect nearly lynched, a sheriff's deputy buying a Marine ribbon with stolen card money, and a Ronald McDonald statue held for ransom. Other items touch on crime, bizarre records, bad business slogans, public health oddities, and pet funerals. The compiler adds wry commentary throughout. No author is credited for the compilation, and the individual stories are unattributed.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/xcrpts.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:43+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 34938,
+      "prompt_tokens": 16100,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

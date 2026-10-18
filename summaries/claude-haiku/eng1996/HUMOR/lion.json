@@ -1,0 +1,21 @@
+{
+  "title": "A contribution to the mathematical theory of big game hunting problem to catch a lion in the sahara desert",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A satirical essay in the form of a mock academic paper, offering a comprehensive and deliberately absurd survey of methods for catching a lion in the Sahara Desert. Written in the style of a scientific treatise, it is organised into sections covering mathematical approaches (Hilbert's axiomatic method, the Bolzano-Weierstrass bisection, the Peano curve, the Cauchy integral, the Wiener-Tauber theorem), theoretical and experimental physics (the Dirac, Schroedinger and nuclear-physics methods, a thermodynamic membrane, a magneto-optical scheme involving catnip and spinach), and computer science (linear search, Monte Carlo, a rabbit mistaken for a lion, and a Dijkstra-style guarded-command program). The piece is full of jokes about pedantic formalism, bureaucratic standards, and the gap between theory and practice, and it includes mock footnotes citing real textbooks. Its humour depends on readers recognising the mathematical and scientific references. The author is not named in the text provided.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/lion.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:56+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9061,
+      "text_chars": 9061,
+      "prompt_tokens": 4553,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

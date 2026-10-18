@@ -1,0 +1,23 @@
+{
+  "title": "Glossary for research papers strictly speaking",
+  "authors": [
+    "Gabe Wiener"
+  ],
+  "kind": "non-fiction",
+  "summary": "A humorous satirical glossary that translates the stock phrases of scientific and academic writing into what researchers actually mean. Presented as a two-column table, the left side gives the polished phrase found in published papers and the right side gives the candid meaning. Entries mock familiar habits such as overstating the importance of a topic, vaguely citing unchecked sources, describing purity claims as unverified supplier boasts, calling a poor agreement with theory 'excellent,' and hedging conclusions with 'it is believed that' when the author has no idea. Other entries skewer acknowledgments that credit a student or lab assistant, and promises to report results 'at a later date.' The piece circulated as a joke submission to a humor collection, and its closing note includes a request for jokes to be emailed to the editor. It suits readers in science and academia who enjoy gentle, insider-level satire of research culture.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/rsrchpap.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:19+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2575,
+      "text_chars": 2575,
+      "prompt_tokens": 2062,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

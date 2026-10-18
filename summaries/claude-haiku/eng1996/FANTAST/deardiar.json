@@ -1,0 +1,23 @@
+{
+  "title": "Dear diary",
+  "authors": [
+    "Baker Jo"
+  ],
+  "kind": "novel",
+  "summary": "Dear Diary is a short, bleak apocalyptic fiction told as the journal of Lisa Stroub, a young mother in Phoenix, Arizona. Her husband Dave has died of a fast-spreading virus, nicknamed \"SS\" after the \"Sudan Strain,\" which began with an infected scientist returning from Africa and now kills most of the population within weeks. The entries, dated January 1995, record the progression of the disease through its stages of headache, hallucination and bodily collapse, the breakdown of order as the army patrols and shoots people in the streets, and the radio broadcasts of a self-styled preacher known as \"The Messenger.\" As food runs out and Lisa herself grows sick, she faces an unbearable choice about her small son Justin. The narrative is bitter and darkly comic in places, shaped by its diary form and the narrator's grim wit, and it moves steadily toward its final, devastating entry. The text is presented as a complete short work with a few brief author-contact notes at the start.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/deardiar.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:55+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 12145,
+      "text_chars": 12145,
+      "prompt_tokens": 5344,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The harvester",
+  "authors": [
+    "Stratton-porter Gene"
+  ],
+  "kind": "novel",
+  "summary": "The Harvester is a novel by Gene Stratton-Porter, first published in 1911, about David Langston, a man who gathers medicinal herbs, roots and barks from the woods around Loon Lake near the small town of Onabasha. Living a self-sufficient life in the forests inherited from his mother, he is a carver of wooden candlesticks and a naturalist who has long avoided the city and romance. The story follows his reluctant move into the world of commerce and medicine, and his encounters with a hospital setting, doctors and nurses, and an unhappy young woman, Ruth Jameson, who arrives in his life in crisis. Their relationship develops against a backdrop of rural nature, family grief, and questions about love, duty and self-worth. The book also contrasts the simple, honest life of the woods with the restless, often shallow life of the city, a theme the author develops through a large cast of characters including doctors, traders, lawyers and a gentle older neighbour. The excerpt suggests a romantic, lyrical tone, with extensive attention to birds, plants, seasons and the moral character of its hero.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/tharv10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:14+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 789796,
+      "prompt_tokens": 13493,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

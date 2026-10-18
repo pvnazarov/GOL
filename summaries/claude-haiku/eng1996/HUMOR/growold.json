@@ -1,0 +1,21 @@
+{
+  "title": "Signs of growing older",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A short humorous list of wry observations about the frustrations and small indignities of aging. Written as a series of one-line jokes, each beginning with \"You\" or a similar second-person framing, the piece recounts familiar complaints: aches that outlast every other function, reading glasses catching the sun, a dwindling address book full of doctors' names, children who suddenly look middle-aged, a rocking chair that won't rock, and a steak that sticks to dentures. Other lines poke fun at the habit of turning in early, the newspaper's \"25 Years Ago Today\" column, and the lost evenings of youthful nightlife. The text has no narrative or characters beyond the reader, and no author is named in the excerpt. It reads as a light gag piece in the humor category, suited to anyone who has begun to recognize these signs in themselves or their friends, and is meant to be read quickly for its laughs rather than for deeper meaning.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/growold.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:36+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1197,
+      "text_chars": 1197,
+      "prompt_tokens": 1607,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

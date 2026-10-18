@@ -1,0 +1,23 @@
+{
+  "title": "The book of lies",
+  "authors": [
+    "Crowley Aleister"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Book of Lies, first published in London in 1913, is a collection of ninety-three short numbered chapters by the occultist Aleister Crowley, each headed by a title and most accompanied by a commentary, with a later commentary added around 1921. Its chapters range from a single word to a few short paragraphs, and their tone shifts among serious ritual instruction, aphorism, ironic cynicism, verse, and playful wordplay. Titles include The Sabbath of the Goat, The Cry of the Hawk, The Oyster, The Battle of the Ants, Caviar, Chinese Music, Mome Raths, The Vigil of St. Hubert, and The Heikle. Many chapters draw on Qabalah, Tarot correspondences, Hindu yoga, Freemasonry, and the symbolism of the Order A.A. and the O.T.O., while others are deliberately obscure or mocking. The book presents itself as a set of statements that are 'as nearly true as is possible to human language,' and its commentary, reproduced in this edition, explains the esoteric references for the student.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/lies.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 152173,
+      "prompt_tokens": 15485,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

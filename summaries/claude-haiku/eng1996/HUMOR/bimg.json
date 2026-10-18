@@ -1,0 +1,21 @@
+{
+  "title": "Bimglossary",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "Bimglossary is a short humorous glossary that parodies the format of a dictionary of slang. Its entries define invented words built on the stem \"Bim,\" which stands for \"Bimbo,\" a term for a foolish, vacuous person. The entries run in alphabetical-style lists of headwords followed by brief, often punning definitions, such as Bimboette for a female bimbo, Bimbooze for alcohol, Bimbread for bread, and Bimbouncer for a nightclub doorman. Many definitions are jokes on everyday objects, places and activities, recast with the Bimbo prefix, and some refer to real public figures in playful terms. The text repeats its title line as a running header, which suggests a printed or photocopied humour piece rather than a narrative. There is no plot or characters in the usual sense; the pleasure lies in the wordplay and the escalating absurdity of the coinages. The file is an excerpt from a longer list and carries no author credit, so the compiler is unknown.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/bimg.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:58+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 11566,
+      "text_chars": 11566,
+      "prompt_tokens": 6991,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

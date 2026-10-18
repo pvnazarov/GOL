@@ -1,0 +1,23 @@
+{
+  "title": "Undocumented features leap years",
+  "authors": [
+    "Mui Pearson"
+  ],
+  "kind": "novel",
+  "summary": "Leap Years is a fan fiction novel set in the Undocumented Features (UF) universe, a shared fictional world built on the anime-inspired Robotech and Macross-style science fiction of the Wayward Son starship and the Wedge Defense Force. Its protagonist, Pearson Mui, is a University of Illinois at Chicago psychology student who is accidentally flung into the future by a time-travel experiment gone wrong. Stranded aboard the SDF-17 Wayward Son five years ahead, he is given the nickname Doc, takes charge of a baby Tyrannosaurus rex named Rex, and is fitted with a Temporal Interaction Field that slows his metabolism and keeps him from aging out of step with his native time. He becomes entangled with the crew, including Keriyn, Jenna, Edison and others, and is drawn into personal and political conflicts, such as Keriyn's grief over her father's death and a hostile confrontation with her brother Aric on Salusia. The text combines comedy, action, and affectionate references to other sci-fi and pop culture, and the author's afterword explains the story's origins and the time-travel premise.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/leapyear.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 175045,
+      "prompt_tokens": 13932,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

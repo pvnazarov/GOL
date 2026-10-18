@@ -1,0 +1,23 @@
+{
+  "title": "Oedipus the king",
+  "authors": [
+    "Sophocles"
+  ],
+  "kind": "play",
+  "summary": "Oedipus the King is a tragedy by the Athenian playwright Sophocles, first performed in the fifth century BCE, and one of the most celebrated works of Greek drama. The play is set in Thebes, where a plague has struck the city. The king, Oedipus, who once saved Thebes by solving the riddle of the Sphinx, vows to find the killer of his predecessor Laius and to drive out the pollution that has brought disaster. As his investigation proceeds, prophecy, the blind seer Teiresias, the queen Jocasta, and a series of messengers gradually reveal a terrible truth about Oedipus's origins and actions. The excerpts here, from this English translation by F. Storr, include the opening scenes and the choral odes, the quarrel with Creon, the later dialogue with Theseus in the sequel-like material, and the closing lamentations after the deaths of Jocasta and Creon's family. The work explores fate, the limits of human knowledge, and the consequences of pride and self-discovery.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/oedipus.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:48+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 206001,
+      "prompt_tokens": 15029,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

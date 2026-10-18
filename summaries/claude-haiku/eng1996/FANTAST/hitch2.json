@@ -1,0 +1,23 @@
+{
+  "title": "The restaurant at the end of the universe",
+  "authors": [
+    "Adams Douglas"
+  ],
+  "kind": "novel",
+  "summary": "The Restaurant at the End of the Universe is the second novel in Douglas Adams's Hitchhiker's Guide to the Galaxy sequence, a comic science fiction work that follows the survivors of Earth's demolition as they travel the galaxy aboard the stolen starship Heart of Gold. Arthur Dent, a mild-mannered Englishman rescued by his friend Ford Prefect, is joined by Zaphod Beeblebrox, the former President of the Galaxy, and Trillian, the woman who left Earth with him. The crew is pursued by the bureaucratic and brutal Vogons, and the story moves between the ship and a fashionable restaurant at the edge of time where the universe's final moments are watched as entertainment. Along the way the book mocks bureaucracy, psychiatry, consumerism, and the search for meaning, using absurd inventions such as the Infinite Improbability Drive and a malfunctioning drinks machine. The excerpts shown include the opening chapters aboard the ship, a scene at the restaurant, and a closing episode on a prehistoric Earth where Arthur and Ford encounter people from a doomed planet.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/hitch2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:14+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 305859,
+      "prompt_tokens": 13565,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

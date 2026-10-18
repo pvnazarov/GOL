@@ -1,0 +1,23 @@
+{
+  "title": "Advanced dungeons dragons(r) 2nd edition monstrous manual(tm) game accessory",
+  "authors": [
+    "TSR, Inc."
+  ],
+  "kind": "non-fiction",
+  "summary": "The Monstrous Manual is a hardcover reference volume for the Advanced Dungeons & Dragons 2nd Edition tabletop roleplaying game, published by TSR in 1995. It gathers in one durable book the monsters from the earlier Monstrous Compendium volumes, revised and updated, along with some new creatures and a few drawn from later campaign settings such as Spelljammer, Forgotten Realms and Dark Sun. Each entry follows a standard template covering climate and terrain, frequency, organization, diet, intelligence, treasure, alignment, armor class, movement, hit dice, attacks, special abilities, size, morale and experience value, followed by descriptive text on combat, habitat, society and ecology. The introduction explains how to read these statistics and how a Dungeon Master should adapt them. Sample entries include the aarakocra, a race of bird-men living on mountain peaks. The book is intended to be used alongside the Dungeon Master's Guide and Player's Handbook. The excerpts provided also include spell descriptions and a glossary-style section on period clothing, which appear to be drawn from appendices on NPC and related material.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/ad&dcrul.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:01+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 5313341,
+      "prompt_tokens": 13764,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

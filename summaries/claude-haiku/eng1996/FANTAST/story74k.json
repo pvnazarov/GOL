@@ -1,0 +1,23 @@
+{
+  "title": "story74k",
+  "authors": [
+    "Drake Erik A"
+  ],
+  "kind": "short stories",
+  "summary": "A short science fiction story of about 7,400 characters, posted by Erik A Drake to Usenet newsgroups and later shared in this archive. A seven-person crew aboard the spacecraft Magellan tests an \"overthruster\" drive that allows travel faster than light. Their celebration is cut short when an alien vessel matches their speed and forces them to stop. The ship is seized by a green-skinned officer of the Physics Police, who fines them for speeding at nearly 200 million kilometres per second in a zone limited to 300,000. The crew is accused of stealing parts from the aliens' neighbours and is taken aboard the alien ship. The story is a light, comic piece that turns the familiar space-race ideal into bureaucratic absurdity, with the closing line drawing the humour to a close. Its tone is playful and parodic, in the spirit of classic short science fiction humour.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/story74k.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:08+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7540,
+      "text_chars": 7540,
+      "prompt_tokens": 3844,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

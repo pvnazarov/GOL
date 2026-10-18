@@ -1,0 +1,23 @@
+{
+  "title": "gemston1",
+  "authors": [
+    "Roberts Bruce"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Gemstone File is a sprawling, conspiracy-minded typescript attributed to Bruce Roberts, circulated in photocopied and typed form and first presented as a serial text from the late 1970s. The excerpts here include an introductory note from a later transcriber and a 'skeleton key' outline that lays out the author's thesis: that a network of organized-crime figures, financiers, intelligence agencies and politicians, led by the Greek shipping magnate Aristotle Onassis, has secretly steered American and world affairs. Its chronology covers the alleged takeover of Howard Hughes, the assassinations of John F. Kennedy, Robert Kennedy and Martin Luther King, the Chappaquiddick incident, and the Warren Commission's cover-up, with detailed and unverified claims about named individuals. The work is presented as a document to be passed hand to hand rather than as a reliable history, and much of its content is unsourced allegation. Its style is digressive, full of typographical errors and asides, and it reads as a fringe political pamphlet rather than a sober investigation.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/gemston1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:22+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 59580,
+      "prompt_tokens": 14206,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

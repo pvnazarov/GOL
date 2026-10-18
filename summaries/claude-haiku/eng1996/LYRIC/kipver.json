@@ -1,0 +1,23 @@
+{
+  "title": "Verses 1889-1896",
+  "authors": [
+    "Kipling Rudyard"
+  ],
+  "kind": "poetry",
+  "summary": "This is volume XI of Rudyard Kipling's collected verse, covering the years 1889 to 1896, and it gathers two major collections: Barrack-Room Ballads and The Seven Sea. The Barrack-Room Ballads are written largely in the phonetic Cockney-inflected dialect of British soldiers in India and elsewhere in the empire, with pieces such as \"Danny Deever,\" \"Tommy,\" \"Fuzzy-Wuzzy,\" \"Gunga Din\" and \"Mandalay\" offering affectionate, sardonic and often grim portraits of ordinary soldiers and the campaigns they fight. The companion sections, Other Verses, include ballads of the frontier and the sea, such as \"The Ballad of East and West,\" \"The Ballad of the Bolivar\" and \"The Rhyme of the Three Captains.\" The Seven Sea contains a wide range of work: sea songs and chanties, ballads of ships and sailors, meditations on empire and duty, a dedication to Bombay, and religious and philosophical pieces like \"M'Andrew's Hymn\" and \"L'Envoi.\" Together the volume shows Kipling's range from vernacular verse to imperial rhetoric and seafaring romance.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/LYRIC/kipver.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 297654,
+      "prompt_tokens": 15409,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

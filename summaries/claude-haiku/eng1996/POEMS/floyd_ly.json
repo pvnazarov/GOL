@@ -1,0 +1,23 @@
+{
+  "title": "Atom heart mother",
+  "authors": [
+    "Pink Floyd"
+  ],
+  "kind": "collection",
+  "summary": "This file is a compilation of song lyrics from several Pink Floyd albums, presented in album order and including tracklists, credits and some sung passages. It spans the band's career from the psychedelic early years to the later Roger Waters-led records. The early material includes The Piper at the Gates of Dawn, with surreal, whimsical pieces such as Astronomy Domine and Lucifer Sam, and A Saucerful of Secrets. Atom Heart Mother and Relics follow, with the title suite, Arnold Layne and See Emily Play. Animals offers allegorical songs about power and society, including Dogs and Pigs on the Wing. The Dark Side of the Moon treats madness, time, money and war, in songs such as Breathe, Time and Brain Damage. Wish You Were Here is a tribute to the departed founder Syd Barrett, and The Final Cut is a bitter lament on postwar Britain and political disillusion. The excerpt is fragmentary, with several sections missing, and the lyrics are presented as printed text rather than as a continuous narrative.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/floyd_ly.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:31+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 82105,
+      "prompt_tokens": 14104,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The wind in the willows",
+  "authors": [
+    "Grahame Kenneth"
+  ],
+  "kind": "novel",
+  "summary": "The Wind in the Willows is a classic children's novel by Kenneth Grahame, first published in 1908, that follows the lives of four animal friends living along a English river and the surrounding countryside. The story opens with Mole, who abandons his spring-cleaning to explore the surface world and befriends the sensible Water Rat, a devoted boater. Together with the gruff, solitary Badger and the impulsive, wealthy Toad, they face adventures both gentle and perilous. The book contrasts the peaceful riverbank and the mysterious Wild Wood, where dangerous weasels, stoats and foxes lurk. Among its best-known episodes are a boating outing, a mystical encounter with the god Pan on an island, and Toad's repeated infatuations with motorcars, which lead to his imprisonment and a daring escape. The novel is celebrated for its lyrical descriptions of nature, its humour, and its gentle meditations on friendship, home and belonging.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/wwill10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:27+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 324815,
+      "prompt_tokens": 13428,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The necrofile",
+  "authors": [
+    "Lypchuk Donna"
+  ],
+  "kind": "short stories",
+  "summary": "The Necrofile is a short comic piece by Donna Lypchuk, published in the Toronto arts newspaper eye Weekly in December 1994 under the heading \"Solicitors of the Spirit.\" Written in a breezy first-person voice, it follows a narrator who is ill with the flu just before Christmas. She has tried a long list of home remedies, drifts off on a futon surrounded by five cats, and wakes to a stream of pop-culture images from the television and her own feverish fancies. When two clean-cut young men arrive at her door claiming to be from the Church of Latter Day Jesus Christ, they quiz her about her religion, ethnicity and the mirror hanging over her door. Her irritation grows, a cat hisses at them, and they leave calling her a witch. The sketch is less a plot than a string of jokes about illness, the holidays and city life, and it ends with the narrator admitting it is not much of a Christmas story. It is the kind of light, self-deprecating vignette an alternative weekly might run as seasonal filler.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/necrfile.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:46+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 6321,
+      "text_chars": 6321,
+      "prompt_tokens": 3735,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

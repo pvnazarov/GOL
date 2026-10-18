@@ -1,0 +1,21 @@
+{
+  "title": "Electricity today",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A short comic piece in the style of a children's science primer, presented as a lesson on electricity. It opens with a playful experiment about static shocks from scuffing across carpet, then offers a mock history of the field, casting Benjamin Franklin, Galvani, and Thomas Edison as \"Electrical Pioneers\" with absurd anecdotes: Franklin's kite flight leaves him speaking in proverbs, Galvani's twitching frog legs lead to a joke about veterinary frog repair, and Edison's supposed invention of the electric company is mocked as a scheme to resell the same electricity repeatedly. The text closes with a jab at modern lasers, which can vaporize a bulldozer or perform eye surgery depending on the power setting. The humour relies on deadpan misinformation, mock-earnest tone, and wordplay on scientific terminology. The author is not named in the excerpt, and the text appears to be a humorous or satirical essay rather than a serious textbook.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/electric.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:18+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4347,
+      "text_chars": 4347,
+      "prompt_tokens": 2561,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

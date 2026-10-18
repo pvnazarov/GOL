@@ -1,0 +1,23 @@
+{
+  "title": "Useful farsi phrases for americans traveling to the middle east",
+  "authors": [
+    "Khali-kili Akbar"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a short humorous mock phrasebook, a satirical parody of the pocket guides travellers buy before a trip. Its entries pair a pseudo-Farsi phrase, written in a deliberately garbled transliteration, with an English rendering that is absurd, menacing, or grotesquely polite. Rather than teaching anything useful, the jokes turn the conventions of the genre inside out: a traveller thanks a host for showing off a gun, agrees to lie face down on the floor, accepts a ride in the boot of a car, or offers to betray his country and name American spies in exchange for mercy. Other lines are mock-courtly or bizarre, such as praising water-soaked bread crumbs or preferring a hostage's fate to a fortnight with a celebrity. The humour relies on the gap between polite tourist speech and the hostile, unpredictable situations that a Western visitor might imagine facing abroad. The text is a single short piece of comic writing, so its wider scope is limited to these brief, punchline-driven exchanges.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/farsi.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:27+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1457,
+      "text_chars": 1457,
+      "prompt_tokens": 2004,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

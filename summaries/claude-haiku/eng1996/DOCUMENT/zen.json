@@ -1,0 +1,23 @@
+{
+  "title": "Zen and the art of the internet a beginner`s guide to the internet",
+  "authors": [
+    "Kehoe Brendan P"
+  ],
+  "kind": "non-fiction",
+  "summary": "Zen and the Art of the Internet is a 1992 beginner's guide to the early Internet, written by Brendan P. Kehoe while he worked in the Computer Science department at Widener University. It was intended as both a quick reference and a starting point for exploring the network, and it aims to stay neutral across operating systems. The guide covers the basics of network addressing, domain names, IP numbers, and the major networks of the period, including UUCP and BITNET. It explains electronic mail and address formats, Usenet etiquette and newsgroup structure, and remote access through telnet. It also describes publicly accessible library catalogs, bulletin board systems such as the Cleveland Freenet, and directory services for finding people and institutions. The booklet closes with a bibliography of books, papers, and periodicals on networking, hacking, and internetworking. Its tone is friendly and practical, and it was widely copied and distributed as freely redistributable text.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/zen.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:51+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 156583,
+      "prompt_tokens": 13300,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

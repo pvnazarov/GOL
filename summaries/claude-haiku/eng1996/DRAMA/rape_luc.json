@@ -1,0 +1,23 @@
+{
+  "title": "The rape of lucrece",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "poetry",
+  "summary": "The Rape of Lucrece is a narrative poem by William Shakespeare, published in 1594 and dedicated to Henry Wriothesley, Earl of Southampton. Written in rhyme royal (seven-line stanzas), it retells a story from Roman history recorded by Livy and Ovid. During the siege of Ardea, the Roman officers, including Collatinus, boast of their wives' virtue, and Collatinus praises his wife Lucrece above the rest. Tarquin, the king's son, is inflamed with desire and rides secretly to Collatium, where he is hospitably received. Late at night he creeps into Lucrece's chamber and rapes her. The poem gives extended attention to Tarquin's inner struggle, to Lucrece's grief and her lament against Night, Opportunity and Time, and to her suicide. Her husband and her father then join with Junius Brutus, who swears vengeance and turns the public outcry into the overthrow of the Tarquin monarchy and the founding of the Roman republic. The poem is a meditation on honour, guilt, lust and the nature of time.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/rape_luc.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:55+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 84684,
+      "prompt_tokens": 14082,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

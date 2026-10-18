@@ -1,0 +1,23 @@
+{
+  "title": "cajun",
+  "authors": [
+    "Wilson Justin"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a cookbook of Cajun and Louisiana recipes, compiled from entries in a Meal-Master recipe database and attributed largely to Justin Wilson, the Louisiana cook and humorist known for his folksy, joking asides. The recipes are grouped under categories such as appetizers, salads, sauces, breads, main dishes, and desserts. Dishes include andouille sausage preparations, oyster pate, crawfish and shrimp cocktail, Sadie's shrimp salad, red beans and rice, hush puppies, shrimp Newburg, chicken maque choux, bread pudding with whiskey sauce, boiled crabs, and blackened fish and prime rib. Many entries carry short headnotes, anecdotes, or credits to community contributors from a Louisiana cookbook called Talk About Good, and some are taken from other sources such as Paul Prudhomme's Louisiana Kitchen and a Calgary Herald piece on blackened Arctic char. The text is a fragment of a larger file, so it is not a complete edition, but it shows the collection's recipe-card format, with ingredient lists, method, and serving counts, and its mix of Cajun cooking traditions with homestyle humor.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HOME/cajun.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 72512,
+      "prompt_tokens": 16005,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

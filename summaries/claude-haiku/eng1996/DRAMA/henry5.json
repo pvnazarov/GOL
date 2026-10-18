@@ -1,0 +1,23 @@
+{
+  "title": "King henry v",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "King Henry V is a history play by William Shakespeare, the last of his tetralogy that begins with Richard II and continues through the two parts of Henry IV. It follows the young King Henry, who has shed the wild habits of his youth, as he asserts a claim to the French crown. The opening scenes in England show the church and nobles urging a war to secure his right, while French envoys answer with an insulting gift of tennis balls. The king invades France, takes the port of Harfleur, and endures a depleted army's march toward Agincourt, where the outnumbered English win a famous victory. Interspersed are scenes of the common soldiers, including old tavern companions such as Pistol, Nym and Bardolph, who reflect on the ethics and cost of war. The play closes with Henry's courtship of the French princess Katherine and a treaty uniting the two kingdoms, framed by choral prologues and an epilogue that look ahead to the troubled reign of his son.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/henry5.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 152096,
+      "prompt_tokens": 14318,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

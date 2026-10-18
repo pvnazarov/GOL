@@ -1,0 +1,21 @@
+{
+  "title": "Laws of life",
+  "authors": [],
+  "kind": "collection",
+  "summary": "Laws of Life is a humorous collection of aphorisms, maxims, and tongue-in-cheek \"laws\" that poke fun at everyday frustrations, human nature, and the working world. Many entries are aimed at computing and programming, with pieces such as Brooks's Law (adding manpower to a late software project makes it later), Lubarsky's Law of Cybernetic Entomology (\"There's always one more bug\"), and Golub's Laws of Computerdom on fuzzy project objectives and optimistic schedules. Others are general observations, including Murphy-style rules like Law of Selective Gravity, Anthony's Law of the Workshop about dropped tools, and Sattlinger's Law about plugging things in. Some entries add numbered lists of corollaries, such as Barber's Laws of Backpacking, which lampoon hiking with pebbles in one's boot and campsites that are always full. Short quips like Barth's Distinction and Segal's Law about two watches sit alongside longer reflections on education and learning from Barzun. The text ends with a note that it was obtained from a St. Louis source, and the compilation is intended as light reading for anyone who has suffered through deadlines, bureaucracy, or broken equipment.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/lawslife.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:51+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9701,
+      "text_chars": 9701,
+      "prompt_tokens": 4450,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

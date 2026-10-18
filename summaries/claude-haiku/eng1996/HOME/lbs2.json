@@ -1,0 +1,21 @@
+{
+  "title": "Australian cheesecake",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A digital recipe file of cheesecakes and related cheese desserts from around the world, formatted in the Meal-Master recipe-program style, with each entry carrying a title, categories, servings, ingredient list and method. The recipes cover national variations such as Australian, Austrian, Belgian, Czechoslovakian, Danish blue cheese pie, Dutch, English cheese pie, Finnish curd cake, French, German kasekuchen, Greek, Hungarian, Paskha (a Russian Easter cheese dish made in a flower pot), Polish, Spanish, Swedish, Swiss and Ukrainian versions. Many entries include explanatory notes on substitutions, pan sizes and flavour. The closing section is a general guide to cheesecake technique: folding in beaten egg whites, judging doneness, cooling in the oven, refrigerating before serving, and troubleshooting cracks and soggy centres. The text is partly fragmentary, with the opening and middle sections cut off mid-recipe, so the exact number of entries is uncertain. The file is a cookbook rather than a narrative, and no author is named in the excerpts shown.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HOME/lbs2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:40+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 56957,
+      "prompt_tokens": 14732,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

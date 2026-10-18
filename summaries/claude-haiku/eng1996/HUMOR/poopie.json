@@ -1,0 +1,21 @@
+{
+  "title": "The poopie list",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A short, lighthearted humor list that gives playful names and brief definitions to different kinds of bowel movements and the awkward experiences that go with them. Each entry is a tongue-in-cheek description. Ghost Poopie is the sensation of going with nothing to show for it, and Second Wave Poopie is the urge that returns just as you pull up your pants. Other entries mock straining, loud or smelly episodes, and the aftermath of a heavy night of drinking. Some are named after celebrities or cultural references, such as Richard Simmons Poopie and Lincoln Log Poopie, while Fisherman Bobber Poopie describes a public restroom disaster that would embarrass anyone. The voice is casual and self-deprecating, and the humor relies on exaggeration and crude imagery. The text has no plot or characters, and it does not credit an author.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/poopie.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:18+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1997,
+      "text_chars": 1997,
+      "prompt_tokens": 1970,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

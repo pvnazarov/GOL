@@ -1,0 +1,23 @@
+{
+  "title": "The hitch hiker`s guide to the galaxy",
+  "authors": [
+    "Adams Douglas"
+  ],
+  "kind": "novel",
+  "summary": "The Hitch Hiker's Guide to the Galaxy is a comic science fiction novel, the first book of Douglas Adams's Hitchhiker's trilogy, which began as a radio serial. It opens on an ordinary English Thursday, when Arthur Dent, a dim-witted but decent Englishman, tries to stop a council bulldozer from demolishing his house to make way for a bypass. His friend Ford Prefect, it turns out, is not an Earthman at all but a researcher for the Guide, an electronic reference book that is far more popular than the official Galactic encyclopedia. Just as Arthur is rescued from Earth's destruction to make room for a hyperspace bypass, the two of them are swept aboard a stolen starship, the Heart of Gold, with the self-regarding two-headed President of the Galaxy, Zaphod Beeblebrox, and Trillian, a woman Arthur once met at a party. Along the way they encounter depressed robot Marvin, the Vogon bureaucrats, and a series of absurd cosmic situations. The book satirizes bureaucracy, technology, and the pursuit of meaning, mocking the search for the answer to life, the universe and everything, and it is famous for its deadpan humour and memorable lines such as Don't Panic.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/hitch1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:13+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 269721,
+      "prompt_tokens": 13449,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The 1990 united states census",
+  "authors": [
+    "United States Census Bureau"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a statistical data release from the 1990 United States Census, the decennial count of the nation's population and housing. It opens with a guide to the four census regions (Northeast, South, Midwest, and West) and their constituent states, followed by a table of 1990 population totals for the nation, each region and division, and every state, released in November 1991. The bulk of the text is a state-by-state profile. Each entry reports total population broken down by sex, age groups, median age, and households by type, along with group quarters, race and Hispanic origin, and housing data such as occupancy and tenure, units in structure, owner-occupied home values, contract rents, and vacancy rates. The excerpts shown cover the states from Alabama through Wyoming, with Alaska, Arizona, Mississippi, Missouri, and Montana appearing in full or in part. The work is a reference compilation rather than a narrative, useful to demographers, researchers, planners, and anyone studying American population and housing patterns at the start of the 1990s.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/uscen902.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:47+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 302633,
+      "prompt_tokens": 11251,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

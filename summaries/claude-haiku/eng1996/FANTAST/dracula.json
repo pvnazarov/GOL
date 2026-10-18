@@ -1,0 +1,23 @@
+{
+  "title": "Dracula",
+  "authors": [
+    "Stoker Bram"
+  ],
+  "kind": "novel",
+  "summary": "Dracula is a Gothic horror novel first published in 1897, told through a sequence of diaries, letters, newspaper clippings, ship logs and phonograph transcripts gathered by its characters. It opens with the English solicitor Jonathan Harker travelling to Transylvania to help Count Dracula, a noble who wishes to buy property in England. Harker finds the castle a place of dread and realises he is a prisoner. Meanwhile, in England, Harker's fiancee Mina and her friend Lucy Westenra are drawn into a series of strange events after Lucy begins to waste away from unexplained blood loss. A team of men, including the physician Dr. John Seward, the American Quincey Morris, Lord Godalming and the Dutch scholar Abraham Van Helsing, works to understand and destroy the Count, who has come to England to prey on the living. The book blends folklore about vampires with late-Victorian anxieties about science, sexuality, foreignness and social change. Its later sections follow the hunters across Europe in a pursuit that ends at the castle. The excerpt's closing note, set years later, frames the whole account as a record assembled by the survivors.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/dracula.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 829019,
+      "prompt_tokens": 12847,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

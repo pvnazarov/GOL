@@ -1,0 +1,21 @@
+{
+  "title": "Personal growth and development courses",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a humorous mock course catalogue, styled as a flyer headed \"ENROLL NOW!\" with a blank name and phone line at the bottom. It lists dozens of numbered adult-education courses whose titles parody self-help seminars, community college offerings and mail-order hobby pamphlets. Examples include \"Creative Suffering,\" \"Molding Your Child's Behavior Through Guilt and Fear,\" \"Whine Your Way to Alienation,\" \"Cuticle Crafts,\" \"How to Profit From Your Body,\" and \"Bonsai Your Pet.\" Many entries play on bad taste, misplaced earnestness or absurd promises of self-improvement, such as \"Exorcism and Acne\" and \"Skate Yourself to Regularity.\" The text is a single page with no narrative or named author, so it reads as a piece of satirical ephemera rather than a book. It was filed under humour, and its listings are jokes meant for a quick laugh.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/growth.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:37+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1532,
+      "text_chars": 1532,
+      "prompt_tokens": 1876,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

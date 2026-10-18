@@ -1,0 +1,23 @@
+{
+  "title": "Manifesto of the communist party",
+  "authors": [
+    "Engels Friedrich"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Manifesto of the Communist Party is a short political pamphlet written by Karl Marx and Friedrich Engels for the Communist League and first published in London in 1848. This copy is the English edition of 1888, which Engels edited. The work is divided into sections. It opens with the claim that the history of all hitherto existing societies is the history of class struggle, then traces how the bourgeoisie rose from feudal society through commerce, manufacturing and industry, and how it created a world market and a proletariat of wage labourers. It describes the crises of overproduction that the bourgeoisie cannot escape. A later section answers objections to abolishing private property, the family and culture. Further sections criticise rival socialist and reactionary positions and set out the Communists' tactics in different countries, especially Germany. The text ends with its well-known call for workers of all countries to unite. It is one of the most influential political texts ever written.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/manif11.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:33+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 72721,
+      "prompt_tokens": 12023,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The doctrine of the mean",
+  "authors": [
+    "Legge James"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Doctrine of the Mean (Chung-yung) is a short classical Chinese philosophical text, traditionally associated with Confucian thought some centuries after Confucius. It was one of the Four Books of Neo-Confucianism and shaped the civil service examinations for roughly six centuries. The work argues that human nature, decreed by Heaven, is realised by following a moral path, and that the superior person maintains a balanced course, the Mean, between extremes. It stresses watchfulness over oneself when alone, the cultivation of sincerity, and the proper conduct of rulers toward family, ministers, officials, artisans and the people. Chapters quote the Book of Poetry and recount the virtues of sage kings such as Shun, King Wen, King Wu and the Duke of Chou, alongside dialogues with Confucius and his disciples. This edition presents James Legge's 1893 translation from The Chinese Classics, lightly adapted with Wade-Giles romanisation, bracketed insertions for implied words, and explanatory notes identifying proper names.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/doctmean.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:36:51+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 40530,
+      "prompt_tokens": 12662,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

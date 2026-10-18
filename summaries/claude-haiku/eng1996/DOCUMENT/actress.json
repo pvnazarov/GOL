@@ -1,0 +1,23 @@
+{
+  "title": "actress",
+  "authors": [
+    "Krieg Andrew"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a reference list of film and television performers, compiled as a Usenet posting to the rec.arts.movies and rec.arts.tv newsgroups in 1990 and maintained by Andrew Krieg. It catalogues actresses alphabetically by surname, and under each name lists their feature films, made-for-TV movies, video releases, and recurring television series roles, with notation marking TV movies, video releases, and voice work, and occasionally noting Academy Award nominations and wins. Guest appearances are excluded by the compiler's rules. The entries run from Adams and Adjani through Curtis, Hunter, Huppert, Jackson, Tomei and Tomlin, to Trevor and Travis near the end. The list is a fan-made filmography index rather than a narrative work, and the excerpts provided include passages from its beginning, middle, and end, with the compiler's signature block repeated between sections.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/actress.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:00+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 609195,
+      "prompt_tokens": 19608,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

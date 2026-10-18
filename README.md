@@ -167,7 +167,7 @@ GigaChat's (it knows the famous books), so they carry more small slips (wrong nu
 series, a wrong surname). Haiku is now used for the bulk runs. **EROTIC and SEX-TECH are
 not sent to Claude**; those stay on the local model.
 
-**Status:** `claude-haiku` has the first five categories of every library (1,528 books); `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries; `izbrannoe` has
+**Status:** `claude-haiku` has every category except EROTIC and SEX-TECH up to the 20th of each library (10,395 books); `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries; `izbrannoe` has
 summaries from all four local models above; both Adventure categories have GigaChat
 summaries in three variants (Q6_K, Q4_K_M at 32k, and `gigachat3.1-q4-ctx64k` — an
 Ollama copy of Q4_K_M named so its 64k results get their own folder). **Nothing reads the output yet** — surfacing it

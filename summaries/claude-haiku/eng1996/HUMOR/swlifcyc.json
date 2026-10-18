@@ -1,0 +1,23 @@
+{
+  "title": "The software life cycle",
+  "authors": [
+    "Graham Bardsley"
+  ],
+  "kind": "short stories",
+  "summary": "The software life cycle is a short humorous satire of software project management, posted to the Usenet newsgroup eunet.jokes in 1988 and written in the style of a biblical creation narrative. It recounts, in mock-scriptural verse, how a client's requirement becomes a tender, how a manager promises a delivery date that the project plan cannot support, and how the team responds with overtime, consultants, committees, standards, and progress reports. Along the way the Manager splits designs into mandatory functions and options, adopts a database system selected from salesmen's brochures, and orders more programmers, which only fragments the team further into senior and junior groups. The Chief Programmer eventually asks for an extension, and the system finally works around the twenty-fourth month. The piece ends with a salesman's request for one small change, to which the Chief Programmer replies that they dare not, since there is still no documentation and no specification. The text is a recurring joke among programmers about the gap between planning and reality, and it is brief enough to read in a few minutes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/swlifcyc.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:33+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7407,
+      "text_chars": 7407,
+      "prompt_tokens": 3740,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

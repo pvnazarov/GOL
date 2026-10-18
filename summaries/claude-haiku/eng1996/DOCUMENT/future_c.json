@@ -1,0 +1,23 @@
+{
+  "title": "Futureculture faq",
+  "authors": [
+    "andy"
+  ],
+  "kind": "non-fiction",
+  "summary": "The FutureCulture FAQ is an informational guide to the emerging techno-underground of the early 1990s, compiled as a text file and updated in March 1993 by its maintainer, who signs as Andy and is associated with the FutureCulture mailing list. It introduces readers to cyberpunk literature and culture, rave and industrial music scenes, virtual reality, the computer underground, hacking and phone phreaking, nootropic drugs, and related fringe science such as chaos theory and cryonics. A glossary defines terms like cyberspace, the matrix, cyberdeck, and netrip, and a cultural literacy section points to key works, including William Gibson's Neuromancer and Bruce Sterling's Mirrorshades anthology. The guide also lists magazines, electronic zines, Usenet newsgroups, BBSes, IRC channels, MUDs, a who's who of prominent figures in cyberculture, and a catalogue of companies and merchandise geared to techno-aware readers, from electronics suppliers to record labels and VR firms. Epigraphs from writers and musicians frame the whole as a snapshot of a subculture in flux.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/future_c.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 121281,
+      "prompt_tokens": 14520,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

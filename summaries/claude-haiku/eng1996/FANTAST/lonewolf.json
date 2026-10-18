@@ -1,0 +1,23 @@
+{
+  "title": "The adventures of lone wolf scientific",
+  "authors": [
+    "Peshota M"
+  ],
+  "kind": "short stories",
+  "summary": "The Adventures of Lone Wolf Scientific is an episodic comic series distributed electronically through bulletin board systems in the early 1990s. It follows the misadventures of a startup-minded pair of high-technology eccentrics: S-max, a hardware engineer with wild inventions and a chaotic career history, and Andrew.BAS, a soft-spoken programmer who names his software after Apollo missions. Their stories satirize the computer industry, defense contracting, and the self-importance of executives, politicians and technology pundits. Recurring figures include the magazine columnist Ordin Babblebin and the politician Congressman Boris Q. Popinrath. The installments shown here are numbered episodes, each a short comic vignette. Early episodes cover S-max losing jobs after escapades involving a four-million-watt power supply and a Rubik's Cube career, while later ones depict a defense weapons demonstration full of misfiring smart bombs and a coin-operated operating system. The work is broad, slapstick and loaded with wordplay and exaggerated jargon, and it was written as a serial with each installment ending on a teaser for the next.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/lonewolf.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:31+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 185444,
+      "prompt_tokens": 13132,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

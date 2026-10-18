@@ -1,0 +1,23 @@
+{
+  "title": "kast$94",
+  "authors": [
+    "Castaneda Carlos"
+  ],
+  "kind": "collection",
+  "summary": "This file is a 1994 compilation of Castaneda-related material gathered for the Phylos community: a bibliography of Carlos Castaneda's books, interviews, critical studies and related works (version 1.3.3, July 1994), followed by full-text magazine pieces. These include Keith Thompson's New Age Journal interview with Castaneda, in which he discusses don Juan's disappearance, his reticence about his own life, and the uncertain biography; and Keith Nichols's Magical Blend interview with Florinda Donner-Grau, Taisha Abelar and Carol Tiggs about recapitulation, intent, perception and the energy body. The file ends with a transcription of notes from a talk by Taisha Abelar, setting out principles of recapitulation and the assemblage point. The material is a mix of fan reference, journalism and teachings, documenting the Castaneda circle and the debate over whether his books describe real encounters or are fiction. Because the excerpts are fragmentary, the complete text could not be read end to end.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/kast$94.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 98450,
+      "prompt_tokens": 14537,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

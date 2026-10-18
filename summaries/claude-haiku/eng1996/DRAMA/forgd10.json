@@ -1,0 +1,23 @@
+{
+  "title": "The forged coupon and other stories",
+  "authors": [
+    "Tolstoy Leo"
+  ],
+  "kind": "short stories",
+  "summary": "A collection of short fiction and related writing by Leo Tolstoy, gathered under the title of its lead story, \"The Forged Coupon,\" a late tale of moral awakening. The volume opens with an introductory essay that places Tolstoy's spiritual idealism against the materialism of his age, drawing on his Crimean War experiences, his aristocratic upbringing, his break with the Orthodox Church, and his correspondence with his aunt, Countess Alexandra Tolstoy. The title story follows Stepan, a labourer who commits a series of murders after a forged banknote leads him into crime, and who is then consumed by guilt and despair in prison, where a simple fellow prisoner's faith begins to change him. The remaining pieces named in the contents are \"After the Dance,\" \"Alyosha the Pot,\" \"My Dream,\" \"There Are No Guilty People,\" and \"The Young Tsar,\" which ends with a ruler faced with a dream-born question about his duty to his people and to his own soul. Together the stories explore conscience, faith, social injustice, and the demands of Christian moral conduct.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/forgd10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:18+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 321938,
+      "prompt_tokens": 12682,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

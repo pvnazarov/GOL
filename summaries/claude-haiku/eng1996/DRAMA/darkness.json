@@ -1,0 +1,23 @@
+{
+  "title": "Heart of darkness",
+  "authors": [
+    "Conrad Joseph"
+  ],
+  "kind": "novella",
+  "summary": "Heart of Darkness is a novella by Joseph Conrad, first published in 1899, which is narrated in frame form aboard a yacht anchored on the Thames estuary. The old seaman Marlow tells his companions about a journey he made years earlier, when he took a post as captain of a river steamboat for a Belgian trading company in the Congo. Travelling up the great river into the interior, he encounters the brutality of colonial exploitation, the chaos of the company's stations, and the bureaucratic hypocrisy of the European agents who profess civilizing ideals while pursuing ivory and profit. His journey leads him toward the inner station and the legendary ivory agent Mr. Kurtz, a man admired as a prodigy and feared as something more sinister. The narrative explores the thin line between civilization and savagery, the corrupting power of unchecked authority, and the nature of moral darkness, both in the jungle and in Europe. Marlow's reflections on lies, solitude, and the human capacity for evil give the work its philosophical weight. The text is famous for its dense, layered style and its critique of imperialism, and it is widely read as a foundational modernist work.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/darkness.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:12+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 134712,
+      "prompt_tokens": 13175,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

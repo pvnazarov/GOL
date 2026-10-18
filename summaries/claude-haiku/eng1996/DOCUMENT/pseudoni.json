@@ -1,0 +1,23 @@
+{
+  "title": "pseudoni",
+  "authors": [
+    "Anderson Poul"
+  ],
+  "kind": "non-fiction",
+  "summary": "This text is not a novel or story but a reference listing of science fiction and fantasy authors and their pseudonyms, apparently drawn from a genre encyclopedia or biographical dictionary. Each entry gives an author's name in surname-first form, nationality, birth and death dates where known, a genre marker in some cases, and a list of the pen names, joint pseudonyms, and house names the writer used. The entries run alphabetically from Anderson and Anthony through Asimov, Blish, Bradbury, Campbell, Clarke, Dick, Heinlein, Hubbard, King, Kornbluth, Kuttner, Leiber, Moorcock, Silverberg, Sturgeon, Tubb, and Zelazny, among many others. The excerpt includes no narrative or prose about the subjects beyond these bibliographic notes. The catalogue record names Poul Anderson as the author, but the entry for Anderson appears only as the first item in the list, so the listing itself is a multi-author compilation of pseudonym data rather than a work by any single writer.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/pseudoni.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:36+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 10681,
+      "text_chars": 10681,
+      "prompt_tokens": 6126,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

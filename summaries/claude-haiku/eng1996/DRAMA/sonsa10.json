@@ -1,0 +1,23 @@
+{
+  "title": "Sons and lovers",
+  "authors": [
+    "Lawrence D H"
+  ],
+  "kind": "novel",
+  "summary": "Sons and Lovers is D. H. Lawrence's semi-autobiographical novel, first published in 1913, set in and around the Nottinghamshire mining village of Bestwood at the turn of the twentieth century. It follows the Morel family: Walter Morel, a hard-drinking, working-class collier, and his refined, unhappy wife Gertrude, who invests her hopes in their sons. The novel opens with the cramped domestic life of the Bottoms, a row of colliers' cottages, and traces the emotional struggle between the couple. The central focus shifts to their second son, Paul, a sensitive young man torn between his devoted mother and his attachments to two women, the spiritual and intense Miriam Leivers and the more worldly, sensual Clara Dawes. Through these relationships Lawrence explores class, sexuality, artistic ambition, and the psychological bonds between parents and children. The book is divided into two parts and includes the vivid domestic and industrial detail for which Lawrence became known, as well as its introspective, lyrical passages.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/sonsa10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:07+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 881181,
+      "prompt_tokens": 13638,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

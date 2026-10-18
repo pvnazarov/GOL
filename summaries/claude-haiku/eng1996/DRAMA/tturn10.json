@@ -1,0 +1,23 @@
+{
+  "title": "The turn of the screw",
+  "authors": [
+    "James Henry"
+  ],
+  "kind": "novella",
+  "summary": "The Turn of the Screw is a ghost story by Henry James, first published in 1898. It opens at a Christmas Eve gathering where a guest, Douglas, promises to read a written account of a haunting involving two children. The manuscript, written in the past by a young governess, tells how she takes a post at Bly, a country house in Essex, caring for two orphaned children, Miles and Flora, under the supervision of a bachelor employer who wants no contact. Soon she believes the house is haunted by two former servants, Peter Quint and Miss Jessel, who she suspects have corrupted the children. She grows increasingly fearful and determined to protect the children from what she perceives as the malign influence of the dead, and the story turns on the ambiguity of what she sees and what the children know. The novella is famous for its unreliable narration and its open-ended question of whether the apparitions are real or the product of a troubled mind. It remains one of the most discussed works of Gothic and psychological fiction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/tturn10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:19+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 228727,
+      "prompt_tokens": 12483,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

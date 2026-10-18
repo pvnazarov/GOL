@@ -1,0 +1,23 @@
+{
+  "title": "Miss dish`s lament",
+  "authors": [
+    "Jeff Meyer"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short humorous piece originally printed in the program of the 14th Seattle International Film Festival, where it appeared anonymously. It is a mock etiquette guide that satirises the bad habits of moviegoers. The writer lists the annoying behaviours of various types of patrons, including young couples who arrive late and kiss through the film, single women over forty who unwrap cellophane during the picture, senior citizens who read every on-screen sign aloud, uppermiddlebrows who laugh at the wrong moments, cineastes who race to their seats, and strange middle-aged men who change seats constantly. The piece then offers a deliberately absurd remedy for disruptive viewers, involving threatening growls and a bite. It closes with a Blaise Pascal quotation about human restlessness. The text was reproduced in a joke collection with editorial notes from Brad Templeton, and the author is identified as Moriarty, also known as Jeff Meyer. The piece is light, self-aware comedy about cinema culture rather than a story or argument.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/missdish.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:01+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4971,
+      "text_chars": 4971,
+      "prompt_tokens": 3113,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

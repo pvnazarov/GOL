@@ -1,0 +1,23 @@
+{
+  "title": "Three men in a boat (to say nothing of the dog)",
+  "authors": [
+    "Jerome K"
+  ],
+  "kind": "novel",
+  "summary": "Three Men in a Boat, first published in 1889, is a comic account of a week-long boating holiday on the Thames, from Kingston upriver toward Oxford. The narrator, J., together with his friends George and William Samuel Harris, decides after a bout of imagined illnesses that they need rest, and the river seems the cure. Their dog Montmorency, who has no interest in scenery and a talent for trouble, joins the trip as an unwilling passenger. The book is built from episodes rather than a tight plot: the opening chapters satirise hypochondria and patent-medicine advertising, and later chapters describe the mishaps of packing, camping, cooking, and rowing, along with digressions on the history of the river, a comic tale of two men waking in the same bed, and a sudden, mock-sentimental passage on the night sky. Jerome's humour rests on the gap between the narrator's pompous self-regard and the plain foolishness of his companions. The result is a light, affectionate portrait of Victorian middle-class leisure and male friendship, still widely read as one of the best-loved English comic books.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/3boat.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:44+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 357788,
+      "prompt_tokens": 13083,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

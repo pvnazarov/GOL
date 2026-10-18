@@ -1,0 +1,23 @@
+{
+  "title": "The winter`s tale",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "The Winter's Tale is a romance play by William Shakespeare, believed to date from around 1610 to 1611. It opens in Sicilia, where King Leontes, convinced without cause that his queen Hermione has been unfaithful with his old friend King Polixenes of Bohemia, orders the death of Polixenes and then imprisons Hermione. Her newborn daughter is abandoned on the coast of Bohemia, and Leontes's loyal counsellor Camillo, sent to poison Polixenes, instead flees to Bohemia with him. The second half, set after a sixteen-year gap, follows Perdita, the lost princess raised as a shepherd's daughter, and her romance with Prince Florizel, Polixenes's son. Along the way the rogue Autolycus, the Clown, and the old Shepherd provide comic episodes. The play moves from tragic jealousy toward reconciliation, repentance and the restoration of lost family. A Chorus called Time narrates the passage of years. The text in this file is the complete play as printed in the standard Shakespeare editions, with its dramatis personae, five acts, and a final scene in which Hermione is revealed as a living statue.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/win_tale.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 141873,
+      "prompt_tokens": 14800,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

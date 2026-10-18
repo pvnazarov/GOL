@@ -1,0 +1,21 @@
+{
+  "title": "Necronomicon mythos essay",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is an informal essay on the Necronomicon, the fictional grimoire created by H.P. Lovecraft, and on the \"mythic power\" that has allowed the book to take on a quasi-real existence outside his stories. The author argues that the Necronomicon is neither wholly real nor wholly unreal, and explores how it gained independent life. The essay is in two parts. The first summarizes Lovecraft's Necronomicon mythos: the Old Ones, Cthulhu, the Other Gods such as Azathoth, Yog-Sothoth and Nyarlathotep, Shub-Niggurath, shoggoths, Deep Ones, Dagon and ghouls. The second argues that Lovecraft drew on Arab and Near Eastern material, including the city of Irem, the Rub al Khali desert, the jinn, the word Khadhulu, and Egyptian-derived barbarous names. The author claims these parallels are too close to be coincidence, and concludes by asking whether Lovecraft had access to rare sources or whether the resemblances are simply synchronicity. The text is a revised, expanded version of an earlier posting, and it is written in a speculative, enthusiastic tone.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/necronom.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:07+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 31502,
+      "text_chars": 31502,
+      "prompt_tokens": 12918,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

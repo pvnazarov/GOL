@@ -1,0 +1,21 @@
+{
+  "title": "How are mem like noodles the ultimate jokebook anout men",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a short jokebook of ten one-line riddles and punchlines that poke fun at men and the stereotypes often applied to them. The jokes cover familiar ground: a man's idea of a romantic evening, his supposed help around the house, the comparison between men and E.T., the trouble with men getting lost in space, and what a man counts as a seven-course meal. Each joke is a question followed by a short answer, written for a light, teasing tone. The text ends with a copyright notice from Newport House, dated 1991, and a request that readers pass the jokes along to other bulletin boards with the title and copyright intact, since the publisher is a small family-owned firm. The excerpt gives no author names, so the compiler is unknown. The book is aimed at general readers who enjoy gag-style humor and is meant to be read quickly, one joke at a time.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/manlaugh.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:59+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1137,
+      "text_chars": 1137,
+      "prompt_tokens": 1657,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

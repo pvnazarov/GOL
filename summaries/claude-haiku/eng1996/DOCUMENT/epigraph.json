@@ -1,0 +1,21 @@
+{
+  "title": "Another fine myth",
+  "authors": [],
+  "kind": "collection",
+  "summary": "Another Fine Myth is a humorous book of epigraphs, a collection of mock quotations arranged under section headings such as \"Myth Conceptions,\" \"Myth Directions,\" \"Hit or Myth,\" and \"M.Y.T.H. Inc. In Action.\" Each entry pairs a line of supposed wisdom with an attributed speaker, and the attributions are deliberately absurd or anachronistic, drawing on Shakespeare, Mandrake, Hamlet, Macbeth, Ulysses, Napoleon, Captain Bligh, Monty Python-style figures, pop culture characters, and famous historical figures and villains. The quotations parody the language of business advice, military strategy, self-help, and cliched proverbs, with puns on the word \"myth\" standing in for \"might\" and \"mist.\" The book appears to belong to the fantasy gaming world of Myth Inc., a fictional organisation of mercenaries or adventurers, and the joke throughout is the gap between grand pronouncements and their bathetic or ironic sources. The text is complete as provided, with a cover-style title and no author name visible in the excerpt.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/epigraph.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:16+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 10734,
+      "text_chars": 10734,
+      "prompt_tokens": 5886,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "intervie",
+  "authors": [
+    "Cornelius Edwin T"
+  ],
+  "kind": "non-fiction",
+  "summary": "Interview is an English-language listening and conversation textbook built around transcripts of recorded interviews with working people. Published by Longman, it is organized into ten units, each centred on one interviewee and one occupation or field. The units cover entertainment and Hollywood, police work, running a successful small business, ranching, big league baseball, a juvenile court judge, big business versus small business, veterinary medicine, a television news reporter, and a successful teacher. Each unit presents the tapescript divided into short numbered parts with timings, so learners can follow spoken English with its hesitations, interruptions, and colloquial phrasing. The speakers talk candidly about their work, their daily routines, their rewards and frustrations, and their opinions. The book is aimed at intermediate students of English as a second language, who are meant to practise comprehension and discussion through these authentic voices rather than through scripted dialogue.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/intervie.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:24+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 103557,
+      "prompt_tokens": 13807,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

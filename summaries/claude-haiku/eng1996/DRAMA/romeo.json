@@ -1,0 +1,23 @@
+{
+  "title": "Romeo and juliet",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Romeo and Juliet is William Shakespeare's tragedy of two young lovers in Verona, whose families, the Montagues and the Capulets, are locked in an ancient and bitter feud. The play opens with street brawls between servants of the rival houses, which the Prince of Verona punishes with exile and threats of death. Romeo, a Montague, falls in love with Juliet, a Capulet, and the two marry in secret with the help of Friar Laurence. Their hopes are soon undone as violence erupts again: Romeo's friend Mercutio is killed by Juliet's cousin Tybalt, and Romeo avenges him by killing Tybalt and is banished. Juliet's father then arranges a marriage to Paris, and a sequence of miscarried messages and misjudged decisions leads the lovers to their deaths in the Capulet tomb. The closing scene sees the feuding families reconciled over their children's bodies. The text here includes the prologue, the opening street quarrel, the Capulet feast, the duel scenes, Juliet's soliloquy on night, and the final act's explanations and reconciliation.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/romeo.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:01+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 141318,
+      "prompt_tokens": 15213,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

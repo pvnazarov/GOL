@@ -1,0 +1,23 @@
+{
+  "title": "From the earth to the moon",
+  "authors": [
+    "Verne Jules"
+  ],
+  "kind": "novel",
+  "summary": "From the Earth to the Moon is Jules Verne's 1865 science-fiction novel, here presented with its sequel, A Trip Around It (1870). The first part opens in Baltimore, where the members of the postwar Gun Club, a society of bored American artillerists, are restless for a new challenge. Their president, Impey Barbicane, proposes an audacious scheme: to fire a manned projectile to the Moon from a giant cannon, the Columbiad, built in Florida. The club's rivals, the Frenchman Michel Ardan and the English captain Nicholl, become involved, and the preparations bring rivalries, public excitement, and technical argument. The second part follows the travelers after launch, as they wrestle with weightlessness, navigation, and the strange sights of space and the lunar surface. The book blends engineering detail, scientific speculation, and comic character sketches, and it is remembered as an early imaginative treatment of space travel.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/moonear.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:38+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 544278,
+      "prompt_tokens": 13221,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

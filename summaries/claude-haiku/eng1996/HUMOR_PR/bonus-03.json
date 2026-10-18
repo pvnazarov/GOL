@@ -1,0 +1,23 @@
+{
+  "title": "The loserusers",
+  "authors": [
+    "The Trash Compactor"
+  ],
+  "kind": "non-fiction",
+  "summary": "The LoserUsers is a humorous satirical guide from October 1990, written for sysops (system operators) of dial-up bulletin board systems (BBSes). It was issued as a bonus section of the Humor Digest, a text file circulated among BBS communities. The author, writing from long experience of being plagued by unskilled callers, sorts the nuisance users into categories: the basic BBS loser who cannot follow rules or enter a phone number, the \"leech\" obsessed with acquiring pirated software (\"wares\"), the Commodore 64 owner who insists his machine is the best, the wannabe cracker who attempts crude tricks to crash systems, the non-descript user who never posts, and the non-sysop who launches a board with a pair of floppy drives. Each section offers mock transcripts of exchanges between sysops and callers, along with tongue-in-cheek advice on handling them. The file closes with suggestions on publicising a BBS and limiting new-user access, and a warning about the Christmas influx of new modem owners. It is period comedy about early online culture, with crude language and dated references to hardware and magazines.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/bonus-03.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:54+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 48137,
+      "prompt_tokens": 12704,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

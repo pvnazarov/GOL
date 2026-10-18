@@ -1,0 +1,23 @@
+{
+  "title": "Three elephant power and other stories",
+  "authors": [
+    "Paterson A B"
+  ],
+  "kind": "short stories",
+  "summary": "Three Elephant Power and Other Stories is a collection of humorous sketches by A. B. Paterson, the Australian bush poet best known for The Man from Snowy River, and the pieces first appeared in several Australian journals. The stories are light, satirical, and colloquial, drawing on bush life, the motor car's arrival in the Australian countryside, and the racing world. The title story is told by a narrator who is driven by a reckless chauffeur named Alfred, whose tall tale about a dead mechanic, a rebuilt speedometer, and a circus elephant is the centrepiece. Other pieces include The Oracle, a satire of a loud tram passenger who pretends to know racing tips; The Amateur Gardener, a mock-practical guide in which the reader is told to grow only hardy plants that suit Nature; and Thirsty Island, a portrait of the outback pub at the Torres Strait. The collection also contains sketches on dogs, cats, steeplechase riders, and gambling, with a recurring interest in the foibles of ordinary people. The later pieces are more narrative, sometimes with a closing twist.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/3elph.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 185193,
+      "prompt_tokens": 13195,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

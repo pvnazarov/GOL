@@ -1,0 +1,23 @@
+{
+  "title": "Troilus and cressida",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Troilus and Cressida is a tragedy by William Shakespeare, set during the long siege of Troy in the Trojan War. The play follows two intertwined stories. In the first, the young Trojan prince Troilus falls passionately in love with Cressida, a Trojan woman whose uncle, Pandarus, acts as go-between and eagerly arranges their union. Their courtship is full of wit, doubt and protestations of constancy, and the lovers swear vows of eternal faithfulness. In the second, Cressida is exchanged to the Greeks in a prisoner swap, and her fidelity is put to the test in the Greek camp. The Greek side is also shown in satirical detail, with Ulysses, Achilles, Ajax, Agamemnon and the bitter commentator Thersites, whose cynicism undercuts the heroic ideals of the war. The play builds to the death of Hector at the hands of Achilles, which shatters Troilus's trust in honour and in love. The work mixes romance, bawdy comedy, political debate and bitter disillusionment, and is often classed among the problem plays because it resists neat categories.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/troilus.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:19+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 155497,
+      "prompt_tokens": 15411,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

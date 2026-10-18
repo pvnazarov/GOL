@@ -1,0 +1,23 @@
+{
+  "title": "Love`s labour`s lost",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Love's Labour's Lost is a comedy by William Shakespeare, set at the court of Navarre. The young King Ferdinand and three of his lords, Biron, Longaville and Dumain, swear an oath to devote three years to study, fasting and avoiding the company of women. Their resolve is immediately tested when the Princess of France arrives on an embassy with her attendants Rosaline, Maria and Katharine. The men fall in love with the visiting ladies, and each secretly writes sonnets and letters, which the others discover and mock. Meanwhile a cast of comic figures provides counterpoint: the fantastical Spaniard Don Armado, who is infatuated with the country girl Jaquenetta; the pedantic schoolmaster Holofernes and the curate Sir Nathaniel; the clown Costard; and Armado's page Moth. The play is full of wordplay, verbal sparring and parody of courtly love conventions. It ends not with marriage but with a condition: the ladies set the lovers a year of penance before any wedding, and the closing songs of spring and winter bring a bittersweet reflection on love and mortality.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/lovelost.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:39+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 127547,
+      "prompt_tokens": 15143,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

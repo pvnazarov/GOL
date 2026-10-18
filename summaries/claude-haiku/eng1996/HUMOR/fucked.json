@@ -1,0 +1,21 @@
+{
+  "title": "Fuck you",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A short, tongue-in-cheek humorous essay praising the English word \"fuck\" for its grammatical versatility and range of uses. The piece walks through the word's roles as verb, noun, and adverb, with playful example sentences, then offers a list of situations it can express, such as greetings, fraud, dismay, confusion, despair and retaliation. It adds mock-historical quips attributed to figures like General Custer, the Mayor of Hiroshima and the Titanic's captain, and ends by urging readers to use the word freely to boost their prestige. The text is informal, deliberately crude and satirical in tone, and is presented as a light joke rather than serious linguistic analysis. The author is not named in the excerpt, and the file appears to be a circulated piece of profanity-themed humour.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/fucked.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:32+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2329,
+      "text_chars": 2329,
+      "prompt_tokens": 2095,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

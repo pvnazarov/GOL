@@ -1,0 +1,23 @@
+{
+  "title": "The ancient secret meaning of some of the extended ascii characters, and beyond.",
+  "authors": [
+    "Franzoni Henry J"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short, self-published informal essay written in February 1988 for distribution among computer users. Its author presents a numerological cipher that assigns numeric values to Greek letters, based on the Greek alphabet's gematria, and sums words and phrases from the Greek New Testament, Gnostic texts and classical sources to find totals he considers significant, such as 666, 1080, 2664 and 2080. He links these sums to the sun, Mercury and magic squares, compares them with Hebrew letter values and the Tetragrammaton, and surveys Pythagorean and Gnostic ideas, Plato's number 5040, and the golden ratio. He is candid that many of the patterns are spurious, and he invites readers to find further matches. The file works as an early example of computer-age numerology and amateur symbolic speculation, and as a document of the period's bulletin-board culture, with its ASCII-art tables and tongue-in-cheek tone.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/asciiext.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:53+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 21383,
+      "text_chars": 21383,
+      "prompt_tokens": 11136,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "staff",
+  "authors": [
+    "Newone Ivor"
+  ],
+  "kind": "humor",
+  "summary": "This short humorous piece is a mock staff-development circular, presented as a set of course listings issued after a questionnaire about training needs. It announces new courses effective April 1992, with a note directing staff, including part-time workers on Saturday mornings, to contact the new development officer, Ivor Newone, and quote a reference number. The courses are grouped under headings such as Self Development, Business and Career, Crafts, Home Economics, and Health and Fitness, each with a catalogue code. The titles are deliberately absurd and darkly satirical, mocking bureaucratic training programmes and self-help culture with entries like Creative suffering, Money can make you rich, Rearrange your mate, and Tap-dance your way to social ridicule. The format imitates an institutional brochure, and the humour depends on the deadpan contrast between dull administrative language and outrageous course content. The text is complete, ending with a page marker.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/staff.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:30+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1906,
+      "text_chars": 1906,
+      "prompt_tokens": 2028,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

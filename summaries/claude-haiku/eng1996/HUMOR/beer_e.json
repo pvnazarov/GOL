@@ -1,0 +1,21 @@
+{
+  "title": "25 Good reasons why beer is better than women",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a short humorous list in the lighthearted, joking tradition of novelty gift books. It presents twenty-five numbered claims, each framing beer as superior to a romantic partner. The jokes turn on everyday annoyances and pleasures: beer never nags or runs late, stains wash out, you need not wine and dine it, it does not get jealous when you pick up another, hangovers fade, and a bad relationship's alimony can be avoided by switching brands. The tone is bawdy, cheerful, and mock-sincere, playing on stereotypes about drinking, dating, and marriage rather than offering any real argument. There is no narrative, no named characters, and no author credited in the text. It reads as a quick bit of bar-room or party-gift amusement, meant to be skimmed and laughed at rather than read at length. The piece is brief enough to finish in a minute or two.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/beer_e.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:55+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1207,
+      "text_chars": 1207,
+      "prompt_tokens": 2050,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

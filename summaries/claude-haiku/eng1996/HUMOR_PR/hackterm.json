@@ -1,0 +1,23 @@
+{
+  "title": "hackterm",
+  "authors": [
+    "Rad Man"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a reference glossary of hacker, phreaker, and computer-underground slang, issued as a numbered text file in the HackroNyms series (version 2.10, page 1 and 2 are shown). It is written by the author Rad Man under the group banner HEaT, short for Hackers Enterprising across Telecommunications. The entries are arranged as an alphabetical list of acronyms, each followed by a short definition. They cover several overlapping areas of 1980s-1990s bulletin board culture: telephone system abuse (phreaking, ANI, CCIS, ESS, DTMF), computer hardware and terminology (BIOS, DMA, SIMM, SCSI, CGA, EGA), and the names of rival cracking, piracy, and phreaking groups such as LOD/H, ECHO, CHiNA, NASA, and RawCrack. Some entries are jokey or self-referential, with punning expansions of common acronyms. The text is a short excerpt, and the final entries are cut off by the end of the file.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/hackterm.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:10+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3315,
+      "text_chars": 3315,
+      "prompt_tokens": 2758,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

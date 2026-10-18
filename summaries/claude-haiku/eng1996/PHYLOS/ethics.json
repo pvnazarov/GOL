@@ -1,0 +1,23 @@
+{
+  "title": "Nicomachean ethics",
+  "authors": [
+    "Aristotle"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Nicomachean Ethics is Aristotle's major treatise on moral philosophy, set down in ten books and traditionally thought to have been edited from lectures delivered to students, possibly under the name of his son Nicomachus. It asks what the highest good for human beings is, and answers that it is eudaimonia, usually translated as happiness or flourishing, understood as activity of the soul in accordance with virtue over a complete life. The work examines the moral virtues such as courage, temperance, generosity, and justice, arguing that each is a mean between excess and deficiency and is formed through habit and practice. It goes on to discuss voluntary action, choice, friendship, pleasure, and the intellectual virtues, including practical wisdom and philosophical wisdom. The excerpts show Aristotle criticising Plato's theory of a universal Form of the Good, outlining the methodological limits appropriate to ethics, and closing with a transition toward politics and the question of how citizens are shaped into good people by law and constitution. It remains a foundational text of Western ethics.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/ethics.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:36:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 467853,
+      "prompt_tokens": 11286,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

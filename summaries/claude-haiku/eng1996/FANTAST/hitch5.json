@@ -1,0 +1,23 @@
+{
+  "title": "Mostly harmless",
+  "authors": [
+    "Adams Douglas"
+  ],
+  "kind": "novel",
+  "summary": "Mostly Harmless is the fifth and final novel in Douglas Adams's Hitchhiker's Guide to the Galaxy series, a comic science fiction sequence that satirises bureaucracy, technology, and the randomness of the universe. The book follows Arthur Dent, the last surviving Earthman, who has settled into an unsettled life on a farm in Dorset with his daughter Random, while his companions Ford Prefect, Trillian and others pursue their own tangled concerns. Threads run through a Manhattan television anchorwoman's search for a job, a ship of lost and confused people, a rural alien village where a sandwich maker and a spaceship arrive, and a Vogon captain and a Grebulon leader caught up in cosmic muddles. Adams layers absurd digressions, running gags, and a time-scrambled narrative over one another, and the story gradually draws these strands toward a collision with the Guide's own unreliable authority. The novel is a sardonic meditation on identity, belonging, and the futility of trying to make sense of a chaotic cosmos.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/hitch5.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:18+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 357345,
+      "prompt_tokens": 12630,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

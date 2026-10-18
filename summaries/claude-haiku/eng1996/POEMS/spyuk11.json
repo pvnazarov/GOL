@@ -1,0 +1,23 @@
+{
+  "title": "The spell of the yukon and other verses",
+  "authors": [
+    "Service Robert W"
+  ],
+  "kind": "poetry",
+  "summary": "The Spell of the Yukon and Other Verses is a collection of narrative and lyric poems by Robert W. Service, the British-born poet who became known as the Bard of the Yukon. Written in the early twentieth century, when the Klondike gold rush had drawn prospectors, dance-hall girls, gamblers and drifters to the Canadian north, the book gathers ballads and character sketches rooted in that frontier world. The title poem expresses the pull of the wilderness on men who have come for gold and stayed for the land itself. Other well-known pieces include The Shooting of Dan McGrew, a saloon ballad of violence and a lady named Lou; The Cremation of Sam McGee, a darkly comic tale of a promise kept on the Arctic trail; and The Law of the Yukon, a personified land that sorts men into the strong and the weak. The collection also contains poems on war, love, urban life and philosophy, such as The March of the Dead and The Tramps. Written in strong rhythm and rhyme, the verses mix humour, sentiment and grim realism. The text is also known as Songs of a Sourdough in Britain.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/POEMS/spyuk11.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:36+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 70355,
+      "prompt_tokens": 13990,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Star wars episode vi revenge of the jedi",
+  "authors": [
+    "Kasdan Lawrence"
+  ],
+  "kind": "play",
+  "summary": "This is a second-draft screenplay, dated December 19, 1982, for the third film of the original Star Wars trilogy, later released as Return of the Jedi. The script follows Luke Skywalker, Han Solo, Princess Leia, Chewbacca and the droids C-3PO and R2-D2 as they confront the crime lord Jabba the Hutt on his desert palace of Tatooine and then the Empire's new armored space station, the second Death Star, being built around the forest moon of Endor. Darth Vader and the Emperor are central to the plot, which turns on Luke's bond with his father. The text is in standard screenplay format, with numbered scene headings, camera directions, dialogue, and Huttese and Ubese lines rendered as subtitles. The excerpts shown cover the rescue of Han from carbonite, the bounty hunter Boushh's true identity, a forest chase on speeder bikes, Leia's encounter with the Ewoks, and the closing credits. The file's end includes the film's production and cast credits, including the Ewok performers. The text is a shooting draft rather than the finished film, so some lines and scenes differ from the released version.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/starwar6.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:05+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 152889,
+      "prompt_tokens": 15963,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

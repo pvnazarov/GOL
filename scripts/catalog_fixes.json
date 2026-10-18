@@ -1,13 +1,27 @@
 {
-  "eng1996/ADVENTUR/frdam10.zip": {
-    "a": "Stevenson Robert Louis",
-    "t": "Father Damien: An Open Letter to the Reverend Dr. Hyde of Honolulu"
-  },
-  "eng1996/ADVENTUR/stive10.zip": {
-    "a": "Stevenson Robert Louis",
-    "t": "St. Ives: Being the Adventures of a French Prisoner in England"
-  },
-  "rus1996/ADVENTUR/whitesun.zip": {
-    "a": "Ежов Валентин, Ибрагимбеков Рустам"
-  }
+ "eng1996/ADVENTUR/frdam10.zip": {
+  "a": "Stevenson Robert Louis",
+  "t": "Father Damien: An Open Letter to the Reverend Dr. Hyde of Honolulu"
+ },
+ "eng1996/ADVENTUR/stive10.zip": {
+  "a": "Stevenson Robert Louis",
+  "t": "St. Ives: Being the Adventures of a French Prisoner in England"
+ },
+ "rus1996/ADVENTUR/whitesun.zip": {
+  "a": "Ежов Валентин, Ибрагимбеков Рустам"
+ },
+ "rus1996/HOME/almake.zip": {
+  "a": "",
+  "t": "Домашнее приготовление спиртных напитков"
+ },
+ "eng1996/PHYLOS/taotechi.zip": {
+  "a": "Lao Tzu"
+ },
+ "eng1996/PHYLOS/wisdom.zip": {
+  "a": "Crowley Aleister",
+  "t": "The Book of Wisdom or Folly"
+ },
+ "eng1996/POEMS/civilsng.zip": {
+  "a": "Crawford Richard"
+ }
 }

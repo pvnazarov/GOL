@@ -1,0 +1,21 @@
+{
+  "title": "A huge list of one liners bonus section 2",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a long compilation of short, humorous one-line sayings, jokes, epigrams and witticisms, gathered over many years from various sources and published in the Humor Digest of September 1990. The entries are arranged alphabetically, running from openings such as \"A bird in the hand\" and \"Bachelor\" through to \"You will live a long full life\" and closing with a joke about a quote in a fragmentary form. Many are attributed to figures such as Mark Twain, H. L. Mencken, Groucho Marx, Ambrose Bierce, George Bernard Shaw and Yogi Berra, while many others are anonymous. The material covers a broad range of targets: marriage and bachelorhood, politics and bureaucracy, science and engineering, medicine, advertising, computing, and the absurdities of everyday life. Some entries are pastiches of dictionary definitions, a form the collection frequently uses, such as \"Bore\" and \"Conscience.\" The book is designed to be dipped into rather than read straight through.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/bonus-02.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 78258,
+      "prompt_tokens": 13866,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

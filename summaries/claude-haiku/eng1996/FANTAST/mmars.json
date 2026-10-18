@@ -1,0 +1,23 @@
+{
+  "title": "Thuvia maid of mars",
+  "authors": [
+    "Burroughs Edgar Rice"
+  ],
+  "kind": "novel",
+  "summary": "Thuvia, Maid of Mars is a science fiction adventure by Edgar Rice Burroughs, the fifth of his Barsoom novels set on Mars. The story follows Carthoris of Helium, son of John Carter and Dejah Thoris, who is drawn into the affairs of Ptarth and its princess, Thuvia. Thuvia, promised in marriage to Kulan Tith, Jeddak of Kaol, becomes the object of rival suitors and political intrigue. Early chapters establish a quarrel with the Prince of Dusar and a mysterious invention that Carthoris has built, a flier with an automatic obstruction evader. The narrative then moves to the strange, ghostly city of Lothar, ruled by a jeddak whose mental powers and hidden plots threaten the young heroes. Later chapters take the characters into the territories of the green men and white apes, where they face battles, captivity, and dangerous sacrifices. The book is filled with the sword-and-planetary romance conventions of its author: swift action, chivalric honour, exotic creatures, and rich invented vocabulary, which is explained in the glossary of names and terms appended to the text.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/mmars.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 266439,
+      "prompt_tokens": 13802,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

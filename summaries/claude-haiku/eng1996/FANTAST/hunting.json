@@ -1,0 +1,21 @@
+{
+  "title": "The hunting",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A short piece of science fiction, roughly the length of a short story, set aboard a damaged spaceship far from home. The protagonist, Tariazhiko, is alone on the vessel after an unseen creature begins prowling its corridors, and his fear builds as the ship's systems fail and his life support dwindles. Armed only with a nut key and later a discharger, he searches the ship, retrieves spare parts from the depot to repair the ship's brain, and eventually confronts the intruder in a state of panic and fury. The narration leans heavily on bodily sensations of dread, shifting between his terror and his efforts to master it. The story ends with an ironic twist that reframes the whole ordeal. The text in this file is an English rendering with noticeable translation roughness and typographical errors, and no author is named in the material supplied, so the authorship field is left empty.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/hunting.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:18+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9907,
+      "text_chars": 9907,
+      "prompt_tokens": 4708,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

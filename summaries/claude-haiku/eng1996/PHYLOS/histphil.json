@@ -1,0 +1,23 @@
+{
+  "title": "Hegel`s history of philosophy descartes to schelling",
+  "authors": [
+    "G. W. F. Hegel"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a set of lecture notes from Hegel's history of philosophy, covering the period from Descartes to Schelling. The text moves through the major thinkers of early modern European thought, presenting each as a stage in the gradual reconciliation of thought and being, of subject and object, and of the finite and the infinite. Descartes is examined for his method of systematic doubt, the cogito, and his proof of God, along with the strains his dualism leaves unresolved. Spinoza is treated through his single infinite substance, his definitions, and his moral doctrine. Rousseau and the French Enlightenment appear as champions of negative freedom, followed by Kant, with his critical philosophy of subjectivity, space, time, and understanding. The later sections turn to Fichte and Schelling and their philosophies of nature and art. Throughout, the lectures combine exposition with pointed criticism of the thinkers' formalism and inconsistencies. The text is a fragmentary, reconstructed transcript and includes some garbled passages, so its wording should be read with caution.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/histphil.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:36:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 132173,
+      "prompt_tokens": 12286,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

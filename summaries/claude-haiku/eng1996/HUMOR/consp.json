@@ -1,0 +1,23 @@
+{
+  "title": "consp",
+  "authors": [
+    "Pete Faust"
+  ],
+  "kind": "collection",
+  "summary": "This is a humorous list-style compilation of imaginary government and conspiracy holdings, assembled as a resource for a role-playing game set in a secret U.S. government warehouse. The compiler explains that the idea began with a joke about a 'Ark of the Covenant' box in a warehouse from a TV series, and the list grew to gather items that films, television, folklore, history and conspiracy theories claim were seized and hidden. Entries are one-line or short descriptions, sorted into sections for the American, Soviet, Japanese and Vatican warehouses. Examples include a 100 MPG carburetor, Elvis clones, the Necronomicon, Fermat's notebook, Hitler's photographs, Captain Hook's hand, and a Mona Lisa with a disputed label. The tone is satirical and irreverent, mixing pop culture references, science fiction, historical rumour and jokes at the expense of politicians and conspiracy theorists. The text ends with a closing section that includes a deliberately offensive denialist paragraph, which the record notes as part of the collection's content.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/consp.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 47736,
+      "prompt_tokens": 14067,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

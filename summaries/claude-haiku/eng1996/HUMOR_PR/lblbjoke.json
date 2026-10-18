@@ -1,0 +1,23 @@
+{
+  "title": "World`s greatest light bulb joke",
+  "authors": [
+    "Dvorak John"
+  ],
+  "kind": "non-fiction",
+  "summary": "This short humor piece is a column from the Back End series by John C. Dvorak, written for DEC Professional magazine. It parodies the old joke \"How many people does it take to change a light bulb?\" by answering it as if the task were run by Digital Equipment Corporation, with a bureaucratic mix of committees, feasibility studies, and formal architecture reviews. Each line assigns a headcount to an absurdly overbuilt step, such as a preliminary discussion of the concept of change, a task force on bulb commonality, functional and regression tests of a bulb, a study of how to market a temporary alternative socket, and a team of ten answering customer problem reports. The jokes rely on computing jargon and corporate acronyms, which were familiar to readers of a trade magazine of that era. The excerpt is fragmentary: its final lines repeat and break off mid-sentence, which looks like a text-extraction fault rather than part of the original column.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/lblbjoke.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:15+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1980,
+      "text_chars": 1980,
+      "prompt_tokens": 1977,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

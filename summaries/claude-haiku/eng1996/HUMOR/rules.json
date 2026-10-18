@@ -1,0 +1,21 @@
+{
+  "title": "Rules",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A short humorous piece offering a numbered list of tongue-in-cheek rules for life, work, and bureaucracy. The maxims poke fun at familiar frustrations: asking questions that cannot be answered, paperwork outweighing equipment, delays compounding on delays, and the tendency to do a task twice because there was never time to do it right the first time. Several rules play on proverbs and cliches, such as 'when all else fails, read the instructions,' and 'when in doubt, mumble.' Others are absurdist, like the observation that only Robinson Crusoe had everything done by Friday, or the advice that a person is not drunk if they can lie on the floor without holding on. The list closes with a deadpan creed: never admit anything, never regret anything, and whatever it is, you are not responsible. The text is a brief, self-contained piece of office and everyday-life satire, with no characters or plot, and it is filed under humor. The author is not named in the text provided.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/rules.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:19+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 900,
+      "text_chars": 900,
+      "prompt_tokens": 1505,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

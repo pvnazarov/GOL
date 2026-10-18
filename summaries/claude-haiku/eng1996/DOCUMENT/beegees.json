@@ -1,0 +1,23 @@
+{
+  "title": "The story of the bee gees",
+  "authors": [
+    "Nyland Bjoern Tore"
+  ],
+  "kind": "non-fiction",
+  "summary": "A fan-compiled chronology and discography of the Bee Gees, the Gibb brothers' pop group, distributed as a plain-text file in several versions. It opens with notes on how the data is arranged, including chart positions for the USA, UK and Germany, singles and albums with track listings, and awards. A short discography lists the group's studio albums and solo projects by Robin, Barry and Maurice Gibb from 1965 onward. The main body is a year-by-year timeline beginning with the brothers' childhood performances in Manchester and their emigration to Australia in 1958, where they recorded their first singles and became known as the Bee Gees. It then follows their return to England, their early hits such as 'New York Mining Disaster 1941' and 'Massachusetts', the 1970s disco era of 'Saturday Night Fever', and later releases up to the early 1990s. The file records band personnel changes, tours, gold and platinum certifications, and prizes throughout.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/beegees.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 38850,
+      "prompt_tokens": 15857,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

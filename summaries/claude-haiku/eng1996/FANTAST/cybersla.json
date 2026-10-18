@@ -1,0 +1,23 @@
+{
+  "title": "Revolt of the cyberslaves",
+  "authors": [
+    "Dworin Lawrence"
+  ],
+  "kind": "novel",
+  "summary": "Revolt of the Cyberslaves is a comic science-fiction novel about a college student who pays for a virtual reality game and finds himself trapped inside a computer network. Ernie Ross expects to play a sword-and-sorcery adventure called Goombah the Barbarian, but instead he is seized by space reptiles and rescued by Captain Memory, a bumbling costumed hero who is a programmer with little idea where they are. They learn that an evil genius named Waldo Stadium is taking over the world's computers and turning arcade players into cyberslaves who labour in mining pits until their minds burn out. Their escape takes them through a absurd cyberspace full of pastiche: a talking dog with a cigar, a Gestapo-style villain, the Hansel and Gretel dungeon, and a stage show called Wheel of Torture. The book is a parody that pokes fun at computer jargon, pop culture and the way fantasy games blur into reality. The excerpt shown is from the beginning, middle and end of the work, which is presented as shareware.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/cybersla.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:52+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 392903,
+      "prompt_tokens": 14518,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

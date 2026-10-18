@@ -1,0 +1,23 @@
+{
+  "title": "Debuts of over 600 stars - from 1930-present",
+  "authors": [
+    "John Heckenlively"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a reference compilation of film trivia rather than a narrative work. It is a list-based guide to the first film appearances of more than six hundred actors and actresses, arranged alphabetically with the title and year of each debut, and it is one of several companion lists in the same package. The compiler also gathers Academy Award-winning and nominated debuts, directorial debuts of notable filmmakers such as Woody Allen, Ingmar Bergman and Alfred Hitchcock, early or unusual roles of later stars, and 'blink and you'll miss it' cameos. Other sections point out brief appearances by future stars in films, such as Sylvester Stallone in The Lords of Flatbush, or cameos by directors and public figures. The introduction says the lists were checked against sources but admits they are incomplete and invites readers to suggest additions. The material is aimed at film fans and trivia enthusiasts who want to trace where familiar performers began their careers.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/debuts.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:15+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 48089,
+      "prompt_tokens": 19540,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

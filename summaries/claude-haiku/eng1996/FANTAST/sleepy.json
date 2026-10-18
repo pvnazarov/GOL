@@ -1,0 +1,23 @@
+{
+  "title": "The legend of sleepy hollow",
+  "authors": [
+    "Irving Washington"
+  ],
+  "kind": "short stories",
+  "summary": "The Legend of Sleepy Hollow is a short tale by Washington Irving, first published in 1820 as part of The Sketch Book of Geoffrey Crayon, Gent. The story is presented as a manuscript found among the papers of the fictional historian Diedrich Knickerbocker. It is set in a drowsy valley near the Hudson River in New York State, settled by Dutch farmers and believed by the locals to be haunted, most famously by the Headless Horseman, said to be the ghost of a Hessian trooper killed in the Revolutionary War. The central figure is Ichabod Crane, a lanky, superstitious schoolmaster from Connecticut who boards with local farm families and is drawn to Katrina Van Tassel, the prosperous farmer's daughter. He becomes the target of a rival, the boisterous Brom Bones, whose pranks escalate. The narrative combines gentle satire of rural manners and credulity with a suspenseful ghost story, ending with a night ride and an ambiguous disappearance that the community explains in supernatural terms.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/sleepy.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 67105,
+      "prompt_tokens": 12754,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

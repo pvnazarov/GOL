@@ -1,0 +1,23 @@
+{
+  "title": "Pride and prejudice",
+  "authors": [
+    "Austen Jane"
+  ],
+  "kind": "novel",
+  "summary": "Pride and Prejudice is Jane Austen's novel of manners, first published in 1813, following the Bennet family of Longbourn in rural Hertfordshire. Mrs. Bennet is determined to see her five daughters married well, and her arrival of the wealthy and amiable Mr. Bingley at nearby Netherfield Park sets the story in motion. His proud friend Mr. Darcy initially snubs the second daughter, Elizabeth, whose sharp wit and independent judgement lead her to form a poor opinion of him. The narrative traces the shifting impressions both of them form, complicated by misunderstandings, family embarrassments such as the impropriety of the younger sisters, and the charming but dishonest Mr. Wickham. Through balls, visits, letters and a stay at Rosings, Austen examines pride, prejudice, class, marriage and the economic pressures facing women. The excerpts cover the early courtship, Darcy's painful proposal and his explanatory letter, and the resolution, in which Elizabeth and Darcy marry and the family's fortunes are reshaped.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/pride.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 687216,
+      "prompt_tokens": 12829,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

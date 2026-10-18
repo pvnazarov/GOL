@@ -1,0 +1,21 @@
+{
+  "title": "This is how shit happens",
+  "authors": [],
+  "kind": "poetry",
+  "summary": "A short satirical piece written in the style of the Book of Genesis, the King James-flavoured creation account transposed into the world of corporate bureaucracy. It begins with a plan built on assumptions and moves through a chain of workers, supervisors, managers, directors and vice-presidents, each passing down a progressively more polished description of a foul substance. What starts as a crock of shit becomes a vessel of fertilizer, then something that actively promotes growth and efficiency, and finally a policy the President approves as good. The humour lies in the gap between the blunt reality at the bottom of the hierarchy and the euphemistic corporate language at the top, and the closing line states the moral bluntly. The text is brief and was presented as a humorous piece in the HUMOR category. The author is not named in the excerpt, so the authors list is empty.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/shithapp.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:28+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1230,
+      "text_chars": 1230,
+      "prompt_tokens": 1611,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

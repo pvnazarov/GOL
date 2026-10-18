@@ -1,0 +1,23 @@
+{
+  "title": "8088",
+  "authors": [
+    "Tonkin Bruce"
+  ],
+  "kind": "short stories",
+  "summary": "A short humorous piece presented as a mock reference listing of \"undocumented\" 8088/8086 assembler instructions. Written in a satirical tone, it pretends that every computer secretly shares a hidden set of commands beyond the official mnemonics such as JMP or BRA. The entries are invented acronyms with absurd meanings, including ARG (Agree to Run Garbage), DDS (Damage Disk and Stop), EMR (Emit Microwave Radiation), and LNM (Launch Nuclear Missles). Each one parodies the frustrations of programming and computer malfunction, from overheating and paper jams to Kindle-related mishaps. The piece first appeared in the November 1985 edition of COMPUTERPEOPLE Monthly and is credited to Bruce Tonkin. A closing note states plainly that the commands are meant as a joke. The text is a fragment, so the closing lines repeat, but the complete work is a single brief comic list rather than a narrative.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/8088.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:48+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2054,
+      "text_chars": 2054,
+      "prompt_tokens": 2122,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

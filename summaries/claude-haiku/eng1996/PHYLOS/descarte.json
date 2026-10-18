@@ -1,0 +1,23 @@
+{
+  "title": "Discourse on the method of rightly conducting the reason, and seeking truth in the sciences",
+  "authors": [
+    "Descartes Rene"
+  ],
+  "kind": "non-fiction",
+  "summary": "Published in 1637 in French, the Discourse on the Method is René Descartes's account of how he came to his philosophical method. It opens with an autobiographical survey of his education, in which he finds little certainty in the books and schools of his day, and his decision to seek knowledge through travel, experience, and reflection on his own mind. It then sets out his core rules of method: accept nothing as true unless it is clearly and distinctly known, divide difficulties into manageable parts, proceed from the simple to the complex, and review the reasoning thoroughly. Later sections present provisional rules for conduct, the reasoning that establishes the existence of God and the thinking soul, and a mechanistic account of physical nature, including his explanation of the motion of the heart and blood. The final part considers what is needed to advance the investigation of nature. Written in a clear and personal style, the work is a foundational text of modern rationalist philosophy and of the scientific method, and it was originally offered as an introduction to three scientific essays.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/descarte.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:36:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 156069,
+      "prompt_tokens": 11747,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

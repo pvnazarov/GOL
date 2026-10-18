@@ -1,0 +1,23 @@
+{
+  "title": "Supermodels-faq",
+  "authors": [
+    "Scott"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a frequently asked questions list for the Usenet newsgroup alt.supermodels, maintained in the early 1990s and last revised in February 1994 (version 1.14). It gathers reference data on fashion models, arranged as alphabetical entries giving, where known, height, measurements, hair and eye colour, agency, nationality, birth details, earning power, and notable campaigns, film appearances, relationships and controversies. Entries range from famous names such as Cindy Crawford, Naomi Campbell, Linda Evangelista, Kate Moss and Claudia Schiffer to lesser-known models and playmates. The document also includes practical sections on addresses, where to find pictures and how to post or download them, a history of the group and the FAQ, a discussion of which people do and do not count as supermodels, and credits and a disclaimer. Much of the material is gossip-flavoured and the maintainer repeatedly warns that the information may be incomplete or inaccurate.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/supermod.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 46733,
+      "prompt_tokens": 15549,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

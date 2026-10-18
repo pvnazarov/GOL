@@ -1,0 +1,21 @@
+{
+  "title": "Real programmers don`t eat quiche",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A short satirical list written as a tongue-in-cheek guide to the 'real programmer', a macho stereotype of the hardcore computer expert from the early decades of computing. Each entry opens with 'Don't' or 'Never' and mocks a common professional practice: writing specifications, commenting code, drawing flowcharts, reading manuals, and using languages such as COBOL, FORTRAN, LISP, Pascal and APL. It also ridicules structured programming, team work, managers, floating-point arithmetic, schedules, sport, neat clothing and regular hours, and it boasts of cooking popcorn on the heat of the CPU. The joke rests on the gap between bravado and the real value of good practice. The closing line, that vending machines do not sell quiche, gives the piece its title. The text circulated widely on early bulletin boards and Usenet as a spin-off of an earlier humorous piece about real programmers and Pascal. This excerpt carries no author credit.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/real.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:24+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3536,
+      "text_chars": 3536,
+      "prompt_tokens": 2494,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

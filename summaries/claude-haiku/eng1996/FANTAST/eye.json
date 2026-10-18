@@ -1,0 +1,23 @@
+{
+  "title": "Eyecatcher",
+  "authors": [
+    "Roger Frank"
+  ],
+  "kind": "novel",
+  "summary": "Eyecatcher is a near-future science fiction novel set in a world shaped by a long war and a strange biological discovery. Its central figure is Cynthia Raythan, a struggling visual artist from the slums of Nowhere City, a sprawling urban ring of holograms, cyberpets and decay. She is recruited by Eyescape Inc., a booming bio-business that profits from mutant plant material with healing and growth properties. A parallel strand follows Jim Reicher, an idealistic recruit to the War Force, who trains in virtual reality simulations before being sent toward Africa, where a spreading Afflicted Area and an irregular enemy army have turned these bio-catalysts into weapons. A third thread follows Robert and his clan on a lawless, war-torn highway, where food and water are scarce and rival groups fight for survival. The novel explores the blurred line between real and simulated experience, the commercialization of life and death, and the cost of ambition. Its tone combines gritty street-level detail with satire of corporate and military power, and its chapters move between the characters' perspectives, gradually drawing their separate worlds toward collision.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/eye.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 528754,
+      "prompt_tokens": 12418,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Is a new mainframe o s in the works at ibm",
+  "authors": [
+    "Watson Thomas"
+  ],
+  "kind": "short stories",
+  "summary": "This is a short piece of satirical humor styled as an internal IBM programming announcement, circulated by electronic mail in the late 1970s. Its catalogue record gives the author as Watson Thomas, a name taken from the text's sender line. The announcement introduces a fictional operating system called OS/VU, the Virtual Universe Operating System, which lets each user run a whole private universe rather than just a machine of their own. Its jokes parody the jargon and conventions of mainframe software: a system generation program named IEHGOD, a utility called IEHPROPHET that needs no control cards because it knows what you want, and fees charged for violating the laws of physics. Hardware requirements, rental prices in absurd units, and a follow-on project called Virtual Reality, with a file recording every moment of now, continue the gag. The whole thing is a deadpan spoof of corporate technical bulletins, aimed at programmers and data processing staff who would recognise the references to OS/VM, JCL-style naming, and institutional hype.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/ibmos.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:12+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2945,
+      "text_chars": 2945,
+      "prompt_tokens": 2279,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Murphy`s laws on sex",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This humorous collection gathers sixty numbered aphorisms about sex, romance, and relationships, written in the style of Murphy's Laws, the tongue-in-cheek maxims derived from the older Murphy's Law tradition of cynical observations about things going wrong. The entries are short, witty one-liners that mock the awkwardness, vanity, and folly of love and desire. Examples include remarks that sex has no calories, that virginity can be cured, that a woman never forgets the men she could have had, and that love is a hole in the heart. Several lines play on proverbs, scripture, and popular sayings, such as the adaptation of the Ten Commandments about adultery and the quip about the apple and the pair in the garden. The book contains no narrative or characters; it is a series of standalone jokes meant for light reading. The author is not named in the text provided, so the compiler is unknown.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/murfssex.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:05+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3799,
+      "text_chars": 3799,
+      "prompt_tokens": 2544,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

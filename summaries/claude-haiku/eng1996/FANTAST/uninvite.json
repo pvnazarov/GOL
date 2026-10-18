@@ -1,0 +1,23 @@
+{
+  "title": "Uninvited",
+  "authors": [
+    "Kedlaya Kiran S"
+  ],
+  "kind": "non-fiction",
+  "summary": "A fan-written walkthrough for Uninvited, a 1986 text adventure published by Mindscape, Inc. The game places the player beside a crashed car outside a decaying mansion, searching for a missing brother. The guide follows the route room by room through the house, its grounds, a chapel, a garden maze and a set of caves beneath it. Along the way it explains the puzzles: reading the scrolls and books the player finds, casting Latin spells, dealing with ghosts, zombies and a spider, and combining objects in the right order. The tone is informal and jokey, with asides about the game's dark humour and advice to save the game before risky moves. It also explains the turn limit and the way the game refers to exits by their position in the Exits window. The author notes that the walkthrough may be freely distributed as long as it is kept whole, and invites readers to write with comments. It works as a reference for players rather than a narrative, though its voice conveys the haunted-house atmosphere of the original game.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/uninvite.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:22+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 24452,
+      "text_chars": 24452,
+      "prompt_tokens": 9579,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

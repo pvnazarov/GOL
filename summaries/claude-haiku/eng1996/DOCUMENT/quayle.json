@@ -1,0 +1,23 @@
+{
+  "title": "quayle",
+  "authors": [
+    "Quayle Dan"
+  ],
+  "kind": "collection",
+  "summary": "This is a compiled file of quotations attributed to Dan Quayle, the American politician who served as Vice President under George H. W. Bush from 1989 to 1993. It gathers remarks he is said to have made, many of them from the 1988 campaign and his years in office, that became famous for their verbal slips, malapropisms, and confused logic. Examples include his comments on Mars and water, his \"I am a Jelly Doughnut\" line (presented as a 1992 news item), his description of the Holocaust as an \"obscene period,\" his \"potty train\" response, and his stumbling attempts to define \"target prices.\" Several entries carry editorial notes correcting facts or questioning sources, and a few are flagged as possibly apocryphal. The later part of the file repeats much of the earlier material in a cleaner, paragraph-formatted version titled \"Quayleisms,\" with some transcription errors in the quotes. The file is a humorous, informal collection rather than a formal publication.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/quayle.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:37+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 15713,
+      "text_chars": 15713,
+      "prompt_tokens": 6766,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

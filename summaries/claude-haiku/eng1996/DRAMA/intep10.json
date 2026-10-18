@@ -1,0 +1,23 @@
+{
+  "title": "An international episode",
+  "authors": [
+    "James Henry"
+  ],
+  "kind": "novella",
+  "summary": "An International Episode is a novella by Henry James, first published in 1879, that examines the encounters between American and English society. The story opens in New York in the summer of 1874, where two young Englishmen, Lord Lambeth and his cousin Percy Beaumont, arrive and are struck by the heat, the manners and the bustle of the city. They are taken up by the affable Mr. J. L. Westgate and his lively wife, and through them they meet Bessie Alden, a frank and idealistic young American woman, and her sister. Lord Lambeth is drawn to Bessie, but his family and his English sense of rank pull him in another direction. In the second part, the Alden sisters travel to England, where they meet the aristocracy and are judged by its conventions. The work is a comedy of manners that contrasts the openness and enthusiasm of American life with the reserve and assumed superiority of the English upper class, and it turns on questions of love, pride and national character.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/intep10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 154000,
+      "prompt_tokens": 12973,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

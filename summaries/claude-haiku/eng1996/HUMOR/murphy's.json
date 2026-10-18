@@ -1,0 +1,21 @@
+{
+  "title": "Murphy`s",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A short humorous collection of mock-scientific laws, axioms, and maxims in the spirit of Murphy's Law, the idea that anything that can go wrong will. Its entries are presented as named principles, each with a tongue-in-cheek statement and sometimes a numbered list or corollary. Many concern laboratory experiments, measurement, and the temptation to discard inconvenient data. A large share target computing: programming, software projects, and system reliability, with entries such as Brooks's Law and the Laws of Computer Programming. Others mock everyday annoyances, including missed flights, dropped tools, stones in hiking boots, and the mysterious behaviour of inanimate objects. Several entries are attributed to named researchers, programmers, and writers, and the collection borrows the phrasing of technical rules to make its jokes. Brief and quotable, it suits readers who enjoy wry observations about engineering, science, and bureaucracy, and each item stands alone, so it can be read in any order.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/murphy's.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:09+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 11086,
+      "text_chars": 11086,
+      "prompt_tokens": 4899,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

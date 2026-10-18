@@ -1,0 +1,23 @@
+{
+  "title": "Quanta",
+  "authors": [
+    "Appelquist Daniel K"
+  ],
+  "kind": "collection",
+  "summary": "Quanta is an electronically distributed literary magazine, subtitled \"A Journal of Fact, Fiction and Opinion,\" founded in 1989 by Daniel K. Appelquist while he was a computer science student at Carnegie Mellon University. The text provided is the front matter and sample contents of an early issue, including the editor's introductory essay, a column by Peter David on the difficulties of writing Star Trek tie-in comics for Paramount, and Eric W. Tilenius's short story \"A Grain of Mustard Seed,\" about an inventor who builds a time machine to disprove religion and instead observes the origins of the Bible. Other pieces in the issue include stories such as \"Into Gray\" and \"Going Places,\" along with a poem, \"Infernal Repast.\" The excerpts also include a chapter-length science fiction narrative about an archaeological expedition to a long-dead Earth, set in a galactic war between Federal and rival powers. The back matter covers the magazine's copyright and distribution terms, subscription and submission instructions, and archive locations, and it notes that the magazine is free to network subscribers and supported by reader donations. The collection as a whole gathers fiction, opinion and poetry from many contributors, mostly in an informal, fan-influenced tone.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/JOURNAL/quanta17.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:39+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 4235720,
+      "prompt_tokens": 12838,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

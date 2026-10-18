@@ -1,0 +1,23 @@
+{
+  "title": "Complete guide to cows",
+  "authors": [
+    "Tilenius Eric W"
+  ],
+  "kind": "collection",
+  "summary": "A humorous collection of ASCII-art drawings of cows, assembled and circulated as an informal file in the late 1980s. Each entry pairs a small text-drawn cow with a witty caption, and the pieces are grouped loosely by theme. Some cows are parodies of famous people, films, and places: a cow belonging to George Washington, a cow lived with Dr. Doolittle, a cow sunning at Fort Lauderdale, a cow skiing at Aspen, a cow jumping over the Moon, and a cow on the Red Baron's list of casualties. Others play on puns and everyday situations, such as a cow in heat, a cow chewing marbles, a cow in an Argyle sweater, and a Freshman cow gaining weight over the years. The file also includes a few bull jokes, a psychologist-and-patient gag, and cows named after Elvis, Mrs. O'Leary's fire, and Dracula. Editorial notes invite readers to submit their own cow drawings and jokes by e-mail, and the file is presented as freely distributable. The whole thing is short, light, and meant to be read in a few minutes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/cowguide.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:13+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14127,
+      "text_chars": 14127,
+      "prompt_tokens": 9698,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

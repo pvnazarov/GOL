@@ -1,0 +1,23 @@
+{
+  "title": "Female analysis",
+  "authors": [
+    "Unknown Unknown"
+  ],
+  "kind": "unknown",
+  "summary": "Female analysis is a short satirical humor piece written as a mock chemistry reference entry. It presents women as a chemical element, with a symbol, a discoverer, an atomic weight, and sections on occurrence, chemical, mental, and physical properties, uses, tests, cautions, and notes. Each heading is developed as a running joke, so the traditional scientific format becomes a vehicle for gentle ribbing about stereotypes, including supposed spending habits, appearance, driving, and romantic relationships. The piece relies on puns and deadpan technical phrasing, and it closes with a note that most specimens are worth keeping. The author is unknown, and the text appears to be a circulated joke rather than a formally published work, with no plot or characters beyond the imagined 'specimen' of the title.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/woman.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:42+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3186,
+      "text_chars": 3186,
+      "prompt_tokens": 2406,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

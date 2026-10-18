@@ -1,0 +1,23 @@
+{
+  "title": "Statement of principles on contracts between writers and electronic book publishers",
+  "authors": [
+    "Mattera Philip"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a position paper issued in April 1994 by the National Writers Union, produced by Philip Mattera, setting out proposed standards for contracts between authors and electronic book publishers. At the time, publishing was moving from print into floppy diskettes, CD-ROMs and early on-line distribution, and the document argues that writers should not be left behind by that shift. It addresses four kinds of projects: print works adapted to disc, original electronic works built around a writer's text, collaborative works by many creators, and multimedia products where writing plays a secondary role. Its principles cover copyright retention, the scope and duration of granted rights, creative control over texts and packaging, manuscript acceptance and advances, royalty rates calculated on list price, detailed royalty statements, prompt payment with penalties, termination when a work is no longer actively marketed, and the abolition of option and narrow non-competition clauses. It also endorses arbitration and calls for affordable pricing and library access.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/nwu.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:34+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 15537,
+      "text_chars": 15537,
+      "prompt_tokens": 5937,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

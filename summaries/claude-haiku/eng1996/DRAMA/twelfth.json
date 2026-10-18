@@ -1,0 +1,23 @@
+{
+  "title": "Twelfth night",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "Twelfth Night, or What You Will, is one of William Shakespeare's comedies, set in the city of Illyria and along its sea-coast. The story begins after a shipwreck separates Viola from her twin brother Sebastian. Believing her brother drowned, Viola disguises herself as a young man named Cesario and enters the service of Duke Orsino, who is lovesick for the noblewoman Olivia. Olivia, mourning her own brother, refuses all suitors, and she quickly becomes infatuated with the disguised Viola. Meanwhile, Olivia's uncle Sir Toby Belch, his friend Sir Andrew Aguecheek, the witty servant Maria, and the clown Feste plot a comic trick against Olivia's pompous steward Malvolio, tricking him into believing that his mistress returns his affections. The play combines romantic mistaken identity, wordplay, singing, and satire of vanity and social pretension. Its conclusion brings together the twins, the tangled pairings of lovers, and the humbling of Malvolio, ending with Feste's melancholy song about the passing of time.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/twelfth.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:20+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 114571,
+      "prompt_tokens": 15315,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

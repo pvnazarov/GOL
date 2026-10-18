@@ -1,0 +1,23 @@
+{
+  "title": "The lost world",
+  "authors": [
+    "Doyle Arthur Conan"
+  ],
+  "kind": "novel",
+  "summary": "The Lost World is an adventure novel first published in 1912, narrated by Edward Malone, a young and ambitious reporter for the Daily Gazette who wants to prove himself worthy of the woman he loves. Sent to investigate the eccentric and combative zoologist Professor George Edward Challenger, Malone joins a small expedition led by Challenger, the skeptical anatomist Professor Summerlee, and the big-game hunter Lord John Roxton. Their goal is a remote plateau in South America, cut off from the outside world by sheer cliffs, where a previous explorer reported strange creatures. The party finds a land where dinosaurs and other prehistoric animals survive, along with dangers from hostile ape-like beings and their own internal rivalries. The book blends scientific debate, boyish heroism, and lively action, and it is the first of Doyle's Professor Challenger stories. The excerpt also shows the group's later return to London, where their discoveries and the diamonds Roxton brings back shape their future plans.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/lostworl.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:33+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 422257,
+      "prompt_tokens": 13336,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Alice in digitaland",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A humorous parody of Lewis Carroll's Alice books, posted to the Usenet group rec.humor.funny in 1988 and circulated widely afterward. Alice wanders into a large corporation called Digitaland, where she is confused by badges, temporary passes and a Mad Manager who presides over a meeting that never reaches its agenda. Its absurd rabbit insists that deadlines are impossible and the goal is just to plant a stake in the ground. In a second scene, a table of marketing executives dressed as playing cards, led by a Queen of Hearts, explain that their role is 'strategic vision' and demand Alice's head, while she is drawn to a cafeteria offering food that calls out 'Eat Me! Drink Me!' The piece satirises corporate jargon, endless meetings, hidden agendas, and the gap between managers and the work they claim to direct. It is brief and written as a single comic narrative rather than a novel, with the author unnamed in the posting.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/alicedig.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:50+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 12154,
+      "text_chars": 12154,
+      "prompt_tokens": 5521,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The scarlet letter",
+  "authors": [
+    "Hawthorne Nathaniel"
+  ],
+  "kind": "novel",
+  "summary": "The Scarlet Letter is Nathaniel Hawthorne's 1850 romance set in Puritan Boston in the seventeenth century. Hester Prynne, a young woman who has borne a child out of wedlock, is condemned to wear a scarlet letter A on her breast as a public mark of her adultery. She refuses to name the father, and her daughter Pearl, a wild and perceptive child, grows up beside her in a community that treats them both with suspicion and moral judgment. The hidden father is the respected young minister Arthur Dimmesdale, whose secret guilt torments him physically and spiritually, while the physician Roger Chillingworth, Hester's estranged husband living under an assumed name, quietly pursues the truth and slowly poisons the minister's peace. The novel explores sin, guilt, hypocrisy, concealment, and redemption, and its symbolism, especially the letter itself, shapes its meaning. The excerpts here include the author's introductory sketch of his Salem Custom-House and family history, the scene in which Chillingworth probes Dimmesdale's conscience, and the closing account of Hester's later years and the shared grave of the two lovers.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/scarlet.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 483915,
+      "prompt_tokens": 13042,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

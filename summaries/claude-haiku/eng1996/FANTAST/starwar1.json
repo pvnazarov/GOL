@@ -1,0 +1,23 @@
+{
+  "title": "The star wars",
+  "authors": [
+    "Lucas George"
+  ],
+  "kind": "novel",
+  "summary": "This is the second draft screenplay of what became the 1977 film Star Wars, written by George Lucas in January 1975 under the working title \"The Adventures of the Starkiller, Episode One: The Star Wars.\" The script follows a rebel spacefighter pursued by an Imperial fleet, carrying the droids Artoo Detoo and See Threepio, who become separated and end up on the desert planet Utapau, where they are found by the farm boy Luke. Luke joins forces with the smuggler Han Solo and the Wookiee Chewbacca, and they travel to rescue Princess Leia and to confront the Sith knight Lord Vader and the Empire's planet-destroying battle station. The text is a shooting script in standard screenplay format, with numbered scene headings, action paragraphs, and character dialogue. Its early drafts differ from the released film in names, settings, and details, such as the Jedi-like Starkiller character, the Jabba-the-Hutt-led pirates, and the Ogana Major planet. The record preserves the early development history of a landmark science fiction franchise.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/starwar1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 164440,
+      "prompt_tokens": 14783,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

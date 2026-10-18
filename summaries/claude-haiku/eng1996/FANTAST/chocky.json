@@ -1,0 +1,23 @@
+{
+  "title": "Chocky",
+  "authors": [
+    "Wyndham John"
+  ],
+  "kind": "novel",
+  "summary": "Chocky is a science-fiction novel by John Wyndham, his last book, published shortly before his death in 1969. It follows the Gore family, an ordinary middle-class English household living in Surrey. Their twelve-year-old son Matthew begins talking to an invisible companion he calls Chocky, whose voice only he can hear. At first the parents, David and Mary, take it for a childish fancy like their daughter Polly's earlier imaginary friend Piff, but the questions Matthew asks grow strikingly adult and unusual, touching on calendars, the nature of time and the sexes. When Matthew saves his younger sister from drowning despite never having learned to swim, the story attracts newspaper and radio attention, and the family's private puzzle becomes public. The book is quiet and domestic in scale, focusing on the family's worry, the pressures of publicity, and the question of what Chocky really is and what it intends. This edition is an abridged version prepared for teacher-training students of English, with glossed notes.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/chocky.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:49+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 200745,
+      "prompt_tokens": 13304,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

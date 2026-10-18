@@ -1,0 +1,23 @@
+{
+  "title": "Of human bondage",
+  "authors": [
+    "Maugh W Somerset"
+  ],
+  "kind": "novel",
+  "summary": "Of Human Bondage is a semi-autobiographical novel by W. Somerset Maugham, first published in 1915, that follows the life of Philip Carey from orphaned childhood to young manhood. Born with a club-foot, Philip is sent after his mother's death in London to live with his clergyman uncle and strict aunt in the seaside town of Blackstable. His early years are shaped by loneliness, religious doubt, and the humiliations of boarding school. Later he studies medicine in London, drifts through art, travel and Paris, and becomes entangled in a painful, obsessive love affair with Mildred, a coarse and indifferent waitress. The book is a sustained study of desire, disillusion, and the search for meaning and freedom, and it explores how a person can be held captive by emotional needs, social expectations, and their own illusions. The excerpts show Philip's childhood grief, his unrequited passion for Mildred, and a later engagement that dissolves into a mix of relief and despair. The novel is widely regarded as one of the major English novels of the early twentieth century.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/humbond.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1411062,
+      "prompt_tokens": 13053,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

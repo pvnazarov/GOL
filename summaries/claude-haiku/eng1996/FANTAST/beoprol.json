@@ -1,0 +1,23 @@
+{
+  "title": "Beowulf",
+  "authors": [
+    "Seamus Heaney"
+  ],
+  "kind": "poetry",
+  "summary": "Beowulf is an Old English heroic epic of about 3,000 lines, composed anonymously probably between the eighth and eleventh centuries and preserved in a single manuscript. This text is a verse translation, in the manner of Seamus Heaney's rendering, of the opening portion. It begins with a prologue on the legendary Danish dynasty of Shild, Beo, Healfdane and Hrothgar, then describes Hrothgar's great hall, Herot, and Grendel, a monster descended from Cain, who raids the hall at night and kills its sleeping warriors. Grendel's attacks bring twelve years of grief to the Danes, and the king's counsellors turn in vain to heathen sacrifices for relief. The excerpt sets up the poem's central concerns: loyalty between lord and retainer, the fragility of human glory, and the struggle between human order and the monstrous forces of darkness. The story goes on to the arrival of Beowulf, a Geatish hero who comes to Denmark to confront the monster, and to the battles that follow in the hall and in the mere beneath it.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/beoprol.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:46+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8306,
+      "text_chars": 8306,
+      "prompt_tokens": 4119,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Presumed guilty, how and why the wc framed l. h. oswald",
+  "authors": [
+    "Roffman Howard"
+  ],
+  "kind": "non-fiction",
+  "summary": "Presumed Guilty is a critical account of the Warren Commission's investigation of President John F. Kennedy's assassination in 1963. Written by Howard Roffman and first published in 1976, the book is based on the Commission's public and private documents, including working papers that were once secret. Roffman argues that the Commission began from the presumption that Lee Harvey Oswald was the lone assassin and then shaped its evidence to support that conclusion, rather than weighing the facts impartially. He examines the rifle evidence, the testimony of witnesses who placed Oswald in or near the Book Depository, the timing of events on the sixth floor and stairwells, and the handling of ballistic and medical evidence, including the single-bullet theory. The book also treats the official police presumption of guilt in the days after the shooting. Beyond the forensic and documentary questions, Roffman uses the case to argue that the cover-up undermined the press, Congress and the legal profession, and that such unaccountability poses a broader danger to democracy. The excerpts include a preface, chapter analyses, and photograph captions.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/kenbook.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:27+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 189177,
+      "prompt_tokens": 12719,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

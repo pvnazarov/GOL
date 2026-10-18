@@ -1,0 +1,23 @@
+{
+  "title": "On the soul",
+  "authors": [
+    "Aristotle"
+  ],
+  "kind": "non-fiction",
+  "summary": "On the Soul (De Anima) is Aristotle's foundational treatise on the nature of living beings and the principle of life, traditionally treated as a central work of natural philosophy. The excerpts show the work's method: in Book I, Aristotle asks whether the soul is a substance, a quality, or something else, whether it is divisible, and whether its affections involve the body, arguing that emotions such as anger and fear are enmattered formulable essences best studied by the physicist. Book I, chapter 2 surveys earlier thinkers, including Democritus, Anaxagoras, Empedocles, Plato, Thales, Heraclitus and Alcmaeon, who identified the soul with fire, air, blood, number or motion, and criticises their positions. Later Book II chapters address perception, treating the nature of colour, light, sound and the media through which the senses operate, while Book III argues that touch is the indispensable sense, without which no animal can exist. The work is dense, technical and argumentative, and has shaped Western philosophy of mind, biology and psychology for two thousand years.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/soul.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:13+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 180644,
+      "prompt_tokens": 11448,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

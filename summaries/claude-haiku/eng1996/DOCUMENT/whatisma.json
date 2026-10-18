@@ -1,0 +1,23 @@
+{
+  "title": "What is man and other essays of mark twain",
+  "authors": [
+    "Clemens Samuel Langhorne"
+  ],
+  "kind": "collection",
+  "summary": "This is a collection of essays and sketches by Mark Twain (Samuel Langhorne Clemens), gathered under the title \"What Is Man? and Other Essays.\" The title piece is a dialogue between an Old Man and a Young Man, in which the Old Man argues that humans are merely machines shaped entirely by outside influences, with no originality or personal merit, and that every action is ultimately driven by the desire to content one's own spirit. Other pieces range widely: a travel letter from Switzerland recalling William Tell, the Rhine saint Fridolin and a comic courtroom tale, and the Jungfrau mountain. Further essays take on language and education, including \"English as She is Taught\" and \"A Simplified Alphabet,\" along with pieces on theology, tobacco, the bicycle craze, and the authorship of Shakespeare's plays. The collection is characteristically satirical and witty, mixing philosophical argument, personal reminiscence, and sharp commentary on public manners and received ideas.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/whatisma.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:49+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 531162,
+      "prompt_tokens": 13599,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

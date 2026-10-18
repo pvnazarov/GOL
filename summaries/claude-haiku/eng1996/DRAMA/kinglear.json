@@ -1,0 +1,23 @@
+{
+  "title": "King lear",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "King Lear is a tragedy by William Shakespeare, generally dated to around 1606, set in pre-Roman Britain. The aging King Lear decides to divide his kingdom among his three daughters according to how much each professes to love him. The youngest, Cordelia, refuses to flatter him and is disinherited; the king's loyal courtier Kent is banished for defending her. The two elder daughters, Goneril and Regan, soon strip Lear of his followers and dignity, driving him into the storm-lashed wilderness accompanied only by his Fool and Kent in disguise. Parallel to this, the Earl of Gloucester is deceived by his illegitimate son Edmund, who plots against his legitimate brother Edgar, and Gloucester is brutally blinded for helping the king. The play follows the madness and suffering of Lear, the rivalries of the sisters over Edmund, and the eventual war between England and France. Its themes include filial ingratitude, power, justice, blindness and sight, and the relation between appearance and reality. The tragedy ends with the deaths of Cordelia, Lear, and several others.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/kinglear.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:34+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 153759,
+      "prompt_tokens": 14747,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Arab-israeli wars",
+  "authors": [
+    "Don Peretz"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is an encyclopedia-style historical essay tracing the major military conflicts between Israel and its Arab neighbours from the founding of the Israeli state to the early 1980s. It opens with the 1947-49 war that followed the United Nations partition plan for Palestine, when fighting between Jewish and Arab forces escalated into a regional war and left Israel with territory beyond the UN allocation. It then covers the 1956 Suez-Sinai War, triggered by Egypt's nationalisation of the Suez Canal and joint Israeli, British and French action, and the 1967 Six-Day War, in which Israel occupied Sinai, Gaza, East Jerusalem, the West Bank and the Golan Heights. The account continues with the October War of 1973, its heavy losses and the disengagement agreements brokered by Henry Kissinger, and ends with the 1979 Egyptian-Israeli peace treaty and the tensions of the 1980s over Palestinian self-rule, Jerusalem, the Golan Heights and Lebanon. The text is brief, factual and reference-oriented, written for a general reader seeking an overview of the wars and their political consequences.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HISTORY/a-i-wars.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:30+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 10522,
+      "text_chars": 10522,
+      "prompt_tokens": 5166,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The book of mormon",
+  "authors": [
+    "Smith Joseph"
+  ],
+  "kind": "religious text",
+  "summary": "The Book of Mormon is a scripture of the Latter-day Saint movement, presented as an abridged record of ancient American peoples. According to its own account, the text was abridged by prophets including Mormon and his son Moroni from older records kept by the Nephites and Lamanites, descendants of Lehi, a Jerusalem prophet who fled with his family around 600 BC. The book follows their migration across the ocean to the Americas, their conflicts with one another, and their religious life, with recurring themes of covenant, prophecy, faith, repentance, and the visit of Jesus Christ to the peoples of the New World. Its opening sections include testimonies of witnesses to the golden plates from which Joseph Smith said he translated the text. The excerpts provided cover the early narrative of Lehi's family in 1 Nephi, a long passage of missionary reflection from Alma, and the closing exhortations of Moroni, which speak on faith, hope, charity, and spiritual gifts. The work is divided into books named for their principal narrators.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/RELIGION/mormon.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:47+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1536876,
+      "prompt_tokens": 13701,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

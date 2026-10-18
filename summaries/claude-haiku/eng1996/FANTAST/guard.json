@@ -1,0 +1,23 @@
+{
+  "title": "The guardians, part i",
+  "authors": [
+    "Joseph A. Giunta"
+  ],
+  "kind": "novel",
+  "summary": "The Guardians, Keepers of the Magic is the opening part of a fantasy series by Joseph A. Giunta, issued as a serialized installment in the 1994 Guardian Series. It follows Samuel Esrald, a Guardian in his late forties, who gathers his six children to pass on the family secret known as the Recipe, a formula for unlocking Essence, a magic that amplifies a person's inner virtue. Each child receives a medallion carrying the memories of their ancestors and is assigned one of the six virtues: Truth, Courage, Honor, Strength, Valor and Humility. Samuel recounts how six brothers first swore the Oath of Virtue to keep this dangerous power hidden. The story then moves back to the kingdom of Luddwelyn in the time of King Marik, where Valoran, a gladiator and General, is approached by a sinister nobleman, and a magician named Martin senses a surge of raw magical power. The tone is light and whimsical at times, mixing domestic family scenes with swordplay, mercenaries, elves and a mischievous squirrel. The narrative uses several viewpoints and a companion series of related stories is referenced throughout.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/guard.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:12+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 127234,
+      "prompt_tokens": 13356,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

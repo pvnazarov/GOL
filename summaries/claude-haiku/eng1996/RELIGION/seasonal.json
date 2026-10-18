@@ -1,0 +1,23 @@
+{
+  "title": "seasonal",
+  "authors": [
+    "Nichols Mike"
+  ],
+  "kind": "collection",
+  "summary": "A collection of nine seasonal articles on Neopagan Witchcraft by Mike Nichols, distributed as text files from a 1988 bulletin board edition and updated periodically by the author. The pieces are organized around the eight Sabbats of the Wiccan wheel of the year, with a ninth essay offering a seasonal reading of a Welsh myth. Titles include 'All Hallow's Eve' on Halloween and Samhain, 'Midwinter Night's Eve: Yule' on the winter solstice and the history of Christmas, 'Lady Day' on the spring equinox and the descent of the goddess, 'A Celebration of May Day' on Beltane and its folklore, and 'Death of Llew: A Seasonal Interpretation', which reads the Mabinogion tale of Llew, Goronwy and Blodeuwedd as an allegory of the solar year. Each essay traces folk customs, divination practices, mythological parallels and calendar dates, often comparing pagan origins with Christian holidays. The tone is informal and opinionated, written by a practitioner for a general audience interested in Pagan festivals and their sources.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/RELIGION/seasonal.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:47+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 80904,
+      "prompt_tokens": 13395,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

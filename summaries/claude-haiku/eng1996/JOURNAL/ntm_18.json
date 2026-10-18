@@ -1,0 +1,24 @@
+{
+  "title": "Naked truth magazine - issue 04",
+  "authors": [
+    "MindBender",
+    "Raptor"
+  ],
+  "kind": "non-fiction",
+  "summary": "Naked Truth Magazine issue 4 is a text-based e-zine from the mid-1990s warez and pirate software scene, edited by MindBender and Raptor after a merger with the Inquisition group. Written in informal, abbreviated English, it is a mix of editorials, group news, interviews and miscellany. Its main pieces include a long account by Clubber of the Enigma FTP site explaining why it dropped the release group Razor 1911 for Hybrid; a comic, allegorical story by Aslan about rival courier groups RiSK, MOLICE and MTS; and an interview with Darwin of RTS, who discusses the state of net versus BBS trading. Other items include an interview with the Rest in Peace BBS sysop Hula, a reader popularity poll naming the coolest people in the scene, and closing notes with contact and FTP details. The issue also reprints an earlier MindBender autumn edition. It is a snapshot of scene gossip, rivalries and cultural attitudes of the period rather than a conventional literary work.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/JOURNAL/ntm_18.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:34+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 157538,
+      "prompt_tokens": 13491,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

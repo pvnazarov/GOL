@@ -1,0 +1,23 @@
+{
+  "title": "Evil unbound",
+  "authors": [
+    "Figueroa Tony"
+  ],
+  "kind": "novel",
+  "summary": "Evil Unbound is a fantasy horror novel by Tony Figueroa, first published in 1993 and built from several interlinked chapters. It opens in a modern city, where a bitter tax clerk named Ned murders his mother and brother after discovering their occult activities, and is transformed into a horned demon. The story then follows the spread of supernatural evil through the coroner's office and into a medieval fantasy realm. There, a priestess named Valtanna, marked as evil from infancy, gains power over the town of Talboria and allies with demonic lords. Her schemes draw in a geomancer, a palladin named Falsayer, and a band of adventurers including a mage, a cleric, a fighter and a young man who has been transported from our world. The group travels to a besieged royal castle and faces demons, a usurping ogre and Valtanna's dark magic. The prose is gory and fast-moving, with graphic violence, and the ending is left open with a promise of further conflict.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/evil.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 207713,
+      "prompt_tokens": 13078,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

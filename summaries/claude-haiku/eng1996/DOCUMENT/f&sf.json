@@ -1,0 +1,23 @@
+{
+  "title": "f&sf",
+  "authors": [
+    "Sterling Bruce"
+  ],
+  "kind": "collection",
+  "summary": "This is a collection of Bruce Sterling's \"Literary Freeware\" science columns, reprinted from The Magazine of Fantasy and Science Fiction, beginning with the June 1992 installment. Sterling wrote these columns as F&SF's regular science writer, using popular science topics as a springboard for speculative and opinionated commentary. The opening column, \"Outer Cyberspace,\" argues that NASA's manned spaceflight programme is outdated and that cheap, numerous robotic probes controlled through telepresence would better serve the public and science. The middle section turns to Artificial Life, examining whether self-organising systems such as flocking boids and ant colonies can be called living, and what their emergent behaviour reveals about life itself. The closing piece is a light, witty account of superglue, covering its chemistry, its industrial and medical uses, its hazards, and its role in forensic fingerprinting. The pieces share a tone of brisk, sardonic enthusiasm for technology and its social consequences, and they read as a snapshot of early-1990s thinking about computing, space exploration and biology.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/f&sf.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:16+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 122535,
+      "prompt_tokens": 12705,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

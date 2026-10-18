@@ -1,0 +1,23 @@
+{
+  "title": "The merchant of venice",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "The Merchant of Venice is a five-act comedy by William Shakespeare, set partly in Venice and partly at Belmont, the country estate of the wealthy heiress Portia. The play follows Antonio, a Venetian merchant whose ships are at sea, and his young friend Bassanio, who wants money to woo Portia. To raise the funds, Antonio borrows from Shylock, a Jewish moneylender who has long been mistreated by Antonio and other Christians, and the loan is secured by a bond that allows Shylock to claim a pound of Antonio's flesh if the debt is not repaid. Alongside this main plot runs a romance involving Lorenzo and Shylock's daughter Jessica, and a comic courtship in Belmont where Portia's suitors must choose among three caskets of gold, silver and lead. The excerpts show the bond's sinister setup, Shylock's grief and vengeful speeches, Bassanio's successful choice of the lead casket, and the final act's tangle of rings and disguised identities. The play is known for its debate over mercy and justice, its treatment of prejudice, and its mixture of comedy and tension.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/merchant.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 119888,
+      "prompt_tokens": 14557,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Through the magic door",
+  "authors": [
+    "Doyle Arthur"
+  ],
+  "kind": "non-fiction",
+  "summary": "Through the Magic Door is a collection of informal essays on books and reading by Arthur Conan Doyle, written in a chatty, conversational voice. The author invites the reader to sit with him on a green settee in his study, where he surveys his personal favourites on the shelves. He recalls buying cheap secondhand volumes as a student, then discusses Macaulay's Essays and Lays, Walter Scott, Borrow, Charles Reade, and the great eighteenth-century novelists Richardson, Fielding and Smollett. He also reflects on the value of memorable quotation, on the dead as companions, and on literary criticism of the Victorian age. Later chapters touch on Robert Louis Stevenson, whose letters he received, and on scientific and psychical writing, including Myers' Human Personality. The tone is personal, opinionated and affectionate, combining literary appreciation with memoir and a gentle defence of the reading life.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/magicdoo.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:29+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 263515,
+      "prompt_tokens": 12951,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

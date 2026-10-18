@@ -1,0 +1,23 @@
+{
+  "title": "Seance",
+  "authors": [
+    "Pellash Steen C T"
+  ],
+  "kind": "short stories",
+  "summary": "A short comic science-fiction story told in the first person by a narrator working in a computing department. The staff discover that a terminal is being hijacked by a mysterious presence that calls itself Shriek and sends taunting messages across the system, deleting files and disrupting the machines. The story is written as a series of printouts, terminal transcripts and dialogue, with the narrator and colleagues Arnie, Hank, Jimmy and Roger drawn into the chaos. Their search leads to Kay, the special projects leader, who has been slumped unconscious at her terminal after running a program called SEANCE, a supernatural exploration and analysis exercise. Arnie tries to bargain with the entity inside the machine, and the affair ends in a burst of smoke and an odd twist involving Kay and the central processor. The piece plays on 1970s mainframe culture, with its jargon, operating systems and punning humour, and the reader is left with the tale's eerie, tongue-in-cheek tone. The text as given breaks off with a note that the story is to be continued, so this excerpt does not show the full resolution.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/seance.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:57+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9278,
+      "text_chars": 9278,
+      "prompt_tokens": 5354,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

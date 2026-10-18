@@ -1,0 +1,21 @@
+{
+  "title": "War stories",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A humorous anecdote from the early Usenet era, circulated in a computer-humor notefile and later collected in the Humor folders of Brad Templeton's jokes archive. It is narrated by a consultant brought in to fix a VAX minicomputer hidden inside a huge financial institution's IBM mainframe data center. The machine is small and sensitive, and the Comptroller, a tiny elderly gnome-like executive, has grown uneasy with the VAX staff's unconventional look. The consultant tries to teach the IBM operators the HELP command, bootstraps a rebooting habit, and labors to keep the VAX running. The story builds toward a disastrous power failure, a cascade of backup systems, a halon fire-suppression discharge, and a last twist in which the forgotten VAX is the only machine that survives. The piece is a satire of corporate computing culture and the clash between IBM and VAX practices, with running jokes about reboots and cheat sheets. It was written in 1987 and remains a classic of humorous computing lore.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/warstory.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:27+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 11541,
+      "text_chars": 11541,
+      "prompt_tokens": 5086,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

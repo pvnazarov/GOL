@@ -1,0 +1,23 @@
+{
+  "title": "The equinox",
+  "authors": [
+    "Crowley Aleister"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Equinox was a periodical of occult and esoteric writing issued by the Argentinum Astrum, the magical order associated with Aleister Crowley, beginning in 1909 and running to several volumes. This electronic text is the first number of Volume I, dated March 1909, which carries the subtitle \"The Review of Scientific Illuminism\" and the motto \"The Method of Science, the Aim of Religion.\" The issue gathers an editorial statement of purpose, an account of the Order drawn from von Eckartshausen, the magical instruction Liber Librae and Liber Exercitiorum, and essays and fiction by Crowley, Frank Harris, Victor Neuburg and others. Among the items are Crowley's Wizard Way, a long autobiographical record of Yoga practice titled The Vows and Mystic Retirement, and an extended treatise, The Temple of Solomon the King. The later part of the issue includes a pharmaceutical study of herbs and a record of a magical retreat. The text mixes magical theory, comparative religion, psychology and polemic, and it reflects Crowley's attempt to present occultism as a rigorous, experimental discipline. The version here is a partial transcription, and some sections are fragmentary or garbled.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/equinox.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:36:57+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1228732,
+      "prompt_tokens": 13284,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

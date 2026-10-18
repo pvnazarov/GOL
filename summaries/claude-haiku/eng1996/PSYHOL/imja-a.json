@@ -1,0 +1,23 @@
+{
+  "title": "What`s hidden in your name",
+  "authors": [
+    "Fargut"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short, half-serious essay on the relationship between a person's name and their character and fate. Its author, who signs as Fargut, a self-described mage and adept of an esoteric school, addresses fellow participants of a Tolkien-inspired role-playing community. Many of these players adopt \"game names\" drawn from Middle-earth and use them in daily life instead of their given names, and the author warns that a poorly chosen name can unsettle or harm its bearer. The essay argues that names are traditionally bestowed by those with authority, that timing matters (the waxing moon is recommended), and that transliterated names change their numerological and cabalistic meaning. Citing the Dwarves' custom of keeping true names secret, it offers practical remedies: choose names with care, and when a player is lost in their role, call them by their mother's name to bring them back. The piece mixes earnest esoteric language with playful references to the game, and reads as an advisory note to the community rather than a story.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PSYHOL/imja-a.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:42+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2424,
+      "text_chars": 2424,
+      "prompt_tokens": 2063,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

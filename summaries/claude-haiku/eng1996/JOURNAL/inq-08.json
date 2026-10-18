@@ -1,0 +1,23 @@
+{
+  "title": "Inquisition issue 8",
+  "authors": [
+    "Daniels J"
+  ],
+  "kind": "non-fiction",
+  "summary": "Inquisition issue 8 is an issue of a 1995 underground digital magazine, a newsletter circulated within the warez (pirated software) scene. It is a plain-text publication that mixes editorial material with scene news. The contents run from letters to the editor and reader complaints, through a games warez report with capsule reviews and star ratings, to interviews, articles, internet notes, and announcements about groups and boards. It also includes weekly release listings for Windows, Macintosh, and DOS titles, a top five boards ranking, and a closing section with staff credits. The reviews are blunt and often profane, and the magazine repeatedly disclaims any endorsement of piracy. Much of the material concerns the group rivalries, release quality, and personalities of the period, so it is best read as a snapshot of 1990s bulletin board and warez culture. The author credit is given only as the surname-and-initial form J. Daniels, which appears in the ASCII banner.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/JOURNAL/inq-08.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:33+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 58449,
+      "prompt_tokens": 17199,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

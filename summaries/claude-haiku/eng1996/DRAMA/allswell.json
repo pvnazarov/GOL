@@ -1,0 +1,23 @@
+{
+  "title": "All`s well that ends well",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "All's Well That Ends Well is one of Shakespeare's comedies, usually grouped with the problem plays, and it is set in Rousillon, Paris, Florence and Marseilles. It follows Helena, a physician's orphaned daughter who is cared for by the Countess of Rousillon and secretly loves the Count Bertram, a proud young nobleman. After the king is cured by Helena's remedy, she is granted her choice of husband and picks Bertram. He resents the match and, rather than accept her, leaves for the wars in Florence, sending word that he will not be her husband until she gets his ring and bears his child. Helena follows him, and the play turns on deception, bed-tricks, and the exposure of the cowardly flatterer Parolles. The title is taken from the proverb that a bitter beginning can have a happy ending, and the play is noted for its mix of comedy, dark satire on the court, and questions about honour, virginity and social rank.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/allswell.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 132579,
+      "prompt_tokens": 14381,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

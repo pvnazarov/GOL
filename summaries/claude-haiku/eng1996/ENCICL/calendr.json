@@ -1,0 +1,21 @@
+{
+  "title": "Calendar world`s famous dates",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a day-by-day reference book, a almanac-style calendar that runs through every date of the year, from 1 January to 31 December. Each entry lists the feast days of saints assigned to that date, national days of various countries, and a selection of notable historical events with their years. Entries range from the founding of institutions and the first performances of famous works to battles, inventions, political upheavals, and sporting milestones. Each day also closes with lists of notable people born on that date and notable people who died on it, covering statesmen, writers, artists, scientists, musicians, actors, and other public figures across many centuries. The text is British-leaning in its selection, with frequent references to London and English history, though it also covers world events. It works as a browsing reference for trivia, anniversaries, and quick historical context rather than as a continuous narrative. The excerpts provided show the entries for early January, late June through early July, and late December through New Year's Eve.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ENCICL/calendr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:31+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 512779,
+      "prompt_tokens": 16074,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

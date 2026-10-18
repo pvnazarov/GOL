@@ -1,0 +1,23 @@
+{
+  "title": "Forever amber",
+  "authors": [
+    "Zelazny Roger"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is an interview transcript, originally published in a science fiction magazine, in which Roger Zelazny discusses his work. He talks about the Amber series, explaining that he had planned to end after five books but kept returning to it, and that the books are meant as a reflection on the nature of reality and perception, inspired in part by Lawrence Durrell's Alexandria Quartet. He compares the series to his novel Roadmarks, which plays with time in the way Amber plays with space, and recalls how an actual wrong turn on a New Mexico highway sparked that book. The interview then turns to his collaborations: with Robert Sheckley on the medieval comic fantasy Bring Me the Head of Prince Charming, with Philip K. Dick on Deus Irae, which was completed by alternating chapters, and with Fred Saberhagen on Coils and Black Throne. He reflects on what he has learned from working with other writers, particularly about outlining and adapting to another author's style. The text is a fragmentary, OCR-damaged copy, but its subject and contents are clear.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/foramber.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:19+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9279,
+      "text_chars": 9279,
+      "prompt_tokens": 4283,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

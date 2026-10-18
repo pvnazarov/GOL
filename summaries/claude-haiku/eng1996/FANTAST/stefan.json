@@ -1,0 +1,23 @@
+{
+  "title": "stefan",
+  "authors": [
+    "Gagne Stefan"
+  ],
+  "kind": "short stories",
+  "summary": "This is a collection of satirical cyberpunk fiction from the serialized series \"A Future We'd Like to See,\" written by Stefan \"Twoflower\" Gagne and first circulated in 1994 on the Usenet-era internet. The stories are set in VOSNet, a corporate-dominated virtual network where artificially intelligent beings and human users navigate commerce, con artists, and bureaucracy, and in UberNet, a lawless rival network reached through a hidden port. The early installments follow an amnesiac AI narrator who searches for his identity, a woman he dreams of, and a cure for AI memory gaps, encountering fortune tellers, underground doctors, and cab drivers who kill their passengers. Later pieces include a grim Christmas shopping-mall riot told with dark humor and a story about a short-lived garage band that rises and falls within a weekend. The tone is irreverent, sardonic, and heavy with internet in-jokes, pop culture references, and deliberate puns, with a recurring commentary on greed and consumerism.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/stefan.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 151736,
+      "prompt_tokens": 13735,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Android, age one",
+  "authors": [
+    "Chipoletti Anthony"
+  ],
+  "kind": "novel",
+  "summary": "Android, Age One is a science fiction adventure by Anthony Chipoletti, loosely inspired by the short life and death of a child with leukodystrophy. The story is set about 200,000 years ago, in a small community of early humans who survive a series of earthquakes and volcanic eruptions and relocate to the Great Rift Valley. It follows Onion Deergada, her marriages, her children, and her extended family, including her father Radoni, brother Anden, and the boy Android, whose illness shapes the family's grief. The book draws on recent genetic research suggesting that all living humans descend from a small number of women, presenting that idea as a fictional origin story. The text is structured as a sequence of titled chapters, each set at a different point in the characters' lives, and it is followed by the author's appended journal of everyday life and notes on the book's inspiration, including a hidden anagram of the phrase \"God and I are one.\" The excerpt also contains front matter with solicitations for donations and reader contact details.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/android1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:40+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 47137,
+      "prompt_tokens": 13421,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

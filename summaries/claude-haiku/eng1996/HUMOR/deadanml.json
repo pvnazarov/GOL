@@ -1,0 +1,23 @@
+{
+  "title": "Fun things to do with a dead animal",
+  "authors": [
+    "Mongrel"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short humorous piece from the Black Sheep series, numbered 3 of 5 in Volume 1, written under the pen name Mongrel. It is a tongue-in-cheek list of six 'fun' activities for a deceased pet, most of them grotesque and absurd: a backyard game of 'Hot Dead Animal' played with a garden hose stuffed into the carcass, a dust-sweeping tail, a welcome doormat, a dartboard with scoring for each body part, a makeshift duffel bag, and a prank that hides a rotting animal in the home air-conditioning. The author admits a preference for cats because of their flexibility and writes in a deliberately crude, irreverent voice aimed at shock value and laughs. The text is a piece of gallows humor and joke writing rather than a serious guide, and it is best read as a deliberately offensive parody of household handyman advice and family entertainment tips.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/deadanml.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:16+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2589,
+      "text_chars": 2589,
+      "prompt_tokens": 2187,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Memoria",
+  "authors": [
+    "Gagne Stefan"
+  ],
+  "kind": "novella",
+  "summary": "Memoria is a cyberpunk-flavoured comic story by Stefan \"Twoflower\" Gagne, first published in 1994 as part of the \"A Future We'd Like to See\" series. The narrator is Rynard Lopwagen, a brash, underachieving teenager who talks his way into a research project run by the ailing, immortality-seeking Mr. Rinhurst. The team has an unbreakable encrypted archive, along with a preserved piece of a human brain that stores the autobiography of a dead biotech doctor, Filbert Whack-A-Doo. The brain's interactive hologram of Filbert will only reveal his \"secret of immortality\" after Rynard answers a series of questions about his life. Rynard reads the autobiography, a slangy, irreverent account of Filbert's youth, career and personal regrets, while a rival scientist, Martin McDoole, grows impatient. The story is light and jokey, full of period slang and pop-culture references, and it builds to a warm, reflective conclusion about how people live on through the memories and impact they leave in others.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/memoria.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 34501,
+      "prompt_tokens": 13895,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

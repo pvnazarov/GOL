@@ -1,0 +1,23 @@
+{
+  "title": "Outside",
+  "authors": [
+    "Aldiss Brian W"
+  ],
+  "kind": "short stories",
+  "summary": "\"Outside\" is a science fiction short story by Brian W. Aldiss, first published in the 1950s and later gathered into his collections. It follows six people who live in a windowless, dimly lit house where nothing needs to be bought, cooked or repaired, because supplies simply appear on a shelf in a locked storeroom each morning. They drift through their days in a dull, placid routine, never leaving the house and never questioning why. Harley, an unusually restless member of the household, begins to sense that something is wrong: the outside world is spoken of only in vague terms, and a model spaceship sits untouched on the piano. When he discovers a hidden passage out of the storeroom and sees stars through a small window, his sense of reality collapses. The story is a tightly constructed puzzle about identity, conditioning and the boundary between human and alien, and its ending reverses the reader's assumptions about who the captives really are and who is studying whom.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/outside.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:48+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 19900,
+      "text_chars": 19900,
+      "prompt_tokens": 7920,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

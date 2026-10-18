@@ -1,0 +1,23 @@
+{
+  "title": "A brief history of the internet the bright side the dark side",
+  "authors": [
+    "Hart Michael"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a 1995 essay-style etext by Michael S. Hart, founder of Project Gutenberg, with a co-credited collaborator, Max Fuller. It opens with a preface arguing that the Internet resembles the Star Trek communicator, transporter and replicator, letting anyone share digitized books and documents with anyone else. Hart contrasts this promise with the slow release of public-domain electronic texts by funded institutions, and with the risk that commercial interests will turn a free network into a paid \"Information Supertollway.\" The middle sections gather chapters on plain ASCII versus proprietary markups, copyright, Luddites, and the Internet as a chandelier of shared knowledge, including a reply to academic gatekeeping. Other chapters address online culture, such as list moderators, lurkers, netiquette, and the early Gopher and Web browsers. The closing pages attack copyright term extensions, arguing that they make works effectively permanent and keep knowledge away from the public. The text is a mix of polemic, history and advocacy, and reads as an early manifesto for open digital libraries.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HISTORY/bhoti01.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:34+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 94623,
+      "prompt_tokens": 12614,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

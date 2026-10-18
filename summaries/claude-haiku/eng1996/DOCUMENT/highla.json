@@ -1,0 +1,23 @@
+{
+  "title": "Highlander faq",
+  "authors": [
+    "Debbie Douglass"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a fan-compiled frequently asked questions guide to the Highlander franchise, covering the 1986 film, its 1992 to 1998 television series, and the 1991 sequel Highlander II: The Quickening. Maintained by Debbie Douglass, it is organized as a numbered list of questions and answers, with the file's version 1.01 dated January 1994. The movie section addresses differing international cuts, the soundtrack, the film's origins as a screenplay, and trivia about characters, locations and props. The rules section explains the Quickening, the protections of holy ground, the Gathering and the notion of an Immortal's physiology. The series sections give episode listings with plot summaries, cast biographies, and the Watchers organization, along with a fan-made drinking game, a flashback timeline of Duncan MacLeod's life across centuries, and notes on merchandise and fan groups. It is a reference document rather than a narrative, written for devoted fans of the franchise.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/highla.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 82762,
+      "prompt_tokens": 15421,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

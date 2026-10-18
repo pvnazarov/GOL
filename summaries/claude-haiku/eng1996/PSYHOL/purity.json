@@ -1,0 +1,23 @@
+{
+  "title": "Purity test 500 summary",
+  "authors": [
+    "Palmerbh"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a Usenet-era questionnaire, the 500-question version 4.0 of the \"Purity Test\", posted to alt.sex in October 1991 by a Purdue University user known as The Dark One. It is a humorous, self-scoring checklist in which the reader answers yes or no to questions about sexual experiences, drug use, petty crime, bodily functions and fetishes, ranging from mild (holding hands, a first date) to outlandish. Its sections cover platonic relations, auto-erotica, ethical misdeeds, drugs, non-platonic and non-primary relations, and alternate practices. The front matter explains the history of the test, which grew from a 1983 CMU version through several revisions at MIT, CMU, Yale and Dartmouth, and gives instructions for running it as a party game. The score is the number of no answers divided by five, and the document ends with mock disclaimers, warranty language and sign-offs. It is a piece of early internet folklore rather than a narrative.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PSYHOL/purity.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:40+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 52191,
+      "prompt_tokens": 13310,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

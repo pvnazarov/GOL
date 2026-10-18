@@ -1,0 +1,21 @@
+{
+  "title": "Fuck",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A short humorous essay on the English word \"fuck\" and its remarkable range of uses. The text argues that the word is unusually versatile, functioning as a noun, adjective, and verb, and conveying emotions from perplexity and denial to apathy, derision, and resignation. It illustrates these shades with a list of everyday sample sentences, each tagged with the emotion it expresses, such as \"Oh fuck it\" for resignation and \"Fuck off\" for disdain. A second section gathers supposed profanity-laden remarks attributed to famous figures, including the Titanic's captain, John Lennon, Buddy Holly, and Neil Armstrong-era astronauts, paired with their names in a lighthearted, mock-scholarly manner. The piece is a piece of comic word-appreciation rather than serious linguistics, and the attributed quotations are playful inventions or jokes rather than documented historical statements. It is brief, aimed at readers who enjoy irreverent language play and British-flavoured wordplay.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/f__k.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:24+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2392,
+      "text_chars": 2392,
+      "prompt_tokens": 2162,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

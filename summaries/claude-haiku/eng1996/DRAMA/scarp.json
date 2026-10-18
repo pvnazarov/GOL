@@ -1,0 +1,23 @@
+{
+  "title": "The scarlet pimpernel",
+  "authors": [
+    "Orczy Baroness"
+  ],
+  "kind": "novel",
+  "summary": "The Scarlet Pimpernel is a historical adventure novel set during the Reign of Terror in revolutionary France and England in the 1790s. A mysterious English gentleman, Sir Percy Blakeney, secretly leads a league of daring compatriots who rescue aristocrats from the guillotine and smuggle them across the Channel to safety. Known only by the scarlet flower that signs his notes, he outwits Chauvelin, a cunning French Republican agent who is determined to unmask him. The story alternates between the bustle of Paris and the gaming tables and ballrooms of London society, where Sir Percy's languid, foppish public manner hides his formidable courage and wit. A central thread concerns his troubled marriage to Marguerite, a Frenchwoman whose past loyalties and divided sympathies threaten to expose him and their shared secrets. The book is noted for its tense espionage, disguises, and rescues, and for establishing the figure of the masked hero who is later followed by many similar characters in popular fiction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/scarp.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 483447,
+      "prompt_tokens": 13555,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

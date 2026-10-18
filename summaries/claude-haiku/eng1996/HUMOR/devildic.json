@@ -1,0 +1,23 @@
+{
+  "title": "The devil`s dictionary",
+  "authors": [
+    "Bierce Ambrose"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Devil's Dictionary is a satirical lexicon of witty, cynical definitions by American writer Ambrose Bierce, first published in book form in 1911 after appearing in newspapers over the preceding decades. Rather than neutral definitions, each entry skewers a word or institution with sharp irony, turning ordinary terms into acid commentary on human vanity, hypocrisy, and folly. Entries such as Academe, Christian, Diplomacy, Politics, Lawyer, Marriage, and Politeness mock the gap between professed ideals and actual conduct, while others, like Bigot, Egotist, and Responsibility, expose the self-serving habits behind everyday language. Bierce's voice is terse, epigrammatic, and deliberately misanthropic, drawing on wordplay and reversal to make his points. The excerpt presented is a selection of these entries, offered as a sampler of the work's humor. The book belongs to the tradition of American satire and remains a classic of acerbic wit, valued for its quotable lines and its skeptical view of institutions, language, and human nature.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/devildic.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:18+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 12524,
+      "text_chars": 12524,
+      "prompt_tokens": 5565,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

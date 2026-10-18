@@ -1,0 +1,23 @@
+{
+  "title": "Chronicles of the canongate",
+  "authors": [
+    "Scott Walter"
+  ],
+  "kind": "short stories",
+  "summary": "Chronicles of the Canongate is a collection of tales by Walter Scott, published in 1827 as part of the Waverley Novels. It is framed by an introduction in which Scott, writing under the pen name Author of Waverley, explains the financial ruin of 1825 that forced him to acknowledge his authorship publicly, and then presents the fictional chronicler Chrystal Croftangry, a retired man who gathers and tells stories among the Edinburgh literary circle of the Canongate. The first series contains three tales: The Highland Widow, a story of a Highland woman's grief and fierce loyalty; The Two Drovers, which follows two cattle drovers, an Englishman and a Highlander, whose friendship collapses over a grazing dispute and ends in a fatal quarrel; and The Surgeon's Daughter, a longer adventure set in India. The volume also includes the Keepsake stories, shorter pieces Scott wrote for an annual gift book. Together the pieces mix Scottish and border folklore, historical atmosphere and sharp social observation, and show Scott's interest in the moral lives of ordinary people.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/canongat.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:05+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 912649,
+      "prompt_tokens": 13032,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

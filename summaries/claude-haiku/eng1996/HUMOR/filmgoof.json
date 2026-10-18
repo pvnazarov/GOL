@@ -1,0 +1,23 @@
+{
+  "title": "filmgoof",
+  "authors": [
+    "Chapman Murray"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a running compilation of movie goofs, the continuity errors, anachronisms, and technical slip-ups that film viewers spot in films. Compiled by Murray Chapman and circulated on USENET, particularly rec.arts.movies, it is a periodically revised list, here at version 2.1 from September 1991. Entries are arranged alphabetically by film title, each noting a specific mistake such as a prop changing position between shots, a visible boom microphone or camera reflection, a costume or hairstyle that shifts, a car with the wrong plates, or a historical date that does not fit. Examples range from classics like Casablanca, The Wizard of Oz and 2001 to 1980s blockbusters such as Die Hard, Star Wars-era and Indiana Jones films, Lethal Weapon and The Untouchables. The compiler asks readers for short, specific reports and includes general notes on boom mikes and multiple film versions. The list is light, reader-sourced trivia rather than criticism.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/filmgoof.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:28+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 68922,
+      "prompt_tokens": 13757,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Why cops hate you",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A humorous, profane essay-style guide written from the point of view of a jaded street cop, explaining why police officers supposedly resent the civilians they serve. The author, who is not named in the text, catalogues a series of grievances: people who leave valuables visible in parked cars and then blame the police for break-ins, bystanders who wander into live shooting scenes, residents who call police about water leaks, bats and sick relatives, citizens who ask officers for directions or parking permission, and self-styled urban pioneers who move into high-crime neighborhoods. The piece also touches on the stresses of police work, the frustrations of handling force and the public outcry over brutality, and the way civilians romanticize street justice in films. It closes with a tongue-in-cheek suggestion that common sense and respect would at least keep citizens from being hated. The tone is crude, cynical and satirical throughout.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/cops.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:10+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 20357,
+      "text_chars": 20357,
+      "prompt_tokens": 7980,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

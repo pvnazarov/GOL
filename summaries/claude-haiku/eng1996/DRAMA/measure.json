@@ -1,0 +1,23 @@
+{
+  "title": "Measure for measure",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Measure for Measure is a comedy by William Shakespeare, set in Vienna. The Duke, weary of the city's lax enforcement of its laws, hands temporary power to the strict and austere deputy Angelo and secretly disguises himself as a friar to observe the outcome. Angelo promptly revives a long-dormant statute against fornication and sentences the young gentleman Claudio to death for getting his fiancée Juliet with child. Claudio's sister Isabella, a novice nun, pleads for her brother's life and is horrified when Angelo offers to spare him in exchange for her virginity. The Duke, still unseen, devises a bed-trick involving Angelo's abandoned former fiancée Mariana. The play moves among the prison, the streets, and the convent, and features the bawd Mistress Overdone, the clown Pompey, the rakish Lucio, and the constable Elbow. Its concerns are justice and mercy, hypocrisy, the gap between appearance and conduct, and the question of how a ruler should weigh law against compassion. The resolution, with its multiple pardons and proposals, is famously ambiguous and has provoked much debate about its tone.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/measure.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:43+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 127596,
+      "prompt_tokens": 14816,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

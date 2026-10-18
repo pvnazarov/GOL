@@ -1,0 +1,21 @@
+{
+  "title": "The canonical collection of light bulb jokes",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a collection of light bulb jokes, the traditional form in which the question \"How many ___ does it take to change a light bulb?\" is answered with a punchline mocking a group, profession, or type of person. The compilation runs to roughly 185 jokes, gathered and annotated over several years, and it is presented with a preface that explains its scope, warns of offensive content, and notes that many entries are topical to events of their time. The jokes target a wide range of targets: programmers and computer people (including jokes about DEC, IBM, Unix hackers and USENET), academics such as professors and graduate students, politicians and Reagan-era figures, religious groups, regional stereotypes like Californians, New Yorkers and Oregonians, and professions such as doctors, lawyers, managers and bureaucrats. Many entries carry editorial notes explaining references to 1980s news events, and a few are attributed to specific comedians or posters. The format is brief and repetitive by design, with answers ranging from one-line gags to elaborate multi-part parodies, such as a long mock project-plan for a single bulb change. The collection is a piece of folk humor and internet-era joke lore rather than a narrative work.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/bulb.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:05+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 37723,
+      "prompt_tokens": 14475,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Sayings",
+  "authors": [],
+  "kind": "collection",
+  "summary": "Sayings is a humorous collection of short aphorisms, witty one-liners, mock proverbs, and brief jokes gathered from many unnamed sources. The pieces range from wry observations on life, such as \"Life is a s--t sandwich and on bad days you get no bread,\" to parodies of classified ads, Murphy's-law style maxims, and sly definitions. Some entries are pseudo-wisdom turned upside down, like \"Virtue is its own revenge,\" while others are short dialogues, including a Jack and Jill exchange about interruptions and a Mabel-and-John mix-up. A few borrow lines from Star Trek, and a handful echo quotations attributed to Schopenhauer or Murphy. The text is loosely arranged with no chapters or narrative thread, and there is no single author or stated publication date. The file closes with credits to Ron Herring and William Watkins, suggesting it was passed around in a bulletin-board or sysop community. It reads as a light, disposable joke anthology meant to be dipped into rather than read straight through.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/sayings.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:23+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 10953,
+      "text_chars": 10953,
+      "prompt_tokens": 5950,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

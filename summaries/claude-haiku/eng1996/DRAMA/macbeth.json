@@ -1,0 +1,23 @@
+{
+  "title": "Macbeth",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Macbeth is a tragedy by William Shakespeare, believed to have been written around 1606 and first performed for the Jacobean court. It dramatises the rise and fall of a Scottish general who, after three witches greet him with prophecies that he will become Thane of Cawdor and then king, is driven by ambition and the urging of his wife, Lady Macbeth, to murder King Duncan. The play follows the couple's descent into guilt and paranoia as Macbeth orders the killing of his fellow general Banquo, whose ghost returns to haunt him at a banquet. Lady Macbeth's conscience collapses into sleepwalking and madness, while Macbeth grows increasingly tyrannical. Opposing forces gather against him, led by Macduff, whose family he has destroyed, and Malcolm, Duncan's son. The tragedy explores guilt, kingship, fate and the corrupting effects of unchecked ambition, and it is among Shakespeare's most performed and studied works.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/macbeth.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:39+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 102551,
+      "prompt_tokens": 15083,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The barbarian",
+  "authors": [
+    "Vogt Ae"
+  ],
+  "kind": "novella",
+  "summary": "This science fiction novella by A. E. van Vogt is set in a far future where the Linnan empire, ruled from the city of Linn, has become the sole great power among the worlds of humankind. Its Lord Adviser, Tews, is a vain and suspicious ruler who sees threats everywhere, especially in his nephews. Clane, a gifted scientist and mutant, and his brother Jerrin question the widespread use of slaves and the empire's ignorance of the outer moons. Tews answers their concerns with surveillance and then seizes Clane's collection of ancient artifacts, among them a mysterious glowing ball of energy left by a lost golden age. The story turns when Czinczar, a fierce warlord from the moon Europa, invades Linn with a huge force, captures the capital, and turns the tables on the court. The narrative moves between the palace, Clane's estate, and the barbarian camp, and it closes on a tense confrontation between Clane and Czinczar over the power of the artifact. The novella blends political intrigue, military action, and speculation about the nature of matter, energy, and the relationship between human will and the universe.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/barbaria.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:43+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 78655,
+      "prompt_tokens": 12344,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

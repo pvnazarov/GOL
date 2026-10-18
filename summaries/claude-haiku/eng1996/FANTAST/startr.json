@@ -1,0 +1,23 @@
+{
+  "title": "Star trek before destruction",
+  "authors": [
+    "Rossi Michael"
+  ],
+  "kind": "novel",
+  "summary": "An unofficial Star Trek novel, a fan-written continuation set immediately after the original series episode \"Requiem for Methuselah.\" Captain James T. Kirk is troubled by lost memories and a painful secret after the Enterprise is sent to investigate a distress signal from the frontier, where a decommissioned cruiser has been jammed and attacked near Elba II, the Federation's asylum for the criminally insane. The mission draws the crew into a conflict with the Klingon Empire, where the usurper Garth of Izar has taken the throne of the Klingon Emperor through metamorphic powers he gained from the Antosians. Garth, now calling himself Mocdar Jek Tromok, plots galactic conquest, and the Klingon war council and Starfleet officers become entangled in his scheme. The novel draws on earlier episodes such as \"Whom Gods Destroy\" and \"Day of the Dove,\" and includes a prologue in which Spock tries to erase Kirk's pain from his mind. The excerpts show space battles, political intrigue inside the Klingon court, and a climactic confrontation between Kirk and Garth in a crowded public assembly. The text is a fragmentary, unfinished copy with chapter breaks and an appended note from the author seeking an agent.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/startr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 346865,
+      "prompt_tokens": 13361,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

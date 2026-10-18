@@ -1,0 +1,23 @@
+{
+  "title": "King henry iv",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "King Henry IV, Part 1 (with Part 2 in the same sequence) is a history play by William Shakespeare, written around 1596-1598. It dramatises the early reign of Henry IV of England, who is troubled by rebellion from the Percy family, led by the fiery young Harry Percy, known as Hotspur, and his father the Earl of Northumberland. Alongside the affairs of the court and the battlefield, the play follows Henry's wayward son, Prince Hal, who keeps company with the witty, corpulent and dissolute Sir John Falstaff and his tavern companions in Eastcheap. Hal's eventual reformation and his climactic duel with Hotspur at Shrewsbury form the emotional core of the work. The second part continues the story with the rebels' further uprisings, the failing health of the king, Falstaff's continued misadventures, and Hal's accession as Henry V. The plays weigh honour against idleness, political duty against private loyalty, and the question of what makes a true ruler. Both parts mix verse and prose, moving between grand court scenes, comic low-life episodes and the battlefield.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/henry4.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 296560,
+      "prompt_tokens": 15002,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

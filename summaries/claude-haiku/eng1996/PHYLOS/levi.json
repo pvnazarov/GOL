@@ -1,0 +1,23 @@
+{
+  "title": "The key of the mysteries",
+  "authors": [
+    "Levi Eliphas"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Key of the Mysteries (La Clef des grands mystères) is a work of occult philosophy by the French magus Eliphas Levi, here presented in the English translation with introduction by Aleister Crowley. Levi sets out to reconcile religion with science, faith with reason, and philosophy with the mystical traditions he traces to Enoch, Abraham, Hermes Trismegistus and Solomon. The book is divided into parts on religious, philosophical and natural mysteries, followed by practical secrets, and it discusses the Qabalah, the Sepher Yetzirah, the Clavicles of Solomon, the tarot, and the magical use of number and symbol. Its opening sections argue that mystery is the essence of religion and that the unknowable is the source of reason. The text also includes a translator's note attacking the earlier English version by Arthur Edward Waite, a biting introduction by Crowley, and a closing prayer-like epilogue. Some later passages recount Levi's encounters with the ecstatic prophet Eugene Vintras and his followers, and their claims of miraculous bleeding hosts. The excerpts supplied are incomplete, but they show the book's essayistic, rhetorical style throughout.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/levi.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 466761,
+      "prompt_tokens": 13015,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

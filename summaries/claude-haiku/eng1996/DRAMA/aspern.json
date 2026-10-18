@@ -1,0 +1,23 @@
+{
+  "title": "The aspern papers",
+  "authors": [
+    "James Henry"
+  ],
+  "kind": "novella",
+  "summary": "The Aspern Papers, a novella by Henry James, is narrated by an unnamed American scholar obsessed with Jeffrey Aspern, a fictional Romantic poet whose brilliant, charming life has become the object of literary veneration. The narrator and an English admirer, John Cumnor, believe that two elderly American women living in a shabby Venetian palace, Miss Bordereau and her niece Miss Tita, were once Aspern's lovers and may still hold his letters and papers. Determined to obtain them, the narrator enlists the help of an acquaintance, Mrs. Prest, and takes lodgings in the house under a false name. His schemes involve flattery, deception, and even a courtship of the shy, devoted niece, which exposes his own moral compromises. The story is a study of literary possessiveness, the ethics of biography, and the tension between art and human feeling, set against the faded atmosphere of Venice. Its tone is ironic and psychologically precise, and its central question concerns what a scholar is willing to sacrifice in pursuit of a great writer's remains.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/aspern.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:01+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 207078,
+      "prompt_tokens": 12597,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

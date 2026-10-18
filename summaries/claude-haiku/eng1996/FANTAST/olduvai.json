@@ -1,0 +1,23 @@
+{
+  "title": "Seven views of olduvai gorge",
+  "authors": [
+    "Resnick Mike"
+  ],
+  "kind": "short stories",
+  "summary": "Seven Views of Olduvai Gorge is a science fiction novella by Mike Resnick, first published in F&SF and issued by Axolotl Press. It is built as a sequence of seven linked vignettes set at the famous Tanzanian fossil site, moving between far-future and near-future perspectives. In the central strand, an alien anthropologist, a sentient being known as He Who Views, and a multispecies excavation team study Olduvai in the distant future, when humanity has long been extinct and its artifacts are being reinterpreted. Other sections follow a pair of prehistoric-seeming off-world colonists who misjudge the native baboons and a small, hidden tribe of primates. Later passages portray a colonial-era clash between a British settler and a Kikuyu man, and a 2103 safari tour in which a tourist records the wildlife and the guide's stories. The stories repeatedly ask what the human race was and what it became, and each view adds to a final, unsettling reveal about the species' survival. The tone mixes wry humor with dread about conquest, prejudice and the cost of ambition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/olduvai.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:49+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 104244,
+      "prompt_tokens": 13038,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

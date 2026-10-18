@@ -1,0 +1,23 @@
+{
+  "title": "Coriolanus",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "Coriolanus is one of Shakespeare's late Roman tragedies, adapted from Plutarch's Lives of the Noble Grecians and Romans. It follows Caius Marcius, a proud and brilliant Roman general who wins the honorary name Coriolanus after storming the Volscian town of Corioli. His contempt for the common people, who are starving and rioting for grain, makes him a target for the plebeian tribunes Sicinius and Brutus, who work to block his election as consul. Stung by their manipulation, he lashes out in speech and is condemned to be thrown from the Tarpeian rock. Banished, he joins his old enemy Tullus Aufidius, the Volscian general, and leads an army against Rome. Only the pleas of his mother Volumnia and his wife Virgilia turn him back from the city's walls. The play examines pride, political expediency, the fickleness of the crowd, and the conflict between personal honour and loyalty to the state. Its characters include the friendly senator Menenius Agrippa, whose fable of the belly is a famous piece of rhetoric, and the Volscian general whose rivalry with Coriolanus ends in tragedy.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/coriolan.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 164401,
+      "prompt_tokens": 14926,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Macho driving in massachusetts",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A humorous, tongue-in-cheek guide to the aggressive driving habits supposedly practised by motorists in Massachusetts, written for newcomers from out of state who are puzzled by local behaviour. Presented as a numbered list of sixteen tips, it mocks the 'macho' driver's preferences: oversized pickup trucks with blinding fog lights, a permanent scowl, ignoring the weather and windshield wipers, driving with headlights off, tossing litter from the window, and treating road signs as mere suggestions. Further tips advise drivers to ignore emergency vehicles, use the breakdown lane to pass, tailgate within inches, cut other drivers off, and close gaps in traffic deliberately. The final tip jokes that the seasoned macho driver can eat lunch, drink a beer and do much more at the wheel. The text reads as a light satirical piece of regional humour, with no named author in the excerpt. It appears to be a plain-text file captured from a bulletin board or terminal display, given the listing prompt at its top.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/drive.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:09+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 5461,
+      "text_chars": 5461,
+      "prompt_tokens": 2995,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

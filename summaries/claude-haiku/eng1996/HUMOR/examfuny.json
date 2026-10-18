@@ -1,0 +1,21 @@
+{
+  "title": "examfuny",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This short humorous piece presents itself as a mock entrance examination from the California Institute of Technology, consisting of a list of absurd questions across academic disciplines. Each subject, including history, medicine, biology, music, psychology, public speaking, sociology, engineering, philosophy, political science, economics and physics, poses an impossible or outlandish task, such as removing one's own appendix with a razor blade and a bottle of scotch, creating life, starting World War III from a red telephone, or constructing and detonating a nuclear weapon and then putting it out. The joke relies on escalating absurdity and deadpan instructions, mocking the pretensions of academic testing and the gap between textbook knowledge and practical competence. The text is brief and carries no named author in the excerpt provided, so the record relies on the file title and the cataloguer's reading of its form. It reads as a piece of comic ephemera, likely circulated informally rather than published as a conventional book.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/examfuny.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:21+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2546,
+      "text_chars": 2546,
+      "prompt_tokens": 2116,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "bigjoke",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A large, unattributed collection of jokes, riddles, and humorous verse that circulated in informal, photocopied and early online form. The material is deliberately crude and irreverent, built on ethnic and regional stereotypes, sexual innuendo, scatology, and mock-folksy punchlines. Among its pieces are a Saint Peter gate sketch, a series of 'little Johnny' stories with a bucket of shit as the punchline, a Santa Claus parody in rhyming verse, and a run of college-rivalry jokes about Georgia and Auburn. It also includes sex-themed question-and-answer gags, a 'Jingo Bells' parody of a Christmas carol, and a long sequence of ASCII-art cows with captions playing on famous cows, celebrities and pop culture. The pieces are short and largely self-contained, so the book is better read as a gag collection than as a narrative. Much of the humour is likely to offend modern readers, and the file offers no author, date or publisher information to place it.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/bigjoke.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:56+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 80348,
+      "prompt_tokens": 16200,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

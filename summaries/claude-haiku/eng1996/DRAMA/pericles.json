@@ -1,0 +1,23 @@
+{
+  "title": "Pericles, prince of tyre",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Pericles, Prince of Tyre is a Shakespearean romance play, traditionally attributed in part to William Shakespeare and often thought to be a collaboration, in which the chorus figure Gower introduces the story as a narrator from the past. The play follows Prince Pericles, who travels abroad after failing to solve a riddle posed by King Antiochus of Antioch, which conceals the king's incestuous relationship with his daughter. Pursued by an assassin sent by the king, Pericles flees and survives a series of shipwrecks, losses and reunions across the Mediterranean. He is separated from his wife Thaisa, whom he believes dead, and from his infant daughter Marina, who is raised in Tarsus under the jealous and murderous care of Cleon and Dionyza. The play moves through Tarsus, Ephesus, Pentapolis and Mytilene, and ends with the restoration of families, the punishment of wrongdoers, and the reunion of a scattered royal household. It is known for its episodic structure, its themes of loss, patience and providence, and its use of the Gower chorus to frame the tale.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/pericles.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:50+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 109111,
+      "prompt_tokens": 14885,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

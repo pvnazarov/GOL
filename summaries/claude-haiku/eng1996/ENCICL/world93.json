@@ -1,0 +1,23 @@
+{
+  "title": "Central intelligence agency the world factbook 1993",
+  "authors": [
+    "Central Intelligence Agency"
+  ],
+  "kind": "non-fiction",
+  "summary": "The World Factbook 1993 is a reference almanac published by the US Central Intelligence Agency, giving standardized profiles of the countries, dependent areas, and other geographic entities of the world as of early 1993. Each entry follows a fixed set of headings, covering geography, population and demographics, government and political parties, economy, communications, and defense forces, along with diplomatic contacts and maps. The volume opens with notes on definitions, abbreviations, and methodology, including explanations of gross national product, purchasing power parity, drug categories, and the FIPS two-letter country codes. It also includes an index of geographic names, a gazetteer-style cross-reference listing straits, seas, cities, and historic place names with the countries they now belong to, and a list of the US diplomatic posts abroad. The edition notes significant changes such as the breakup of Czechoslovakia, the Soviet Union, and Yugoslavia, and Eritrea's independence. This text is a public-domain Project Gutenberg edition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/ENCICL/world93.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:36+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 2445833,
+      "prompt_tokens": 15890,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

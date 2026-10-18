@@ -1,0 +1,23 @@
+{
+  "title": "So long, and thanks for all the fish",
+  "authors": [
+    "Adams Douglas"
+  ],
+  "kind": "novel",
+  "summary": "The fourth volume of Douglas Adams's Hitchhiker's Guide to the Galaxy series, following the lone survivor of Earth's destruction, Arthur Dent, as he tries to build a settled life in London after his travels across the cosmos. Arthur falls for Fenchurch, a woman with an unusual secret, and their romance unfolds against a background of absurd bureaucracy, cosmic mishap and sharp satire. Meanwhile the story picks up the threads of Ford Prefect, the researcher for the Guide, who is caught up in a wild space battle aboard a Xaxisian ship, and of Marvin, the chronically depressed robot. The book moves between these threads with Adams's trademark digressions, puns and comic logic, touching on the nature of happiness, the search for meaning, and the strange ways that human and alien civilisations misunderstand one another. Its tone mixes whimsy with melancholy as the characters confront questions about faith, love and the value of ordinary life. An epilogue offers a brief, ironic fable about a geneticist whose distractions save his world.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/hitch4.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:17+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 248721,
+      "prompt_tokens": 12720,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

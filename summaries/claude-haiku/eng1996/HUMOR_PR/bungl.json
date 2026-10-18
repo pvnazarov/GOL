@@ -1,0 +1,21 @@
+{
+  "title": "bungl",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A humorous computing piece styled as a mock press release and glossary. It opens with a fictional July 1990 announcement about a supposed super CPU built in a secret factory in the breakaway republic of Bananistan, manufactured with absurd materials such as sea moss, L-tryptophan and semiconducting carob, and programmable in a language called BUNGL, a playful successor to the BOTCH language. The bulk of the text is a list titled 'Overextended Mnemonics', which parodies assembly-language opcode tables by inventing instruction names whose expansions are jokes, such as Halt and Catch Fire, Branch on Bathtub Overflow, Read Programmer's Mind, and Wait for Godot. The piece targets programmers and computing culture of the era, mocking hardware jargon, technical documentation, and the pretensions of the industry. The author is not identified in the excerpt.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR_PR/bungl.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:54+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 3240,
+      "text_chars": 3240,
+      "prompt_tokens": 2562,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

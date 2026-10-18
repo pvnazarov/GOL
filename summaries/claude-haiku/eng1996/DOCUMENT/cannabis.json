@@ -1,0 +1,23 @@
+{
+  "title": "Frequently asked questions about cannabis hemp",
+  "authors": [
+    "Julin Brian S"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a Usenet-era FAQ, first circulated in 1994 on the alt.hemp newsgroup, that answers common questions about cannabis hemp and marijuana. It is organised in six parts. The first covers the uses of hemp as food, cloth, paper and fuel, and compares it with soy, cotton, trees, petroleum and conventional medicine. The second asks why hemp was made illegal in the United States and what the history of prohibition shows. The third, the longest section, takes on popular claims about marijuana, including fat-cell storage, brain damage, potency, memory loss, psychosis, laziness, the gateway theory, effects on sperm and hormones, fetal effects, driving, and immune function, and answers each with reference to published studies. The fourth discusses current law and how readers can get involved in reform. The closing parts list sources by question and describe the FAQ's version history and maintenance. The author writes from a strongly pro-legalisation position and argues that prohibition, rather than the plant, causes much of the harm.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/cannabis.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 106532,
+      "prompt_tokens": 13256,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

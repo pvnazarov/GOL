@@ -1,0 +1,23 @@
+{
+  "title": "Catscan",
+  "authors": [
+    "Sterling Bruce"
+  ],
+  "kind": "non-fiction",
+  "summary": "Catscan is a collection of columns by the science fiction writer and critic Bruce Sterling, originally printed as a regular feature in Steve Brown's genre literary-critical magazine SF Eye. The pieces are essayistic and opinionated, ranging across the history and conventions of science fiction and the wider culture around it. The collected installments listed here include an affectionate look at Jules Verne as a flawed, restless figure who invented hard science fiction; a satirical account of a would-be Russian novelist who discovers Soviet literature; a comparison of Lafcadio Hearn and the contemporary Japan writer Rick Kennedy on how outsiders describe Japan; and a critique of conspiracy paranoia in films and in the minds of its fans, which Sterling argues leaves its believers politically passive. Other installments carry titles such as \"Updike's Version,\" \"Slipstream,\" \"Digital Dolphins in the Dance of Biz,\" and \"Sneaking for Jesus 2001.\" The tone mixes sharp wit, cultural commentary, and a running concern with technology, globalization, and the future of the genre.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/catscan.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 194894,
+      "prompt_tokens": 13629,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

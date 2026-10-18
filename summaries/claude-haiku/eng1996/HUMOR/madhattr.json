@@ -1,0 +1,23 @@
+{
+  "title": "Madhatterday",
+  "authors": [
+    "Dick Dunn"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short humorous essay promoting MadHatterDay, a playful second \"silly day\" meant to fall six months after April Fools' Day. This edition marks its third celebration on October 6, 1988. The premise is that on this day people may say outrageous, nonsensical things without being judged, as politicians and advertisers often do anyway. The date is explained through John Tenniel's illustrations for Alice's Adventures in Wonderland, where the Mad Hatter wears a label reading \"In this style 10/6-\", which the author takes as an instruction to behave like the Hatter. The piece notes that the holiday falls in an election season and that Britain celebrates it on June 10. Its main body is a list of everyday customs treated as absurd: three-piece suits worn in summer, cars powered by refined fossil fuel, desk jobs followed by health club memberships, equal spending on food and diet schemes, and daylight saving time. It closes with the claim that the truly mad person is the one who takes the world seriously.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/madhattr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:00+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 2555,
+      "text_chars": 2555,
+      "prompt_tokens": 2137,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Life, the universe, and everything",
+  "authors": [
+    "Adams Douglas"
+  ],
+  "kind": "novel",
+  "summary": "Life, the Universe and Everything is the third novel in Douglas Adams's comic science fiction series The Hitchhiker's Guide to the Galaxy. Arthur Dent, the last surviving Englishman from Earth, has settled into a quiet, primitive life on prehistoric Earth, but his companion Ford Prefect soon turns up with news of strange disturbances in space-time. The story moves between many strands: the immortal, bitter Wowbagger the Infinitely Prolonged, who plans to insult every living being in the universe in alphabetical order; the poet Lallafa, whose finest verses are rewritten by correcting-fluid manufacturers who meddle with history; and Arthur, Ford, and their friends drawn into a sprawling mystery involving a vast computer, a mysterious sentence written across a mountain range, and a threat to reality itself. Satire, absurd digressions, and dry narrative commentary drive the book, which mocks bureaucracy, the self-importance of the powerful, and the trivialities of everyday life while exploring questions about meaning and existence.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/hitch3.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:16+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 303707,
+      "prompt_tokens": 13168,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

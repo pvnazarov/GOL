@@ -1,0 +1,23 @@
+{
+  "title": "Creatures of horror",
+  "authors": [
+    "A.A.V."
+  ],
+  "kind": "non-fiction",
+  "summary": "Creatures of Horror is a fantasy bestiary, written as a reference guide for players of fantasy role-playing games. It opens with a warning about the Ancient Art of Demonology, describing the dangers of preparing a demonic circle of binding, summoning a demon, and banishing it again. The bulk of the text is a catalogue of monsters, each given a short entry that describes its origin, appearance, abilities, weaknesses and how best to fight it. The entries cover angels of death, animated constructs, banshees, demons and major demons such as Cerberus, ghosts, ghouls, giant rats, hags, imps, several giant insects including ants, spiders, scorpions and wasps, mimics, necromancers, poltergeists, shapeshifters, skeletons, vampires, wights and zombies. The tone is brisk and matter-of-fact, offering game-style tactical advice alongside atmospheric description. It is useful as a source of monster lore and combat notes for tabletop or fantasy adventure settings.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/creature.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:11+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 13677,
+      "text_chars": 13677,
+      "prompt_tokens": 5644,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

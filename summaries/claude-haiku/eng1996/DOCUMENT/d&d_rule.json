@@ -1,0 +1,23 @@
+{
+  "title": "d&d_rule",
+  "authors": [
+    "Aaron Allston"
+  ],
+  "kind": "non-fiction",
+  "summary": "The D&D Cyclopedia is a reference volume published by TSR, Inc. that gathers the rules of the Dungeons & Dragons role-playing game into one encyclopedic book. It is aimed at experienced players who want to look up a specific rule quickly, though the text also explains how a newcomer could learn to play from it. The contents cover character creation, including ability scores, classes such as cleric, fighter, magic-user, thief, dwarf, elf, halfling, druid and mystic, and their spells and equipment. Later sections deal with movement, encounters, combat, mass battles, experience, nonplayer characters and stronghold building, followed by guidance for the Dungeon Master, a large monster list, immortals, treasure and magic items, campaign design and the planes of existence. Appendices offer conversion notes for Advanced Dungeons & Dragons, record sheets and indices. The book also introduces the basic roles of players, the Dungeon Master, mapper and caller.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/d&d_rule.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:14+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1826810,
+      "prompt_tokens": 12237,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Antony and cleopatra",
+  "authors": [
+    "Shakespeare William"
+  ],
+  "kind": "play",
+  "summary": "Antony and Cleopatra is a tragedy by William Shakespeare, written around 1606 and set across the Roman world in the years after the death of Julius Caesar. It follows Mark Antony, one of the three triumvirs ruling Rome, who has become infatuated with Cleopatra, the queen of Egypt, and neglects his political and military duties. The play moves between Alexandria, where the lovers indulge their passion, and Rome, where his rival Octavius Caesar watches for an opportunity to undermine him. Political events pull Antony back toward Rome, including the death of his wife Fulvia and the reconciliation arranged through his sister-in-law Octavia, but he repeatedly returns to Egypt. A naval confrontation at Actium goes badly for the lovers, and the play builds toward Antony's defeat, the desertion of his followers such as Enobarbus, and the final suicides of Antony and Cleopatra. The work is known for its contrast between the sensuous, theatrical world of Egypt and the disciplined, pragmatic world of Rome, and for its many vivid supporting characters, including Enobarbus, Charmian, and Iras.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/antony.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 154265,
+      "prompt_tokens": 15835,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

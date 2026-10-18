@@ -1,0 +1,21 @@
+{
+  "title": "The magna carta (the great charter)",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is an electronic text of the Magna Carta, the charter of liberties sealed by King John of England at Runnymede on 15 June 1215, under pressure from a coalition of barons and clergy. The document opens with a preamble naming the king, his advisers and the witnesses, then sets out sixty-three numbered clauses. These cover the freedom of the English Church, limits on feudal relief, wardship and marriage of heirs, the rights of widows, protections for debtors and Jewish creditors, the requirement of common counsel for taxes known as scutage and aids, the administration of justice, weights and measures, merchants' travel, forest law, and a twenty-five-baron committee empowered to enforce the terms. The text is a late medieval English translation from the Latin original. Appended notes by the transcriber, Gerald Murphy, explain that the charter was short-lived, reissued in revised form in 1216, 1217 and 1225, and that its provisions were largely superseded. The file was prepared for the Cleveland Free-Net and distributed through the National Public Telecomputing Network.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/magnacrt.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:32+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 28401,
+      "text_chars": 28401,
+      "prompt_tokens": 10646,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Новейший фисософский словарь",
+  "authors": [
+    "ред Грицанов"
+  ],
+  "kind": "non-fiction",
+  "summary": "Новейший философский словарь is a large Russian-language reference work of philosophy, published in Minsk in 1998 or 1999 and edited by A.A. Gritsanov. It comprises roughly 1400 analytical entries, arranged alphabetically, covering the classical philosophical canon across Western, Eastern and East Slavic traditions as well as recent trends associated with postmodern culture. More than 400 concepts and personalities are introduced for the first time in such a dictionary. The entries are signed by contributing scholars and treat terms, schools and thinkers in some depth. Sample entries visible in the table of contents include Abelard, Absolute, Aristotle, Berdyaev, Bergson, Bible, Buddhism, Myth, Mythological School, Social Stereotype and Vera. Several entries carry extended essays, for example on myth, which discusses classical and social mythology, and on Nicholas of Cusa's theology of knowledge. The work is intended for specialists in philosophy, cultural studies, sociology and psychology, as well as postgraduate students and advanced humanities pupils at lyceums and colleges.",
+  "lang": "English",
+  "meta": {
+    "source": "rus2004/DICTION/uchebn.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T01:20:26+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 6251964,
+      "prompt_tokens": 10774,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

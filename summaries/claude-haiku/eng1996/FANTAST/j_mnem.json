@@ -1,0 +1,23 @@
+{
+  "title": "Johnny mnemonic",
+  "authors": [
+    "Gibson William"
+  ],
+  "kind": "short stories",
+  "summary": "\"Johnny Mnemonic\" is a cyberpunk story by William Gibson, first published in 1981 and later widely anthologised. It follows Johnny, a data courier whose memory has been surgically altered to carry a stolen corporate program that only one client can unlock with a code phrase. When that client, the Christian White-faced fence Ralfi Face, is murdered by a Yakuza assassin, Johnny is left with a dangerous cargo and hunted by the criminal syndicate that wants it back. He falls in with Molly Millions, a mirror-eyed street samurai with retractable blades, and together they seek help in Nighttown, a lawless slum beneath the roof of a sprawling Fuller-dome city. Their search leads them to Jones, a cyborg dolphin from the navy, and to the Lo Teks, a community of scavengers in the ruins above. The story explores bodily modification, corporate power, and the strain of a mind that is not wholly one's own. Its hard-boiled voice and dense, invented slang helped define the genre.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/j_mnem.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 36683,
+      "prompt_tokens": 14060,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

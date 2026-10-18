@@ -1,0 +1,23 @@
+{
+  "title": "The only sentient being for miles around",
+  "authors": [
+    "Gagne Stefan"
+  ],
+  "kind": "short stories",
+  "summary": "A short story narrated in the first person by a teenage boy who feels he is alone in thinking for himself in a suburban high school town where everyone else seems to repeat routines without reflection. He is bored by conformist peers, baffled by adults who refuse his questions, and frustrated at a soup kitchen where a supervisor forbids him from giving a confused old woman the sugar cookies she asks for. His real connection comes from a girl he meets as a child, who was burning ants with a magnifying lens. The two bond over birds, the truth, and poetry; she shares her verses with him, and he encourages her to keep writing despite ridicule from classmates and pressure from her family. Their friendship grows into a quest to find other thinking people, and the narrator concludes that such people exist and that the feelings of connection matter more than the words that express them. The text is informal, digressive and sometimes deliberately naive, and it closes with a short poem by the narrator about not being alone.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/LYRIC/sentient.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:03:44+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 26359,
+      "text_chars": 26359,
+      "prompt_tokens": 10304,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

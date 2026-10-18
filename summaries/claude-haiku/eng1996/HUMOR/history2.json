@@ -1,0 +1,23 @@
+{
+  "title": "history2",
+  "authors": [
+    "Henriksson Anders"
+  ],
+  "kind": "non-fiction",
+  "summary": "A satirical history of Europe, from the Middle Ages to the twentieth century, assembled from the errors and misunderstandings of university freshmen. The narrator presents the student papers, collected by a professor over five years, as a continuous chronological narrative. The humour comes mostly from garbled terminology, invented or misspelled words, and confident but mistaken claims. The Black Death is blamed on rats and sexual transmission, the Renaissance arrives 'from the blue,' Calvinism is called the most convenient religion, and historical figures are misnamed and muddled. Moving through the Reformation, the Enlightenment, the French Revolution, Napoleon, German unification, the two world wars and Nazi Germany, the piece treats serious events in a flat, earnest tone that makes the errors funnier. It has no plot or characters beyond its anonymous students. Its appeal lies in wordplay and deadpan misreadings, and it closes with a pseudo-sociological aside about the development of the individual.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/history2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:51+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7859,
+      "text_chars": 7859,
+      "prompt_tokens": 3852,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

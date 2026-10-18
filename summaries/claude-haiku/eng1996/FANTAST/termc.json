@@ -1,0 +1,23 @@
+{
+  "title": "Terminal compromise",
+  "authors": [
+    "Schwartau Winn"
+  ],
+  "kind": "novel",
+  "summary": "Terminal Compromise is a techno-thriller by Winn Schwartau about a coordinated attack on the United States through its computer and communications infrastructure. The book was first published in print in 1993 and was also distributed electronically as shareware, which is why the text opens with publisher notes and fee instructions. The story follows several interlocking threads. Taki Homosoto, the chairman of a Japanese industrial conglomerate and a survivor of Hiroshima, plans revenge on America. Miles Foster, a gifted mathematician with a grudge against his own government, supplies the technical expertise. Scott Mason, a New York journalist and former defense contractor, begins to uncover pieces of the plot, and Tyrone Duncan, a veteran FBI agent, tries to work through rival federal agencies to stop it. Along the way the novel depicts a senator being pressured to bury security hearings, and the economy suffering attacks on banks, airlines and carmakers. It mixes cyberwarfare, espionage and political intrigue, with an emphasis on the author's warnings about digital vulnerability and the loss of privacy.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/termc.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:11+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1247073,
+      "prompt_tokens": 13387,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

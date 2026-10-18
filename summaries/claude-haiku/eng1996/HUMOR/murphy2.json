@@ -1,0 +1,21 @@
+{
+  "title": "murphy2",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A short humor collection of aphorisms and mock-scientific \"laws\" in the style of Murphy's Law, reprinted from a 1989 issue of GAMES Magazine and attributed to the Murphy Center for the Codification of Human and Organizational Law. Each entry is a one-line rule named after a person or a theme, such as Boyle's Laws on drapes and sore body parts, Ehre's Laws of Double Doors, Grissom's Law on drains and containers, the N-1 Law about missing screws, and Tillinger's Rule that moderation applies even to moderation. Other entries poke fun at politics (Beck's Political Law, which says a good slogan beats a good solution), celebrity, bureaucratic habits, and the supposed quirks of Harvard and Texas. The pieces are brief jokes meant to be read in quick succession, with the wit resting on the familiar frustrations of everyday life, office routines, and technology. The text is complete and presents no plot or characters; it is light entertainment intended for casual browsing.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/murphy2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:09+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1925,
+      "text_chars": 1925,
+      "prompt_tokens": 1881,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

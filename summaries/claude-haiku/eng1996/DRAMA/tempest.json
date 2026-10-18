@@ -1,0 +1,23 @@
+{
+  "title": "The tempest",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "The Tempest is a late romance by William Shakespeare, traditionally dated to around 1610 to 1611, and is often counted among his last complete plays. It is set on a remote island and opens with a violent storm that wrecks a ship carrying Alonso, King of Naples, his son Ferdinand, and their companions, along with the usurping Antonio and the honest counsellor Gonzalo. The storm is in fact conjured by Prospero, the exiled Duke of Milan, who has lived on the island for twelve years with his daughter Miranda. Prospero was deposed by his brother Antonio, with the help of Alonso, and he uses his magic and his spirit servant Ariel to bring his enemies under his control. Other key figures include Caliban, the deformed son of the witch Sycorax, and the comic drunkards Stephano and Trinculo. The play moves between comedy, intrigue, and reconciliation, exploring power, usurpation, forgiveness, and the limits of magic. It ends with Prospero renouncing his art and asking the audience for release through their applause.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/tempest.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:12+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 96989,
+      "prompt_tokens": 15057,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

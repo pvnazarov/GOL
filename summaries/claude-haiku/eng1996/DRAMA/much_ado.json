@@ -1,0 +1,23 @@
+{
+  "title": "Much ado about nothing",
+  "authors": [
+    "William Shakespeare"
+  ],
+  "kind": "play",
+  "summary": "Much Ado About Nothing is a comedy by William Shakespeare, set in the Sicilian city of Messina. The play follows two interlocking courtships. Claudio, a young lord of Florence, falls in love with Hero, the daughter of the governor Leonato, while Benedick, a witty bachelor from Padua, and Beatrice, Leonato's niece, trade sharp insults and pretend to scorn each other. Don Pedro, the visiting prince of Aragon, and his friends conspire to bring the pair together by staging conversations each is meant to overhear, persuading Benedick and Beatrice that the other is secretly in love. Meanwhile, Don John, Pedro's bitter bastard brother, plots to ruin Claudio's happiness by slandering Hero's honour, using a deceit staged at her window. A subplot features the bumbling constable Dogberry and his watchmen, whose ignorant malapropisms expose the plot in an unexpected way. The work moves between comic wordplay, romantic misunderstanding, and a dark accusation scene before a restoring conclusion. It is a classic example of Shakespeare's mature comedy, balancing wit, deception, and the testing of reputation.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/much_ado.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:45+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 121359,
+      "prompt_tokens": 14581,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

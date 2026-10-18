@@ -1,0 +1,23 @@
+{
+  "title": "Uncle tom`s cabin or life among the lowly",
+  "authors": [
+    "Stowe Harriet Beecher"
+  ],
+  "kind": "novel",
+  "summary": "Uncle Tom's Cabin, first published serially in 1851 and 1852 and then as a book, is an anti-slavery novel set in the United States before the Civil War. The story opens in Kentucky, where the financially troubled planter Mr. Shelby agrees to sell Tom, a devout and trustworthy enslaved man, to the slave trader Haley, and where the young mother Eliza, learning of the sale, flees with her son to save him. Tom's journey south to New Orleans brings him into the household of the gentle, philosophical Augustine St. Clare and his small daughter Eva, and the novel widens to portray many enslaved and free characters, cruel masters such as Simon Legree, and the moral struggles of Northern and Southern whites. Through melodrama, sermonizing narration and direct appeals to the reader, Stowe dramatizes the human cost of slavery and the hypocrisy of a society built upon it. The book became one of the most influential works of nineteenth-century American fiction and played a significant part in shaping public opinion against slavery.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/utomc10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:23+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1004875,
+      "prompt_tokens": 13415,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

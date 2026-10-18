@@ -1,0 +1,23 @@
+{
+  "title": "The city of the dancing lights report on the annual festival of the arts",
+  "authors": [
+    "Roger Frank"
+  ],
+  "kind": "short stories",
+  "summary": "This collection gathers a set of satirical and speculative pieces, several built around an imagined Annual Festival of the Arts in which art has become spectacle, commerce and provocation. The opening piece is a journalist's report on the festival: a virtual-reality artist turned emotion sculptor, a book designed to decompose into dust after an expiry date, a human race of indebted runners bound across generations, and a closing zeppelin spectacle over San Francisco that is staged as an earthquake and urban collapse. Other stories follow more personal, unsettling situations. A lonely old man refuses to leave a flooded, abandoned city and meets a documentary film crew who see him as a prop for their artistic ambitions. A family of technology-saturated households confronts a son who has made a crude wooden horse by hand. A narrator pursues an obsession with a woman on a vanished island resort whose travel records have disappeared. The pieces share a wry, uneasy tone about art, consumerism, ecological collapse and the loss of human connection. The excerpts suggest a writer who uses a clipped, detailed prose style and dark humour to examine how people and cultures treat experience as something to be packaged and consumed.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/roger2.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:57:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 343292,
+      "prompt_tokens": 12742,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

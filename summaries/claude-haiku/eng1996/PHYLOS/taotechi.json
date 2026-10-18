@@ -1,0 +1,23 @@
+{
+  "title": "Tao te ching",
+  "authors": [
+    "Lao Tzu"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Tao Te Ching is a classic collection of 81 short, aphoristic chapters traditionally attributed to Lao Tzu, a figure associated with early Chinese philosophy. It sets out the central ideas of Taoism: the Tao, or Way, as the nameless source and natural order underlying all things, and the Te, or virtue, that flows from living in harmony with it. Recurring themes include the value of humility, softness and yielding over force, the wisdom of non-action (wu wei), the dangers of ambition, wealth and display, and the ideal of the sage who governs lightly and lets people flourish on their own. The text uses paradox and vivid natural images such as water, valleys, uncarved wood and the empty space inside a wheel or jar. This copy is an English rendering in which the first part is an anonymous, loosely paraphrased translation, and from chapter 31 onward it is James Legge's translation, with later chapters showing his scholarly notes in brackets. Passages on war, rulers and the people are included, along with reflections on mortality and the Tao as mother of all things.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/taotechi.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T08:16:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 50093,
+      "prompt_tokens": 12836,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

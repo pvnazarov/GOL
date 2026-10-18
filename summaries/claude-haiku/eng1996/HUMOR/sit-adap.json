@@ -1,0 +1,21 @@
+{
+  "title": "Date name title situation adaptability evaluation for management personnel",
+  "authors": [],
+  "kind": "humor",
+  "summary": "This is a satirical parody of a corporate aptitude test, styled as a form for evaluating the judgment of management personnel. It opens with a blank header for date, name and title, then presents eight multiple-choice scenarios in which a salesman faces embarrassing and absurd predicaments: a client spits in his coffee, he is caught staring at the boss's daughter, he loses control of his bowels during a presentation, he has a nose-picking urge at a business lunch, he suffers a hangover in the washroom, he is groped under the dinner table, he discovers a broken zipper and no underwear, and he insults a client's wife's hometown. Each question offers three deliberately crude or absurd answers, so there is no sound choice, and the joke lies in the contrast between the formal test instructions and the vulgar content. The piece relies on bodily humor, sexual innuendo and mockery of sales culture. It is a short, self-contained comic text, typical of the photocopied office humor that circulated informally.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/sit-adap.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:29+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4691,
+      "text_chars": 4691,
+      "prompt_tokens": 2778,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

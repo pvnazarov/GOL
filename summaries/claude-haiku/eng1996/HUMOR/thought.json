@@ -1,0 +1,21 @@
+{
+  "title": "A thought",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "A Thought is a short, anonymous piece of prose poetry or reflective fable, circulated as an environmental teaching text. It imagines the Earth shrunk to a ball a few feet across, floating above a field, and asks how people would respond to it. Visitors would marvel at its pools of water, its bumps and holes, its thin layer of gas, and the creatures living on its surface and in its waters. They would declare it sacred because it is the only one, protect it from harm, and come to it to pray, to be healed, and to gain knowledge. The piece closes by reversing the thought experiment, reminding readers that the real Earth is that irreplaceable object. The text carries an attribution to the Coyote Point Museum for Environmental Education and Friends of the Earth, and it is best read as a short piece of advocacy and wonder rather than a narrative. It is brief, earnest, and written for general audiences.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/thought.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:02:36+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1113,
+      "text_chars": 1113,
+      "prompt_tokens": 1553,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

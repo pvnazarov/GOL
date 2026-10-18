@@ -1,0 +1,23 @@
+{
+  "title": "Sister carrie",
+  "authors": [
+    "Dreiser Theodore"
+  ],
+  "kind": "novel",
+  "summary": "Sister Carrie is a naturalist novel by Theodore Dreiser, first published in 1900, that follows Caroline Meeber, a young woman from a small Wisconsin-area town who arrives in Chicago in 1889 to live with her sister. Carrie is poor, impressionable and eager for the comforts and glamour of city life. She is quickly drawn into relationships with two men: Charles Drouet, a charming traveling salesman, and George Hurstwood, a respectable and married manager of a fashionable Chicago saloon. Their different offers of security and pleasure shape her path as she moves through the worlds of work, romance and the stage. The novel examines how desire, social ambition and economic necessity drive people, and how the city both promises and disappoints. The passages here include the opening train journey and early Chicago experiences, a middle section in which Carrie searches for stage work and corresponds with Hurstwood, and the closing reflections on her lasting longing. The narrator's commentary frequently moralises on her fate, giving the book its distinctive voice.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DRAMA/scarr10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:04+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 876728,
+      "prompt_tokens": 12679,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

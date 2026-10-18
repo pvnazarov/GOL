@@ -1,0 +1,23 @@
+{
+  "title": "Star wars episode iv a new hope",
+  "authors": [
+    "Lucas George"
+  ],
+  "kind": "novel",
+  "summary": "This is the shooting script of the 1977 film Star Wars: Episode IV, A New Hope, by George Lucas, here in a revised fourth draft dated January 1976. It is written in screenplay format, with scene headings, action descriptions and dialogue, rather than as prose fiction. The story is set in a galaxy far away during a civil war between a Rebel Alliance and the tyrannical Galactic Empire. Princess Leia Organa, a Rebel-aligned senator, smuggles the plans of the Empire's Death Star, a planet-destroying battle station, into the care of two droids, R2-D2 and C-3PO. Those droids escape to the desert planet Tatooine, where they fall in with the young farm boy Luke Skywalker. Luke is drawn into the struggle alongside the old hermit Ben Kenobi, the smuggler Han Solo and his Wookiee companion Chewbacca, as they attempt to rescue Leia from the Empire's forces led by the menacing Darth Vader. The excerpts include the opening sequences, a rescue inside the Death Star, and the closing credits listing the cast and crew.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/starwar4.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 200534,
+      "prompt_tokens": 15362,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The invisible man",
+  "authors": [
+    "Wells Hg"
+  ],
+  "kind": "novel",
+  "summary": "The Invisible Man, by H. G. Wells, is a science fiction novel first published in 1897. It follows Griffin, a brilliant but embittered research scientist who discovers a method of rendering the human body invisible. The story opens in the winter village of Iping, where a bandaged, goggle-wearing stranger takes rooms at the Coach and Horses inn and grows increasingly hostile toward the locals. Its later chapters reveal Griffin's past and his trail of crimes, as he seeks a partner in his old university colleague Dr. Kemp and comes to see invisibility as a means of power. As the narrative moves toward its climax, the hunt for Griffin spreads through the countryside, and the villagers and authorities struggle to contain a man who cannot be seen. Wells uses the premise to explore scientific ambition, isolation, the abuse of power, and the fragility of social order, all through a tense chase and a portrait of a man whose genius turns into madness.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/invisman.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:59:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 283364,
+      "prompt_tokens": 13532,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

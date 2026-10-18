@@ -1,0 +1,23 @@
+{
+  "title": "chckmate",
+  "authors": [
+    "Hutchins Benjamin D"
+  ],
+  "kind": "novella",
+  "summary": "Future Imperfect: Checkmate is a fan-written science fiction novella by Benjamin D. Hutchins, set in a shared universe that borrows characters and settings from several anime, manga, and film sources. In the year 2394, a cybernetic assassin named Mian, a 7A combat android created by the scientist Larry Mann, arrives at New Avalon, a city inside a Dyson sphere, with no memory of her past. Her programming includes a tactical override chip that seizes control of her actions whenever her mission is threatened. When she recognizes her former target, the admiral Gryphon, she attacks him in a shopping mall. The story follows the aftermath as Gryphon, Mann, and their friends, including Deunan Knute and Briareos, work to understand her condition and decide whether she can be saved rather than destroyed. Combat, romance, and questions about free will and identity drive the narrative, which is written in a lighthearted style full of pop-culture references and is dedicated to the late actor John Candy.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/chckmate.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:58:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 96890,
+      "prompt_tokens": 13616,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

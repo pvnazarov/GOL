@@ -1,0 +1,23 @@
+{
+  "title": "In vino veritas",
+  "authors": [
+    "Kierkegaard Soren"
+  ],
+  "kind": "non-fiction",
+  "summary": "\"In Vino Veritas\" is a section of Søren Kierkegaard's Stages on Life's Way, a work published under pseudonyms and assembled from several voices. Written as a modern companion to Plato's Symposium, it is framed as a recollection by the pseudonymous narrator William Afham. A group of friends, including Constantin Constantius, the Young Man, Victor Eremita, a Fashion Designer and Johannes the Seducer, gathers for a banquet at which each guest must give a speech on erotic love after drinking wine. Each speaker treats love from a different angle: as comic and unexplainable, as a matter of amusement and irony, as a folly of vanity, or as a life of seduction without substance. The section closes with a glimpse of a married couple in a garden, suggesting that love can work despite its absurdity. The piece is a study of the aesthetic life and its limits, and it ends by pointing toward a Christian understanding of love as grounded in divine love. The text here is a reader's essay about the work rather than Kierkegaard's own words.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/PHYLOS/soren.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:37:13+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 19407,
+      "text_chars": 19407,
+      "prompt_tokens": 7707,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

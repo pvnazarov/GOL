@@ -1,0 +1,23 @@
+{
+  "title": "Star trek chronology",
+  "authors": [
+    "James Dixon"
+  ],
+  "kind": "non-fiction",
+  "summary": "A fan-compiled reference chronology of the Star Trek universe, presented as a year-by-year timeline of events. It begins with cosmic prehistory, such as the construction of the Great Barrier around the galaxy's core and the rise and fall of ancient races like the Preservers, Makers and Slavers, then moves through the origins of Vulcan, Klingon and other civilizations, the history of Earth from its ages of agriculture and science through the Eugenics Wars and the Second Dark Ages, and on to the founding of the United Federation of Planets. Entries give approximate dates, planetary histories, and references to episodes and films, including stardates for individual adventures of the starship Enterprise. The later portion catalogues the sources the author drew on, such as the Starfleet handbooks, officer's manuals, blueprints and fleet reference series, and comments on which are reliable. The text ends with a copyright and distribution note from the compiler, who invites free sharing but not alteration or sale. It is an amateur, unofficial work intended for fans of the franchise.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/FANTAST/trekfile.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:00:20+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 139355,
+      "prompt_tokens": 13735,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

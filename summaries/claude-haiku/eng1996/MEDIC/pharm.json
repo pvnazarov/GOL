@@ -1,0 +1,21 @@
+{
+  "title": "Pharm assist v. 2.06-cd medical and pharmaceutical encyclopaedia",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "Pharm Assist v. 2.06-CD is a reference encyclopaedia on CD-ROM format, presented as a plain-text export, that combines a first-aid guide with a pharmaceutical drug directory. The first-aid portion gives step-by-step instructions for treating burns of each degree, electrical and chemical burns, heart attack and cardiac arrest, internal and external bleeding, shock, nosebleeds, eye injuries, sprains, strains, fractures and dislocations, and animal bites. The drug portion is arranged alphabetically by generic name and gives, for each entry, a list of brand names, whether it needs a prescription, its intended use, expected onset of action, missed-dose advice, side effects, interactions, precautions for special groups such as pregnant women, children and older adults, and overdose symptoms. Sample entries include bulk-forming laxatives such as malt soup extract and methylcellulose, the antihistamines meclizine and pheniramine, and vitamins niacin and pantothenic acid. The closing section lists international travel vaccination requirements, especially yellow fever certificates by country, and malaria risk notes. The text is fragmentary and partly garbled in places, and the excerpts do not show a title page or author.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/MEDIC/pharm.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T07:36:51+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1670137,
+      "prompt_tokens": 13660,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

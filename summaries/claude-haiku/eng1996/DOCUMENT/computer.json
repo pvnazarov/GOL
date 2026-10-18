@@ -1,0 +1,21 @@
+{
+  "title": "The night of the hackers",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A newsletter-style collection of articles about the computer underground of the mid-1980s, centred on teenage hackers, phone phreaks and their electronic bulletin boards. It opens with a narrative of a reporter dialing into boards such as Dragonfire, Blottoland and Plovernet, where he finds stolen phone numbers, passwords, and credit-card lists, and where sysops question him and chat with him. The pieces describe the boards' culture of mischief, from black and blue boxes to nitroglycerine recipes, and the pranks and harassment that hackers direct at the public. A follow-up recounts how a Newsweek correspondent was targeted after writing about the scene: his phone was flooded with calls, his credit data was pulled from the TRW credit bureau, and his card numbers were posted online. It also covers the Credit Card Fraud Act of 1984 and the weak security at credit bureaus. The text ends with a mock 'teletrial' on Dragonfire. It is part of a Colossus Newsletter issue and was meant for distribution to bulletin boards.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/DOCUMENT/computer.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-17T23:56:10+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14285,
+      "text_chars": 14285,
+      "prompt_tokens": 6126,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "The world according to student bloopers",
+  "authors": [
+    "Lederer Richard"
+  ],
+  "kind": "non-fiction",
+  "summary": "A humorous compilation of misspellings, misunderstandings and garbled facts drawn from genuine student essays, collected by teachers across the United States from grade eight through college level. Richard Lederer, a teacher at St. Paul's School, strings these bloopers together into a mock 'history' of the world, moving from ancient Egypt and the Bible through Greece, Rome, the Middle Ages and the Renaissance, to the American Revolution, the nineteenth century and the Pilgrims. Along the way it skewers errors about famous figures such as Lincoln, Franklin, Beethoven, Shakespeare and Columbus, as well as mangled terms like 'Pyramids' becoming 'Pramids' and 'Magna Carta' confusions. The text is presented as a light-hearted teaching aid, and its humour depends on the reader recognising the real facts behind each distorted phrase. The edition's preface notes that the original spellings have been kept intact.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/bloopers.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:01+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9939,
+      "text_chars": 9939,
+      "prompt_tokens": 4759,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

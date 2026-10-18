@@ -1,0 +1,23 @@
+{
+  "title": "How to take notes when professor mitchell says you write",
+  "authors": [
+    "Templeton Brad"
+  ],
+  "kind": "short stories",
+  "summary": "This is a short humorous piece of the sort once circulated informally among university students and online newsgroup readers. It takes the form of a mock study guide that pairs remarks a lecturer might make in class with the notes a student would actually jot down in their place. The joke rests on the gap between what is said and what is heard. Lines about John Milton's poetry become a note that Milton was born in 1608, a claim about Lafayette and America is recorded as Lafayette discovered America, and a cautious remark about Roosevelt's policies is rendered as a blanket condemnation of the president. A remark about the Russian viewpoint is written down as the professor being a communist, and a sentence on the corrosive residue of hydrochloric acid becomes a note that it eats the hell out of steel. The text ends with a short editorial note from the compiler asking readers to submit their own jokes by mail, with source attribution where possible. The piece is brief and light, relying on wordplay and exaggerated misreading rather than plot or character.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/HUMOR/hownotes.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T00:01:49+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 1413,
+      "text_chars": 1413,
+      "prompt_tokens": 1750,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}
