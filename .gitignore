@@ -8,6 +8,7 @@ __pycache__/
 
 # Consistency-check reports (regenerable)
 reports/*.csv
+reports/summaries_page/
 
 # Drop folder for incoming books, before they are sorted into libs/
 inbox/

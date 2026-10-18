@@ -309,9 +309,17 @@ def call_ollama(system: str, prompt: str, args):
         reply = json.load(response)
     tokens = reply.get("prompt_eval_count")
     if tokens and tokens >= args.num_ctx - OLLAMA_PREDICT:
-        raise RuntimeError(f"prompt filled the context window ({tokens} tokens) "
-                           "and was truncated by Ollama")
+        raise ContextOverflow(tokens, args.num_ctx)
     return reply["message"]["content"], tokens
+
+
+class ContextOverflow(RuntimeError):
+    """Ollama truncated the prompt: the text used more tokens than estimated."""
+
+    def __init__(self, tokens: int, num_ctx: int):
+        super().__init__(f"prompt filled the context window ({num_ctx} tokens) "
+                         "and was truncated by Ollama")
+        self.tokens = tokens
 
 
 def parse_record(raw: str) -> dict:
@@ -380,9 +388,14 @@ def process(zip_path: Path, args) -> str:
     else:
         budget = CLAUDE_CHARS
     known, used, entry = known_facts(zip_path, rel)
-    source, intro, body = select_text(text, budget)
-    prompt = USER_TEMPLATE.format(filename=zip_path.name, category=zip_path.parent.name,
-                                  length=len(text), known=known, intro=intro, body=body)
+
+    def build(budget):
+        source, intro, body = select_text(text, budget)
+        return source, USER_TEMPLATE.format(
+            filename=zip_path.name, category=zip_path.parent.name,
+            length=len(text), known=known, intro=intro, body=body)
+
+    source, prompt = build(budget)
     system = SYSTEM_PROMPT.replace("{lang}", lang)
 
     if args.dry_run:
@@ -397,6 +410,14 @@ def process(zip_path: Path, args) -> str:
             raw, tokens = call(system, prompt, args)
             record = parse_record(raw)
             break
+        except ContextOverflow as exc:
+            # Some texts (Sanskrit terms in a Russian Kama Sutra) take more tokens
+            # per character than CHARS_PER_TOKEN assumes; shrink the excerpt by the
+            # measured overshoot, with a margin, and try again.
+            last_error = exc
+            room = args.num_ctx - OLLAMA_PREDICT - OLLAMA_OVERHEAD
+            budget = int(budget * room / exc.tokens * 0.9)
+            source, prompt = build(budget)
         except Exception as exc:
             last_error = exc
     else:
