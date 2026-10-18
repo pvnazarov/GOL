@@ -1,0 +1,25 @@
+{
+  "title": "Enjoy the silence",
+  "authors": [
+    "Martin Gore",
+    "Dave Gahan",
+    "Alan Wilder"
+  ],
+  "kind": "collection",
+  "summary": "This is a lyrics booklet gathering the words to songs by the English electronic band Depeche Mode, drawn from several of their albums of the 1980s and early 1990s: Construction Time Again, Some Great Reward, Black Celebration, Music for the Masses and Violator. Pieces include the title song \"Enjoy the Silence,\" \"Master and Servant,\" \"Blasphemous Rumours,\" \"Black Celebration,\" \"Strange Love\" and \"Policy of Truth,\" along with lesser-known tracks such as \"Shame\" and \"The Landscape Is Changing.\" The lyrics range across love, desire, faith, politics, consumerism, war and social injustice, often in dark, ironic or confessional tones. The file also includes sleeve credits and production notes listing the band members, producers Flood and Daniel Miller, and sleeve photography by Anton Corbijn. The transcription is informal and contains typing errors and some gaps, so it reads as an unofficial text rather than a literary edition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/depeche.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:02+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 41919,
+      "prompt_tokens": 13783,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

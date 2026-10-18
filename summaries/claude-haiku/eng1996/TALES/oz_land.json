@@ -1,0 +1,23 @@
+{
+  "title": "The marvelous land of oz",
+  "authors": [
+    "Baum L Frank"
+  ],
+  "kind": "novel",
+  "summary": "The Marvelous Land of Oz is a 1904 children's fantasy by L. Frank Baum, written as a sequel to The Wonderful Wizard of Oz and presented as the author's answer to young readers who asked for more about the Scarecrow and the Tin Woodman. The story opens with Tip, a Gillikin boy raised by the sorceress Mombi, who creates a living pumpkin-headed man named Jack Pumpkinhead and then, to escape a threatened transformation into a marble statue, flees with his companions. Their journey brings together the Scarecrow, the Tin Woodman, a wooden Saw-Horse, a self-described highly educated Woggle-Bug, and a strange creature called the Gump, a flying contraption assembled from a moose head, sofas and a broom. Along the way they encounter witches, rival armies and a power struggle over the Land of Oz, which is ultimately resolved with the young Princess Ozma taking the throne. The book is light, episodic and playful, with humor drawn from the companions' vanity and bickering. It ends with the friends settling into peaceful lives in the Emerald City and the Winkie Kingdom, and it is valued as an early, lighthearted entry in the long Oz series.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/oz_land.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:48+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 231830,
+      "prompt_tokens": 13361,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

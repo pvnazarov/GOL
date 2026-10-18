@@ -1,0 +1,23 @@
+{
+  "title": "Randomness complexity in pure mathematics",
+  "authors": [
+    "Chaitin Gj"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is an edited transcript of a lecture given by mathematician Gregory J. Chaitin of IBM Research at the University of New Mexico in 1992, later published in the International Journal of Bifurcation and Chaos. Chaitin argues that some mathematical truths are true for no reason at all and cannot be derived from any formal axiomatic system. He retraces the path from David Hilbert's dream of a complete and consistent axiomatization of mathematics, through Godel's incompleteness theorems and Turing's halting problem, which he presents via Cantor's diagonal argument. The central subject is the halting probability Omega, a real number that is algorithmically incompressible and normal in every base, so that its bits can only be established by assuming them as axioms. Chaitin also discusses Borel's normal numbers and Champernowne's constant, and closes by considering how computer experimentation is pushing mathematics toward a more empirical, experimental style. The text is accessible and largely free of heavy technical notation, making it an introduction to algorithmic information theory and the limits of mathematical reasoning.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/chaitin.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:58+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 52952,
+      "prompt_tokens": 12804,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

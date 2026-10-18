@@ -1,0 +1,23 @@
+{
+  "title": "The jungle book",
+  "authors": [
+    "Kipling Rudyard"
+  ],
+  "kind": "short stories",
+  "summary": "The Jungle Book is a collection of linked stories and verse by Rudyard Kipling, first published in 1894 and continued in The Second Jungle Book. The best-known tales follow Mowgli, a boy raised by a wolf pack in the Indian jungle after being found as an infant. He is taught the Law of the Jungle by Baloo the bear and the panther Bagheera, and he must contend with the tiger Shere Khan, who wants him dead. The collection also includes other animal tales: the story of Kotick, a white seal searching for a safe home for his kind; Rikki-Tikki-Tavi, a mongoose defending a English family's bungalow from cobras; and Toomai of the Elephants, about a young elephant-keeper's boy. Several pieces are verse, including hunting songs, chants and marching songs. The final items, Her Majesty's Servants and the Parade Song of the Camp Animals, depict British military animals such as elephants, mules and camels in India. The stories blend adventure, fable and moral instruction about obedience, loyalty and the balance of nature.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/jnglb10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 271394,
+      "prompt_tokens": 13580,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Секреты супер хакера",
+  "authors": [
+    "Ферри Денис"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Hacker's Handbook is a 1985 British guide to computer hacking, which the author defines as a recreational and educational pursuit: attempting unauthorised entry into computer systems to explore what is there and to master the techniques for getting in. The book argues that hacking is semi-legal, widely misunderstood, and closely related to the phone phreaks of earlier decades and to program copy-protection crackers. It covers the history of hacking from early time-sharing systems and the ARPAnet onward, the equipment hackers typically use, the kinds of data found on mainframes, and general methodology, including the mindset and skills the author considers essential. Later chapters survey computer-to-computer communications, public networks, viewdata services such as Prestel, and radio data transmission, and discuss the future of the field. The appendices supply a troubleshooting guide, a glossary, CCITT standards, computer character alphabets, modem information, a radio spectrum allocation table, and a flowchart for locating modems on telephone lines. The author offers ethical guidance, stressing that hackers should avoid fraud and damage, and presents the book as a methodological introduction rather than a complete manual.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/hacker.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:05+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 310547,
+      "prompt_tokens": 12961,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

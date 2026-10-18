@@ -1,0 +1,23 @@
+{
+  "title": "Логика бриджа",
+  "authors": [
+    "Kelsey Hw"
+  ],
+  "kind": "non-fiction",
+  "summary": "Логика бриджа is a Russian-language instructional handbook on bridge card play, produced from an English original by H.W. Kelsey (the catalogue gives the author as Kelsey Hw) and circulated in typeset form with Cyrillic transliteration. The text argues that strong players succeed mainly through logical reasoning rather than mathematical calculation or intuition alone. It opens with the author's argument that bridge is not a mathematical game, then introduces the idea of 'magic numbers', such as the thirteen high-card points a partnership needs to bid game, and explains how a declarer can reason from the bidding and the opening lead. Subsequent chapters cover the counting of distribution, the reading of the defenders' hands, and the planning of play in suit and no-trump contracts. Each lesson is presented as a sequence of deals with diagrams showing the four hands, the bidding and card play, and the reasoning at each trick. The book aims at intermediate players who want to improve their technique, and it stresses probability, the careful counting of cards, and the importance of avoiding unnecessary risks in the play of a hand.",
+  "lang": "English",
+  "meta": {
+    "source": "rus1996/SPORT/kelsey3.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 250647,
+      "prompt_tokens": 34288,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

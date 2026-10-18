@@ -1,0 +1,23 @@
+{
+  "title": "In rock",
+  "authors": [
+    "Blackmore Ritchie"
+  ],
+  "kind": "collection",
+  "summary": "This file is a compiled lyric collection rather than a book, gathering the song lyrics of the British hard rock band Deep Purple across several albums. It opens with the lyrics to the 1970 album In Rock, including Speed King, Child in Time, Flight of the Rat, Into the Fire, Living Wreck and Hard Lovin' Man, then moves to Fireball (1971), with its title track and Strange Kind of Woman, and on to Stormbringer (1974), whose tracks include Stormbringer, A Gypsy's Kiss, Wasted Sunsets and Hungry Daze. Later sections take in the Bent Out of Shape, Who Do We Think We Are and Perfect Strangers material, along with a number of songs the compiler credits to other artists or leaves unattributed, such as Rainbow's All Night Long and Can't Let You Go. The later part of the file reproduces songs from the 1980s and 1990s albums, including Fortuneteller and Wicked Ways. The text is a transcription with many errors and some mislabelled or stray entries, and it contains no prose or narrative beyond the lyrics themselves.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/purple.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:14+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 87842,
+      "prompt_tokens": 13626,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

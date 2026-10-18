@@ -1,0 +1,21 @@
+{
+  "title": "Aladdin and the wonderful lamp",
+  "authors": [],
+  "kind": "short stories",
+  "summary": "This is a retelling of \"Aladdin and the Wonderful Lamp,\" one of the best-known tales from the Arabian Nights (The Thousand and One Nights) cycle. It follows Aladdin, an idle tailor's son in China, who is tricked by a visiting African magician into retrieving a magic lamp from a cave beneath two mountains. Aladdin escapes with the lamp and a ring that summons a genie, and uses their powers to win wealth and the hand of the Sultan's daughter, the Princess. When the magician returns, he steals the lamp and the palace is carried off to Africa, forcing Aladdin into a quest to recover his wife and fortune. Along the way the tale turns on the genie's loyalty, the Sultan's shifting promises, a vizier's scheming, and a second magician's disguise as a holy woman. The story is a classic fairy tale of sudden riches, enchanted objects, and the rewards and dangers of magic. The text as supplied is a complete version of the story, though it contains a few typographical errors and it has no author credit, as it is a traditional tale whose origins are anonymous.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/aladdin.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:27+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 28305,
+      "text_chars": 28305,
+      "prompt_tokens": 10858,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

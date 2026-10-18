@@ -1,0 +1,23 @@
+{
+  "title": "dire",
+  "authors": [
+    "Knophler Mark"
+  ],
+  "kind": "collection",
+  "summary": "This file is a compilation of song lyrics by the British rock band Dire Straits, drawn from their studio albums and related releases, including Dire Straits (1978), Communique (1979), Making Movies (1980), Love Over Gold (1982), Alchemy (live, 1982), Brothers in Arms (1985), and On Every Street (1991). It opens with a list of albums and a roster of musicians, then reproduces the lyrics track by track. Songs include Sultans of Swing, Romeo and Juliet, Money for Nothing, Walk of Life, Private Investigations, Brothers in Arms, Tunnel of Love, Portobello Belle, Calling Elvis, and Solid Rock. The lyrics range from character sketches of London street life and nightlife to love songs, wry social observation, and playful pastiche. Some transcriptions contain typographical errors and garbled characters from the original text file, and the later pages include tracks from the band's 1991 album. The collection was assembled from fan transcriptions rather than prepared as a published book, so it reads as a songbook rather than a continuous work of prose or verse.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/dire.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:31:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 80224,
+      "prompt_tokens": 14584,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

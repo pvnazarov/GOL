@@ -1,0 +1,23 @@
+{
+  "title": "Laddie a true blue story",
+  "authors": [
+    "Stratton Leander Elliot"
+  ],
+  "kind": "novel",
+  "summary": "Laddie: A True Blue Story is a sentimental family novel told in the voice of Little Sister, the youngest child of a prosperous farming household in the American Midwest. Born unexpectedly late in her parents' lives, she is unwanted by most of her older siblings, and she finds her defender and idol in Laddie, the eldest brother, whose devotion shapes her childhood. The story moves through rural daily life, school, weddings, and family quarrels, and it treats love, loyalty and moral courage with warmth and earnest humour. Chapter titles such as The Wedding Gown, The Horn of the Hunter, The Crest of Eastbrooke and The Pryor Mystery signal a wider plot. Laddie's romantic adventures and his dealings with the wealthy Pryor family, including a fair-haired Princess and her troubled father, bring in secrets, a lost son, a dispute over a fine colt, and a mystery involving an absent heir. The book is marked by Victorian-era sentiment, religious feeling, and a fondness for old-fashioned customs, and it ends with reconciliations and weddings. The text is a Project Gutenberg edition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/laddi10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:42+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 813140,
+      "prompt_tokens": 13043,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

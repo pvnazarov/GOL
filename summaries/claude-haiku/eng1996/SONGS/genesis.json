@@ -1,0 +1,25 @@
+{
+  "title": "Foxtrot genesis",
+  "authors": [
+    "Peter Gabriel",
+    "Tony Banks",
+    "Mike Rutherford"
+  ],
+  "kind": "collection",
+  "summary": "This collection gathers the lyrics of songs by the progressive rock band Genesis, mainly from their early 1970s albums, arranged roughly in album order. It includes the long suites and shorter pieces from Foxtrot and Selling England by the Pound, along with the complete song sequence of The Lamb Lies Down on Broadway, a concept album that follows a Puerto Rican youth named Rael through a surreal, dreamlike New York and an underground world. Notable pieces include the epic \"Supper's Ready\", \"Watcher of the Skies\", \"The Musical Box\" and \"Get 'em Out by Friday\", a satirical tale of tenants pushed out of their homes by property developers. Other songs range across science fiction, mythology, apocalyptic imagery, childhood nursery rhymes, social satire and personal anguish. Some sections include spoken dialogue, stage directions and narrative passages in the form of song text. The pieces are often elliptical and allegorical, so the collection reads as a series of connected visions rather than a single linear story.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/genesis.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:03+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 67030,
+      "prompt_tokens": 14317,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

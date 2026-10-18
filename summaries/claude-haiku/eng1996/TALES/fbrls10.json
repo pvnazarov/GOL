@@ -1,0 +1,23 @@
+{
+  "title": "Fables",
+  "authors": [
+    "Stevenson Robert Louis"
+  ],
+  "kind": "collection",
+  "summary": "Fables is a collection of short, pointed allegorical pieces by Robert Louis Stevenson, first published in 1901. Most are brief parables with a dry, ironic turn, written in a style that mixes Biblical cadence and moral wit with comic prose. The opening tale imagines the characters of Treasure Island conversing with their author about whether a story's villains and heroes have any reality or purpose. Other pieces are sharp satires on human folly and self-deception: a physician who sells a yellow paint promising immunity from sin and death, a missionary who refuses to break a taboo even while lying among cannibals, a fireman who rebukes a sick man's selfish philosophy, and a devil hanged by an innkeeper who accepts his nature as an excuse. Some tales are longer and more fanciful, including The House of Eld, a fable about a people who wear fetters from childhood and regard the free as strangers, and a closing legend of a King's daughter, a piper and a nurse on a windswept shore. The pieces are short, self-contained and often humorous, reflecting Stevenson's interest in morality, fate and the gap between belief and conduct.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/fbrls10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:35+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 74818,
+      "prompt_tokens": 13223,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

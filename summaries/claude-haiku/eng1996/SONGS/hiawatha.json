@@ -1,0 +1,23 @@
+{
+  "title": "The song of hiawatha",
+  "authors": [
+    "Longfellow Henry W"
+  ],
+  "kind": "poetry",
+  "summary": "The Song of Hiawatha is a long narrative poem in unrhymed trochaic tetrameter, first published in 1855. It tells the story of Hiawatha, a prophet and teacher of an Ojibway-inspired people, from his miraculous birth to the son of the West-Wind and the daughter of Nokomis, through his youthful deeds, his courtship and marriage to Minnehaha (Laughing Water), and the feasts and legends that surround his life. Longfellow drew his material from the ethnographic collections of Henry Rowe Schoolcraft and adapted the meter from the Finnish Kalevala. The poem gathers many episodes and myths: the founding of the Peace-Pipe by Gitche Manito, the contest of the four winds, the tale of Osseo, the Son of the Evening Star, and the trickster antics of Pau-Puk-Keewis. Nature, animals, and the seasons play a central role throughout. The edition here includes an introductory note by a descendant of the Ojibway, an introduction, and a glossary of Ojibway terms that explains the names and words used in the poem.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/hiawatha.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:05+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 186169,
+      "prompt_tokens": 15511,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

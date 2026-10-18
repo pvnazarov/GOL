@@ -1,0 +1,23 @@
+{
+  "title": "I saw elvis in a martian 7-11",
+  "authors": [
+    "Anderson Alex"
+  ],
+  "kind": "short stories",
+  "summary": "A short story set in Dust City, a frontier town on Mars where Seven-Eleven stores have spread across the colonies. The narrator, a self-described retro enthusiast and member of the Society for Creative Anachronism, is out with his girlfriend Sasha when he develops a craving for Oreo cookies and stops at the town's only 7-11. There he glimpses a young, slim-figured man in a black synthetic suit and pilot's boots who looks and sounds exactly like Elvis Presley, the singer who died long before the narrator was born. The narrator tries to follow him out of the store, but the stranger vanishes within seconds, and no one else seems to notice him. Rattled, the narrator wonders whether he is hallucinating, whether he is losing his mind, or whether he is witnessing something impossible. The tale is light, comic and self-aware in tone, built on the contrast between a mundane convenience-store errand and an extraordinary encounter, with a wry voice that jokes about pop culture, nostalgia and the narrator's own uncertainty.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/martian.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:47+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7721,
+      "text_chars": 7721,
+      "prompt_tokens": 4023,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

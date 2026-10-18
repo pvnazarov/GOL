@@ -1,0 +1,23 @@
+{
+  "title": "Passphrase faq v. 1.0",
+  "authors": [
+    "Ward Grady"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short technical FAQ, dated October 1993, on choosing strong passwords and passphrases for cryptographic software such as PGP. Grady Ward argues that user-chosen passwords, rather than the underlying algorithms like RSA, MD5, SHS and IDEA, are increasingly the weak point that attackers exploit through dictionary attacks. He explains how a predictable choice such as a common given name drastically reduces the effective key space, and compares this with the entropy of DES and IDEA keys. The remedy he proposes is the 'shocking nonsense' passphrase: a memorable, bizarre phrase unlikely to appear in any corpus. The appendices give software developers advice on key crunching with strong digests and salting, a tool for measuring edit distance against word lists, and full C source code for the MD5 and Secure Hash Algorithm implementations, along with a list of references on password security.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/passphr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:14+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 30578,
+      "text_chars": 30578,
+      "prompt_tokens": 16386,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "It`s not that hard ( an experience of english grammar )",
+  "authors": [
+    "Jill Jerry"
+  ],
+  "kind": "non-fiction",
+  "summary": "A Russian-language edition of an English grammar textbook, the third edition, revised and enlarged, produced in Moscow in 1989 from an original work by Jill Jerry published in 1985. The book is written for Russian-speaking learners and explains English grammar in a conversational, example-driven way. It covers verb forms and their regular and irregular patterns, the classification of auxiliary and modal verbs, complex verb phrases built from do, be and have, and the twelve tense combinations of simple, progressive, perfect and perfect progressive aspects in past, present and future. It also treats question formation, tag questions, the meaning and use of each tense, stative verbs that resist the progressive, and conditional sentences of the first, second and third types. Each topic is illustrated with short English sentences and accompanied by brief Russian explanations and tables. The closing section recommends further reading, including works by Brockman, Close, Swan, Leech and Svartvik, and Hornby's dictionary.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/grammar.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:03+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 50368,
+      "prompt_tokens": 35388,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

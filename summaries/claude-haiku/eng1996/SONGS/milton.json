@@ -1,0 +1,23 @@
+{
+  "title": "Paradise regained",
+  "authors": [
+    "Milton John"
+  ],
+  "kind": "poetry",
+  "summary": "Paradise Regained is a epic poem in four books by the English poet John Milton, first published in 1671 alongside Samson Agonistes. It follows Paradise Lost as a companion work and retells the temptation of Christ in the wilderness. After his baptism by John the Baptist, Jesus withdraws into the desert, where he fasts for forty days. Satan, having learned of the divine proclamation, approaches him in various disguises and tries to undermine his mission through offers of bread, power, and worldly glory, while Christ answers each temptation with scripture and reasoned argument. The excerpts show the opening invocation, the devil's council in Heaven and Jesus's early wilderness encounters, and the closing scenes, which include a long discourse in which the angel Raphael reveals to Adam the war in Heaven, as well as the expulsion of Adam and Eve from Eden. The poem's focus is on obedience, wisdom, and patient virtue, in contrast to the martial heroism Satan admires. The verse is unrhymed iambic pentameter, as in Milton's other epics.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/milton.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 542865,
+      "prompt_tokens": 14225,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

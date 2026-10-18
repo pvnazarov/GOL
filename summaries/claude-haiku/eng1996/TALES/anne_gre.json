@@ -1,0 +1,23 @@
+{
+  "title": "Anne of green gables",
+  "authors": [
+    "Montgomery Lucy Maud"
+  ],
+  "kind": "novel",
+  "summary": "Anne of Green Gables follows Anne Shirley, an imaginative, talkative eleven-year-old orphan from Nova Scotia who is mistakenly sent to Prince Edward Island. Siblings Matthew and Marilla Cuthbert, a older bachelor and his stern sister running the farm at Green Gables, had requested a boy to help with the work. Despite their doubts, they decide to keep her, and Anne slowly wins over the people of the small village of Avonlea with her vivid fancy, quick temper, and passion for words and beauty. The novel traces her childhood and schooling: her troubled rivalry with Gilbert Blythe, her close friendship with Diana Barry, her mishaps and misunderstandings, and her gradual growth into a responsible young woman. Mrs. Rachel Lynde, the village gossip, serves as a wry foil to the household. Though episodic in structure, the book is a warm, humorous portrait of rural life, of the bond between a child and the adults who learn to love her, and of the power of imagination to shape a life. It is a classic of Canadian children's literature.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/anne_gre.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 555140,
+      "prompt_tokens": 13484,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

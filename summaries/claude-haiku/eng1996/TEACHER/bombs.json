@@ -1,0 +1,21 @@
+{
+  "title": "Eye-no`s destruction hint book",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is a compiled text file of loosely related documents about explosives, incendiary devices, and pyrotechnics, circulated among hobbyists and bulletin-board users in the late 1980s and early 1990s. It mixes a short hint sheet, a set of flare and smoke recipes, a note on a nitrogen-based explosive, several multi-part articles written under pseudonyms, and a brief section on safety rules for handling chemicals. The pieces are presented as informational, often with disclaimers and references to outside books and catalogues, and they are uneven in tone, mixing serious technical writing with joking asides. Much of the material is operational instruction for making dangerous devices, and it is widely distributed through file archives. The collection is best understood as a historical artifact of underground file-sharing culture. It shows how such material was packaged, credited and passed on, and it is also a reminder of the real injuries that improvised explosives and fireworks cause. This record does not reproduce any procedures.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/bombs.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:59+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 408698,
+      "prompt_tokens": 15101,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

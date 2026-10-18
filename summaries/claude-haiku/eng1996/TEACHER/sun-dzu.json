@@ -1,0 +1,23 @@
+{
+  "title": "The art of war",
+  "authors": [
+    "Sun Tzu"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Art of War is a classical Chinese treatise on military strategy traditionally attributed to the general Sun Tzu, who is thought to have lived around the sixth century BC. This edition, published by Wordsworth Editions in 1993, presents the full text of the work with a foreword by Norman Stone and a translator's note, along with a substantial commentary section by General Tao Hanzhang that places the text in its historical setting and assesses which of its ideas remain valid. The treatise is organised into thirteen chapters covering topics such as estimating the strength of opposing sides, the costs and logistics of waging war, offensive strategy, dispositions of troops, the management of large armies, the use of terrain, the nine varieties of ground, attack by fire, and the use of spies. Its best-known teachings include the preference for winning without fighting, the importance of knowing both oneself and one's enemy, and the value of deception and flexibility. The work has been read for centuries as a guide to statecraft and command, and it remains widely studied in military, business, and political contexts.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/sun-dzu.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:22+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 62895,
+      "prompt_tokens": 12449,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

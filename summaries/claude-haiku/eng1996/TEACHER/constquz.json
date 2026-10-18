@@ -1,0 +1,21 @@
+{
+  "title": "United states constitution quiz",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A self-described quiz on the United States Constitution, written as a set of questions followed by answers and commentary. It is organized into sections on the background to the 1787 Constitutional Convention, the text and structure of the Constitution itself, the amendments, and a closing extra-credit question about Lincoln's Gettysburg Address. The questions probe well-known points: how many states there were in 1787, how the document was ratified, the powers of Congress and the President, interstate extradition, the Bill of Rights, the rights of women and minorities, the income tax, and the death penalty. The answers cite specific articles and amendments, explain the strict and loose schools of constitutional interpretation, and offer wry asides and opinions. The text is informal and occasionally partisan in tone. The version is dated 1987, and the closing section points readers to the Constitution's text in reference works and in a 1987 issue of The Wilson Quarterly. It works as a teaching aid or a light-hearted civics exercise rather than a scholarly treatise.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/constquz.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:58+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 13898,
+      "text_chars": 13898,
+      "prompt_tokens": 5921,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

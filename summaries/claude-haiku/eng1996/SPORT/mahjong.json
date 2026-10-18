@@ -1,0 +1,21 @@
+{
+  "title": "The basics – Mahjong",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A beginner's guide to Mahjong, the tile game played with rectangular tiles instead of cards. The text explains the main tile types: the numerical suits of Characters, Sticks (bamboo), and Balls (dots), along with the Winds, Dragons, and Flowers. It then covers the object of the game, which is to assemble four sets of three tiles plus a pair, and the three kinds of sets: Chow (a run in one suit), Pong (three identical tiles), and Kong (four identical tiles). Further sections describe how a game is structured into rounds and hands, how the wall is built and broken using dice, the rules for claiming discarded tiles and their priority, and the scoring system, including chip payments, special hands such as Full House, and the Pure and Semi-Pure bonuses. It also covers optional house rules such as minimum hand, the False Declaration penalty, and the Fifth Tile penalty, along with strategic advice about defence and discarding. The piece is a practical rules primer rather than a narrative.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SPORT/mahjong.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:24+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 12175,
+      "text_chars": 12175,
+      "prompt_tokens": 5746,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

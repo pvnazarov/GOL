@@ -1,0 +1,23 @@
+{
+  "title": "The celebration of the lizard",
+  "authors": [
+    "Morrison Jim"
+  ],
+  "kind": "collection",
+  "summary": "The Celebration of the Lizard is a long, fragmentary ritual poem by Jim Morrison, the singer of the Doors. It is built from dreamlike scenes: a beast caged in a city, a flight south across a border, a green hotel, a lizard king who returns to the town of his birth, and a procession of hill dwellers, outlaws and carnival figures. Its language moves between violence, sexuality, drug-tinged visions of going insane, and a sense of ancient, reptilian myth. Morrison wrote it as a performance piece, and parts of it were later set to music on the band's records. This text is a lyric compilation that includes the poem's opening sections alongside songs from the Doors' albums The Doors, Strange Days and Waiting for the Sun. Those songs cover love, desire, city decay, the sea and desert, and apocalyptic unrest, in pieces such as Break On Through, Light My Fire, Love Street, Riders on the Storm and L.A. Woman. The transcription contains many misprints and gaps.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/doors.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:03+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 111778,
+      "prompt_tokens": 14450,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

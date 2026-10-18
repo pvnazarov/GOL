@@ -1,0 +1,23 @@
+{
+  "title": "pinkfloy",
+  "authors": [
+    "Barrett Syd"
+  ],
+  "kind": "collection",
+  "summary": "This is a lyrics and discography compilation for the English rock band Pink Floyd, apparently gathered as a fan or archive text printed in 1987. It opens with a numbered list of the band's studio albums, compilations, solo projects and soundtracks, running from 1967 to 1987, and marks which entries are collected, double or film-soundtrack releases. The bulk of the text is the song lyrics, arranged album by album. Early material from The Piper at the Gates of Dawn, with its whimsical, psychedelic songs such as Astronomy Domine, Lucifer Sam and Bike, is followed by A Saucerful of Secrets, More, Ummagumma, Atom Heart Mother and the Relics and Masters of the Rock compilation. The later pages reproduce the lyrics of A Momentary Lapse of Reason, including The Dogs of War and One Slip, and the Wish You Were Here material, with Shine On You Crazy Diamond, Welcome to the Machine and Have a Cigar. Instrumental tracks are noted without words. Much of the text is fragmentary, with some transcription errors.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/pinkfloy.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:10+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 249936,
+      "prompt_tokens": 14450,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

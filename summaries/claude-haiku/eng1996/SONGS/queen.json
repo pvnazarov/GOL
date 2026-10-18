@@ -1,0 +1,23 @@
+{
+  "title": "Queen",
+  "authors": [
+    "Queen"
+  ],
+  "kind": "collection",
+  "summary": "This is a collection of song lyrics drawn from several early albums by the British rock band Queen, presented as a songbook with track listings, writing credits, and personnel notes. The text covers the debut album (1973), Queen II (1974), and A Day at the Races (1976), along with unreleased or bonus material in the later sections. The songs range widely in tone and style, from the theatrical hard rock of Keep Yourself Alive and the fantasy-laden Great King Rat and My Fairy King, through the operatic, multi-part Ogre Battle and The Fairy Feller's Master-Stroke, to the ballads White Queen (As It Began) and Somebody to Love, the vaudeville-tinged Good Old Fashioned Lover Boy, and the social commentary of White Man. Freddie Mercury, Brian May, Roger Taylor and John Deacon are credited across the pieces, and producers John Anthony and Roy Thomas Baker are named. The later passages include Spanish-language and narrative songs such as The Golden Boy and How Can I Go On. The text is incomplete and partly garbled in places, with some lyrics transcribed imperfectly.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/queen.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:16+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 496303,
+      "prompt_tokens": 13889,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

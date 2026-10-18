@@ -1,0 +1,23 @@
+{
+  "title": "When failure is success counter-performative speech acts",
+  "authors": [
+    "Porter Andrew P"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a 1993 philosophical essay on speech act theory. Building on J. L. Austin, John Searle, and Daniel Vanderveken, Porter argues that some utterances are self-defeating as illocutions yet succeed as perlocutions, which he calls counter-performative speech acts. Such an utterance says one thing on its surface while effectively doing something opposite. The essay's central example is the social worker's line, \"I'm from the government, and I'm here to help you,\" which presents coercion as an offer of help. Porter then examines compound acts that issue contradictory directives, such as politicians appearing to favour both sides of an issue, and legal and legislative cases where contradictory texts can be used to reverse meaning. He also analyses a telephone salesman who asks a refuser for reasons, turning a refusal into a starting point for bargaining. Throughout, he stresses that these effects depend on concealed inconsistency and on pragmatic context. The essay concludes that Searle and Vanderveken's typology of self-defeating acts is a useful tool for analysing manipulation, rhetoric, and irony in everyday and institutional speech.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/porter.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:17+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 30762,
+      "text_chars": 30762,
+      "prompt_tokens": 11398,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

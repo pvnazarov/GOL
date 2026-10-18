@@ -1,0 +1,21 @@
+{
+  "title": "List of father goose stories",
+  "authors": [],
+  "kind": "collection",
+  "summary": "A numbered gathering of short comic tales and jokes, compiled under the name Father Goose, in the manner of a community file of humorous fiction. Each entry is brief, usually a single anecdote or joke that builds to a punchline or a mock moral, such as a squire's pot and noose that outlasts two armies, pages who carry a throne out of a monster's castle, or a Canadian bear hunt with a grim pun. Many entries parody familiar material: a Sesame Street bus driver with a crowded route, a Mary Poppins fortune-teller in California, a Holy Grail knight refused a horse, a Romeo and Juliet retelling built around flatulence, and a Chinese shop owner plagued by thefts. The tone is irreverent, with puns, wordplay and deliberately bad verse, and some jokes are crude. Each piece stands alone, so the collection can be read in any order, and it works mainly as light entertainment.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/fgoose.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:39+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 72529,
+      "prompt_tokens": 13099,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Anarchy `n` explosives prelude volume",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a photocopied-style underground text file from the late 1980s bulletin-board and zine scene, written in an informal, boastful voice and distributed among hobbyists. The Prelude Volume opens with a jokey introduction to a liquid nitrogen bottle device and a list of toll-free phone numbers and 'amusement' hotlines, then moves into a mixed collection of chemistry experiments, including oxygen generation from hydrogen peroxide and dust-fireball demonstrations. It also gives step-by-step procedures for making nitroglycerin and TNT, which are dangerous and illegal to attempt. Surrounding these are phone-phreaking material such as blue box tone tables, black box and hold-circuit schematics, and a long glossary of telecommunications terms. The later pages include a reprinted US government hazardous-materials hotline directory and a brown-box party-line description. The file is an archive of instructions for explosives and telephone fraud, presented as a collection of loosely connected documents rather than a coherent work. The text is damaged in places, with garbled characters and missing lines. It is reproduced here for cataloguing purposes only, and its contents describe dangerous and unlawful activities.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/ane.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:54+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 214544,
+      "prompt_tokens": 15807,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

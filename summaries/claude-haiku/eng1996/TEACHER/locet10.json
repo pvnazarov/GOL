@@ -1,0 +1,23 @@
+{
+  "title": "Workshop on electronic texts proceedings",
+  "authors": [
+    "Daly James"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is the published proceedings of a two-day Workshop on Electronic Texts held at the Library of Congress on 9 and 10 June 1992, funded by the David and Lucile Packard Foundation and edited by James Daly. It gathers summaries of presentations and discussions by librarians, archivists, scholars, and technologists concerned with placing historical texts into computerized form. The sessions cover imaging and preservation, markup under the Text Encoding Initiative and SGML, conversion methods such as OCR and rekeying, network and CD-ROM dissemination, user studies, and copyright law. Projects discussed include the Perseus Project, the Patrologia Latina Database, American Memory, the Papers of George Washington, the Online Journal of Current Clinical Trials, and Yale's Project Open Book. The text also records recommendations for the Library of Congress and includes the workshop program, abstracts, and a directory of participants with contact details.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/locet10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:09+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 408019,
+      "prompt_tokens": 12981,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

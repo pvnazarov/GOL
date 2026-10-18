@@ -1,0 +1,23 @@
+{
+  "title": "Aesop`s fables",
+  "authors": [
+    "Aesop"
+  ],
+  "kind": "short stories",
+  "summary": "This is a collection of short moral fables traditionally attributed to Aesop, a storyteller of ancient Greece, in the English rendering by George Fyler Townsend. Each piece is a brief tale, usually featuring animals such as wolves, lions, foxes, hares, tortoises, ants and mice, or occasionally gods, humans and inanimate objects, and most close with a pithy moral sentence. Among the stories gathered here are The Wolf and the Lamb, The Lion and the Mouse, The Hare and the Tortoise, The Fox and the Grapes, The Town Mouse and the Country Mouse, The Dog in the Manger and The Boy Hunting Locusts. The tales address recurring themes such as the vanity of the powerful, the value of prudence and self-help, the dangers of pride and envy, the importance of unity, and the folly of greed or deception. The stories are written in plain, direct prose and are often read as an introduction to moral reasoning and to the wider fable tradition, both in childhood reading and in schools.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/aesop.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T11:17:44+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 253970,
+      "prompt_tokens": 13324,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

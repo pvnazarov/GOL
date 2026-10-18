@@ -1,0 +1,23 @@
+{
+  "title": "In the court of the crimson king",
+  "authors": [
+    "King Crimson"
+  ],
+  "kind": "collection",
+  "summary": "This record covers the 1969 debut album by the English progressive rock band King Crimson, whose lyrics are collected here across several file excerpts. The text gathers the words to the album's songs, including the opening \"21st Century Schizoid Man,\" the reflective \"I Talk to the Wind,\" the apocalyptic \"Epitaph,\" the dreamy \"Moonchild,\" and the title track \"The Court of the Crimson King,\" with its allegorical imagery of prison moons, a fire witch, and a yellow jester pulling strings. The surrounding excerpts also include lyrics from later albums such as In the Wake of Poseidon, Lizard, Starless and Bible Black, Discipline, Three of a Perfect Pair, and Beat, along with personnel credits and publisher notices. Many songs are instrumental and are listed only by title. The material is a mix of surreal, political, and mythic imagery, combining social commentary on war and greed with fantasy and psychological themes. Because the file is a fan-maintained lyrics archive rather than a literary work, it is best understood as a songbook for the band's early catalogue.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/crimson.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:31:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 63528,
+      "prompt_tokens": 14493,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

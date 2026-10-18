@@ -1,0 +1,23 @@
+{
+  "title": "Как написать компьютерный вирус",
+  "authors": [
+    "Коваль И"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a Russian-language technical guide on how computer viruses are written, aimed at readers with some programming background, and it is structured as a series of annotated examples in x86 assembly language for DOS-era machines. The excerpts show complete or partial listings of several historical DOS viruses, each preceded by a header block with its name, creation date and notes. Examples include a boot-sector virus that copies itself to upper memory and hooks the keyboard interrupt, a file infector that appends or rewrites .COM programs, and a virus that searches directories and infects executables while bypassing DOS write protection. The author annotates the listings with comments explaining how each routine works, how it spreads, and how it avoids detection. Some pieces are raw hex data blocks, and the text is not complete in the samples available. The work reads as an educational and historical survey of early PC virus techniques rather than a general introduction to programming.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/viruses.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:25+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 332135,
+      "prompt_tokens": 28009,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

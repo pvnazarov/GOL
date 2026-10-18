@@ -1,0 +1,23 @@
+{
+  "title": "Theory of some popular card games",
+  "authors": [
+    "Snyder Arnold"
+  ],
+  "kind": "collection",
+  "summary": "This anthology gathers strategy essays on several casino and poker card games, each written as a self-contained piece for players who want to improve their results through mathematics and reasoned play. The opening section, excerpted from Arnold Snyder's work on blackjack, explains basic strategy: the optimal decision for each hand against each dealer upcard, why insurance loses in the long run, how to practise the charts, and a simplified version for casual players. A later essay by Michael Cappelletti examines starting-hand selection and probability in Omaha, a four-card variant of hold'em. Further material draws on David Sklansky and Mason Malmuth's hold'em writing, covering position and starting-hand groups, and on tournament theory, including why avoiding large confrontations late in a payout structure can preserve expected value. The middle and closing passages discuss first-position betting, check-raising and bluffing in hold'em. Throughout, the pieces treat games of chance and skill as problems in probability and expectation, and they use worked examples and charts to make their advice concrete.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/cards.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:57+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 132090,
+      "prompt_tokens": 13281,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

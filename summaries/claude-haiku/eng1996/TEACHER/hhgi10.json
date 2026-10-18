@@ -1,0 +1,23 @@
+{
+  "title": "The hitchhikers guide to the internet",
+  "authors": [
+    "Krol Ed"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Hitchhikers Guide to the Internet is a 1987 technical primer by Ed Krol, written for administrators and users who already run a simple local network of Unix machines and want to connect it to the wider Internet. It is not a step-by-step tutorial. Instead it gathers pointers, practical hints and the informal \"oral tradition\" of the early Internet. The text explains how the ARPAnet, NSFnet and regional networks interoperate through IP, describes the operations centers and the Network Information Center, and covers how to fetch documents by anonymous FTP and join mailing lists. It walks through RFCs and their categories, IP address allocation and subnetting, and the problems of the era, including gateway limits, routing instability and trust. A substantial section surveys routing protocols such as static routes, RIP and routed, and Hello, along with TCP retransmission behaviour. Appendices list references, major RFCs and contact points, and a glossary defines terms like core gateway, count to infinity, hold down and split horizon. The piece is a dated but informative snapshot of how the Internet was organised before the modern web.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/hhgi10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:04+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 47658,
+      "prompt_tokens": 12914,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Топики` по английскому",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A collection of English-language topic essays (\"топики\") compiled as a study aid for Russian secondary-school students learning English. The pieces are short model compositions on set themes, many written in simple English with the typical errors of non-native writers, and the collection is arranged as a teacher's reference or exam-preparation book. Subjects include London's art galleries and national theatre, Moscow theatres and the Bolshoi, Russian geography and climate, the United States' geography and economy, British education, learning foreign languages, mass media, radio and television, leisure time, teenagers' problems, youth unemployment, choosing a future profession, and music. Several essays are about individuals: Rembrandt, Robert Burns (with a Russian-language note on Marshak's translations and the verse \"My Heart's in the Highlands\"), and the Hamlet soliloquy. The text also contains sample letter-writing or reading-habit prompts with blanks to fill. The work has no single author; the pieces are anonymous and reflect the conventional structure of school speaking and writing assignments of the period.",
+  "lang": "English",
+  "meta": {
+    "source": "rus2004/TEACHER/topics.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T11:03:06+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 73655,
+      "prompt_tokens": 12572,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

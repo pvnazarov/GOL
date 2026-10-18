@@ -1,0 +1,23 @@
+{
+  "title": "Uncle rhino`s shorts",
+  "authors": [
+    "Andrew P. Varga"
+  ],
+  "kind": "short stories",
+  "summary": "Uncle Rhino's Shorts is a collection of short comic and reflective pieces, presented as a text program on a computer disk and written under the pen name the Rabid Rhino. The disk's opening files are playful notices to computer hobbyists and newcomers, with mock registration instructions and disclaimers. The stories that follow range widely in tone. \"Air Conditioning\" is a sweaty office farce about a broken cooler and a suspicious secretary. \"The Birdlover's Holiday\" is a holiday comedy in which a man mistakes his neighbour's white Angora for a marauding bird-killer and must hide the evidence. \"Buggy\" follows a commuter whose trip ends with a hairy hitchhiker and a speeding ticket. \"Harry Gets Sick\" is a deadpan account of a pet armadillo. Other pieces are sentimental or whimsical, such as \"The Magic Staff\", a short rhymed fantasy about a child and an adult flying to a land of children, and \"Creativity Lost\", a poem about a writer's stalled imagination. The pieces are light, often absurd, and written in a conversational, humorous voice.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/rhino.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:50+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 82446,
+      "prompt_tokens": 13694,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

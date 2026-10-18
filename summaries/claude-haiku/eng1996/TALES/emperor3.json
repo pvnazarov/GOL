@@ -1,0 +1,23 @@
+{
+  "title": "The emperor`s three questions",
+  "authors": [
+    "Tolstoy Leo"
+  ],
+  "kind": "short stories",
+  "summary": "The Emperor's Three Questions is a short parable by Leo Tolstoy, written in his later years when he was producing simple moral tales for ordinary readers. An emperor who wants to be sure he never errs seeks answers to three questions: when is the best time to do each thing, who are the most important people to work with, and what is the most important thing to do at all times. His court offers a jumble of contradictory answers involving schedules, councils, soothsayers, priests, physicians and warriors, none of which satisfies him. He travels alone to consult a hermit who lives on a mountain, and there he is drawn into an unexpected sequence of events. Through the hermit's quiet teaching, the emperor comes to see that the answers lie in the present moment, in the person before him, and in acts of kindness. The story is a brief, didactic piece that favours practical, humane wisdom over learned or political answers.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/emperor3.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:32+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8339,
+      "text_chars": 8339,
+      "prompt_tokens": 3860,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

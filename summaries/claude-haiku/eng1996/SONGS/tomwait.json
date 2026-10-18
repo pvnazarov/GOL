@@ -1,0 +1,23 @@
+{
+  "title": "Closing time",
+  "authors": [
+    "Waits Tom"
+  ],
+  "kind": "collection",
+  "summary": "Closing Time is the 1973 debut album by Tom Waits, a set of ballads and barroom songs in the style of the late-night lounge singer. The lyrics are sung in the persona of a rambling, wistful narrator who sings about bars, lonely drives, lost love, and small-town characters. Songs in the record include \"Ol' 55\", \"I Hope That I Don't Fall in Love with You\", \"Virginia Avenue\", \"Martha\", and \"Rosie\". The text provided also contains later Waits material that was gathered alongside the album's lyrics: the instrumental and lyric sheets of the 1985 Rain Dogs album, including \"Singapore\", \"Cemetery Polka\", \"Big Black Mariah\", and \"Jockey Full of Bourbon\"; the Blue Valentines pieces \"Small Change\", \"Red Shoes by the Drugstore\", \"Christmas Card from a Hooker in Minneapolis\", and \"Romeo Is Bleeding\"; \"Way Down in the Hole\"; and songs from the 1991 film soundtrack Night on Earth, such as \"Good Old World\" and \"The Other Side of the World\". The collection is a songbook-style compilation of lyrics rather than a continuous narrative, and it spans several decades of Waits's writing.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/tomwait.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:21+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 101363,
+      "prompt_tokens": 14458,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

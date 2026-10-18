@@ -1,0 +1,23 @@
+{
+  "title": "Laws, rules, principles, effects, paradoxes, limits, constants, experiments, thought-experiments in physics",
+  "authors": [
+    "Francis Erik Max"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a compact reference glossary of named concepts in physics, arranged alphabetically from Ampere's law through to the Zeeman effect. Each entry gives a short plain-language statement of a law, principle, effect, paradox, limit, constant or experiment, often with the name of its discoverer and a date. The entries range across classical mechanics, electromagnetism, thermodynamics, quantum theory, relativity and cosmology. Among the items covered are Avogadro's hypothesis, Bode's law, the Chandrasekhar limit, Coulomb's law, the Davisson-Germer experiment, the Einstein-Podolsky-Rosen effect, Hawking radiation, the Heisenberg uncertainty principle, Hubble's law, Maxwell's demon, the grandfather paradox and the laws of thermodynamics. Many entries include a worked illustration or a brief explanation of why the idea matters, and some discuss later revisions of older theories or common misunderstandings. The work is intended as a study aid and quick-reference guide for students and general readers. It circulated as a plain-text file on an early electronic bulletin-board network, and its wording is informal with occasional typographical errors.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/physics.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:18+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 47803,
+      "prompt_tokens": 13182,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

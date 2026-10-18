@@ -1,0 +1,21 @@
+{
+  "title": "songs_e",
+  "authors": [],
+  "kind": "collection",
+  "summary": "This is an informal collection of song lyrics and original verse gathered into a single text file, apparently a personal compilation typed up by fans and hobbyists rather than a published book. It mixes several sources: hand-written originals by individual writers (including pieces signed with initials and dates in the 1980s), transcriptions of popular songs such as Army of Lovers' \"Crucified\" and \"Obsession,\" Iggy Pop's \"Real Wild Child\" and \"Cry for Love,\" the Sex Pistols' \"Anarchy in the U.K.,\" and Andrew Lloyd Webber's \"Phantom of the Opera,\" along with excerpts from the musical Chess. Original pieces range across themes such as historical villains like Ma Barker and Rasputin, apocalyptic reflection, and fantasy or dark-metal style verse about death, fear and damnation. Much of the text carries typing errors and transcription faults, and some sections are garbled or fragmentary. Because the file is a compilation of lyrics rather than a unified work, there is no single plot or narrative arc to follow.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/songs_e.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:20+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 672653,
+      "prompt_tokens": 16121,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "The terrorist`s handbook",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A photocopied-style compendium that circulated under the name The Terrorist's Handbook. It is presented as the work of an anonymous chemistry student and framed by an editor's note and a disclaimer saying the material is for reading enjoyment only. Its table of contents covers an extremely wide range of subjects: obtaining materials, explosives and their classification, ignition and timing mechanisms, containers, projectile weapons, rockets, cannons, fireworks and pyrotechnics, followed by supplier lists, a checklist of laboratory chemicals, and a short section of chemical reactions. The text is poorly edited and full of spelling errors, and includes diagrams and tables of household chemicals and where to find them. Much of its content describes illegal acts, including theft from laboratories and the construction of explosive devices, and the document is widely considered hazardous. It is best known as a notorious piece of underground literature rather than a reliable or safe technical reference.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/handbook.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 154285,
+      "prompt_tokens": 14037,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Aqualung",
+  "authors": [
+    "Tull Jethro"
+  ],
+  "kind": "collection",
+  "summary": "This file gathers the lyrics of several Jethro Tull albums, presented as a plain-text archive from a fan lyrics site rather than a prose book. The first section is the lyric sheet for Aqualung (1971), a concept-flavoured rock album whose title song follows a destitute, dishevelled old man on a park bench, with other pieces such as Cross-Eyed Mary, Locomotive Breath, Hymn 43 and My God turning a satirical eye on religion, class, wealth and institutions. A second section covers Catfish Rising (1991), a set of songs on urban alienation, drifting relationships and modern consumer life, including Rocks on the Road, Sparrow on the Schoolyard Wall and Doctor to My Disease. A third portion reproduces the lyrics of Thick as a Brick (1972), a single long composition split into two parts, mock-epic in tone, satirising childhood, war and cultural pretension. The excerpts also include the closing material of a later album, with songs such as Paparazzi and Apogee. Each album lists its musicians and track titles in the archive.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/j_tull.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:08+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 130483,
+      "prompt_tokens": 13608,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

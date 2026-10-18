@@ -1,0 +1,23 @@
+{
+  "title": "The legend of the first cam-u-el",
+  "authors": [
+    "Guiterman Arthur"
+  ],
+  "kind": "poetry",
+  "summary": "A nonsense poem in eight fits, subtitled \"An Agony,\" describing a voyage by an odd crew in search of the Snark, a creature that can be hunted only with great caution. The Bellman, who leads the expedition, insists that the Snark is found in the right place and that what he says three times is true. The crew includes a Baker who has forgotten his name, a Banker, a Butcher, a Beaver, a Barrister and a Billiard-Marker, each comically drawn. Their quest takes them through absurd encounters, including a trial in which a pig is charged and a dangerous Bandersnatch that attacks the Banker. The climax reveals that the Snark is in fact a Boojum, which causes the Baker to vanish. The poem is a mock-heroic adventure written in Carroll's invented vocabulary, full of portmanteau words and deliberate wordplay, and it is often read as a parody of Victorian seriousness and social pretension. The surrounding excerpt also includes other nonsense verse by Carroll's contemporaries and predecessors, but this record concerns Carroll's poem.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/pool.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:13+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 54847,
+      "prompt_tokens": 15369,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

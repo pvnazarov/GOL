@@ -1,0 +1,23 @@
+{
+  "title": "Eye in the sky",
+  "authors": [
+    "Woolfson Eric"
+  ],
+  "kind": "collection",
+  "summary": "This is a song collection in the form of lyrics from the Alan Parsons Project, a progressive rock studio project built around songwriter Eric Woolfson and producer-engineer Alan Parsons. The text gathers lyrics from several of their albums, including Eye in the Sky (1982), Eve (1978), Ammonia Avenue, Tales of Mystery and Imagination (1976), and Turn of a Friendly Card-era material, as well as later releases. Individual songs include the title track Eye in the Sky, Children of the Moon, Time, Limelight, Psychobabble, Old and Wise, and Don't Answer Me. Several pieces are settings of Edgar Allan Poe, among them The Raven, The Tell-tale Heart, The Cask of Amontillado, and The System of Doctor Tarr and Professor Fether. Some tracks are instrumentals, marked as such. The material moves between introspective ballads, rock anthems, and theatrical narratives on themes of deception, paranoia, love, memory, and the uneasy pressures of fame and modern life. The file is a plain-text lyric transcription and includes some transcription errors, so it is best read as a songbook rather than an authoritative printed edition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/app.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:31:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 82127,
+      "prompt_tokens": 13232,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

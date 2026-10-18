@@ -1,0 +1,23 @@
+{
+  "title": "The soundtrack from the film `the song remains the same`",
+  "authors": [
+    "Zeppelin Led"
+  ],
+  "kind": "collection",
+  "summary": "This is a lyric and song-sheet book transcribed from the soundtrack release of the 1976 concert film The Song Remains the Same, documenting Led Zeppelin's live performances. It is a collection of song lyrics rather than prose, gathering the band's songs from several albums in the order they were played at the concerts, with spoken interjections from singer Robert Plant and occasional stage announcements between tracks. Among the songs included are Rock and Roll, Celebration Day, Stairway to Heaven, Whole Lotta Love, Immigrant Song, Since I've Been Loving You, Gallows Pole, Tangerine, That's the Way, Bron-Y-Aur Stomp, Black Dog, The Battle of Evermore, Going to California and When the Levee Breaks. Several traditional and blues-derived numbers are credited in the notes, and the text includes the band's original and arranged versions of these songs. The transcriptions are often rough, with misspellings, inconsistent punctuation and repeated refrains, so the text reflects the sung and spoken words as heard at the shows rather than a polished edition. The book serves as a companion to the film and its soundtrack album.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/zeppelin.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:25+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 136553,
+      "prompt_tokens": 14464,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

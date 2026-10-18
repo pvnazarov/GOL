@@ -1,0 +1,24 @@
+{
+  "title": "Собрание сочинений (200 сказок)",
+  "authors": [
+    "Гримм",
+    "братья"
+  ],
+  "kind": "collection",
+  "summary": "This is a large Russian-language edition of fairy tales collected by the brothers Jacob and Wilhelm Grimm, presented as a collection of about two hundred stories. The excerpts show the traditional German folk material the Grimms gathered and reworked. Among the tales that appear are \"The Frog King\" (or Iron Heinrich), in which a princess's promise to a frog leads to his enchantment being broken; \"Mary's Child,\" about a girl taken to heaven who loses her place after opening a forbidden door; \"Stupid Hans\" (a dunce who wins a kingdom through a magic cat); \"The Shudder\" or the tale of the youngest son who learns to fear nothing; a shoemaker and tailor meeting on the road; and a soldier who outwits robbers and later turns out to be a king's companion. The stories follow familiar patterns of enchantment, trials of the humble, and rewards for kindness and courage. The text in the file is partly damaged, with garbled passages and stray characters, but the tales themselves remain readable.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/grimm.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 1441295,
+      "prompt_tokens": 12534,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

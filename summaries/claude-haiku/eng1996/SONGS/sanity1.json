@@ -1,0 +1,23 @@
+{
+  "title": "Boundaries of sanity",
+  "authors": [
+    "Turpen Aaron"
+  ],
+  "kind": "collection",
+  "summary": "Boundaries of Sanity is a self-published amateur magazine, issue #1, dated 1991 and edited by Aaron Turpen under the handle Thanatos. Its editor founded it to give beginning writers a venue for thought-provoking and unconventional work that mainstream outlets might refuse. The issue gathers short stories, poems and an editorial. Among the pieces are Eugene A. Zeak, Jr.'s comic murder spoof \"A Raisin In The...\", Jerry J. Davis's science fiction story \"Strong Metallic Arm\", in which a woman is repeatedly backed up and murdered by her husband through a neural implant, and Kevin Francis's allegorical poem \"The Longest Journey\", about a man leaving home for death. Other contributions include the dark verse of \"I Help You Cut Your Wrists\" and \"Wishes\" by the pseudonymous John Doe, and the editor's own poem \"Merlin\", about a dying wizard. The issue also contains a special-thanks section and editorial notes on each contributor.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/sanity1.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:19+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 58540,
+      "prompt_tokens": 13289,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

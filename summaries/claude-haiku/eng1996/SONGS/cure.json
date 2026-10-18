@@ -1,0 +1,23 @@
+{
+  "title": "The cure (stuff not on albums)",
+  "authors": [
+    "The Cure"
+  ],
+  "kind": "collection",
+  "summary": "This is an unofficial fan-compiled collection of lyrics by the English rock band The Cure, gathering words from songs that never appeared on their studio albums. The texts come from several sources: early demos and B-sides such as \"Accuracy,\" \"Meathook,\" \"Object\" and \"Subway Song\" that surfaced on the Three Imaginary Boys sessions, material associated with Japanese Whispers and The Top, and a long run of unreleased or rarely heard numbers such as \"Charlotte Sometimes,\" \"Heroin Face,\" \"A Japanese Dream,\" \"Bird Mad Girl\" and \"Dressing Up.\" The pieces range from the spare, abrasive punk-era pieces of the late 1970s to the more lush, romantic and gothic tone of the early 1980s. Recurring preoccupations include insomnia, dread, love turned to obsession, fractured identity, dreamlike images of water and fire, and a persistent sense of loss. The file is a text transcription of lyrics only, with no music notation or performance details included.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/cure.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:31:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 77735,
+      "prompt_tokens": 13874,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

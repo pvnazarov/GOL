@@ -1,0 +1,23 @@
+{
+  "title": "Pyrotechnics log",
+  "authors": [
+    "Anonymous"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is a detailed and extensive personal laboratory notebook documenting the author's experiments with homemade pyrotechnic compositions, rocketry, fuses, whistling devices, incendiaries, and various chemical reactions. The log records precise measurements of fuel mixtures (e.g., potassium nitrate, charcoal, sulfur ratios), casing dimensions, ignition tests, whistle acoustics, time-delay incendiaries, thermite experiments, fuse construction, flash powders, salutes, flares, and rocket performance. The author also reviews pyrotechnic literature, shares safety warnings, and provides practical formulas for creating a wide range of fireworks components—from cherry bombs to strobe stars. The work is highly technical, experimental in nature, and intended for advanced hobbyists or professionals seeking hands-on knowledge of explosive chemistry and device construction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/pyro.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T10:14:37+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 102651,
+      "text_chars": 133614,
+      "prompt_tokens": 28513,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Pager, fax, and data intercept techniques",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This is a 1990s underground text, circulated in the hacker and phone-phreak scene and attributed to the group The High Tech Hoods, that examines how pager, fax, and data communications can be monitored by third parties. It opens with a discursive, irreverent introduction on the growth of pager ownership and its association with the drug trade. It then surveys the main pager types, from tone-only to alphanumeric, and summarises the US legal framework, chiefly the Electronic Communications Privacy Act of 1986, that governs when police may intercept them. Later sections describe the technical background of wide-area paging and of fax handshaking, and discuss commercial and homemade interception equipment. Anecdotes from the author and acquaintances, including law enforcement, give the piece a conversational tone. The text is best read as a period document on telecommunications privacy, surveillance law, and the hobbyist hacking culture of the early 1990s, rather than as a reliable technical guide, since many of its specific product names, prices, and claims are dated.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/intercpt.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:10+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 22631,
+      "text_chars": 22631,
+      "prompt_tokens": 8594,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

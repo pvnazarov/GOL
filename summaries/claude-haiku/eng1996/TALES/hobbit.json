@@ -1,0 +1,23 @@
+{
+  "title": "The hobbit",
+  "authors": [
+    "Tolkien Jrr"
+  ],
+  "kind": "novel",
+  "summary": "This text is an excerpt from J. R. R. Tolkien's The Hobbit, containing only the songs and verses scattered through the book. The full work is a fantasy novel, first published in 1937, that follows Bilbo Baggins, a comfortable and home-loving hobbit who is drawn into an adventure by the wizard Gandalf and a company of thirteen dwarves led by Thorin Oakenshield. Their quest is to reclaim the dwarves' homeland and treasure from Smaug, a dragon who has seized the Lonely Mountain. Along the way Bilbo faces trolls, goblins, giant spiders, and the riddling creature Gollum, and finds a magic ring whose powers prove important. The verses here include the dwarves' songs of gold and dragons, a riddle contest from the underground, the mocking rhyme about Bilbo's manners, and the closing songs of roads and homecoming that frame the journey. The book is a children's classic that mixes humour, danger, and a strong sense of place, and it prepared the ground for Tolkien's later The Lord of the Rings.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/hobbit.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:37+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 11066,
+      "text_chars": 11066,
+      "prompt_tokens": 5701,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

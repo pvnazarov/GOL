@@ -1,0 +1,23 @@
+{
+  "title": "Anne of the island",
+  "authors": [
+    "Montgomery Lucy Maud"
+  ],
+  "kind": "novel",
+  "summary": "Anne of the Island is the third book in Lucy Maud Montgomery's series about Anne Shirley, the imaginative orphan first introduced in Anne of Green Gables. Having left the rural village of Avonlea, Anne goes to Redmond College in the city of Kingsport, where she keeps her spirits high despite homesickness and the challenges of independent life. She shares a house called Patty's Place with a lively group of friends, including Priscilla Grant, Stella Maynard and Phil Blake, and she develops her writing ambitions as her college years unfold. The story follows her friendships, rivalries and academic successes, and her gradually deepening relationship with Gilbert Blythe, whose affection she has long resisted. Along the way the book touches on questions of growing up, ambition, loyalty and the choice between a career and a settled home. Warm, humorous and sentimental, it captures the transition from girlhood to young womanhood in the early twentieth century, with the lively domestic episodes and the gentle comedy that have made the series popular with generations of readers.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/island.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:41+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 422052,
+      "prompt_tokens": 13609,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Through the looking glass",
+  "authors": [
+    "Carroll Lewis"
+  ],
+  "kind": "novel",
+  "summary": "Through the Looking-Glass, and What Alice Found There is the 1871 sequel to Alice's Adventures in Wonderland. Alice, a curious young girl, steps through a mirror in her drawing room into a world where everything runs in reverse: chess pieces walk about as living characters, books are written in mirror script, and the countryside is organised like a giant chessboard. She meets the Red and White Queens and Kings, the Tiger-lily, the Sheep who sells eggs in a shop that turns into a river and then a forest, and the egg-shaped Humpty Dumpty, who explains the nonsense poem \"Jabberwocky\". The book is built as a series of comic episodes, with wordplay, logic puzzles and riddles throughout. Its closing chapters raise the question of whether Alice is dreaming the Red King or whether the King is dreaming her, and the story ends with a gentle, wistful poem. The text in this file is an excerpt, so this summary describes the work as a whole.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/lglass.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:45+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 160300,
+      "prompt_tokens": 13397,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

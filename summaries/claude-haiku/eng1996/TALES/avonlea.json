@@ -1,0 +1,23 @@
+{
+  "title": "Anne of avonlea",
+  "authors": [
+    "Montgomery Lucy Maud"
+  ],
+  "kind": "novel",
+  "summary": "Anne of Avonlea is a novel by Lucy Maud Montgomery, the sequel to Anne of Green Gables, and it follows Anne Shirley as she moves from adolescence into young womanhood on Prince Edward Island. Now around sixteen, Anne takes up a teaching post at the Avonlea school, where she deals with a range of difficult and lively pupils, including the mischievous twins Davy and Dora Keith, whom she and Marilla Cuthbert end up raising. Her life is full of small comic crises: a quarrel with the irascible new neighbor Mr. Harrison, a plan for a village improvement society, and the everyday frictions of a close-knit rural community watched over by gossiping Mrs. Rachel Lynde. Anne's friendships, especially with Diana Barry, Gilbert Blythe, and her former classmate Priscilla Grant, shape her growing sense of responsibility and affection. The book moves between humorous episodes and more reflective passages about youth, romance, and the changes that come with growing up, and it closes with a wedding that marks the end of a chapter in Anne's girlhood.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/avonlea.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:31+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 486091,
+      "prompt_tokens": 13521,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

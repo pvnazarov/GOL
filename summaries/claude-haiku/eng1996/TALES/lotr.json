@@ -1,0 +1,23 @@
+{
+  "title": "lotr",
+  "authors": [
+    "Tolkien Jrr"
+  ],
+  "kind": "collection",
+  "summary": "This text is a collection of the songs and verses that appear throughout J. R. R. Tolkien's The Lord of the Rings, gathered from the book's Fellowship of the Ring section. It is not a novel excerpt but a compilation of poems, ballads, and chants that the characters sing or recite during the journey. The pieces range widely in tone and form: the famous Ring verse and the wandering song \"The Road goes ever on and on\" open the sequence, followed by comic drinking songs such as the Man in the Moon ballad and Tom Bombadil's playful rhymes. Other selections recount legends of Beren and Lúthien, the mariner Eärendil, Durin and the lost Moria realm, Nimrodel and Amroth, and the Silmarils. Several are written in Elvish, including lamentations and farewells. Together they deepen the world's history, mythology, and the characters' feelings, and they show Tolkien's range as a poet working in the voices of hobbits, elves, dwarves, and trolls.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/lotr.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:46+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 26028,
+      "text_chars": 26028,
+      "prompt_tokens": 11317,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

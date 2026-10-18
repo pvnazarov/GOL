@@ -1,0 +1,23 @@
+{
+  "title": "Alice`s adventures in wonderland",
+  "authors": [
+    "Carroll Lewis"
+  ],
+  "kind": "novel",
+  "summary": "Alice's Adventures in Wonderland is a fantasy classic first published in 1865 under the pen name Lewis Carroll. A young girl, bored on a summer afternoon beside her sister on a riverbank, follows a White Rabbit who carries a pocket watch and mutters about being late. She tumbles down a deep rabbit-hole into a strange underground realm where she grows and shrinks after eating and drinking mysterious things, weeps a pool of her own tears, and struggles to keep her sense of identity. Along the way she meets a grinning Cheshire Cat, a Mad Hatter and March Hare at a chaotic tea party, a Dormouse, a Caterpillar, and the tyrannical Queen of Hearts, whose court is run on nonsensical logic. The book is built from episodic encounters, riddles, wordplay, and parodies of the moral verses and lessons common in Victorian children's literature. It ends with Alice waking on the bank, and with her sister dreaming of the Wonderland her sister has described.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/alice.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:30+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 143689,
+      "prompt_tokens": 13138,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

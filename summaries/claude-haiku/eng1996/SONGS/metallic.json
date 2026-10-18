@@ -1,0 +1,24 @@
+{
+  "title": "Blackened",
+  "authors": [
+    "James Hetfield",
+    "Lars Ulrich"
+  ],
+  "kind": "collection",
+  "summary": "A fan-compiled collection of song lyrics by the American heavy metal band Metallica, gathering words from their albums from the early thrash years through the self-titled 1991 record. It opens with the title track \"Blackened,\" a bleak vision of environmental collapse, and includes social protest pieces such as \"...And Justice for All\" and \"Eye of the Beholder,\" the war-novel-inspired \"One,\" and the anxious \"The Shortest Straw.\" Other songs include \"Harvester of Sorrow,\" \"The Four Horsemen,\" \"Seek and Destroy,\" \"Motorbreath,\" \"Nothing Else Matters\" and \"Metal Militia.\" The themes range across war, addiction, paranoia, mortality, religious disillusion and the hypocrisy of authority, delivered with aggressive, rhythmic verse and recurring images of death and defiance. The text is a transcription with section headings and album track numbering, plus a cover version of Diamond Head's \"Am I Evil?\" at the end. The front matter identifies a devoted fan as the compiler, and the material is best read as song lyrics rather than a narrative work.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/metallic.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:13+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 184280,
+      "prompt_tokens": 16185,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

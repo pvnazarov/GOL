@@ -1,0 +1,21 @@
+{
+  "title": "Задачи по преферансу",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A Russian-language handbook of bridge-style card problems for preference (преферанс), the three-player trick-taking game popular in the former Soviet Union. The text, dated 1923 in its heading, opens with a short set of general principles on play: when conceding a vist (the defenders' bid to take tricks), when to play safe rather than gamble on the talon, and why deliberately undertaking a smaller contract is usually a poor idea. It then presents some forty-five numbered deal diagrams, each giving the declarer's and defenders' hands, a contract such as six or seven clubs, and the lead card, and asks how many tricks the defence can take or how the declarer should play. A later section supplies the answers, with brief line-by-line explanations of the correct sequences, the choice of trump suit, and which cards to discard. The book is aimed at serious players wanting to sharpen their technique and calculation rather than at general readers, and it has no narrative or fictional content. The author is not named in the text.",
+  "lang": "English",
+  "meta": {
+    "source": "rus1996/SPORT/pref.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:34:08+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 33320,
+      "text_chars": 33320,
+      "prompt_tokens": 25724,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

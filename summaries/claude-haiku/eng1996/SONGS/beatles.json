@@ -1,0 +1,25 @@
+{
+  "title": "beatles",
+  "authors": [
+    "John Lennon",
+    "Paul McCartney",
+    "George Harrison"
+  ],
+  "kind": "collection",
+  "summary": "This is a songbook gathering the lyrics of the Beatles' recorded output, arranged as a catalogue of songs with their writing credits and, in places, the album track listings that organised them. The contents run alphabetically from early pieces such as \"All My Loving\" and \"And I Love Her\" through later work like \"Yesterday,\" \"Hey Jude,\" and \"Let It Be,\" with the song texts printed one after another. Among the pieces are the psychedelic \"Lucy in the Sky with Diamonds,\" the music-hall whimsy of \"Being for the Benefit of Mr. Kite!,\" the Sgt. Pepper sequence including \"With a Little Help from My Friends\" and \"A Day in the Life,\" and George Harrison's \"Within You Without You.\" The album index at the end lists the releases from Please Please Me and Beatles for Sale through Rubber Soul, Revolver, Sgt. Pepper, The Beatles (the White Album), Abbey Road and Let It Be, with their catalogue numbers. The text is a transcription and contains many typographical errors and misspellings of the original lyrics, so it should be read as a rough reference rather than an authoritative edition.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/beatles.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:31:53+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 481202,
+      "prompt_tokens": 15297,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

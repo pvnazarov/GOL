@@ -1,0 +1,23 @@
+{
+  "title": "rainbow",
+  "authors": [
+    "Blackmore Ritchie"
+  ],
+  "kind": "collection",
+  "summary": "This is a lyrics collection for the hard rock band Rainbow, led by guitarist Ritchie Blackmore, spanning their studio albums from the mid-1970s through the early 1980s. The file gathers song texts rather than prose, arranged by album: the debut 'Ritchie Blackmore's Rainbow' (1975) with tracks such as 'Man On The Silver Mountain', 'Catch The Rainbow', 'Snake Charmer' and 'Temple Of The King'; 'Rising' (1976) with 'Tarot Woman', 'Run With The Wolf' and 'Stargazer'; 'Long Live Rock'n'Roll' (1978) with its title track, 'Lady Of The Lake' and 'Gates Of Babylon'; and 'Difficult To Cure' (1981) with 'I Surrender', 'Spotlight Kid' and 'Can't Happen Here'. Several songs are also included from the 'Bent Out Of Shape' period, such as 'Can't Let You Go' and 'All Night Long', and a few unlabelled later sections. The texts are transcriptions with some errors and gaps, and the themes range from fantasy, mythology and the occult to rock life, politics and romance.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/SONGS/rainbow.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:19+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 52268,
+      "prompt_tokens": 14466,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

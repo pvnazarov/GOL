@@ -1,0 +1,23 @@
+{
+  "title": "Surfing the internet an introduction version 2.0.3 revised may 15, 1993",
+  "authors": [
+    "Polly Jean Armour"
+  ],
+  "kind": "non-fiction",
+  "summary": "A short, non-technical guide to the Internet written for librarians and educators, revised in May 1993. Jean Armour Polly, a network development and user-training specialist, opens with an informal account of her electronic travels, from checking a university library catalogue to exchanging messages with librarians abroad, and then describes what the network offers. She covers electronic mail, discussion lists such as PACS-L and LIBADMIN, electronic journals, and the emoticons used to convey tone. Further chapters explain remote access through TELNET to resources like the Cleveland Free-net, MELVYL and CARL, the MicroMuse virtual worlds, and file retrieval by FTP from archives such as SUMEX and Project Gutenberg. The guide also surveys search tools including Archie, Gopher, WAIS and the World Wide Web, outlines ways to get connected through commercial and regional providers, and ends with an annotated bibliography of books and magazines plus a list of organizations. The tone is warm and practical, aimed at readers new to networking.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/surf10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:25+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 59661,
+      "prompt_tokens": 13848,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

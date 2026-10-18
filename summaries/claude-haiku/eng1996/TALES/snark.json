@@ -1,0 +1,23 @@
+{
+  "title": "The hunting of the snark an agony in eight fits",
+  "authors": [
+    "Carroll Lewis"
+  ],
+  "kind": "poetry",
+  "summary": "The Hunting of the Snark, first published in 1876, is a long nonsense poem by Lewis Carroll, written in eight sections called fits. A Bellman assembles an odd crew of tradesmen, including a Baker, a Butcher, a Banker, a Barrister, a Beaver and a forgetful man who has lost his own name, and sails them to a strange shore in search of the elusive Snark. The Bellman's rules for recognising a Snark are ludicrous and his navigation is hopeless, since the ship often sails backwards. The Baker's tale of his uncle's warning about the Boojum sets up the poem's central dread. The crew's hunt, with its thimbles, forks and soap, leads to a Butcher and Beaver lesson in arithmetic and natural history, a Barrister's dream of a trial of a pig, a Banker's encounter with a Bandersnatch, and at last the Baker's disappearance into a chasm. The poem's mock-heroic style, invented words such as frumious and galumphing, and its comic logic have made it one of Carroll's most admired works.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/snark.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:53+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 27772,
+      "text_chars": 27772,
+      "prompt_tokens": 11295,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

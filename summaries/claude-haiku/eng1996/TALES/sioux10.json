@@ -1,0 +1,23 @@
+{
+  "title": "Myths and legends of the sioux",
+  "authors": [
+    "Mclaughlin Marie L"
+  ],
+  "kind": "collection",
+  "summary": "A collection of traditional stories gathered by Marie L. McLaughlin, a writer of partly Sioux descent who grew up among the Dakota and later lived on Sioux reservations, where she recorded tales from older tribal men and women. The book is dedicated to her mother and presents the folk-lore as a record of a people and a way of life that the author feared would be lost. Its stories are short, often humorous or moralizing, and mostly feature animals and tricksters. Among them are tales of a rabbit who blunders through his schemes, a foolish donkey and a faithful lover, a turtle who sleeps through a winter, and a man transformed into a tree. The trickster Unktomi, the spider, appears in several stories, including a grim tale of plums and deception. Other pieces explain origins, such as why women carefully gather every ear of corn, or recount heroic deeds, friendships between boys, and a legendary butte and a sacred pipe. The foreword reflects on the moral character the author sees in these tales, which are offered to children and general readers alike.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TALES/sioux10.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:32:52+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 234003,
+      "prompt_tokens": 12877,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

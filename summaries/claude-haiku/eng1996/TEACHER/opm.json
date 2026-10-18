@@ -1,0 +1,24 @@
+{
+  "title": "The official phreaker`s manual",
+  "authors": [
+    "The Jammer",
+    "Jack the Ripper"
+  ],
+  "kind": "non-fiction",
+  "summary": "The Official Phreaker's Manual, version 2.5 (updated November 1993), is an informal compilation of telephone-hacking lore assembled from public resources and contributed articles, circulated through bulletin board systems. It is aimed at readers from novices to advanced enthusiasts and is organized into numbered chapters with reference tables at the back. The surviving excerpts cover a glossary of Bell System telephony terms, an article on CLASS (Custom Local Area Signalling Services) and its LCCIS signalling network, and a detailed history and explanation of Automatic Message Accounting (LAMA, CAMA, and related billing systems). The closing sections list 1AESS maintenance and status report codes, input messages, and an acknowledgements page thanking contributors and bulletin boards. The table of contents also lists chapters on Blue Box construction, the Traffic Service Position System, step-by-step and crossbar switching, outside plant wiring, coin control, Teradyne's 4TEL system, and central office operations. The text is a period artifact of 1990s phone-phreaking culture, with much of its technical content describing older electromechanical and early electronic switching equipment.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/TEACHER/opm.zip",
+    "backend": "claude",
+    "model": "haiku",
+    "created": "2026-10-18T09:33:11+00:00",
+    "input": {
+      "mode": "excerpts",
+      "chars_sent": 34000,
+      "text_chars": 218065,
+      "prompt_tokens": 13015,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}
