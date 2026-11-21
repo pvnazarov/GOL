@@ -5,7 +5,7 @@ import {
 import { runSearch } from "./search.js";
 import { initRouter, navigate, currentHash, hashForLibraries, hashForFiles, hashForSearch, hashForBook } from "./router.js";
 import { el, renderIncrementalList, renderBreadcrumb, bookRow, formatSize, libraryNote } from "./ui.js";
-import { fetchBook, renderBookContent, getFontSize, setFontSize, getFontFamily, setFontFamily, FONT_FAMILIES } from "./reader.js";
+import { fetchBook, loadFb2, renderBookContent, getFontSize, setFontSize, getFontFamily, setFontFamily, FONT_FAMILIES } from "./reader.js";
 
 const THEME_KEY = "gol-theme";
 const LAST_BOOK_KEY = "gol-last-book";
@@ -175,7 +175,7 @@ function renderLibrariesView(path) {
       row.addEventListener("click", () => navigate(hashForLibraries([libId, cat.code])));
       return row;
     }, "No categories in this library.");
-    prependLibraryNote(libId);
+    appendLibraryNote(libId);
     return;
   }
 
@@ -186,12 +186,13 @@ function renderLibrariesView(path) {
   const books = getBooksForCategory(libId, catCode);
   const from = currentHash();
   renderIncrementalList(viewRootEl, books, (b) => bookRow(b, (entry) => navigate(hashForBook(entry.p, from))), "No books in this category.");
-  prependLibraryNote(libId);
+  appendLibraryNote(libId);
 }
 
-function prependLibraryNote(libId) {
+// Below the list (the list's "show more" button stays directly under the list).
+function appendLibraryNote(libId) {
   const note = getLibraryNote(libId);
-  if (note) viewRootEl.insertBefore(libraryNote(note), viewRootEl.firstChild);
+  if (note) viewRootEl.appendChild(libraryNote(note));
 }
 
 // ---------- Files view ----------
@@ -323,7 +324,7 @@ async function renderBookView(bookPath, fromHash) {
     const article = el("article", "reader-article");
     viewRootEl.appendChild(article);
     if (book.format === "fb2") {
-      const { parseFb2, renderFb2 } = await import("./fb2.js");
+      const { parseFb2, renderFb2 } = await loadFb2();
       renderFb2(article, parseFb2(book.text));
     } else {
       renderBookContent(article, book.text);

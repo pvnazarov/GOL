@@ -39,7 +39,7 @@ export function renderIncrementalList(container, items, renderRow, emptyMessage)
     list.appendChild(frag);
     shown += next.length;
     loadMoreWrap.remove();
-    if (shown < items.length) container.appendChild(loadMoreWrap);
+    if (shown < items.length) list.after(loadMoreWrap);
   }
 
   const loadMoreWrap = el("div", "load-more-wrap");

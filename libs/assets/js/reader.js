@@ -77,10 +77,19 @@ function groupLines(lines) {
   return blocks;
 }
 
+// Bump when fb2.js changes: it is loaded lazily, after the page, so a hard refresh
+// does not refetch it and the browser would keep the old copy for hours.
+const FB2_VERSION = "2026-11-21";
+export function loadFb2() {
+  return import(`./fb2.js?v=${FB2_VERSION}`);
+}
+
 // Returns {format: "txt" | "fb2", text}.
 export async function fetchBook(path) {
   if (bookCache.has(path)) return bookCache.get(path);
-  const [response, JSZip] = await Promise.all([fetch(path), loadJSZip()]);
+  // cache: "no-cache" revalidates with the server (a cheap 304 when unchanged), so a
+  // replaced book shows up at once despite the 4 h browser cache Cloudflare sets.
+  const [response, JSZip] = await Promise.all([fetch(path, { cache: "no-cache" }), loadJSZip()]);
   if (!response.ok) throw new Error(`HTTP ${response.status} fetching ${path}`);
   const buffer = await response.arrayBuffer();
   const zip = await JSZip.loadAsync(buffer);
@@ -93,7 +102,7 @@ export async function fetchBook(path) {
   if (target.toLowerCase().endsWith(".fb2")) {
     // FB2 declares its own encoding in the XML header, so decode from bytes.
     const [{ decodeFb2 }, bytes] = await Promise.all([
-      import("./fb2.js"), zip.files[target].async("uint8array")]);
+      loadFb2(), zip.files[target].async("uint8array")]);
     if (!bytes.length) throw new Error("The book file inside the archive is empty");
     book = { format: "fb2", text: decodeFb2(bytes) };
   } else {

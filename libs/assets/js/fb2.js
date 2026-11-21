@@ -175,6 +175,11 @@ class Renderer {
     if (name === "a") return this.link(node);
     if (name === "image") return this.image(node, true) || document.createTextNode("");
     const el = document.createElement(INLINE[name] || "span");
+    // <style name="small"> -> class fb2-style-small (names styled in app.css)
+    if (name === "style") {
+      const styleName = (node.getAttribute("name") || "").toLowerCase().replace(/[^a-z0-9-]/g, "");
+      if (styleName) el.className = `fb2-style-${styleName}`;
+    }
     return this.inline(node, el);
   }
 

@@ -28,6 +28,9 @@ environment facts that the README does not. Open items are in `TODO.md`.
 - **Cloudflare browser cache** (max-age 14400) can serve stale JS after a change:
   tell the user to hard-refresh. "Respect Existing Headers" was recommended but
   not confirmed.
+  A hard refresh does not reach files loaded after the page: book zips are fetched
+  with `cache: "no-cache"`, and `fb2.js` is imported as `fb2.js?v=FB2_VERSION`, so
+  **bump `FB2_VERSION` in `reader.js` whenever `fb2.js` changes**.
 - **Book files** (`libs/<library>/<CAT>/*.zip`) are not in git; `libs/assets/` and
   `libs/data/` are. `inbox/` is the user's drop folder for new books (ignored).
 - **Ollama GPU box** 192.168.1.188 (12 GB): open the tunnel with `ssh -f ollama-gpu`,
