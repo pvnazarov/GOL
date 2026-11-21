@@ -26,8 +26,8 @@
   {
     "id": "bushwacker",
     "label": "История Бушвакера",
-    "categoryCount": 3,
-    "bookCount": 21,
+    "categoryCount": 4,
+    "bookCount": 27,
     "note": {
       "title": "Дисклеймер",
       "paragraphs": [
@@ -57,6 +57,12 @@
           "Если тексты вам понравились, посмотрите оригиналы и поддержите автора по ссылкам в описании видео. По вопросам об этих версиях пишите: shamuser[a]gmail.com."
         ]
       ]
-    }
+    },
+    "categoryOrder": [
+      "HISTORY",
+      "EGYPT",
+      "GREECE",
+      "ITALY"
+    ]
   }
 ]
