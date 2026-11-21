@@ -61,6 +61,12 @@ export function getLibraryLabel(libraryId) {
   return lib ? lib.label : libraryId;
 }
 
+// Optional note shown above a library's lists: {title, paragraphs: [[text | {text, href}]]}
+export function getLibraryNote(libraryId) {
+  const lib = libraries.find((l) => l.id === libraryId);
+  return (lib && lib.note) || null;
+}
+
 export function getCategoriesForLibrary(libraryId) {
   const cats = tree[libraryId] || {};
   return Object.keys(cats)

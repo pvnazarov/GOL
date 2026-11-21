@@ -1,10 +1,10 @@
 import {
   loadLibraryData, getLibraries, getCategoriesForLibrary, getCategoryLabel,
-  getBooksForCategory, getBookByPath, listFolder, getAllCatalog, getLibraryLabel,
+  getBooksForCategory, getBookByPath, listFolder, getAllCatalog, getLibraryLabel, getLibraryNote,
 } from "./data.js";
 import { runSearch } from "./search.js";
 import { initRouter, navigate, currentHash, hashForLibraries, hashForFiles, hashForSearch, hashForBook } from "./router.js";
-import { el, renderIncrementalList, renderBreadcrumb, bookRow, formatSize } from "./ui.js";
+import { el, renderIncrementalList, renderBreadcrumb, bookRow, formatSize, libraryNote } from "./ui.js";
 import { fetchBook, renderBookContent, getFontSize, setFontSize, getFontFamily, setFontFamily, FONT_FAMILIES } from "./reader.js";
 
 const THEME_KEY = "gol-theme";
@@ -175,6 +175,7 @@ function renderLibrariesView(path) {
       row.addEventListener("click", () => navigate(hashForLibraries([libId, cat.code])));
       return row;
     }, "No categories in this library.");
+    prependLibraryNote(libId);
     return;
   }
 
@@ -185,6 +186,12 @@ function renderLibrariesView(path) {
   const books = getBooksForCategory(libId, catCode);
   const from = currentHash();
   renderIncrementalList(viewRootEl, books, (b) => bookRow(b, (entry) => navigate(hashForBook(entry.p, from))), "No books in this category.");
+  prependLibraryNote(libId);
+}
+
+function prependLibraryNote(libId) {
+  const note = getLibraryNote(libId);
+  if (note) viewRootEl.insertBefore(libraryNote(note), viewRootEl.firstChild);
 }
 
 // ---------- Files view ----------

@@ -359,6 +359,11 @@ per `<name>.fb2.zip`, and rendered structurally rather than converted to text:
   catalogue edits — drop `libs/<set>/<category>/*.fb2.zip` in, add a label to
   `scripts/library_labels.json`, rebuild.
 - **Summaries:** `summarize_books.py` extracts FB2 body text too.
+- **Library notes:** `scripts/library_notes.json` (`{"<library>": {"title": ..., "paragraphs":
+  [[text | {"text", "href"}, ...]]}}`) adds a note, such as a disclaimer, above that library's
+  category and book lists. It goes into `libraries.json` on rebuild and is rendered without
+  `innerHTML`; only http(s) links become links. Used by «История Бушвакера» (`libs/bushwacker/`,
+  lectures built in the YouTube project with `scripts/lecture/build.py --fb2`).
 - **Reading order:** books in a category are listed by author and title, unless
   `scripts/book_order.json` gives that category a hand-picked order
   (`{"izbrannoe/FANTAST": ["hpmor_ru.fb2.zip", ...]}`) — e.g. a series in

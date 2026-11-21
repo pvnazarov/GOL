@@ -26,7 +26,8 @@ Output (written to <libs_dir>/data/):
     catalog.json     one record per book known to catalog.tsv AND present on disk
     categories.json  category code -> display name
     tree.json        library -> category -> [{n: filename, s: size_bytes}], from disk
-    libraries.json   library id -> label + counts, from disk, in library_labels.json order
+    libraries.json   library id -> label + counts, from disk, in library_labels.json order;
+                     plus an optional note (library_notes.json) shown above its lists
 """
 import argparse
 import io
@@ -230,7 +231,7 @@ def apply_book_order(entries, order):
                 print(f"  warning: book_order.json lists {folder}/{filename}, which is not catalogued")
 
 
-def build_libraries_json(tree, labels_override):
+def build_libraries_json(tree, labels_override, notes=None):
     # Libraries appear in the order library_labels.json lists them; any it
     # doesn't list follow, alphabetically.
     listed = list(labels_override)
@@ -245,6 +246,8 @@ def build_libraries_json(tree, labels_override):
             "categoryCount": len(categories),
             "bookCount": book_count,
         })
+        if notes and library_id in notes:
+            libraries[-1]["note"] = notes[library_id]
     return libraries
 
 
@@ -278,7 +281,9 @@ def main():
 
     catalog_entries, missing_on_disk, not_in_catalog, from_fb2 = build_catalog_json(
         catalog_rows, tree, libs_dir)
-    libraries = build_libraries_json(tree, labels_override)
+    notes_path = Path(__file__).resolve().parent / "library_notes.json"
+    notes = json.loads(notes_path.read_text(encoding="utf-8")) if notes_path.is_file() else {}
+    libraries = build_libraries_json(tree, labels_override, notes)
 
     fixes_path = Path(__file__).resolve().parent / "catalog_fixes.json"
     if fixes_path.is_file():

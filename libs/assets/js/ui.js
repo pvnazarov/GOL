@@ -57,6 +57,27 @@ export function renderIncrementalList(container, items, renderRow, emptyMessage)
   renderMore();
 }
 
+// A library note (disclaimer etc.), built without innerHTML; only http(s) links.
+export function libraryNote(note) {
+  const box = el("aside", "lib-note");
+  if (note.title) box.appendChild(el("div", "lib-note-title", [document.createTextNode(note.title)]));
+  for (const para of note.paragraphs || []) {
+    const p = el("p");
+    for (const seg of para) {
+      if (typeof seg === "string") { p.appendChild(document.createTextNode(seg)); continue; }
+      if (seg && /^https?:\/\//.test(seg.href || "")) {
+        const a = el("a", null, [document.createTextNode(seg.text || seg.href)]);
+        a.href = seg.href; a.target = "_blank"; a.rel = "noopener";
+        p.appendChild(a);
+      } else if (seg && seg.text) {
+        p.appendChild(document.createTextNode(seg.text));
+      }
+    }
+    box.appendChild(p);
+  }
+  return box;
+}
+
 export function renderBreadcrumb(container, parts) {
   container.innerHTML = "";
   parts.forEach((part, i) => {
