@@ -24,7 +24,7 @@ Usage:
 
 Output (written to <libs_dir>/data/):
     catalog.json     one record per book known to catalog.tsv AND present on disk
-    categories.json  category code -> display name
+    categories.json  category code -> display name (meta.zip, plus scripts/category_labels.json)
     tree.json        library -> category -> [{n: filename, s: size_bytes}], from disk
     libraries.json   library id -> label + counts, from disk, in library_labels.json order;
                      plus an optional note (library_notes.json) shown above its lists
@@ -270,6 +270,10 @@ def main():
     print("Reading meta.zip ...")
     catalog_text, categories_text = load_meta(libs_dir)
     categories = parse_categories(categories_text)
+    # Category folders that meta.zip does not know (e.g. bushwacker/EGYPT) get their names here
+    cat_labels_path = Path(__file__).resolve().parent / "category_labels.json"
+    if cat_labels_path.is_file():
+        categories.update(json.loads(cat_labels_path.read_text(encoding="utf-8")))
     catalog_rows = parse_catalog(catalog_text)
     print(f"  {len(catalog_rows)} catalog rows, {len(categories)} categories")
 
