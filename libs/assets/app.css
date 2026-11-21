@@ -267,6 +267,7 @@ body[data-view="book"] .bg-layer { display: none; }
   align-items: center;
   gap: 10px;
   padding: 9px 14px;
+  border: none; /* drop the UA button border; only the divider below stays */
   border-bottom: 1px solid var(--border);
   cursor: pointer;
   background: none;
@@ -287,6 +288,21 @@ body[data-view="book"] .bg-layer { display: none; }
   margin-top: 1px;
 }
 .item-extra { flex: none; font-size: 0.78em; color: var(--muted); }
+/* Category/folder lists: as many ~16em columns as fit (em, so it follows the
+   font size and browser zoom), capped at 3 (32% > 100%/4); one column on
+   narrow phones. Dividers are top/left borders pulled 1px outward, so the
+   container's overflow:hidden clips them on the outer edges. */
+.item-list.cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, max(16em, 32%)), 1fr));
+}
+.item-list.cols .item-row {
+  width: auto;
+  margin: -1px 0 0 -1px;
+  border-bottom: none;
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+}
 
 .load-more-wrap { text-align: center; padding: 12px; }
 .load-more-btn {

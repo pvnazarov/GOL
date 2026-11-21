@@ -174,7 +174,7 @@ function renderLibrariesView(path) {
       row.appendChild(el("span", "item-extra", [document.createTextNode(`${cat.bookCount} books`)]));
       row.addEventListener("click", () => navigate(hashForLibraries([libId, cat.code])));
       return row;
-    }, "No categories in this library.");
+    }, "No categories in this library.", "cols");
     appendLibraryNote(libId);
     return;
   }
@@ -226,7 +226,7 @@ function renderFilesView(path) {
     row.appendChild(el("span", "item-extra", [document.createTextNode(formatSize(item.size, "bytes"))]));
     row.addEventListener("click", () => navigate(hashForBook(item.path, from)));
     return row;
-  }, "This folder is empty.");
+  }, "This folder is empty.", items.every((it) => it.type === "dir") ? "cols" : "");
 }
 
 // ---------- Search view ----------

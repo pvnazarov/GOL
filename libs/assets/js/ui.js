@@ -21,14 +21,29 @@ export function formatSize(kbOrBytes, unit) {
 
 // Renders `items` into `container` using `renderRow(item) -> HTMLElement`,
 // paging in more rows as the user clicks "load more" (or scrolls near it).
-export function renderIncrementalList(container, items, renderRow, emptyMessage) {
+// Multi-column ("cols") lists read top-to-bottom, then left-to-right. CSS
+// decides how many columns fit (auto-fill); here we read that count back and
+// set rows = ceil(n / cols) with column-major flow. Only one list is live at a
+// time, so a single observer is reused and disconnected on re-render.
+let colsObserver = null;
+
+function layoutColumns(list) {
+  const cols = getComputedStyle(list).gridTemplateColumns.split(" ").filter(Boolean).length || 1;
+  const rows = Math.max(1, Math.ceil(list.children.length / cols));
+  list.style.gridTemplateRows = `repeat(${rows}, auto)`;
+  list.style.gridAutoFlow = "column";
+}
+
+// `listClass` adds a modifier class to the list (e.g. "cols" for a multi-column grid).
+export function renderIncrementalList(container, items, renderRow, emptyMessage, listClass) {
+  if (colsObserver) { colsObserver.disconnect(); colsObserver = null; }
   container.innerHTML = "";
   if (!items.length) {
     container.appendChild(el("div", "empty-state", [document.createTextNode(emptyMessage || "Nothing here.")]));
     return;
   }
 
-  const list = el("div", "item-list");
+  const list = el("div", listClass ? `item-list ${listClass}` : "item-list");
   container.appendChild(list);
   let shown = 0;
 
@@ -38,6 +53,7 @@ export function renderIncrementalList(container, items, renderRow, emptyMessage)
     for (const item of next) frag.appendChild(renderRow(item));
     list.appendChild(frag);
     shown += next.length;
+    if (isCols) layoutColumns(list);
     loadMoreWrap.remove();
     if (shown < items.length) list.after(loadMoreWrap);
   }
@@ -54,6 +70,11 @@ export function renderIncrementalList(container, items, renderRow, emptyMessage)
   });
   loadMoreWrap.appendChild(btn);
 
+  const isCols = (listClass || "").split(" ").includes("cols");
+  if (isCols && typeof ResizeObserver !== "undefined") {
+    colsObserver = new ResizeObserver(() => layoutColumns(list));
+    colsObserver.observe(list);
+  }
   renderMore();
 }
 

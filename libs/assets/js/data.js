@@ -69,13 +69,17 @@ export function getLibraryNote(libraryId) {
 
 export function getCategoriesForLibrary(libraryId) {
   const cats = tree[libraryId] || {};
+  // A hand-picked folder order (scripts/category_order.json) comes first; the rest A-Z.
+  const lib = libraries.find((l) => l.id === libraryId);
+  const order = (lib && lib.categoryOrder) || [];
+  const rank = (code) => { const i = order.indexOf(code); return i < 0 ? Infinity : i; };
   return Object.keys(cats)
     .map((code) => ({
       code,
       label: categories[code] || code,
       bookCount: (byLibCategory.get(`${libraryId}|${code}`) || cats[code] || []).length,
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, "ru"));
+    .sort((a, b) => (rank(a.code) - rank(b.code)) || a.label.localeCompare(b.label, "ru"));
 }
 
 export function getCategoryLabel(code) {

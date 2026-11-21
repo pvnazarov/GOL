@@ -19,6 +19,10 @@ scripts/book_order.json can give a category a hand-picked reading order
 ({"<library>/<category>": [filename, ...]}); listed books get an "o" (order)
 field and are shown first, in that order, before any unlisted ones.
 
+scripts/category_order.json can give a library a hand-picked folder order
+({"<library>": [category, ...]}); it lands in libraries.json as "categoryOrder",
+and the webapp lists those folders first, in that order, then the rest A-Z.
+
 Usage:
     .venv/bin/python scripts/build_catalog.py [libs_dir]
 
@@ -28,6 +32,7 @@ Output (written to <libs_dir>/data/):
     tree.json        library -> category -> [{n: filename, s: size_bytes}], from disk
     libraries.json   library id -> label + counts, from disk, in library_labels.json order;
                      plus an optional note (library_notes.json) shown above its lists
+                     and folder order (category_order.json)
 """
 import argparse
 import io
@@ -231,7 +236,7 @@ def apply_book_order(entries, order):
                 print(f"  warning: book_order.json lists {folder}/{filename}, which is not catalogued")
 
 
-def build_libraries_json(tree, labels_override, notes=None):
+def build_libraries_json(tree, labels_override, notes=None, cat_order=None):
     # Libraries appear in the order library_labels.json lists them; any it
     # doesn't list follow, alphabetically.
     listed = list(labels_override)
@@ -248,6 +253,11 @@ def build_libraries_json(tree, labels_override, notes=None):
         })
         if notes and library_id in notes:
             libraries[-1]["note"] = notes[library_id]
+        if cat_order and library_id in cat_order:
+            for code in cat_order[library_id]:
+                if code not in categories:
+                    print(f"  warning: category_order.json lists {library_id}/{code}, which is not on disk")
+            libraries[-1]["categoryOrder"] = [c for c in cat_order[library_id] if c in categories]
     return libraries
 
 
@@ -287,7 +297,9 @@ def main():
         catalog_rows, tree, libs_dir)
     notes_path = Path(__file__).resolve().parent / "library_notes.json"
     notes = json.loads(notes_path.read_text(encoding="utf-8")) if notes_path.is_file() else {}
-    libraries = build_libraries_json(tree, labels_override, notes)
+    cat_order_path = Path(__file__).resolve().parent / "category_order.json"
+    cat_order = json.loads(cat_order_path.read_text(encoding="utf-8")) if cat_order_path.is_file() else {}
+    libraries = build_libraries_json(tree, labels_override, notes, cat_order)
 
     fixes_path = Path(__file__).resolve().parent / "catalog_fixes.json"
     if fixes_path.is_file():
