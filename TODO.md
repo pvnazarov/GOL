@@ -32,9 +32,10 @@ All of these are served on the public site today.
 
 ## Summaries
 
-- [ ] **Show the summaries on the site:** have `build_catalog.py` merge them
-  (Haiku first, GigaChat as fallback) into `libs/data/`, and show them in the
-  book view.
+- [x] **Show the summaries on the site** (2026-11-22): per-folder files in
+  `libs/data/summaries/`, two-line snippets in lists, full text in the book view.
+  EROTIC is skipped (`SUMMARY_SKIP_CATEGORIES` in `build_catalog.py`); drop it
+  from that set after the review below.
 - [ ] Better summaries for long rus2004 books. Haiku read a median of only ~8% of
   them. Options: a larger excerpt (Haiku's price stays flat up to ~100k
   tokens), or Sonnet for chosen books.

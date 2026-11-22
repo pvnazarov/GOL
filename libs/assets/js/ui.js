@@ -120,8 +120,11 @@ function filenameOf(path) {
 
 export function bookRow(entry, onOpen, options) {
   const opts = options || {};
-  const row = el("button", "item-row");
-  row.type = "button";
+  // A div rather than a <button>, so the summary's own "more" button is not
+  // nested inside another button; keyboard users still get Enter/Space.
+  const row = el("div", "item-row book-row");
+  row.tabIndex = 0;
+  row.setAttribute("role", "button");
   const main = el("div", "item-main");
   main.appendChild(el("div", "item-title", [document.createTextNode(entry.t || entry.p)]));
   const subParts = [entry.a || "Unknown author"];
@@ -132,5 +135,30 @@ export function bookRow(entry, onOpen, options) {
   row.appendChild(main);
   if (entry.s) row.appendChild(el("span", "item-extra", [document.createTextNode(formatSize(entry.s))]));
   row.addEventListener("click", () => onOpen(entry));
+  row.addEventListener("keydown", (e) => {
+    if (e.target === row && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); onOpen(entry); }
+  });
+  if (opts.summary) opts.summary(entry).then((text) => { if (text) main.appendChild(summarySnippet(text)); });
   return row;
+}
+
+// Two clamped lines under the author; "ещё" expands them in place (and does
+// not open the book). The toggle only appears when the text is actually cut.
+function summarySnippet(text) {
+  const wrap = el("div", "item-summary");
+  const body = el("div", "item-summary-text", [document.createTextNode(text)]);
+  body.title = text;
+  const toggle = el("button", "item-summary-toggle", [document.createTextNode("▾ ещё")]);
+  toggle.type = "button";
+  toggle.hidden = true;
+  toggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const open = wrap.classList.toggle("open");
+    toggle.textContent = open ? "▴ свернуть" : "▾ ещё";
+    body.title = open ? "" : text;
+  });
+  wrap.appendChild(body);
+  wrap.appendChild(toggle);
+  requestAnimationFrame(() => { toggle.hidden = body.scrollHeight <= body.clientHeight + 1; });
+  return wrap;
 }

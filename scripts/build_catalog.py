@@ -34,10 +34,13 @@ Output (written to <libs_dir>/data/):
                      plus an optional note (library_notes.json) shown under its lists
                      (a "library/CATEGORY" key: a note for that folder only)
                      and folder order (category_order.json)
+    summaries/<library>/<category>.json  book filename -> summary, from summaries/
+                     (claude-haiku, then GigaChat Q4_K_M; EROTIC left out)
 """
 import argparse
 import io
 import json
+import shutil
 import sys
 import zipfile
 import xml.etree.ElementTree as ET
@@ -237,6 +240,45 @@ def apply_book_order(entries, order):
                 print(f"  warning: book_order.json lists {folder}/{filename}, which is not catalogued")
 
 
+# Book summaries for the site: one file per folder, libs/data/summaries/<library>/<category>.json
+# = {book filename: summary}, loaded when that folder or book opens. The first
+# source that has a book wins. EROTIC is left out until its summaries are reviewed.
+SUMMARY_SOURCES = ["claude-haiku", "hf.co-ai-sage-GigaChat3.1-10B-A1.8B-GGUF-Q4_K_M"]
+SUMMARY_SKIP_CATEGORIES = {"EROTIC"}
+
+
+def write_summaries(tree, summaries_dir, out_dir):
+    if out_dir.exists():
+        shutil.rmtree(out_dir)
+    n_books = n_files = 0
+    for library_id, categories in tree.items():
+        for code, files in categories.items():
+            if code in SUMMARY_SKIP_CATEGORIES:
+                continue
+            found = {}
+            for f in files:
+                name = f["n"]
+                stem = name[:-4] if name.lower().endswith(".zip") else name
+                for source in SUMMARY_SOURCES:
+                    path = summaries_dir / source / library_id / code / f"{stem}.json"
+                    if not path.is_file():
+                        continue
+                    try:
+                        text = (json.loads(path.read_text(encoding="utf-8")).get("summary") or "").strip()
+                    except (ValueError, OSError):
+                        text = ""
+                    if text:
+                        found[name] = text
+                        break
+            if found:
+                target = out_dir / library_id / f"{code}.json"
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(json.dumps(found, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+                n_books += len(found)
+                n_files += 1
+    return n_books, n_files
+
+
 def build_libraries_json(tree, labels_override, notes=None, cat_order=None):
     # Libraries appear in the order library_labels.json lists them; any it
     # doesn't list follow, alphabetically.
@@ -333,6 +375,10 @@ def main():
         json.dumps(tree, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (out_dir / "libraries.json").write_text(
         json.dumps(libraries, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    summaries_dir = Path(__file__).resolve().parent.parent / "summaries"
+    n_summaries, n_summary_files = write_summaries(tree, summaries_dir, out_dir / "summaries")
+    print(f"  {n_summaries} book summaries in {n_summary_files} folder files (data/summaries/)")
 
     print("\nWrote:")
     for name in ("catalog.json", "categories.json", "tree.json", "libraries.json"):

@@ -288,6 +288,30 @@ body[data-view="book"] .bg-layer { display: none; }
   margin-top: 1px;
 }
 .item-extra { flex: none; font-size: 0.78em; color: var(--muted); }
+/* AI summary under a book's author line: two lines, expandable in place */
+.book-row { align-items: flex-start; }
+.book-row .item-icon, .book-row .item-extra { margin-top: 2px; }
+.book-row:focus-visible { outline-offset: -2px; }
+.item-summary { margin-top: 3px; font-size: 0.82em; line-height: 1.4; }
+.item-summary-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+.item-summary.open .item-summary-text { display: block; -webkit-line-clamp: unset; line-clamp: unset; }
+.item-summary-toggle {
+  border: none;
+  background: none;
+  padding: 0;
+  margin-top: 1px;
+  font: inherit;
+  font-size: 0.95em;
+  color: var(--accent);
+  cursor: pointer;
+}
+.item-summary-toggle:hover { text-decoration: underline; }
 /* Category/folder lists: as many ~16em columns as fit (em, so it follows the
    font size and browser zoom), capped at 3 (32% > 100%/4); one column on
    narrow phones. Dividers are top/left borders pulled 1px outward, so the
@@ -435,6 +459,23 @@ body[data-view="book"] .bg-layer { display: none; }
   border-radius: 4px;
   font-size: 0.95em;
 }
+
+.reader-summary {
+  font-size: 0.9em;
+  line-height: 1.5;
+  border-left: 3px solid var(--accent);
+  padding: 2px 0 2px 12px;
+  margin: 0 0 16px;
+}
+.reader-summary-title {
+  font-size: 0.78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.reader-summary p { margin: 0; }
 
 .reader-article {
   background: var(--reader-bg);

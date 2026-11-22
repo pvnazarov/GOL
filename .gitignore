@@ -23,3 +23,6 @@ libs/*/
 !libs/assets/**
 !libs/data/
 !libs/data/**
+
+# Book summaries for the site: rebuilt from summaries/ by build_catalog.py
+libs/data/summaries/

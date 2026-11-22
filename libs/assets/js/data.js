@@ -130,3 +130,24 @@ export function getAllCatalog() {
 export function getTotalBookCount() {
   return catalog.length;
 }
+
+// Book summaries (AI), one file per folder: data/summaries/<library>/<category>.json
+// = {filename: text}. Fetched on first use and cached; a folder without one gives {}.
+const summaryFiles = new Map();
+
+export function getFolderSummaries(libraryId, catCode) {
+  const key = `${libraryId}|${catCode}`;
+  if (!summaryFiles.has(key)) {
+    const url = `data/summaries/${encodeURIComponent(libraryId)}/${encodeURIComponent(catCode)}.json`;
+    summaryFiles.set(key, fetch(url)
+      .then((res) => (res.ok ? res.json() : {}))
+      .catch(() => ({})));
+  }
+  return summaryFiles.get(key);
+}
+
+export async function getBookSummary(entry) {
+  if (!entry || !entry.l || !entry.c) return null;
+  const all = await getFolderSummaries(entry.l, entry.c);
+  return all[entry.p.split("/").pop()] || null;
+}

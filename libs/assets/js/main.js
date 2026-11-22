@@ -1,6 +1,6 @@
 import {
   loadLibraryData, getLibraries, getCategoriesForLibrary, getCategoryLabel,
-  getBooksForCategory, getBookByPath, listFolder, getAllCatalog, getLibraryLabel, getLibraryNote, getCategoryNote,
+  getBooksForCategory, getBookByPath, listFolder, getAllCatalog, getLibraryLabel, getLibraryNote, getCategoryNote, getBookSummary,
 } from "./data.js";
 import { runSearch } from "./search.js";
 import { initRouter, navigate, currentHash, hashForLibraries, hashForFiles, hashForSearch, hashForBook } from "./router.js";
@@ -185,7 +185,7 @@ function renderLibrariesView(path) {
   renderBreadcrumb(breadcrumbEl, crumbs);
   const books = getBooksForCategory(libId, catCode);
   const from = currentHash();
-  renderIncrementalList(viewRootEl, books, (b) => bookRow(b, (entry) => navigate(hashForBook(entry.p, from))), "No books in this category.");
+  renderIncrementalList(viewRootEl, books, (b) => bookRow(b, (entry) => navigate(hashForBook(entry.p, from)), { summary: getBookSummary }), "No books in this category.");
   const catNote = getCategoryNote(libId, catCode);
   if (catNote) viewRootEl.appendChild(libraryNote(catNote));
   appendLibraryNote(libId);
@@ -268,7 +268,7 @@ function renderSearchView(initialQuery) {
       return;
     }
     const { results } = runSearch(catalog, value);
-    renderIncrementalList(resultsEl, results, (entry) => bookRow(entry, (e) => navigate(hashForBook(e.p, currentHash())), { showCategory: true }),
+    renderIncrementalList(resultsEl, results, (entry) => bookRow(entry, (e) => navigate(hashForBook(e.p, currentHash())), { showCategory: true, summary: getBookSummary }),
       "No matches. Try fewer or different words.");
   }
 
@@ -325,6 +325,14 @@ async function renderBookView(bookPath, fromHash) {
 
     const article = el("article", "reader-article");
     viewRootEl.appendChild(article);
+    // The summary file may still be loading; the book does not wait for it.
+    if (meta) getBookSummary(meta).then((summary) => {
+      if (!summary || !article.isConnected) return;
+      const box = el("aside", "reader-summary");
+      box.appendChild(el("div", "reader-summary-title", [document.createTextNode("Аннотация (ИИ)")]));
+      box.appendChild(el("p", null, [document.createTextNode(summary)]));
+      article.before(box);
+    });
     if (book.format === "fb2") {
       const { parseFb2, renderFb2 } = await loadFb2();
       renderFb2(article, parseFb2(book.text));

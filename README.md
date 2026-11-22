@@ -170,8 +170,12 @@ not sent to Claude**; those stay on the local model.
 **Status:** `claude-haiku` has every book outside EROTIC and SEX-TECH (14,666); the two it could not do (a pyrotechnics notebook it declined, and a monograph where it kept returning a stub) are in the GigaChat Q4_K_M folder; `claude-sonnet` has the 39 `eng1996/ADVENTUR` pilot summaries; `izbrannoe` has
 summaries from all four local models above; both Adventure categories have GigaChat
 summaries in three variants (Q6_K, Q4_K_M at 32k, and `gigachat3.1-q4-ctx64k` — an
-Ollama copy of Q4_K_M named so its 64k results get their own folder). **Nothing reads the output yet** — surfacing it
-means having `build_catalog.py` merge one model's records into `libs/data/`.
+Ollama copy of Q4_K_M named so its 64k results get their own folder). **On the site:** `build_catalog.py` writes
+`libs/data/summaries/<library>/<category>.json` (book filename → summary; `claude-haiku`
+first, then GigaChat Q4_K_M; EROTIC left out until reviewed; gitignored, rebuilt from
+`summaries/`). Book lists show two lines under the author with «▾ ещё» to expand, and the
+book page shows the full text as «Аннотация (ИИ)». Each folder's file is fetched when it
+first opens (the largest, rus2004/DRAMA, is 3.5 MB, ~1 MB compressed).
 
 ## Running locally
 
