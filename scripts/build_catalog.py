@@ -31,7 +31,8 @@ Output (written to <libs_dir>/data/):
     categories.json  category code -> display name (meta.zip, plus scripts/category_labels.json)
     tree.json        library -> category -> [{n: filename, s: size_bytes}], from disk
     libraries.json   library id -> label + counts, from disk, in library_labels.json order;
-                     plus an optional note (library_notes.json) shown above its lists
+                     plus an optional note (library_notes.json) shown under its lists
+                     (a "library/CATEGORY" key: a note for that folder only)
                      and folder order (category_order.json)
 """
 import argparse
@@ -253,6 +254,14 @@ def build_libraries_json(tree, labels_override, notes=None, cat_order=None):
         })
         if notes and library_id in notes:
             libraries[-1]["note"] = notes[library_id]
+        # "library/CATEGORY" keys give a note shown only in that folder.
+        cat_notes = {key.split("/", 1)[1]: note for key, note in (notes or {}).items()
+                     if key.startswith(library_id + "/")}
+        for code in cat_notes:
+            if code not in categories:
+                print(f"  warning: library_notes.json has {library_id}/{code}, which is not on disk")
+        if cat_notes:
+            libraries[-1]["categoryNotes"] = cat_notes
         if cat_order and library_id in cat_order:
             for code in cat_order[library_id]:
                 if code not in categories:

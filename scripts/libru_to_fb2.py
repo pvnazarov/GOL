@@ -16,11 +16,11 @@ structure (or come out empty), so this rebuilds it from the page itself:
   * author and title come from the page <title> ("Author. Title").
 
 Output is <out>/<author-folder>--<page>.fb2.zip, e.g.
-libs/izbrannoe/FANTAST/shumil_p--text_0010-008.fb2.zip, matching the file
+libs/izbrannoe/Shumil/shumil_p--text_0010-008.fb2.zip, matching the file
 names of the site's own FB2 downloads.
 
 Usage:
-    .venv/bin/python scripts/libru_to_fb2.py libs/izbrannoe/FANTAST \\
+    .venv/bin/python scripts/libru_to_fb2.py libs/izbrannoe/Shumil \\
         http://fan.lib.ru/s/shumil_p/text_0010-008.shtml [more URLs ...]
 """
 import argparse
@@ -253,7 +253,7 @@ def convert(url: str, out_dir: Path, genre: str) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Convert lib.ru book pages to .fb2.zip files.")
-    parser.add_argument("out_dir", type=Path, help="target folder, e.g. libs/izbrannoe/FANTAST")
+    parser.add_argument("out_dir", type=Path, help="target folder, e.g. libs/izbrannoe/Shumil")
     parser.add_argument("urls", nargs="+", help="lib.ru book page URLs (.shtml)")
     parser.add_argument("--genre", default="sf", help="FB2 genre code (default: sf)")
     args = parser.parse_args()

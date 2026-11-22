@@ -1,6 +1,6 @@
 import {
   loadLibraryData, getLibraries, getCategoriesForLibrary, getCategoryLabel,
-  getBooksForCategory, getBookByPath, listFolder, getAllCatalog, getLibraryLabel, getLibraryNote,
+  getBooksForCategory, getBookByPath, listFolder, getAllCatalog, getLibraryLabel, getLibraryNote, getCategoryNote,
 } from "./data.js";
 import { runSearch } from "./search.js";
 import { initRouter, navigate, currentHash, hashForLibraries, hashForFiles, hashForSearch, hashForBook } from "./router.js";
@@ -186,6 +186,8 @@ function renderLibrariesView(path) {
   const books = getBooksForCategory(libId, catCode);
   const from = currentHash();
   renderIncrementalList(viewRootEl, books, (b) => bookRow(b, (entry) => navigate(hashForBook(entry.p, from))), "No books in this category.");
+  const catNote = getCategoryNote(libId, catCode);
+  if (catNote) viewRootEl.appendChild(libraryNote(catNote));
   appendLibraryNote(libId);
 }
 

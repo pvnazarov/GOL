@@ -67,6 +67,12 @@ export function getLibraryNote(libraryId) {
   return (lib && lib.note) || null;
 }
 
+// Optional note for one folder only (library_notes.json key "library/CATEGORY").
+export function getCategoryNote(libraryId, catCode) {
+  const lib = libraries.find((l) => l.id === libraryId);
+  return (lib && lib.categoryNotes && lib.categoryNotes[catCode]) || null;
+}
+
 export function getCategoriesForLibrary(libraryId) {
   const cats = tree[libraryId] || {};
   // A hand-picked folder order (scripts/category_order.json) comes first; the rest A-Z.

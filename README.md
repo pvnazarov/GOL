@@ -366,7 +366,7 @@ per `<name>.fb2.zip`, and rendered structurally rather than converted to text:
   lectures built in the YouTube project with `scripts/lecture/build.py --fb2`).
 - **Reading order:** books in a category are listed by author and title, unless
   `scripts/book_order.json` gives that category a hand-picked order
-  (`{"izbrannoe/FANTAST": ["hpmor_ru.fb2.zip", ...]}`) — e.g. a series in
+  (`{"izbrannoe/Yudkowsky": ["hpmor_ru.fb2.zip", ...]}`) — e.g. a series in
   reading order. Listed books come first; rebuild the catalogue after editing.
 
 **Adding books from lib.ru.** lib.ru's own FB2/EPUB exports are unreliable (the
@@ -376,7 +376,7 @@ paragraphs, centred capital headings — so `scripts/libru_to_fb2.py` rebuilds a
 proper FB2 from it (paragraphs, chapter sections, annotation, illustrations):
 
 ```bash
-.venv/bin/python scripts/libru_to_fb2.py libs/izbrannoe/FANTAST \
+.venv/bin/python scripts/libru_to_fb2.py libs/izbrannoe/Shumil \
     http://fan.lib.ru/s/shumil_p/text_0010-008.shtml
 .venv/bin/python scripts/build_catalog.py
 ```
