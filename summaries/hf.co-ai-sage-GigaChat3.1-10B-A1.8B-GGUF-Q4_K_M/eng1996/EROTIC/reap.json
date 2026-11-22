@@ -1,0 +1,23 @@
+{
+  "title": "The reaper",
+  "authors": [
+    "Bost Gay"
+  ],
+  "kind": "novel",
+  "summary": "Lee, a man searching for something meaningful in his life, meets Maggie online and is captivated by her enigmatic personality. Their relationship begins with flirtatious conversations and coffee dates, quickly escalating into an intense emotional and physical connection. However, beneath the surface lies a dark obsession; Lee's affection turns possessive and violent as he becomes fixated on controlling every aspect of Maggie’s life. The novel explores themes of love, power, and psychological deterioration, culminating in a disturbing climax where Lee’s twisted desire for control leads to tragedy. Written in a confessional tone, the narrative delves into the mind of an unreliable narrator whose charm masks a dangerous instability.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/reap.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:35:11+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14675,
+      "text_chars": 14675,
+      "prompt_tokens": 5551,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

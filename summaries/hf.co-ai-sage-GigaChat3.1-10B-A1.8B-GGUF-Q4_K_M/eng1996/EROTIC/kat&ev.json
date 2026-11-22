@@ -1,0 +1,23 @@
+{
+  "title": "kat&ev",
+  "authors": [
+    "Gyrfalcon"
+  ],
+  "kind": "novella",
+  "summary": "A brief erotic narrative follows the narrator Kathy as she becomes infatuated with Ellen during a summer before college. The story details their secret, passionate relationship through various encounters—from beachside glances to intimate moments in Ellen's apartment and bedroom. It explores themes of desire, seduction, and sexual discovery between two young women, highlighting their physical chemistry and emotional connection as they navigate new experiences together.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/kat&ev.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:33:39+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 15270,
+      "text_chars": 15270,
+      "prompt_tokens": 5662,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

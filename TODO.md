@@ -27,15 +27,15 @@ All of these are served on the public site today.
   Not flagged: `rus2004/TEACHER/vv`, Багал's chemistry textbook.
 - [ ] Decide which of these to remove from `libs/` and the catalogue (then rebuild
   the catalogue), and whether to delete their summaries.
-- [ ] After the review, commit the EROTIC GigaChat summaries, minus any removed
-  books. (SEX-TECH summaries are committed.)
+- [x] EROTIC GigaChat summaries committed (reviewed 2026-11-22), minus the 15
+  flagged books (gitignored).
 
 ## Summaries
 
 - [x] **Show the summaries on the site** (2026-11-22): per-folder files in
   `libs/data/summaries/`, two-line snippets in lists, full text in the book view.
-  EROTIC is skipped (`SUMMARY_SKIP_CATEGORIES` in `build_catalog.py`); drop it
-  from that set after the review below.
+  EROTIC summaries reviewed by the user and shown (2026-11-22), except the 15
+  books flagged below for minors (`SUMMARY_SKIP_BOOKS`; files gitignored).
 - [ ] Better summaries for long rus2004 books. Haiku read a median of only ~8% of
   them. Options: a larger excerpt (Haiku's price stays flat up to ~100k
   tokens), or Sonnet for chosen books.

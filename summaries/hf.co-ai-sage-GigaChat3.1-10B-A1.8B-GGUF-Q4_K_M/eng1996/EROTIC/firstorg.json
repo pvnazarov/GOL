@@ -1,0 +1,21 @@
+{
+  "title": "Her first orgasm",
+  "authors": [],
+  "kind": "novel",
+  "summary": "This explicit fictional narrative follows a young man reuniting with his high school crush Kristen after college. Their renewed relationship quickly becomes sexual, and the story details their courtship, intimate encounters, and culminates in a scene where he brings her to orgasm for the first time. The work is written as a personal recollection of a summer romance, focusing on physical desire and sensual discovery rather than plot or character development. It belongs to the erotic fiction genre and contains detailed descriptions of sexual acts.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/firstorg.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:32:49+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 9454,
+      "text_chars": 9454,
+      "prompt_tokens": 4043,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

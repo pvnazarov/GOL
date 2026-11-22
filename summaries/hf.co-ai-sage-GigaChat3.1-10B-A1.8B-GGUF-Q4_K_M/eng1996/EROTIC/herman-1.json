@@ -1,0 +1,23 @@
+{
+  "title": "The office visit",
+  "authors": [
+    "Herman"
+  ],
+  "kind": "novella",
+  "summary": "A sexually explicit and humorous story about a young adjunct professor who becomes obsessed with an attractive computer science instructor at her university. The narrator, whose name is never given but called Clarissa in the text, spends weeks trying to impress Alex, noticing his constant erection and their shared chemistry. After breaking through social barriers, they begin meeting in secret, culminating in a steamy office tryst in Alex’s small, hastily built faculty office. The narrator uses her technical skills to disable the lab computers for privacy, leading to an erotic encounter on his desk. Their affair is complicated by their marriages and the risk of discovery by Herman, the lab director who seems aware of their flirtations but does not intervene. The story mixes workplace tension with graphic sexual content and self-aware humor about its own absurdity.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/herman-1.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:33:10+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8872,
+      "text_chars": 8872,
+      "prompt_tokens": 3890,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "A day at the beach",
+  "authors": [
+    "Durante Pat L"
+  ],
+  "kind": "novel",
+  "summary": "This erotic novel follows a man's daydream of an illicit affair on a beach, where he encounters a mysterious and alluring woman who draws him into a series of seductive encounters. The story blends fantasy with themes of marital dissatisfaction, guilt, and forbidden desire. As the man navigates his growing attraction to her, he is torn between his fantasies and his commitment to his wife. The narrative builds from innocent flirtation on the beach to a passionate night at an upscale club and culminating in a surreal dream that blurs reality and fantasy. The work explores sexual liberation, infidelity, and the inner turmoil of a man confronting suppressed urges.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/day.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:31:55+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 21615,
+      "text_chars": 21615,
+      "prompt_tokens": 7353,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

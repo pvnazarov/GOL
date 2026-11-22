@@ -1,0 +1,24 @@
+{
+  "title": "Amelia`s starring role",
+  "authors": [
+    "Patrick Harrison",
+    "Amelia"
+  ],
+  "kind": "novel",
+  "summary": "In this erotic novel, Amelia, a young actress making her film debut in an ultra-futuristic sci-fi movie, finds herself entangled with the seasoned leading man Patrick Harrison. Their on-set chemistry quickly turns to romance and then into passionate encounters both behind-the-scenes and off-camera. The story follows their developing relationship as they navigate love, mentorship, and desire amidst the glamour of Hollywood filmmaking. Amelia's inexperience contrasts with Patrick’s seasoned confidence, leading to a series of intimate scenes that explore themes of first love, sexual discovery, and emotional connection in a world of glitz and sci-fi spectacle.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/amelia.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:31:20+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 22743,
+      "text_chars": 22743,
+      "prompt_tokens": 7498,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

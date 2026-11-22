@@ -1,0 +1,21 @@
+{
+  "title": "Слово для ларисы",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "The text is a fragmented and explicit narrative that explores themes of adolescent desire, sexual exploitation, and emotional confusion. It follows the perspective of a young male narrator who becomes entangled in a disturbing relationship with an older man named Pasha, who functions as a father figure but engages in abusive and manipulative behavior. The story is set against a backdrop of teenage rebellion, family dysfunction, and societal neglect. Through graphic descriptions of sexual acts and power dynamics, the text portrays the psychological trauma inflicted on the protagonist by these relationships. The narrator oscillates between moments of affection for Pasha and self-loathing, while also grappling with his own feelings of inadequacy and despair. The narrative ends with a suicide attempt, underscoring the deep emotional damage caused by the events described.",
+  "lang": "Russian",
+  "meta": {
+    "source": "rus1996/EROTIC/larisa.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:49:45+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 19986,
+      "text_chars": 19986,
+      "prompt_tokens": 7632,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

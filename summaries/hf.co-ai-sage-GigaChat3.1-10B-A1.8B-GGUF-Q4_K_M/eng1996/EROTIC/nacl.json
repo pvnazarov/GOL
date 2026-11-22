@@ -1,0 +1,21 @@
+{
+  "title": "Young nacl`s story",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This explicit and erotic narrative follows the internal monologue of a woman recounting her solitary sexual experiences over several evenings. The protagonist spends time in various public settings, such as parking lots and a theater, where she masturbates and uses sex toys to satisfy her desires while trying to avoid detection by passersby or authority figures. Through detailed descriptions of self-touching, fantasies, and climactic moments, the story explores themes of desire, exhibitionism, and personal pleasure. The protagonist's unapologetic focus on her own arousal and satisfaction creates a raw, sensual account that delves into private sexual exploration in public spaces.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/nacl.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:34:34+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 12498,
+      "text_chars": 12498,
+      "prompt_tokens": 4822,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

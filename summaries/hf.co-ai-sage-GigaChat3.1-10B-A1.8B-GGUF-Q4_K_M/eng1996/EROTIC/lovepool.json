@@ -1,0 +1,23 @@
+{
+  "title": "The pool of love",
+  "authors": [
+    "Brian"
+  ],
+  "kind": "novel",
+  "summary": "A sexually explicit story about Karl and Connie, who meet in a backyard pool under the pretense of filling it with water. The narrative quickly shifts to an erotic encounter filled with seduction, physical intimacy, and graphic sexual acts between the two young characters. Their interactions involve detailed descriptions of foreplay, mutual masturbation, oral sex, and intercourse, all set against the backdrop of a pool being filled. The story is written in a conversational style that mixes mundane dialogue with explicit erotic content, emphasizing themes of lust, desire, and sexual exploration.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/lovepool.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:34:05+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 27377,
+      "text_chars": 27377,
+      "prompt_tokens": 9061,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

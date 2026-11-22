@@ -1,0 +1,21 @@
+{
+  "title": "A lesson from mom",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "A sexually explicit narrative that follows Julie and her cousin Ann as they are caught in an incestuous sexual act by their mother. The story details the mother's unconventional response, which involves a series of erotic challenges, quizzes, and group sex scenarios meant to 'teach them lessons' about love, lust, and sexuality. The book is set against a backdrop of family dysfunction, with themes of taboo relationships, BDSM, voyeurism, and sexual exploration within an all-female environment. It portrays the mother as both authority figure and facilitator of extreme sexual experiences for her daughters.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/alesson.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:30:58+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 35910,
+      "text_chars": 35910,
+      "prompt_tokens": 11294,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

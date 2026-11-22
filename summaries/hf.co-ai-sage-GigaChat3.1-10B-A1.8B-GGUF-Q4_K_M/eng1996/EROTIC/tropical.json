@@ -1,0 +1,23 @@
+{
+  "title": "Tropical delights",
+  "authors": [
+    "Roger"
+  ],
+  "kind": "novel",
+  "summary": "A divorced man reeling from loneliness and failed relationships finds unexpected romance on a company retreat in Tahiti. Initially awkward and self-conscious, he encounters a shy female coworker whose aloofness masks deep personal pain. Through chance meetings by a secluded pool and candid conversations, the two navigate mutual attraction, past traumas, and emotional vulnerability. The narrative unfolds as an erotic romance, charting their passionate connection while exploring themes of self-worth, healing from rejection, and rediscovering intimacy after years of isolation.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/tropical.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:37:02+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 34938,
+      "text_chars": 34938,
+      "prompt_tokens": 10558,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

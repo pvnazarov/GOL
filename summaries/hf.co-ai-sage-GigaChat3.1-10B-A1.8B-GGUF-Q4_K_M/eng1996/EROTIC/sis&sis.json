@@ -1,0 +1,21 @@
+{
+  "title": "Sis&sis",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This text is an explicit erotic narrative describing incestuous sexual acts between a brother and his sister, as well as their mutual participation with another girl. The story unfolds at night when the narrator's sister Mary enters the room wearing revealing clothing, leading to immediate sexual tension. After a series of seductive exchanges, the three characters—brother Richard, sister Mary, and friend Susan—engage in group sex involving oral and vaginal intercourse, multiple orgasms, and mutual stimulation. The narrative details their fantasies coming true through taboo relationships, emphasizing lustful desire and forbidden pleasure. It explores themes of familial betrayal, sexual obsession, and the breaking of social norms. The work is intended for adult audiences seeking erotic material involving incest.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/sis&sis.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:35:56+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 13005,
+      "text_chars": 13005,
+      "prompt_tokens": 5036,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

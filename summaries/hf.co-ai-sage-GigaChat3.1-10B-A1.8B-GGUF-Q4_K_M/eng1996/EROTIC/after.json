@@ -1,0 +1,21 @@
+{
+  "title": "After hours",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This text is an explicit erotic narrative describing the sexual encounters of two characters, Ralph and Eva, in a workplace setting during after-hours. The story unfolds in detail through voyeuristic observations by an unnamed narrator who witnesses their seduction and subsequent sexual activities in various positions within an office environment. The scene includes graphic descriptions of foreplay, oral sex, intercourse, and mutual climax, emphasizing physical sensations and reactions. It also touches upon workplace dynamics, including casual conversations with other colleagues like Ted about inappropriate images stored on company computers. The narrative is unapologetically sexual in nature, focusing entirely on the characters' erotic interactions without any broader thematic or plot development.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/after.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:30:41+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 13565,
+      "text_chars": 13565,
+      "prompt_tokens": 5291,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "The young temptress part one",
+  "authors": [],
+  "kind": "novel",
+  "summary": "This erotic novel follows the encounters of James, a young man in his late teens, and Justine, an alluring older woman he meets at a nightclub. The story is set against a backdrop of clubbing, seduction, and escalating sexual tension. After their initial conversation, they quickly move from flirtation to overtly explicit foreplay and sex, including multiple scenes that detail every physical sensation and reaction. Their encounter includes unconventional positions, public displays of intimacy, and an emphasis on Justine's dominance. The narrative is driven by James’s arousal and submission as well as the mutual pursuit of pleasure in a series of increasingly graphic encounters. The novel contains no traditional plot or character development beyond the progression of their sexual relationship.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/temptres.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:36:22+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 26965,
+      "text_chars": 26965,
+      "prompt_tokens": 8171,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

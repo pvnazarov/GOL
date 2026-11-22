@@ -1,0 +1,21 @@
+{
+  "title": "Herman`s revenge",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This text is an erotic short story about a blackmail scenario involving Clarissa, her husband Alex, and their lab director Herman. After a prank damages computer equipment, the trio becomes entangled in a coercive sexual encounter arranged by Herman to cure his impotence. The narrative details their forced seduction, explicit sexual acts, and power dynamics as they navigate humiliation, desire, and manipulation within an academic setting. The story explores themes of control, shame, and exhibitionism, culminating in a chaotic climax where all three participants experience simultaneous release amidst the lab's technological backdrop.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/hermrevr.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:33:20+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14055,
+      "text_chars": 14055,
+      "prompt_tokens": 5254,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

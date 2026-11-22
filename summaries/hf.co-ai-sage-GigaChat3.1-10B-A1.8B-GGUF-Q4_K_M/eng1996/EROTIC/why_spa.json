@@ -1,0 +1,23 @@
+{
+  "title": "Why i bought a spa",
+  "authors": [
+    "Greg Rickford"
+  ],
+  "kind": "non-fiction",
+  "summary": "This is an erotic short story told from the first-person perspective of Greg, who recounts how he came to buy a spa after a stressful week. The narrative details his arrival home exhausted and alone, followed by an unexpected encounter with a mysterious woman in his hot tub. Their sensual exchange quickly escalates into explicit sexual activity. Through vivid, graphic prose, the story explores themes of stress relief, desire, and fantasy fulfillment. While ostensibly about purchasing a spa as a means to relaxation, it uses the setting for erotic storytelling rather than practical advice or lifestyle commentary.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/why_spa.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:37:24+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8928,
+      "text_chars": 8928,
+      "prompt_tokens": 4060,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

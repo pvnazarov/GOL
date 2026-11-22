@@ -1,0 +1,23 @@
+{
+  "title": "alienfor",
+  "authors": [
+    "Bubba Manly"
+  ],
+  "kind": "non-fiction",
+  "summary": "This work is an X-rated erotic story by Bubba Manly, blending science fiction and explicit sexual content. The narrative follows bizarre aliens and human characters in surreal scenarios filled with graphic descriptions of fetishistic encounters. It employs absurdist humor, wordplay, and over-the-top language to create a chaotic, transgressive reading experience. Though framed as an alien encounter story, the text is primarily focused on extreme sexual acts and fantasies, using bizarre imagery such as penis-shaped devices, inter-species coupling, and surreal settings like pod bays smelling of fruit. The piece parodies erotica conventions with its excessive vulgarity and nonsensical plot.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/alienfor.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:31:08+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 4110,
+      "text_chars": 4110,
+      "prompt_tokens": 2846,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

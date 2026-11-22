@@ -1,0 +1,23 @@
+{
+  "title": "Bodysurfing",
+  "authors": [
+    "Douglass S B"
+  ],
+  "kind": "novel",
+  "summary": "This erotic novella by S. B. Douglass follows the married couple Jim and Eva as they spend a day at the beach in the Great Lakes region, engaging in playful water activities before transitioning to an explicit outdoor sexual encounter on public property. The story humorously references the author's participation in a 'Jesse Helms Erotic Literature Contest,' framing the narrative within conservative constraints while bending them through discretion and religious allusion. Jim introduces his wife to body surfing, then encourages her to remove more of her swimsuit for greater freedom in the water. After losing their suits to waves, they revel in skinny-dipping before retreating into dunes for a passionate tryst. The narrative balances light-hearted banter with explicit descriptions of nudity and sex, exploring themes of marital intimacy, sexual liberation, and societal taboos.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/bodysurf.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:31:33+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14609,
+      "text_chars": 14609,
+      "prompt_tokens": 5504,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

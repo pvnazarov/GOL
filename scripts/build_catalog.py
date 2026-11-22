@@ -35,7 +35,7 @@ Output (written to <libs_dir>/data/):
                      (a "library/CATEGORY" key: a note for that folder only)
                      and folder order (category_order.json)
     summaries/<library>/<category>.json  book filename -> summary, from summaries/
-                     (claude-haiku, then GigaChat Q4_K_M; EROTIC left out)
+                     (claude-haiku, then GigaChat Q4_K_M; SUMMARY_SKIP_BOOKS left out)
 """
 import argparse
 import io
@@ -242,9 +242,17 @@ def apply_book_order(entries, order):
 
 # Book summaries for the site: one file per folder, libs/data/summaries/<library>/<category>.json
 # = {book filename: summary}, loaded when that folder or book opens. The first
-# source that has a book wins. EROTIC is left out until its summaries are reviewed.
+# source that has a book wins. Books whose summaries describe sex involving
+# minors are never shown (see TODO.md, "Content review"); their summaries are
+# also kept out of git (.gitignore).
 SUMMARY_SOURCES = ["claude-haiku", "hf.co-ai-sage-GigaChat3.1-10B-A1.8B-GGUF-Q4_K_M"]
-SUMMARY_SKIP_CATEGORIES = {"EROTIC"}
+SUMMARY_SKIP_BOOKS = {
+    "eng1996/EROTIC/" + n + ".zip" for n in ("johns", "misty", "platon", "fdt", "accting")
+} | {
+    "rus1996/EROTIC/" + n + ".zip" for n in ("deflorat", "pansion", "plem", "inna", "montel", "10letter", "lesson", "betti")
+} | {
+    "rus2004/EROTIC/" + n + ".zip" for n in ("10letter", "lesson")
+}
 
 
 def write_summaries(tree, summaries_dir, out_dir):
@@ -253,11 +261,11 @@ def write_summaries(tree, summaries_dir, out_dir):
     n_books = n_files = 0
     for library_id, categories in tree.items():
         for code, files in categories.items():
-            if code in SUMMARY_SKIP_CATEGORIES:
-                continue
             found = {}
             for f in files:
                 name = f["n"]
+                if f"{library_id}/{code}/{name}" in SUMMARY_SKIP_BOOKS:
+                    continue
                 stem = name[:-4] if name.lower().endswith(".zip") else name
                 for source in SUMMARY_SOURCES:
                     path = summaries_dir / source / library_id / code / f"{stem}.json"

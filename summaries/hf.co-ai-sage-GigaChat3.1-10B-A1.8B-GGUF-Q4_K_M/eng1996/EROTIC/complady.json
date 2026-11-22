@@ -1,0 +1,23 @@
+{
+  "title": "complady",
+  "authors": [
+    "Yates Monique"
+  ],
+  "kind": "non-fiction",
+  "summary": "Monique Yates recounts a series of explicit sexual encounters she has with an eighteen-year-old student named Jim Thompson while tutoring him in programming. The narrative details her deliberate seduction and the subsequent erotic relationship that develops between them during the boy's parents' absence on vacation. Through detailed descriptions, the story explores themes of power dynamics, taboo relationships, and sexual exploration. This work is an explicit account of a teacher-student affair written from Yates' perspective, intended for adult audiences seeking erotic fiction.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/complady.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:31:42+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 13764,
+      "text_chars": 13764,
+      "prompt_tokens": 5421,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

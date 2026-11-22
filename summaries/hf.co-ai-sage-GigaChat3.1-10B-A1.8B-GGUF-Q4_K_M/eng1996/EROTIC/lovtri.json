@@ -1,0 +1,23 @@
+{
+  "title": "Love-triangle",
+  "authors": [
+    "Anonymous"
+  ],
+  "kind": "novel",
+  "summary": "This explicit novel recounts a series of sexual encounters and relationships among three college friends in the early 1970s. The narrator, a young woman, details her affair with her boyfriend Dave and his friend Jody, beginning with an impulsive night of group sex at their house. The story follows their overlapping romances, including lesbian intimacy between the two women and occasional threesomes involving all three. Through candid, graphic prose, the book explores themes of sexual liberation, desire, jealousy, and identity in a countercultural era. While the narrative is driven by erotic scenes, it also touches on friendship, academic life, and the shifting dynamics within their unconventional love triangle.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/lovtri.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:34:14+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 7586,
+      "text_chars": 7586,
+      "prompt_tokens": 3609,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

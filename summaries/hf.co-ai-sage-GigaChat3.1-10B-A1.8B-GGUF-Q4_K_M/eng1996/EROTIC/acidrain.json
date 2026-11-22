@@ -1,0 +1,23 @@
+{
+  "title": "Acid rain",
+  "authors": [
+    "Gilson Frank T"
+  ],
+  "kind": "non-fiction",
+  "summary": "This work is an explicit erotic narrative presented as a first-person account of a federal agent's harrowing and sexually charged encounter with a mysterious woman in a luxury hotel. The protagonist, clad in protective environment gear, infiltrates the woman's room to investigate her communications but instead becomes ensnared in a violent seduction that escalates into torture and forced sexual acts. Through graphic descriptions of domination, submission, and sadistic pleasure, the story explores themes of power, control, and transgression within an urban dystopian setting. The narrative blends elements of thriller and erotica, with detailed depictions of bondage, humiliation, and explicit sex that serve as both plot device and thematic core.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/acidrain.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:30:31+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 11462,
+      "text_chars": 11462,
+      "prompt_tokens": 4754,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

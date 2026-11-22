@@ -1,0 +1,23 @@
+{
+  "title": "The ultimate date",
+  "authors": [
+    "Ed Oster"
+  ],
+  "kind": "novel",
+  "summary": "A steamy romantic novel follows the passionate and often comedic encounters between Ed Oster and Annette. The story begins with a chance meeting on a beach, where their flirtation quickly escalates into an erotic adventure filled with playful seduction, underwater escapades, and emotional revelations. The narrative alternates between humorous banter, tender moments, and intense desire as the couple navigates attraction, fear of commitment, and societal expectations. Later, Ed proposes a honeymoon cruise that turns into another series of mischievous adventures with their friend Vince. Through laughter, love, and occasional misunderstandings, the novel explores modern romance's complexities, blending humor, sensuality, and heartfelt connection.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/the_date.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:36:36+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 23570,
+      "text_chars": 23570,
+      "prompt_tokens": 7965,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

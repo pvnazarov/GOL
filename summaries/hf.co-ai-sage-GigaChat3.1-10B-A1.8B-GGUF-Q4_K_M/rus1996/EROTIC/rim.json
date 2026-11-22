@@ -1,0 +1,21 @@
+{
+  "title": "Римские каникулы",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This text is an erotic narrative describing the sexual experiences of a young girl named Anna during her summer vacation at her relative's estate. The story details her encounters with various male figures, including her uncle Jim's son Robert and his spiritual advisor Peter, as well as her eventual seduction by her uncle Jim himself. It includes explicit descriptions of sexual acts between Anna and these men, exploring themes of forbidden desire, initiation into sexuality, and the loss of innocence. The narrative portrays Anna's journey from curiosity to active participation in a series of increasingly graphic sexual encounters, set against the backdrop of a rural estate. This work belongs to the erotic fiction genre and focuses heavily on detailed depictions of sexual acts.",
+  "lang": "Russian",
+  "meta": {
+    "source": "rus1996/EROTIC/rim.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:55:37+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 37735,
+      "text_chars": 37735,
+      "prompt_tokens": 12086,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

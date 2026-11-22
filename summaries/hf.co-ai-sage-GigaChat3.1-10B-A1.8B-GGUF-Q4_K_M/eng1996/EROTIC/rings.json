@@ -1,0 +1,23 @@
+{
+  "title": "Rings",
+  "authors": [
+    "Douglass S B"
+  ],
+  "kind": "novel",
+  "summary": "This is a sexually explicit novel by S. B. Douglass, originally submitted for the Jesse Helms Erotic Literature Contest in 1989 and republished here. The story follows Jeff, a straight man who meets Anne at an AIDS support group after losing his lover to the disease. Their relationship develops from mutual avoidance of sex into marriage, complicated by Anne’s past as part of a polyamorous, sexually open lifestyle with her late roommate Janet. The narrative details their unconventional sexual encounters and Jeff's gradual acceptance of Anne’s body modifications—numerous piercings and rings in her ears, nipples, and genitals. The novel explores themes of guilt, desire, intimacy, and the collision between monogamy and promiscuity within a post-AIDS cultural landscape.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/rings.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:35:25+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 18824,
+      "text_chars": 18824,
+      "prompt_tokens": 6563,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

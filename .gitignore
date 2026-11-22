@@ -26,3 +26,21 @@ libs/*/
 
 # Book summaries for the site: rebuilt from summaries/ by build_catalog.py
 libs/data/summaries/
+
+# Summaries of books flagged for sex involving minors (TODO.md, "Content review"):
+# never published; build_catalog.py's SUMMARY_SKIP_BOOKS keeps them off the site.
+summaries/*/eng1996/EROTIC/johns.json
+summaries/*/eng1996/EROTIC/misty.json
+summaries/*/eng1996/EROTIC/platon.json
+summaries/*/eng1996/EROTIC/fdt.json
+summaries/*/eng1996/EROTIC/accting.json
+summaries/*/rus1996/EROTIC/deflorat.json
+summaries/*/rus1996/EROTIC/pansion.json
+summaries/*/rus1996/EROTIC/plem.json
+summaries/*/rus1996/EROTIC/inna.json
+summaries/*/rus1996/EROTIC/montel.json
+summaries/*/rus1996/EROTIC/10letter.json
+summaries/*/rus1996/EROTIC/lesson.json
+summaries/*/rus1996/EROTIC/betti.json
+summaries/*/rus2004/EROTIC/10letter.json
+summaries/*/rus2004/EROTIC/lesson.json

@@ -1,0 +1,23 @@
+{
+  "title": "A small woman",
+  "authors": [
+    "Douglass S B"
+  ],
+  "kind": "novel",
+  "summary": "This erotic novel follows the romantic and sexual relationship between Alison, a petite woman, and her fiancé Eric as they navigate their mutual attraction and desire for intimacy before marriage. The story is told through intimate conversations and explicit scenes that explore themes of love, sexual discovery, and overcoming personal inhibitions. Alison initiates many of the encounters, expressing curiosity about sex and eager to experience pleasure fully. Through a series of passionate moments—including oral sex, mutual exploration, and intercourse—the couple learns more about each other's bodies and desires. The narrative emphasizes their emotional connection as much as their physical acts, portraying their journey toward sexual confidence and marital fulfillment.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/romance.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:35:38+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 24847,
+      "text_chars": 24847,
+      "prompt_tokens": 8330,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

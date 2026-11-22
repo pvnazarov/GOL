@@ -1,0 +1,21 @@
+{
+  "title": "The virgin janet",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This explicit work follows the story of Janet, a young artist in her twenties who struggles with virginity and self-esteem. After being raised in an environment that discouraged dating and sexual exploration, she navigates awkward social interactions and internalized shame about her body. The narrative details her encounters with older figures, particularly Yona Brighton, who introduces her to extreme BDSM practices involving a vacuum cleaner as a sex toy, followed by various group sexual acts. Janet's experiences include humiliation, bondage, and non-consensual or coercive sexual activities that push her boundaries beyond her comfort level. The story portrays themes of exploitation, power dynamics, and the collision between artistic ambition and personal trauma.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/virgine.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:37:16+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 25637,
+      "text_chars": 25637,
+      "prompt_tokens": 8478,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

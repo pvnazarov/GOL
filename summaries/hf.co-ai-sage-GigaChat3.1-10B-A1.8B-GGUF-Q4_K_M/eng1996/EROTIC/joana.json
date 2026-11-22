@@ -1,0 +1,21 @@
+{
+  "title": "Joanna",
+  "authors": [],
+  "kind": "novella",
+  "summary": "This work is an explicit and erotic narrative centered on a woman named Joanna, who leads a life of artistic ambition and sexual exploration in urban settings. The narrator recounts their experiences accompanying her through galleries, salons, and private spaces as she indulges in elaborate BDSM play involving custom-designed devices for stimulation. Their relationship oscillates between submission and control, with Joanna orchestrating intricate scenarios that blend physical pleasure with psychological games of power. The story is filled with vivid descriptions of sexual acts, fetishistic details, and the narrator's role as her instrument of desire. It also hints at fantastical elements such as twin siblings raised in isolation on an island, adding a surreal dimension to Joanna’s mythology.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/joana.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:33:30+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 8204,
+      "text_chars": 8204,
+      "prompt_tokens": 3753,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

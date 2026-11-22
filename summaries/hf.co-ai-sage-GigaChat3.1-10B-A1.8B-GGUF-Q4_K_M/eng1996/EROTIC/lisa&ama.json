@@ -1,0 +1,21 @@
+{
+  "title": "Cruising",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This text is an erotic narrative describing a night of sexual encounters between the narrator and two women, Lisa and Amanda. The story begins with the narrator cruising in his car and meeting the two women at a bar, where they quickly engage in flirtation and dance. After several drinks and conversations, the group goes to their respective homes for an explicit and graphic series of sexual acts involving multiple partners. The narrative details various forms of foreplay, oral sex, and intercourse, including threesomes and lesbian activity. The story is presented as a first-person account with detailed descriptions intended to arouse the reader. It ends with the narrator reflecting on the night's events and looking forward to future encounters.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/lisa&ama.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:33:51+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 18882,
+      "text_chars": 18882,
+      "prompt_tokens": 6521,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

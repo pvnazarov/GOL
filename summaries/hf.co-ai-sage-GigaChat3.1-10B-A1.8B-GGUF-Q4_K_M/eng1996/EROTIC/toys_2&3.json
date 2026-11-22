@@ -1,0 +1,21 @@
+{
+  "title": "Toys 2 & 3",
+  "authors": [],
+  "kind": "non-fiction",
+  "summary": "This text is an explicit erotic narrative depicting a series of sexual acts involving domination, submission, and humiliation. The story follows a woman who is subjected to intense physical and psychological control by her husband and his female accomplice in their home. Through restraints, sensory deprivation, various sex toys, enemas, anal penetration, and group sex, the narrative charts her transformation into a submissive sexual partner willing to endure any act demanded of her. The work is part of an ongoing series titled Toys, which explores themes of power exchange and erotic servitude in graphic detail.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/toys_2&3.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:36:47+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 18305,
+      "text_chars": 18305,
+      "prompt_tokens": 6330,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}

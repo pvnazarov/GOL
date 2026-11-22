@@ -1,0 +1,23 @@
+{
+  "title": "slave",
+  "authors": [
+    "Haven Mistress"
+  ],
+  "kind": "non-fiction",
+  "summary": "This work is a personal report written by a submissive slave detailing their experiences in a long-term email-based Dominant/submissive relationship. The text recounts a weekend of BDSM play, including the use of restraints, corporal punishment, and sexual teasing. It describes rituals such as wearing specific devices at work, performing physical punishments like push-ups with attached clothespins, receiving spankings, and enduring prolonged bondage while experiencing intense erotic pain from clamps and ropes. The narrative emphasizes obedience, the slave's sense of ownership by their Mistress, and the psychological transformation into a heightened state of submission. The report is presented as an actual account rather than fiction, intended for readers in similar D/s dynamics.",
+  "lang": "English",
+  "meta": {
+    "source": "eng1996/EROTIC/slave.zip",
+    "backend": "ollama",
+    "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+    "created": "2026-10-18T15:36:07+00:00",
+    "input": {
+      "mode": "full",
+      "chars_sent": 14092,
+      "text_chars": 14092,
+      "prompt_tokens": 5273,
+      "catalogue": true,
+      "annotation": false
+    }
+  }
+}
