@@ -69,5 +69,45 @@
     "bushwacker_darkages_07_rannie_slavyane.fb2.zip",
     "bushwacker_darkages_08_skandinavy_varyagi_vikingi.fb2.zip",
     "bushwacker_darkages_09_zakat_epohi_vikingov.fb2.zip"
+  ],
+  "bushwacker/ENGLAND": [
+    "bushwacker_england_01_anglosaksy.fb2.zip",
+    "bushwacker_england_02_angliya_xi_xiii.fb2.zip",
+    "bushwacker_england_03_stoletnyaya_voyna.fb2.zip",
+    "bushwacker_england_04_voyny_roz.fb2.zip"
+  ],
+  "bushwacker/FRANCE": [
+    "bushwacker_france_06_karolingskoe_vozrozhdenie.fb2.zip",
+    "bushwacker_france_07_franciya_x_xii.fb2.zip",
+    "bushwacker_france_08_franciya_xiii.fb2.zip",
+    "bushwacker_france_01_revolyuciya.fb2.zip",
+    "bushwacker_france_02_imperiya_napoleona.fb2.zip",
+    "bushwacker_france_03_posle_napoleona.fb2.zip",
+    "bushwacker_france_05_prekrasnaya_epoha.fb2.zip",
+    "bushwacker_france_04_severnaya_afrika.fb2.zip"
+  ],
+  "bushwacker/RUS": [
+    "bushwacker_rus_01_rannie_slavyane.fb2.zip",
+    "bushwacker_rus_02_kievskaya_rus.fb2.zip",
+    "bushwacker_rus_03_rus_posle_mongolov.fb2.zip",
+    "bushwacker_rus_04_moskovskoe_carstvo.fb2.zip"
+  ],
+  "bushwacker/JEWS": [
+    "bushwacker_jews_01_vethozavetnyy_izrail.fb2.zip",
+    "bushwacker_jews_02_iudeya.fb2.zip",
+    "bushwacker_jews_03_srednie_veka.fb2.zip",
+    "bushwacker_jews_04_sionizm.fb2.zip"
+  ],
+  "bushwacker/INDIA": [
+    "bushwacker_india_01_harappa.fb2.zip",
+    "bushwacker_india_02_vedicheskiy_mir.fb2.zip",
+    "bushwacker_india_03_klassicheskaya_indiya.fb2.zip",
+    "bushwacker_india_04_srednevekovaya_indiya.fb2.zip"
+  ],
+  "bushwacker/WWI": [
+    "bushwacker_wwi_01_korni_nenavisti.fb2.zip",
+    "bushwacker_wwi_02_nenavist.fb2.zip",
+    "bushwacker_wwi_03_smert_gumanizma.fb2.zip",
+    "bushwacker_wwi_04_vmesto_epiloga.fb2.zip"
   ]
 }
