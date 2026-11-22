@@ -48,5 +48,26 @@
     "bushwacker_italy_03_florenciya_i_rim.fb2.zip",
     "bushwacker_italy_02_mir_idey_vozrozhdeniya.fb2.zip",
     "bushwacker_italy_01_savonarola.fb2.zip"
+  ],
+  "bushwacker/ANCIENT": [
+    "bushwacker_ancient_05_mesopotamiya_bronzovogo_veka.fb2.zip",
+    "bushwacker_ancient_02_hetty.fb2.zip",
+    "bushwacker_ancient_07_finikiya.fb2.zip",
+    "bushwacker_ancient_06_assiriya_i_novyy_vavilon.fb2.zip",
+    "bushwacker_ancient_04_kochevniki_antichnosti.fb2.zip",
+    "bushwacker_ancient_03_etruski.fb2.zip",
+    "bushwacker_ancient_08_karfagen.fb2.zip",
+    "bushwacker_ancient_01_epos_o_gilgameshe.fb2.zip"
+  ],
+  "bushwacker/DARKAGES": [
+    "bushwacker_darkages_01_rannee_hristianstvo.fb2.zip",
+    "bushwacker_darkages_02_romano_germanskiy_mir.fb2.zip",
+    "bushwacker_darkages_03_konstantinopol.fb2.zip",
+    "bushwacker_darkages_04_islam_araby_halifat.fb2.zip",
+    "bushwacker_darkages_05_karolingskoe_vozrozhdenie.fb2.zip",
+    "bushwacker_darkages_06_anglosaksy.fb2.zip",
+    "bushwacker_darkages_07_rannie_slavyane.fb2.zip",
+    "bushwacker_darkages_08_skandinavy_varyagi_vikingi.fb2.zip",
+    "bushwacker_darkages_09_zakat_epohi_vikingov.fb2.zip"
   ]
 }

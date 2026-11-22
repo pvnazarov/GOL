@@ -26,8 +26,8 @@
   {
     "id": "bushwacker",
     "label": "История Бушвакера",
-    "categoryCount": 4,
-    "bookCount": 27,
+    "categoryCount": 6,
+    "bookCount": 44,
     "note": {
       "title": "Дисклеймер",
       "paragraphs": [
@@ -60,8 +60,10 @@
     },
     "categoryOrder": [
       "HISTORY",
+      "ANCIENT",
       "EGYPT",
       "GREECE",
+      "DARKAGES",
       "ITALY"
     ]
   }
