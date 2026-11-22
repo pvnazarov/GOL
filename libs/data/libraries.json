@@ -96,8 +96,8 @@
   {
     "id": "bushwacker",
     "label": "История Бушвакера",
-    "categoryCount": 13,
-    "bookCount": 91,
+    "categoryCount": 15,
+    "bookCount": 108,
     "note": {
       "title": "Дисклеймер",
       "paragraphs": [
@@ -134,6 +134,7 @@
       "EGYPT",
       "INDIA",
       "CHINA",
+      "JAPAN",
       "GREECE",
       "JEWS",
       "DARKAGES",
@@ -141,7 +142,8 @@
       "ENGLAND",
       "ITALY",
       "FRANCE",
-      "WWI"
+      "WWI",
+      "USA"
     ]
   }
 ]

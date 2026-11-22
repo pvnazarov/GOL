@@ -132,5 +132,26 @@
     "bushwacker_china_16_gonkong.fb2.zip",
     "bushwacker_china_17_tayvan_1.fb2.zip",
     "bushwacker_china_18_tayvan_2.fb2.zip"
+  ],
+  "bushwacker/JAPAN": [
+    "bushwacker_japan_01_nachalo.fb2.zip",
+    "bushwacker_japan_02_kamakura.fb2.zip",
+    "bushwacker_japan_03_sengoku.fb2.zip",
+    "bushwacker_japan_04_konec_izolyacii.fb2.zip",
+    "bushwacker_japan_05_meydzi.fb2.zip",
+    "bushwacker_japan_06_1912_1945.fb2.zip",
+    "bushwacker_japan_07_ekonomicheskoe_chudo.fb2.zip"
+  ],
+  "bushwacker/USA": [
+    "bushwacker_usa_01_kolonii.fb2.zip",
+    "bushwacker_usa_02_revolyuciya.fb2.zip",
+    "bushwacker_usa_03_xix_vek.fb2.zip",
+    "bushwacker_usa_04_pozolochennyy_vek.fb2.zip",
+    "bushwacker_usa_05_mirovye_lidery.fb2.zip",
+    "bushwacker_usa_06_vtoraya_mirovaya.fb2.zip",
+    "bushwacker_usa_07_poslevoennye.fb2.zip",
+    "bushwacker_usa_08_1960e.fb2.zip",
+    "bushwacker_usa_09_1970e.fb2.zip",
+    "bushwacker_usa_10_1980e.fb2.zip"
   ]
 }
