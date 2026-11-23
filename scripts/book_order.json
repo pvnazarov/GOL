@@ -153,5 +153,30 @@
     "bushwacker_usa_08_1960e.fb2.zip",
     "bushwacker_usa_09_1970e.fb2.zip",
     "bushwacker_usa_10_1980e.fb2.zip"
+  ],
+  "bushwacker/KOREA": [
+    "bushwacker_korea_01_vvedenie.fb2.zip",
+    "bushwacker_korea_02_pervye_gosudarstva.fb2.zip",
+    "bushwacker_korea_03_koryo.fb2.zip"
+  ],
+  "bushwacker/FASCISM": [
+    "bushwacker_fascism_01_italiya.fb2.zip",
+    "bushwacker_fascism_02_nacional_socializm.fb2.zip",
+    "bushwacker_fascism_03_holokost.fb2.zip",
+    "bushwacker_fascism_04_ispaniya.fb2.zip",
+    "bushwacker_fascism_05_portugaliya.fb2.zip",
+    "bushwacker_fascism_06_chili.fb2.zip"
+  ],
+  "bushwacker/MONGOLS": [
+    "bushwacker_mongols_01_chingishan.fb2.zip",
+    "bushwacker_mongols_02_mongolskiy_mir.fb2.zip",
+    "bushwacker_mongols_03_tamerlan.fb2.zip"
+  ],
+  "bushwacker/CRUSADES": [
+    "bushwacker_crusades_01_krestovye_pohody.fb2.zip",
+    "bushwacker_crusades_02_drugie_pohody.fb2.zip"
+  ],
+  "bushwacker/HRE": [
+    "bushwacker_hre_01_svyashchennaya_rimskaya_imperiya.fb2.zip"
   ]
 }
