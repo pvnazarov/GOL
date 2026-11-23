@@ -96,8 +96,8 @@
   {
     "id": "bushwacker",
     "label": "История Бушвакера",
-    "categoryCount": 24,
-    "bookCount": 133,
+    "categoryCount": 25,
+    "bookCount": 134,
     "note": {
       "title": "Дисклеймер",
       "paragraphs": [
@@ -152,7 +152,8 @@
       "WWI",
       "FASCISM",
       "AMERICAS",
-      "USA"
+      "USA",
+      "ISTFAKTY"
     ]
   }
 ]
