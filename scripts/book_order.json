@@ -56,6 +56,7 @@
     "bushwacker_ancient_02_hetty.fb2.zip",
     "bushwacker_ancient_07_finikiya.fb2.zip",
     "bushwacker_ancient_06_assiriya_i_novyy_vavilon.fb2.zip",
+    "bushwacker_ancient_09_drevnyaya_persiya.fb2.zip",
     "bushwacker_ancient_04_kochevniki_antichnosti.fb2.zip",
     "bushwacker_ancient_03_etruski.fb2.zip",
     "bushwacker_ancient_08_karfagen.fb2.zip",
@@ -178,5 +179,9 @@
   ],
   "bushwacker/HRE": [
     "bushwacker_hre_01_svyashchennaya_rimskaya_imperiya.fb2.zip"
+  ],
+  "bushwacker/AMERICAS": [
+    "bushwacker_americas_01_acteki.fb2.zip",
+    "bushwacker_americas_02_inki.fb2.zip"
   ]
 }
