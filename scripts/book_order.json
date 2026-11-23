@@ -183,5 +183,18 @@
   "bushwacker/AMERICAS": [
     "bushwacker_americas_01_acteki.fb2.zip",
     "bushwacker_americas_02_inki.fb2.zip"
+  ],
+  "bushwacker/DISCOVERIES": [
+    "bushwacker_discoveries_01_put_v_indiyu.fb2.zip",
+    "bushwacker_discoveries_02_magellan_i_razdel_mira.fb2.zip"
+  ],
+  "bushwacker/AFRICA": [
+    "bushwacker_africa_01_chernaya_afrika.fb2.zip",
+    "bushwacker_africa_02_yuzhnaya_afrika.fb2.zip"
+  ],
+  "bushwacker/OCEANIA": [
+    "bushwacker_oceania_01_avstraliya.fb2.zip",
+    "bushwacker_oceania_02_novaya_zelandiya.fb2.zip",
+    "bushwacker_oceania_03_singapur.fb2.zip"
   ]
 }
