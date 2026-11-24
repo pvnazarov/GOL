@@ -1,9 +1,8 @@
 """Build the Haiku summaries browser page from summaries/claude-haiku JSON records.
 
 Writes reports/summaries_page/haiku-summaries.html plus summaries-N.json data parts
-(split because one published Artifact file is limited to 16 MB). Published as
-https://claude.ai/artifact/D7fTRjjnxFKQzv8fQVyJP1 -- republish the page with all
-the parts as supporting files.
+(split into parts of under 16 MB each). The local files are the page; nothing is
+published to the cloud.
 
     python3 scripts/summaries_page/build.py
 """

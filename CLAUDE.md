@@ -65,9 +65,9 @@ environment facts that the README does not. Open items are in `TODO.md`.
   4. Content-flag scan of the summaries (minors, explosives) for the user's
      review list.
   5. Read a random sample.
-- **Results page:** https://claude.ai/artifact/D7fTRjjnxFKQzv8fQVyJP1 (private).
-  Rebuild with `python3 scripts/summaries_page/build.py`; output goes to
-  `reports/summaries_page/` (ignored). Republish the page with all
-  `summaries-N.json` parts as supporting files: a single published file is
-  limited to 16 MB, and `.gz` files are not served.
+- **Results page:** a local file, `reports/summaries_page/haiku-summaries.html`
+  (+ `summaries-N.json` parts), open it in a browser. Rebuild with
+  `python3 scripts/summaries_page/build.py`; output goes to `reports/summaries_page/`
+  (ignored). It is not published anywhere: the user keeps data in files, not in
+  claude.ai artifacts (the old artifact copy was deleted 2026-11-24).
 - Model comparisons (Haiku vs GigaChat Q6/Q4, qwen, gemma, T-lite) are in the README.
