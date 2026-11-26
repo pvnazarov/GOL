@@ -201,5 +201,27 @@
     "bushwacker_oceania_01_avstraliya.fb2.zip",
     "bushwacker_oceania_02_novaya_zelandiya.fb2.zip",
     "bushwacker_oceania_03_singapur.fb2.zip"
+  ],
+  "constants/IRRATIONAL": [
+    "01_pi.fb2.zip",
+    "02_e.fb2.zip",
+    "03_sqrt2.fb2.zip",
+    "04_golden_ratio_phi.fb2.zip",
+    "05_euler_mascheroni_gamma.fb2.zip",
+    "06_ln2.fb2.zip",
+    "07_zeta2_pi2_over_6.fb2.zip",
+    "08_zeta3_apery.fb2.zip",
+    "09_sqrt3.fb2.zip",
+    "10_e_pow_pi_gelfond.fb2.zip",
+    "11_i_pow_i.fb2.zip",
+    "12_catalan_G.fb2.zip",
+    "13_2_pow_sqrt2_gelfond_schneider.fb2.zip",
+    "14_champernowne.fb2.zip",
+    "15_liouville.fb2.zip",
+    "16_ln10.fb2.zip",
+    "17_omega_lambertW1.fb2.zip",
+    "18_khinchin_K.fb2.zip",
+    "19_cbrt2.fb2.zip",
+    "20_lemniscate_varpi.fb2.zip"
   ]
 }

@@ -150,7 +150,8 @@ function renderLibrariesView(path) {
       const card = el("button", "lib-card");
       card.type = "button";
       card.appendChild(el("div", "lib-title", [document.createTextNode(lib.label)]));
-      card.appendChild(el("div", "lib-meta", [document.createTextNode(`${lib.categoryCount} categories • ${lib.bookCount} books`)]));
+      const meta = lib.categoryCount === 1 ? `${lib.bookCount} books` : `${lib.categoryCount} categories • ${lib.bookCount} books`;
+      card.appendChild(el("div", "lib-meta", [document.createTextNode(meta)]));
       card.addEventListener("click", () => navigate(hashForLibraries([lib.id])));
       grid.appendChild(card);
     }
@@ -163,6 +164,11 @@ function renderLibrariesView(path) {
     crumbs.push({ label: getLibraryLabel(libId) });
     renderBreadcrumb(breadcrumbEl, crumbs);
     const cats = getCategoriesForLibrary(libId);
+    // A library with a single category shows its books directly (no one-folder hop).
+    if (cats.length === 1) {
+      renderCategoryBooks(libId, cats[0].code);
+      return;
+    }
     renderIncrementalList(viewRootEl, cats, (cat) => {
       const row = el("button", "item-row");
       row.type = "button";
@@ -183,6 +189,10 @@ function renderLibrariesView(path) {
   crumbs.push({ label: getLibraryLabel(libId), href: hashForLibraries([libId]) });
   crumbs.push({ label: getCategoryLabel(catCode) });
   renderBreadcrumb(breadcrumbEl, crumbs);
+  renderCategoryBooks(libId, catCode);
+}
+
+function renderCategoryBooks(libId, catCode) {
   const books = getBooksForCategory(libId, catCode);
   const from = currentHash();
   renderIncrementalList(viewRootEl, books, (b) => bookRow(b, (entry) => navigate(hashForBook(entry.p, from)), { summary: getBookSummary }), "No books in this category.");
